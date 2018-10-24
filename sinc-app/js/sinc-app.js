@@ -11,8 +11,6 @@ let lighting;
 
 let axesHelper;
 
-let coin;
-
 let systems;
 
 start();
@@ -30,9 +28,6 @@ function start() {
 
 function update() {
     let deltaTime = clock.getDelta();
-    coin.rotation.x += deltaTime;
-    coin.rotation.y += deltaTime * 2;
-    // coin.rotation.z += deltaTime * 0.1;
     
     controls.update();
     renderer.render(scene, camera);
@@ -64,20 +59,12 @@ function setupLighting() {
 function setupObjects(showAxes = false) {
     axesHelper = new THREE.AxesHelper(1);
     if(showAxes) scene.add(axesHelper);
-    coin = new THREE.Group();
-    coinMesh = new THREE.Mesh(
-        new THREE.CylinderGeometry(1, 1, 0.1, 128),
-        new THREE.MeshBasicMaterial({map: new THREE.TextureLoader().load("supersinc-580.png")})
-    );
-    coinMesh.rotation.set(Math.PI * 0.5, Math.PI * 0.5, 0);
-    coin.add(coinMesh);
-    // scene.add(coin);
     setupSystems();
 }
 
 function setupSystems() {
     systems = new THREE.Group();
-    systems.position.set(1.9212500000000001, 0.49375, 3.505625);;
+    systems.position.set(1.92125, 0.49375, 3.505625);;
     scene.add(systems);
 
     let material = new THREE.LineBasicMaterial({color: 0xffffff, transparent: true, opacity: 0.25});
