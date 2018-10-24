@@ -10,8 +10,10 @@ let renderer, camera, controls;
 let lighting;
 
 let axesHelper;
+let grid;
 
-let systems;
+let starSystems = [];
+let mapObjects = new THREE.Group();
 
 start();
 
@@ -20,14 +22,20 @@ function start() {
     setupRenderer();
     setupCamera();
     setupLighting();
-    setupObjects(true);
+    setupObjects();
     scene.add(camera, lighting);
+    scene.fog = new THREE.Fog(0x00, 100, 1000);
     window.addEventListener("resize", onWindowResize);
     renderer.setAnimationLoop(update);
 }
 
 function update() {
     let deltaTime = clock.getDelta();
+
+    for(let starSystem of starSystems)
+        starSystem.update();
+
+    axesHelper.position.set(controls.target.x, controls.target.y, controls.target.z);
     
     controls.update();
     renderer.render(scene, camera);
@@ -44,7 +52,7 @@ function setupCamera() {
     camera = new THREE.PerspectiveCamera(
         45, window.innerWidth / window.innerHeight, 0.1, 1000
     );
-    camera.position.z = 5;
+    camera.position.z = 250;
     controls = new THREE.OrbitControls(camera);
 }
 
@@ -56,43 +64,46 @@ function setupLighting() {
     lighting.add(directionalLight);
 }
 
-function setupObjects(showAxes = false) {
-    axesHelper = new THREE.AxesHelper(1);
-    if(showAxes) scene.add(axesHelper);
-    setupSystems();
-    createWireGrid(100, 1);
+function setupObjects() {
+    setupCursor();
+    setupGrid();
+    setupMapObjects();
 }
 
-function setupSystems() {
-    systems = new THREE.Group();
-    systems.position.set(1.92125, 0.49375, 3.505625);;
-    scene.add(systems);
+function setupCursor() {
+    axesHelper = new THREE.AxesHelper(10);
+    axesHelper.add(new THREE.Mesh(
+        new THREE.CylinderGeometry(2.5, 2.5, 0.001, 16),
+        new THREE.MeshBasicMaterial({color: 0xffffff, transparent: true, opacity: 0.5})
+    ));
+    scene.add(axesHelper);
+}
 
-    let material = new THREE.LineBasicMaterial({color: 0xffffff, transparent: true, opacity: 0.25});
+function setupGrid() {
+    let plane = new THREE.Mesh(
+        new THREE.PlaneGeometry(10000, 10000),
+        new THREE.MeshBasicMaterial({
+            color: 0xffffff, 
+            transparent: true, opacity: 0.025, 
+            side: THREE.DoubleSide
+        })
+    );
+    plane.rotation.x = -Math.PI * 0.5;
+    scene.add(plane);
+}
 
-    for(let s of sincSystems) {
-        let system = new THREE.Mesh(
-            new THREE.SphereGeometry(0.02, 16, 8),
-            new THREE.MeshBasicMaterial()
-        );
-        let coords = s.coordinates.split(" / ");
-        system.position.set(Number(coords[0]) * 0.02, Number(coords[1]) * 0.02, Number(coords[2]) * 0.02);
-        systems.add(system);
-        
-        let geometry = new THREE.Geometry();
-        geometry.vertices.push(new THREE.Vector3(system.position.x, system.position.y, system.position.z));
-        geometry.vertices.push(new THREE.Vector3(system.position.x, -0.49375, system.position.z));
-        let line = new THREE.Line(geometry, material);
-        
-        let dot = new THREE.Mesh(
-            new THREE.CylinderGeometry(0.02, 0.02, 0.001, 16),
-            new THREE.MeshBasicMaterial({color: 0xffffff, transparent: true, opacity: 0.5})
-        );
-        // dot.scale.y = 0.001;
-        dot.position.set(
-            system.position.x, -0.49375, system.position.z
-        );
-        systems.add(line, dot);
+function setupMapObjects() {
+    scene.add(mapObjects);
+    for(let sincSystem of sincSystems) {
+        let starSystem = new StarSystem(sincSystem);
+        starSystems.push(starSystem);
+        mapObjects.add(starSystem.mapObject);
+        if(sincSystem.name === "San")
+            mapObjects.position.set(
+                -starSystem.coordinates.x, 
+                -starSystem.coordinates.y,
+                -starSystem.coordinates.z
+            );
     }
 }
 
@@ -103,7 +114,7 @@ function onWindowResize() {
 }
 
 function createWireGrid(gridSize, cellSize) {
-    let grid = new THREE.Group();
+    grid = new THREE.Group();
     for(var i = 0; i < gridSize + 1; i++) {
         let material = new THREE.LineBasicMaterial({color: 0xffffff, transparent: true});
         material.opacity = 0.1 - ((1 / gridSize) * Math.abs((i - (gridSize * 0.5))));
