@@ -60,6 +60,7 @@ function setupObjects(showAxes = false) {
     axesHelper = new THREE.AxesHelper(1);
     if(showAxes) scene.add(axesHelper);
     setupSystems();
+    createWireGrid(100, 1);
 }
 
 function setupSystems() {
@@ -99,4 +100,32 @@ function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
+}
+
+function createWireGrid(gridSize, cellSize) {
+    let grid = new THREE.Group();
+    for(var i = 0; i < gridSize + 1; i++) {
+        let material = new THREE.LineBasicMaterial({color: 0xffffff, transparent: true});
+        material.opacity = 0.1 - ((1 / gridSize) * Math.abs((i - (gridSize * 0.5))));
+        var xGeometry = new THREE.Geometry();
+        xGeometry.vertices.push(new THREE.Vector3(
+            (i * cellSize) - cellSize * 0.5, 0, cellSize * -0.5
+        ));
+        xGeometry.vertices.push(new THREE.Vector3(
+            (i * cellSize) - cellSize * 0.5, 0, gridSize * cellSize - cellSize * 0.5
+        ));
+        var zGeometry = new THREE.Geometry();
+        zGeometry.vertices.push(new THREE.Vector3(
+            cellSize * -0.5, 0, (i * cellSize) - cellSize * 0.5
+        ));
+        zGeometry.vertices.push(new THREE.Vector3(
+            gridSize * cellSize - cellSize * 0.5, 0, (i * cellSize) - cellSize * 0.5
+        ));
+        grid.add(
+            new THREE.Line(xGeometry, material), 
+            new THREE.Line(zGeometry, material)
+        );
+    }
+    grid.position.set(-gridSize * 0.5 + cellSize * 0.5, 0, -gridSize * 0.5 + cellSize * 0.5);
+    scene.add(grid);
 }
