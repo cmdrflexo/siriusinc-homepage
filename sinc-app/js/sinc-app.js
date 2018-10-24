@@ -13,6 +13,8 @@ let axesHelper;
 
 let coin;
 
+let systems;
+
 start();
 
 function start() {
@@ -20,7 +22,7 @@ function start() {
     setupRenderer();
     setupCamera();
     setupLighting();
-    setupObjects();
+    setupObjects(true);
     scene.add(camera, lighting);
     window.addEventListener("resize", onWindowResize);
     renderer.setAnimationLoop(update);
@@ -47,7 +49,7 @@ function setupCamera() {
     camera = new THREE.PerspectiveCamera(
         45, window.innerWidth / window.innerHeight, 0.1, 1000
     );
-    camera.position.z = 10;
+    camera.position.z = 5;
     controls = new THREE.OrbitControls(camera);
 }
 
@@ -69,7 +71,41 @@ function setupObjects(showAxes = false) {
     );
     coinMesh.rotation.set(Math.PI * 0.5, Math.PI * 0.5, 0);
     coin.add(coinMesh);
-    scene.add(coin);
+    // scene.add(coin);
+    setupSystems();
+}
+
+function setupSystems() {
+    systems = new THREE.Group();
+    systems.position.set(1.9212500000000001, 0.49375, 3.505625);;
+    scene.add(systems);
+
+    let material = new THREE.LineBasicMaterial({color: 0xffffff, transparent: true, opacity: 0.25});
+
+    for(let s of sincSystems) {
+        let system = new THREE.Mesh(
+            new THREE.SphereGeometry(0.02, 16, 8),
+            new THREE.MeshBasicMaterial()
+        );
+        let coords = s.coordinates.split(" / ");
+        system.position.set(Number(coords[0]) * 0.02, Number(coords[1]) * 0.02, Number(coords[2]) * 0.02);
+        systems.add(system);
+        
+        let geometry = new THREE.Geometry();
+        geometry.vertices.push(new THREE.Vector3(system.position.x, system.position.y, system.position.z));
+        geometry.vertices.push(new THREE.Vector3(system.position.x, -0.49375, system.position.z));
+        let line = new THREE.Line(geometry, material);
+        
+        let dot = new THREE.Mesh(
+            new THREE.CylinderGeometry(0.02, 0.02, 0.001, 16),
+            new THREE.MeshBasicMaterial({color: 0xffffff, transparent: true, opacity: 0.5})
+        );
+        // dot.scale.y = 0.001;
+        dot.position.set(
+            system.position.x, -0.49375, system.position.z
+        );
+        systems.add(line, dot);
+    }
 }
 
 function onWindowResize() {
