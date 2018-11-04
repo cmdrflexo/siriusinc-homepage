@@ -14,7 +14,7 @@ var SceneController = class {
 
     setupScene() {
         this.renderer.autoClear = false;
-        this.scene.fog = new THREE.Fog(0x00, 100, 1000);
+        // this.scene.fog = new THREE.Fog(0x00, 100, 1000);
         this.scene.add(this.camera, this.lighting);
     }
 

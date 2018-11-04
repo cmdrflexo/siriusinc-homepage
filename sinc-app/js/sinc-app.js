@@ -5,18 +5,21 @@
 // const server = new ServerConnection.ServerConnection();
 
 let clock = new THREE.Clock();
+let stats = new Stats();
 
 const sc = new SceneController(update);
+const am = new AudioManager(sc.camera);
 const hud = new CameraHUD(sc.renderer, sc.camera);
 
-var pause = false;
+let paused = false;
 
 let axesHelper;
 let grid;
 
 let starSystems = [];
 var mapObjects = new THREE.Group();
-let nebulaObjects = new THREE.Group();
+let nebulaPoints;
+let smokePoints;
 
 let mcLine = [];
 
@@ -25,18 +28,26 @@ start();
 function start() {
     clock.start();
     setupCamera();
-    setupObjects();    
+    setupObjects();
+    statsContainer.appendChild(stats.dom);
     window.addEventListener("resize", onWindowResize);
 }
 
 function update() {
-    if(!pause) {
+    if(!paused) {
         let deltaTime = clock.getDelta();
         controls.update();
+        am.update();
         axesHelper.position.set(controls.target.x, controls.target.y, controls.target.z);
         sc.renderer.render(sc.scene, sc.camera);
         hud.update(deltaTime);
     }
+    stats.update();
+}
+
+function pause() {
+    am.pause();
+    paused = !paused;
 }
 
 function setupCamera() {
@@ -197,7 +208,7 @@ function setupNebula() {
         map: smokeTexture,
         color: 0x816EFF
     });
-    smokeObjects = new THREE.Points(smokeParticles, smokeMaterial);
+    smokePoints = new THREE.Points(smokeParticles, smokeMaterial);
     let smokeGeometry = new THREE.BufferGeometry();
     let smokePositions = [];
 
@@ -210,7 +221,7 @@ function setupNebula() {
         depthTest: THREE.NeverDepth,
         map: starTexture
     });
-    nebulaObjects = new THREE.Points(particles, particleMaterial);
+    nebulaPoints = new THREE.Points(particles, particleMaterial);
     let particleGeometry = new THREE.BufferGeometry();
     let positions = [];
 
@@ -234,17 +245,17 @@ function setupNebula() {
     // particleGeometry.addAttribute('color', new THREE.Float32BufferAttribute(imageColors, 3));
     particleGeometry.computeBoundingSphere();
 
-    nebulaObjects.geometry = particleGeometry;
-    nebulaObjects.geometry.verticesNeedUpdate = true;
+    nebulaPoints.geometry = particleGeometry;
+    nebulaPoints.geometry.verticesNeedUpdate = true;
 
     smokeGeometry.addAttribute('position', new THREE.Float32BufferAttribute(smokePositions, 3));
     // particleGeometry.addAttribute('color', new THREE.Float32BufferAttribute(imageColors, 3));
     smokeGeometry.computeBoundingSphere();
 
-    smokeObjects.geometry = smokeGeometry;
-    smokeObjects.geometry.verticesNeedUpdate = true;
+    smokePoints.geometry = smokeGeometry;
+    smokePoints.geometry.verticesNeedUpdate = true;
 
-    sc.scene.add(nebulaObjects, smokeObjects);
+    sc.scene.add(nebulaPoints, smokePoints);
 }
 
 function onWindowResize() {
