@@ -5,78 +5,81 @@
 // const server = new ServerConnection.ServerConnection();
 
 let clock = new THREE.Clock();
-let scene = new THREE.Scene();
-let renderer, camera, controls;
-let lighting;
+
+const sc = new SceneController(update);
+const hud = new CameraHUD(sc.renderer, sc.camera);
+
+// let scene = new THREE.Scene();
+// let renderer, camera, controls;
+// let lighting;
 
 let axesHelper;
 let grid;
 
 let starSystems = [];
-let mapObjects = new THREE.Group();
+var mapObjects = new THREE.Group();
+let nebulaObjects = new THREE.Group();
+
+let mcLine = [];
 
 start();
 
 function start() {
     clock.start();
-    setupRenderer();
     setupCamera();
-    setupLighting();
-    setupObjects();
-    scene.add(camera, lighting);
-    scene.fog = new THREE.Fog(0x00, 100, 1000);
+    setupObjects();    
     window.addEventListener("resize", onWindowResize);
-    renderer.setAnimationLoop(update);
 }
 
 function update() {
     let deltaTime = clock.getDelta();
-
-    for(let starSystem of starSystems)
-        starSystem.update();
-
-    axesHelper.position.set(controls.target.x, controls.target.y, controls.target.z);
-    
     controls.update();
-    renderer.render(scene, camera);
+    axesHelper.position.set(controls.target.x, controls.target.y, controls.target.z);
+    sc.renderer.render(sc.scene, sc.camera);
+    hud.update();
+    // hud.update(toScreenPosition(mapObjects.children[0], sc.camera));
 }
 
-function setupRenderer() {
-    renderer = new THREE.WebGLRenderer({antialias: true});
-    renderer.setPixelRatio(window.devicePixelRatio);
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    document.body.appendChild(renderer.domElement);
-}
+function toScreenPosition(obj, camera)
+{
+    var vector = new THREE.Vector3();
+
+    var widthHalf = 0.5 * window.innerWidth;
+    var heightHalf = 0.5 * window.innerHeight;
+
+    obj.updateMatrixWorld();
+    vector.setFromMatrixPosition(obj.matrixWorld);
+    vector.project(camera);
+
+    vector.x = (vector.x * widthHalf) + widthHalf;
+    vector.y = -(vector.y * heightHalf) + heightHalf;
+
+    return {x: vector.x, y: window.innerHeight - vector.y};
+
+};
 
 function setupCamera() {
-    camera = new THREE.PerspectiveCamera(
-        45, window.innerWidth / window.innerHeight, 0.1, 1000
-    );
-    camera.position.z = 250;
-    controls = new THREE.OrbitControls(camera);
-}
-
-function setupLighting() {
-    lighting = new THREE.Group();
-    let directionalLight = new THREE.DirectionalLight(0xffffff, 3);
-    directionalLight.position.set(100, 100, 100);
-    directionalLight.lookAt(new THREE.Vector3(0, 0, 0));
-    lighting.add(directionalLight);
+    sc.camera.position.z = 250;
+    controls = new THREE.OrbitControls(sc.camera);
 }
 
 function setupObjects() {
     setupCursor();
     setupGrid();
     setupMapObjects();
+    setupNebula();
+    // hud.createDot();
+    // let dot = new HUDElement(sc.camera, mapObjects.children[0]);
+    // hud.createHUDElement(dot);
 }
 
 function setupCursor() {
     axesHelper = new THREE.AxesHelper(10);
     axesHelper.add(new THREE.Mesh(
         new THREE.CylinderGeometry(2.5, 2.5, 0.001, 16),
-        new THREE.MeshBasicMaterial({color: 0xffffff, transparent: true, opacity: 0.5})
+        new THREE.MeshBasicMaterial({color: 0x888888})
     ));
-    scene.add(axesHelper);
+    sc.scene.add(axesHelper);
 }
 
 function setupGrid() {
@@ -89,54 +92,154 @@ function setupGrid() {
         })
     );
     plane.rotation.x = -Math.PI * 0.5;
-    scene.add(plane);
+    sc.scene.add(plane);
 }
 
 function setupMapObjects() {
-    scene.add(mapObjects);
+    sc.scene.add(mapObjects);
     for(let sincSystem of sincSystems) {
         let starSystem = new StarSystem(sincSystem);
-        starSystems.push(starSystem);
+        starSystem.mapObject.name = sincSystem.name;
         mapObjects.add(starSystem.mapObject);
-        if(sincSystem.name === "San")
-            mapObjects.position.set(
-                -starSystem.coordinates.x, 
-                -starSystem.coordinates.y,
-                -starSystem.coordinates.z
-            );
+        starSystems.push(starSystem);
+        let index;
+        switch(sincSystem.name.toLowerCase()) {
+            // case "san":
+            //     mapObjects.position.set(
+            //         -starSystem.coordinates.x, 
+            //         -starSystem.coordinates.y,
+            //         -starSystem.coordinates.z
+            //     );
+            //     break;
+            case "hip 17655":                  index = 0; break;
+            case "arietis sector xe-z b4":     index = 1; break;
+            case "hyades sector ab-w b2-2":    index = 2; break;
+            case "42 n persei":                index = 3; break;
+            case "pleiades sector jc-v d2-62": index = 4; break;
+            // case "hip 17044":                  index = 5; break;
+            case "hip 17044":
+                index = 5;
+                mapObjects.position.set(
+                    -starSystem.coordinates.x, 
+                    -starSystem.coordinates.y,
+                    -starSystem.coordinates.z
+                );
+                break;
+            case "hip 16813":                  index = 6; break;
+            case "pleiades sector hr-w d1-57": index = 7; break;
+            case "pleiades sector kc-v c2-4":  index = 8; break;
+        }
+        if(index >= 0)
+            mcLine[index] = [
+                starSystem.coordinates.x, 
+                starSystem.coordinates.y,
+                starSystem.coordinates.z
+            ];
+        
+        // ///
+        // let fontLoader = new THREE.FontLoader();
+        // fontLoader.load(
+        //     "assets/fonts/helvetiker_regular.typeface.json",
+        //     (font) => {
+        //         let letterGeo = new THREE.TextGeometry(sincSystem.name, {
+        //             font: font, size: 1.5, height: 0, curveSegments: 2
+        //         });
+        //         letterGeo.computeBoundingBox();
+        //         let offset = -0.5 * (letterGeo.boundingBox.max.x - letterGeo.boundingBox.min.x);
+        //         let letterMaterial = new THREE.MeshBasicMaterial({color: 0xffffff});
+        //         let keyLetter = new THREE.Mesh(letterGeo, letterMaterial);
+        //         keyLetter.position.set(
+        //             offset + starSystem.coordinates.x,
+        //             starSystem.coordinates.y + 5,
+        //             starSystem.coordinates.z
+        //         );
+        //         mapObjects.add(keyLetter);
+        //     }
+        // );
+
+        hud.createHUDElement(new HUDElement(sc.camera, starSystem.mapObject));
+        // ///
     }
+    drawChain();
+}
+
+function drawChain() {
+    let material = new THREE.LineBasicMaterial({color: 0x00ffff});
+    let geometry = new THREE.Geometry();
+    for(let i = 0; i < mcLine.length - 3; i++)
+        geometry.vertices.push(new THREE.Vector3(
+            mcLine[i][0] + mapObjects.position.x,
+            mcLine[i][1] + mapObjects.position.y,
+            mcLine[i][2] + mapObjects.position.z
+        ));
+    geometry.vertices.push(new THREE.Vector3(
+        mcLine[mcLine.length - 4][0] + mapObjects.position.x,
+        mcLine[mcLine.length - 4][1] + mapObjects.position.y,
+        mcLine[mcLine.length - 4][2] + mapObjects.position.z
+    ));
+    geometry.vertices.push(new THREE.Vector3(
+        mcLine[mcLine.length - 3][0] + mapObjects.position.x,
+        mcLine[mcLine.length - 3][1] + mapObjects.position.y,
+        mcLine[mcLine.length - 3][2] + mapObjects.position.z
+    ));
+    geometry.vertices.push(new THREE.Vector3(
+        mcLine[mcLine.length - 4][0] + mapObjects.position.x,
+        mcLine[mcLine.length - 4][1] + mapObjects.position.y,
+        mcLine[mcLine.length - 4][2] + mapObjects.position.z
+    ));
+    geometry.vertices.push(new THREE.Vector3(
+        mcLine[mcLine.length - 2][0] + mapObjects.position.x,
+        mcLine[mcLine.length - 2][1] + mapObjects.position.y,
+        mcLine[mcLine.length - 2][2] + mapObjects.position.z
+    ));
+    geometry.vertices.push(new THREE.Vector3(
+        mcLine[mcLine.length - 1][0] + mapObjects.position.x,
+        mcLine[mcLine.length - 1][1] + mapObjects.position.y,
+        mcLine[mcLine.length - 1][2] + mapObjects.position.z
+    ));
+    sc.scene.add(new THREE.Line(geometry, material));
+}
+
+function setupNebula() {
+
+    let particles = new THREE.Geometry();
+    let starTexture = new THREE.TextureLoader().load("assets/textures/TEST-blue_star-01.png");
+    let particleMaterial = new THREE.PointsMaterial({
+        size: 20, 
+        transparent: true, 
+        blending: THREE.AdditiveBlending,
+        depthTest: THREE.NeverDepth,
+        map: starTexture
+    });
+    nebulaObjects = new THREE.Points(particles, particleMaterial);
+
+    let particleGeometry = new THREE.BufferGeometry();
+    let positions = [];
+
+    for(let pleiadesSystem of pleiadesSystems) {
+        let coords = pleiadesSystem.coordinates.split(" / ");
+        positions.push(
+            Number(coords[0]) + mapObjects.position.x,
+            Number(coords[1]) + mapObjects.position.y,
+            Number(coords[2]) + mapObjects.position.z
+        );
+
+    }
+
+    particleGeometry.addAttribute('position', new THREE.Float32BufferAttribute(positions, 3));
+    // particleGeometry.addAttribute('color', new THREE.Float32BufferAttribute(imageColors, 3));
+    particleGeometry.computeBoundingSphere();
+
+    nebulaObjects.geometry = particleGeometry;
+    nebulaObjects.geometry.verticesNeedUpdate = true;
+    // particleSystem.material = particleMaterial;
+
+    sc.scene.add(nebulaObjects);
 }
 
 function onWindowResize() {
-    camera.aspect = window.innerWidth / window.innerHeight;
-    camera.updateProjectionMatrix();
-    renderer.setSize(window.innerWidth, window.innerHeight);
-}
-
-function createWireGrid(gridSize, cellSize) {
-    grid = new THREE.Group();
-    for(var i = 0; i < gridSize + 1; i++) {
-        let material = new THREE.LineBasicMaterial({color: 0xffffff, transparent: true});
-        material.opacity = 0.1 - ((1 / gridSize) * Math.abs((i - (gridSize * 0.5))));
-        var xGeometry = new THREE.Geometry();
-        xGeometry.vertices.push(new THREE.Vector3(
-            (i * cellSize) - cellSize * 0.5, 0, cellSize * -0.5
-        ));
-        xGeometry.vertices.push(new THREE.Vector3(
-            (i * cellSize) - cellSize * 0.5, 0, gridSize * cellSize - cellSize * 0.5
-        ));
-        var zGeometry = new THREE.Geometry();
-        zGeometry.vertices.push(new THREE.Vector3(
-            cellSize * -0.5, 0, (i * cellSize) - cellSize * 0.5
-        ));
-        zGeometry.vertices.push(new THREE.Vector3(
-            gridSize * cellSize - cellSize * 0.5, 0, (i * cellSize) - cellSize * 0.5
-        ));
-        grid.add(
-            new THREE.Line(xGeometry, material), 
-            new THREE.Line(zGeometry, material)
-        );
-    }
-    grid.position.set(-gridSize * 0.5 + cellSize * 0.5, 0, -gridSize * 0.5 + cellSize * 0.5);
-    scene.add(grid);
+    sc.camera.aspect = window.innerWidth / window.innerHeight;
+    sc.camera.updateProjectionMatrix();
+    sc.renderer.setSize(window.innerWidth, window.innerHeight);
+    hud.resize();
 }

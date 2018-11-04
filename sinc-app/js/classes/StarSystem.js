@@ -33,7 +33,7 @@ StarSystem = class {
         this.coordinates = new THREE.Vector3(
             Number(coords[0]), Number(coords[1]), Number(coords[2])
         );
-        this.createMapObject();
+        this.createMapObject(systemInfo.color);
     }
 
     update() {
@@ -43,12 +43,14 @@ StarSystem = class {
     updateLine() {
         this.lineEnd.y = -this.mapObject.getWorldPosition(new THREE.Vector3()).y;
         this.line.geometry.verticesNeedUpdate = true;
+        this.dot.position.y = this.lineEnd.y;
     }
 
-    createMapObject() {
+    createMapObject(color) {
+        let size = color == "white" ? 1 : 1.5;
         this.starMesh = new THREE.Mesh(
-            new THREE.SphereGeometry(1, 16, 8),
-            new THREE.MeshBasicMaterial()
+            new THREE.SphereGeometry(size, 16, 8),
+            new THREE.MeshBasicMaterial({color: color})
         );
         let lineGeometry = new THREE.Geometry();
         lineGeometry.vertices.push(new THREE.Vector3());
@@ -56,11 +58,11 @@ StarSystem = class {
         this.lineEnd = lineGeometry.vertices[1];
         this.line = new THREE.Line(
             lineGeometry,
-            new THREE.LineBasicMaterial({color: 0xffffff, transparent: true, opacity: 0.25})
+            new THREE.LineBasicMaterial({color: 0x333333})
         );
         this.dot = new THREE.Mesh(
             new THREE.CylinderGeometry(1, 1, 0.001, 16),
-            new THREE.MeshBasicMaterial({color: 0xffffff, transparent: true, opacity: 0.5})
+            new THREE.MeshBasicMaterial({color: 0x555555})
         );
         this.mapObject.add(this.starMesh, this.line, this.dot);
         this.mapObject.position.set(this.coordinates.x, this.coordinates.y, this.coordinates.z);
