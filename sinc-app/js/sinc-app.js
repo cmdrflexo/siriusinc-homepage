@@ -46,7 +46,7 @@ function setupCamera() {
 
 function setupObjects() {
     setupCursor();
-    setupGrid();
+    // setupGrid();
     let fontLoader = new THREE.FontLoader();
     fontLoader.load(
         "assets/fonts/helvetiker_regular.typeface.json",
@@ -101,21 +101,21 @@ function setupMapObjects(font) {
             case "hyades sector ab-w b2-2":    index = 2; break;
             case "42 n persei":                
                 index = 3; 
-                mapObjects.position.set(
-                    -starSystem.coordinates.x, 
-                    -starSystem.coordinates.y,
-                    -starSystem.coordinates.z
-                );
-                break;
-            case "pleiades sector jc-v d2-62": index = 4; break;
-            // case "hip 17044":                  index = 5; break;
-            case "hip 17044":
-                index = 5;
                 // mapObjects.position.set(
                 //     -starSystem.coordinates.x, 
                 //     -starSystem.coordinates.y,
                 //     -starSystem.coordinates.z
                 // );
+                break;
+            case "pleiades sector jc-v d2-62": index = 4; break;
+            // case "hip 17044":                  index = 5; break;
+            case "hip 17044":
+                index = 5;
+                mapObjects.position.set(
+                    -starSystem.coordinates.x, 
+                    -starSystem.coordinates.y,
+                    -starSystem.coordinates.z
+                );
                 break;
             case "hip 16813":                  index = 6; break;
             case "pleiades sector hr-w d1-57": index = 7; break;
@@ -186,6 +186,21 @@ function drawChain() {
 
 function setupNebula() {
 
+    let smokeParticles = new THREE.Geometry();
+    let smokeTexture = new THREE.TextureLoader().load("assets/textures/smoke.png"); 
+    let smokeMaterial = new THREE.PointsMaterial({
+        size: 60, 
+        transparent: true, 
+        opacity: 0.015,
+        blending: THREE.AdditiveBlending,
+        depthTest: THREE.NeverDepth,
+        map: smokeTexture,
+        color: 0x816EFF
+    });
+    smokeObjects = new THREE.Points(smokeParticles, smokeMaterial);
+    let smokeGeometry = new THREE.BufferGeometry();
+    let smokePositions = [];
+
     let particles = new THREE.Geometry();
     let starTexture = new THREE.TextureLoader().load("assets/textures/TEST-blue_star-01.png");
     let particleMaterial = new THREE.PointsMaterial({
@@ -196,7 +211,6 @@ function setupNebula() {
         map: starTexture
     });
     nebulaObjects = new THREE.Points(particles, particleMaterial);
-
     let particleGeometry = new THREE.BufferGeometry();
     let positions = [];
 
@@ -207,6 +221,12 @@ function setupNebula() {
             Number(coords[1]) + mapObjects.position.y,
             Number(coords[2]) + mapObjects.position.z
         );
+        for(let i = 0; i < 20; i++)
+            smokePositions.push(
+                Number(coords[0]) + mapObjects.position.x + (-10 + (Math.random() * 20)),
+                Number(coords[1]) + mapObjects.position.y + (-10 + (Math.random() * 20)),
+                Number(coords[2]) + mapObjects.position.z + (-10 + (Math.random() * 20))
+            );
 
     }
 
@@ -216,9 +236,15 @@ function setupNebula() {
 
     nebulaObjects.geometry = particleGeometry;
     nebulaObjects.geometry.verticesNeedUpdate = true;
-    // particleSystem.material = particleMaterial;
 
-    sc.scene.add(nebulaObjects);
+    smokeGeometry.addAttribute('position', new THREE.Float32BufferAttribute(smokePositions, 3));
+    // particleGeometry.addAttribute('color', new THREE.Float32BufferAttribute(imageColors, 3));
+    smokeGeometry.computeBoundingSphere();
+
+    smokeObjects.geometry = smokeGeometry;
+    smokeObjects.geometry.verticesNeedUpdate = true;
+
+    sc.scene.add(nebulaObjects, smokeObjects);
 }
 
 function onWindowResize() {
