@@ -36,27 +36,8 @@ function update() {
     controls.update();
     axesHelper.position.set(controls.target.x, controls.target.y, controls.target.z);
     sc.renderer.render(sc.scene, sc.camera);
-    hud.update();
-    // hud.update(toScreenPosition(mapObjects.children[0], sc.camera));
+    hud.update(deltaTime);
 }
-
-function toScreenPosition(obj, camera)
-{
-    var vector = new THREE.Vector3();
-
-    var widthHalf = 0.5 * window.innerWidth;
-    var heightHalf = 0.5 * window.innerHeight;
-
-    obj.updateMatrixWorld();
-    vector.setFromMatrixPosition(obj.matrixWorld);
-    vector.project(camera);
-
-    vector.x = (vector.x * widthHalf) + widthHalf;
-    vector.y = -(vector.y * heightHalf) + heightHalf;
-
-    return {x: vector.x, y: window.innerHeight - vector.y};
-
-};
 
 function setupCamera() {
     sc.camera.position.z = 250;
@@ -155,7 +136,10 @@ function setupMapObjects() {
                 });
                 letterGeo.computeBoundingBox();
                 let xOffset = -0.5 * (letterGeo.boundingBox.max.x - letterGeo.boundingBox.min.x);
-                let letterMaterial = new THREE.MeshBasicMaterial({color: 0xffffff});
+                let letterMaterial = new THREE.MeshBasicMaterial({
+                    color: 0xffffff,
+                    transparent: true
+                });
                 let nametag = new THREE.Mesh(letterGeo, letterMaterial);
                 let hudElement = new HUDElement(sc.camera, starSystem.mapObject);
                 hudElement.offset = {x: xOffset, y: 20};

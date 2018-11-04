@@ -7,6 +7,7 @@ var HUDElement = class {
         this.object;
         this.boundingBoxCorners;
         this.overlapElements;
+        this.hidden = false;
         // ///
         this.drawBoundingBox = false;
         this.once = true;
@@ -16,7 +17,15 @@ var HUDElement = class {
         // ///
     }
 
-    update() {
+    update(deltaTime) {
+        let fadeSpeed = 10;
+        if(this.hidden) {
+            if(this.object.material.opacity > 0)
+                this.object.material.opacity -= fadeSpeed * deltaTime;
+        } else {
+            if(this.object.material.opacity < 1)
+                this.object.material.opacity += fadeSpeed * deltaTime;
+        }
         if(this.target) {
             let pos = this.targetScreenPosition();
             this.object.position.set(pos.x + this.offset.x, pos.y + this.offset.y, 0);
@@ -27,6 +36,7 @@ var HUDElement = class {
     checkOverlap() {
         let objPos = this.object.position;
         let bb = this.object.geometry.boundingBox;
+        // only need 2 corners, 0 and 2
         this.boundingBoxCorners = [
             new THREE.Vector3(objPos.x,            objPos.y,            0),
             new THREE.Vector3(objPos.x,            objPos.y + bb.max.y, 0),
@@ -66,11 +76,13 @@ var HUDElement = class {
                     }
                 }
         }
-        this.object.visible = !overlap;
+        this.hidden = overlap;
+        // this.object.visible = !overlap;
         // this.object.material.color = overlap ? new THREE.Color(1, 0, 0) : new THREE.Color(1, 1, 1);
     }
 
     boundingBoxOverlap(cornersA, cornersB) {
+        // only need 2 corners, 0 and 2
         let withinVertical = 
             (cornersA[0].x > cornersB[0].x && cornersA[0].x < cornersB[2].x) || 
             (cornersA[2].x > cornersB[0].x && cornersA[2].x < cornersB[2].x) ||

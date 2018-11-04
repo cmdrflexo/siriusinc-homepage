@@ -22,8 +22,8 @@ var CameraHUD = class {
         // this.createDot();
     }
 
-    update() {
-        this.updateElements();
+    update(deltaTime) {
+        this.updateElements(deltaTime);
         this.renderer.clearDepth();
         this.renderer.render(this.scene, this.camera);
         // this.updateHUDElements(pos.x, pos.y);
@@ -53,8 +53,8 @@ var CameraHUD = class {
         this.elements.push(element);
     }
 
-    updateElements() {
-        for(let element of this.elements) element.update();
+    updateElements(deltaTime) {
+        for(let element of this.elements) element.update(deltaTime);
     }
     
     resize() {
