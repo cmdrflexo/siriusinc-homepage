@@ -6,20 +6,14 @@ var HUDElement = class {
         this.screenGroup;
         this.object;
         this.boundingBoxCorners;
+        this.overlapPadding = 5;
         this.overlapElements;
-        this.hidden = false;
-        // ///
-        this.drawBoundingBox = false;
-        this.once = true;
-        this.bbMat = new THREE.LineBasicMaterial({color: 0x00ff00});
-        this.bbGeo = new THREE.Geometry();
-        this.bbObject = new THREE.Line(this.bbGeo, this.bbMat);
-        // ///
+        this.hidden = true;
     }
 
     update(deltaTime) {
-        let fadeSpeed = 10;
-        if(this.hidden) {
+        let fadeSpeed = 5;
+        if(this.hidden || !this.targetOnScreen()) {
             if(this.object.material.opacity > 0)
                 this.object.material.opacity -= fadeSpeed * deltaTime;
         } else {
@@ -33,64 +27,49 @@ var HUDElement = class {
         if(this.overlapElements) this.checkOverlap();
     }
 
+    targetOnScreen() {
+        let hPadding = this.object.geometry.boundingBox.max.x + this.offset.x;
+        let vPadding = this.object.geometry.boundingBox.max.y + this.offset.y;
+        let targetScreenPos = this.targetScreenPosition();
+        let onScreen = this.target && 
+            targetScreenPos.x > hPadding && targetScreenPos.x < window.innerWidth - hPadding && 
+            targetScreenPos.y > vPadding && targetScreenPos.y < window.innerHeight - vPadding;
+        this.hidden = !onScreen;
+        return onScreen;
+    }
+
     checkOverlap() {
-        let objPos = this.object.position;
-        let bb = this.object.geometry.boundingBox;
-        // only need 2 corners, 0 and 2
         this.boundingBoxCorners = [
-            new THREE.Vector3(objPos.x,            objPos.y,            0),
-            new THREE.Vector3(objPos.x,            objPos.y + bb.max.y, 0),
-            new THREE.Vector3(objPos.x + bb.max.x, objPos.y + bb.max.y, 0),
-            new THREE.Vector3(objPos.x + bb.max.x, objPos.y,            0)
+            new THREE.Vector2(
+                this.object.position.x - this.overlapPadding, 
+                this.object.position.y - this.overlapPadding
+            ),
+            new THREE.Vector2(
+                this.object.position.x + this.object.geometry.boundingBox.max.x + this.overlapPadding, 
+                this.object.position.y + this.object.geometry.boundingBox.max.y + this.overlapPadding
+            )
         ]; 
-        if(this.drawBoundingBox) {
-            this.bbObject.geometry = new THREE.Geometry();
-            for(let i = 0; i < this.boundingBoxCorners.length; i++)
-                this.bbObject.geometry.vertices.push(this.boundingBoxCorners[i]);
-            this.bbObject.geometry.vertices.push(this.bbObject.geometry.vertices[0]);
-            this.bbObject.geometry.verticesNeedUpdate = true;
-            if(this.once) {
-                this.screenGroup.add(this.bbObject);
-                this.once = false;
-            }
-        }
         let overlap = false;
-        for(let element of this.overlapElements) {
-            if(element.boundingBoxCorners)
-                if(this.boundingBoxOverlap(element.boundingBoxCorners, this.boundingBoxCorners)){
-                    let cameraPos = this.camera.getWorldPosition(new THREE.Vector3());
-                    let pos = this.target.getWorldPosition(new THREE.Vector3());
-                    let elementPos = element.target.getWorldPosition(new THREE.Vector3());
-                    // let cameraPos = new THREE.Vector3(
-                    //     this.camera.position.x, this.camera.position.y, this.camera.position.z
-                    // );
-                    // let pos = new THREE.Vector3(
-                    //     this.target.position.x, this.target.position.y, this.target.position.z
-                    // );
-                    // let elementPos = new THREE.Vector3(
-                    //     element.target.position.x, element.target.position.y, element.target.position.z
-                    // );
-                    if(cameraPos.distanceTo(pos) > cameraPos.distanceTo(elementPos)) {
-                        overlap = true;
-                        break;
-                    }
-                }
-        }
+        for(let element of this.overlapElements)
+            if(element.boundingBoxCorners && this.boundingBoxOverlap(element.boundingBoxCorners, this.boundingBoxCorners)){
+                let cameraPos = this.camera.getWorldPosition(new THREE.Vector3());
+                let pos = this.target.getWorldPosition(new THREE.Vector3());
+                let elementPos = element.target.getWorldPosition(new THREE.Vector3());
+                overlap = cameraPos.distanceTo(pos) > cameraPos.distanceTo(elementPos)
+                if(overlap) break;
+            }
         this.hidden = overlap;
-        // this.object.visible = !overlap;
-        // this.object.material.color = overlap ? new THREE.Color(1, 0, 0) : new THREE.Color(1, 1, 1);
     }
 
     boundingBoxOverlap(cornersA, cornersB) {
-        // only need 2 corners, 0 and 2
         let withinVertical = 
-            (cornersA[0].x > cornersB[0].x && cornersA[0].x < cornersB[2].x) || 
-            (cornersA[2].x > cornersB[0].x && cornersA[2].x < cornersB[2].x) ||
-            (cornersA[0].x < cornersB[0].x && cornersA[2].x > cornersB[2].x);
+            (cornersA[0].x > cornersB[0].x && cornersA[0].x < cornersB[1].x) || 
+            (cornersA[1].x > cornersB[0].x && cornersA[1].x < cornersB[1].x) ||
+            (cornersA[0].x < cornersB[0].x && cornersA[1].x > cornersB[1].x);
         let withinHorizontal = 
-            (cornersA[0].y > cornersB[0].y && cornersA[0].y < cornersB[2].y) ||
-            (cornersA[2].y > cornersB[0].y && cornersA[2].y < cornersB[2].y) ||
-            (cornersA[0].y < cornersB[0].y && cornersA[2].y > cornersB[2].y);
+            (cornersA[0].y > cornersB[0].y && cornersA[0].y < cornersB[1].y) ||
+            (cornersA[1].y > cornersB[0].y && cornersA[1].y < cornersB[1].y) ||
+            (cornersA[0].y < cornersB[0].y && cornersA[1].y > cornersB[1].y);
         return withinVertical && withinHorizontal;
     }
 
@@ -106,3 +85,20 @@ var HUDElement = class {
         return {x: vector.x, y: window.innerHeight - vector.y};
     }
 }
+
+// this.drawBoundingBox = false;
+// this.once = true;
+// this.bbMat = new THREE.LineBasicMaterial({color: 0x00ff00});
+// this.bbGeo = new THREE.Geometry();
+// this.bbObject = new THREE.Line(this.bbGeo, this.bbMat);
+// if(this.drawBoundingBox) {
+//     this.bbObject.geometry = new THREE.Geometry();
+//     for(let i = 0; i < this.boundingBoxCorners.length; i++)
+//         this.bbObject.geometry.vertices.push(this.boundingBoxCorners[i]);
+//     this.bbObject.geometry.vertices.push(this.bbObject.geometry.vertices[0]);
+//     this.bbObject.geometry.verticesNeedUpdate = true;
+//     if(this.once) {
+//         this.screenGroup.add(this.bbObject);
+//         this.once = false;
+//     }
+// }

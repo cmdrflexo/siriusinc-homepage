@@ -9,9 +9,7 @@ let clock = new THREE.Clock();
 const sc = new SceneController(update);
 const hud = new CameraHUD(sc.renderer, sc.camera);
 
-// let scene = new THREE.Scene();
-// let renderer, camera, controls;
-// let lighting;
+var pause = false;
 
 let axesHelper;
 let grid;
@@ -32,11 +30,13 @@ function start() {
 }
 
 function update() {
-    let deltaTime = clock.getDelta();
-    controls.update();
-    axesHelper.position.set(controls.target.x, controls.target.y, controls.target.z);
-    sc.renderer.render(sc.scene, sc.camera);
-    hud.update(deltaTime);
+    if(!pause) {
+        let deltaTime = clock.getDelta();
+        controls.update();
+        axesHelper.position.set(controls.target.x, controls.target.y, controls.target.z);
+        sc.renderer.render(sc.scene, sc.camera);
+        hud.update(deltaTime);
+    }
 }
 
 function setupCamera() {
