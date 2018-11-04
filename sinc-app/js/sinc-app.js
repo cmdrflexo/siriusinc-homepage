@@ -47,11 +47,15 @@ function setupCamera() {
 function setupObjects() {
     setupCursor();
     setupGrid();
-    setupMapObjects();
-    setupNebula();
-    // hud.createDot();
-    // let dot = new HUDElement(sc.camera, mapObjects.children[0]);
-    // hud.createHUDElement(dot);
+    let fontLoader = new THREE.FontLoader();
+    fontLoader.load(
+        "assets/fonts/helvetiker_regular.typeface.json",
+        (font) => {
+            setupMapObjects(font);
+            drawChain();
+            setupNebula();
+        }
+    );
 }
 
 function setupCursor() {
@@ -76,7 +80,7 @@ function setupGrid() {
     sc.scene.add(plane);
 }
 
-function setupMapObjects() {
+function setupMapObjects(font) {
     sc.scene.add(mapObjects);
     for(let sincSystem of sincSystems) {
         let starSystem = new StarSystem(sincSystem);
@@ -123,35 +127,24 @@ function setupMapObjects() {
                 starSystem.coordinates.y,
                 starSystem.coordinates.z
             ];
-        
-        // ///
-        // Change to only load font once, before making objects
-        let fontLoader = new THREE.FontLoader();
-        fontLoader.load(
-            "assets/fonts/helvetiker_regular.typeface.json",
-            (font) => {
-                let textSize = 10;
-                let letterGeo = new THREE.TextGeometry(sincSystem.name, {
-                    font: font, size: textSize, height: 0, curveSegments: 2
-                });
-                letterGeo.computeBoundingBox();
-                let xOffset = -0.5 * (letterGeo.boundingBox.max.x - letterGeo.boundingBox.min.x);
-                let letterMaterial = new THREE.MeshBasicMaterial({
-                    color: 0xffffff,
-                    transparent: true
-                });
-                let nametag = new THREE.Mesh(letterGeo, letterMaterial);
-                let hudElement = new HUDElement(sc.camera, starSystem.mapObject);
-                hudElement.offset = {x: xOffset, y: 20};
-                hudElement.object = nametag;
-                hudElement.overlapElements = hud.elements;
-                // hudElement.drawBoundingBox = true;
-                hud.createElement(hudElement);
-            }
-        );
-        // ///
+
+        let textSize = 10;
+        let letterGeo = new THREE.TextGeometry(sincSystem.name, {
+            font: font, size: textSize, height: 0, curveSegments: 2
+        });
+        letterGeo.computeBoundingBox();
+        let xOffset = -0.5 * (letterGeo.boundingBox.max.x - letterGeo.boundingBox.min.x);
+        let letterMaterial = new THREE.MeshBasicMaterial({
+            color: 0xffffff,
+            transparent: true
+        });
+        let nametag = new THREE.Mesh(letterGeo, letterMaterial);
+        let hudElement = new HUDElement(sc.camera, starSystem.mapObject);
+        hudElement.offset = {x: xOffset, y: 20};
+        hudElement.object = nametag;
+        hudElement.overlapElements = hud.elements;
+        hud.createElement(hudElement);
     }
-    drawChain();
 }
 
 function drawChain() {

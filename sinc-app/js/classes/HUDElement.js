@@ -9,16 +9,16 @@ var HUDElement = class {
         this.overlapPadding = 5;
         this.overlapElements;
         this.hidden = true;
+        this.fadeSpeed = 5;
     }
 
     update(deltaTime) {
-        let fadeSpeed = 5;
         if(this.hidden || !this.targetOnScreen()) {
             if(this.object.material.opacity > 0)
-                this.object.material.opacity -= fadeSpeed * deltaTime;
+                this.object.material.opacity -= this.fadeSpeed * deltaTime;
         } else {
             if(this.object.material.opacity < 1)
-                this.object.material.opacity += fadeSpeed * deltaTime;
+                this.object.material.opacity += this.fadeSpeed * deltaTime;
         }
         if(this.target) {
             let pos = this.targetScreenPosition();
