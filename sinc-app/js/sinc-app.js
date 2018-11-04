@@ -114,16 +114,23 @@ function setupMapObjects() {
             case "hip 17655":                  index = 0; break;
             case "arietis sector xe-z b4":     index = 1; break;
             case "hyades sector ab-w b2-2":    index = 2; break;
-            case "42 n persei":                index = 3; break;
-            case "pleiades sector jc-v d2-62": index = 4; break;
-            // case "hip 17044":                  index = 5; break;
-            case "hip 17044":
-                index = 5;
+            case "42 n persei":                
+                index = 3; 
                 mapObjects.position.set(
                     -starSystem.coordinates.x, 
                     -starSystem.coordinates.y,
                     -starSystem.coordinates.z
                 );
+                break;
+            case "pleiades sector jc-v d2-62": index = 4; break;
+            // case "hip 17044":                  index = 5; break;
+            case "hip 17044":
+                index = 5;
+                // mapObjects.position.set(
+                //     -starSystem.coordinates.x, 
+                //     -starSystem.coordinates.y,
+                //     -starSystem.coordinates.z
+                // );
                 break;
             case "hip 16813":                  index = 6; break;
             case "pleiades sector hr-w d1-57": index = 7; break;
@@ -137,27 +144,27 @@ function setupMapObjects() {
             ];
         
         // ///
-        // let fontLoader = new THREE.FontLoader();
-        // fontLoader.load(
-        //     "assets/fonts/helvetiker_regular.typeface.json",
-        //     (font) => {
-        //         let letterGeo = new THREE.TextGeometry(sincSystem.name, {
-        //             font: font, size: 1.5, height: 0, curveSegments: 2
-        //         });
-        //         letterGeo.computeBoundingBox();
-        //         let offset = -0.5 * (letterGeo.boundingBox.max.x - letterGeo.boundingBox.min.x);
-        //         let letterMaterial = new THREE.MeshBasicMaterial({color: 0xffffff});
-        //         let keyLetter = new THREE.Mesh(letterGeo, letterMaterial);
-        //         keyLetter.position.set(
-        //             offset + starSystem.coordinates.x,
-        //             starSystem.coordinates.y + 5,
-        //             starSystem.coordinates.z
-        //         );
-        //         mapObjects.add(keyLetter);
-        //     }
-        // );
-
-        hud.createHUDElement(new HUDElement(sc.camera, starSystem.mapObject));
+        // Change to only load font once, before making objects
+        let fontLoader = new THREE.FontLoader();
+        fontLoader.load(
+            "assets/fonts/helvetiker_regular.typeface.json",
+            (font) => {
+                let textSize = 10;
+                let letterGeo = new THREE.TextGeometry(sincSystem.name, {
+                    font: font, size: textSize, height: 0, curveSegments: 2
+                });
+                letterGeo.computeBoundingBox();
+                let xOffset = -0.5 * (letterGeo.boundingBox.max.x - letterGeo.boundingBox.min.x);
+                let letterMaterial = new THREE.MeshBasicMaterial({color: 0xffffff});
+                let nametag = new THREE.Mesh(letterGeo, letterMaterial);
+                let hudElement = new HUDElement(sc.camera, starSystem.mapObject);
+                hudElement.offset = {x: xOffset, y: 20};
+                hudElement.object = nametag;
+                hudElement.overlapElements = hud.elements;
+                // hudElement.drawBoundingBox = true;
+                hud.createElement(hudElement);
+            }
+        );
         // ///
     }
     drawChain();
