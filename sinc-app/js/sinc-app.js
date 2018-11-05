@@ -12,6 +12,14 @@ const am  = new AudioManager(sc.camera);
 const gd  = new GalaxyDisplay(sc.scene);
 const hud = new CameraHUD(sc.renderer, sc.camera);
 
+let fontLoader = new THREE.FontLoader();
+
+var fontFile = {
+    helvetikerRegular: "assets/fonts/helvetiker_regular.typeface.json"
+};
+
+var font;
+
 let paused = false;
 
 let axesHelper;
@@ -31,9 +39,19 @@ start();
 function start() {
     clock.start();
     statsContainer.appendChild(stats.dom);
-    setupCamera();
-    setupObjects();
     setupEvents();
+    setupCamera();
+    fontLoader.load(
+        fontFile.helvetikerRegular,
+        (loadedFont) => {
+            font = loadedFont;
+            sc.setupScene();
+            sc.setupRenderer(update);
+            sc.setupLighting();
+            setupObjects();
+        }
+    );
+    
 }
 
 function update() {
@@ -94,16 +112,11 @@ function updateSky() {
 function setupObjects() {
     setupCursor();
     // setupGrid();
-    let fontLoader = new THREE.FontLoader();
-    fontLoader.load(
-        "assets/fonts/helvetiker_regular.typeface.json",
-        (font) => {
-            // setupMapObjects(font);
-            // drawChain();
-            setupSky();
-            setupNebula();
-        }
-    );
+    gd.createStarSystems();
+    // setupMapObjects(loadedFont);
+    // drawChain();
+    setupSky();
+    setupNebula();
 }
 
 function setupCursor() {

@@ -30,6 +30,7 @@ StarSystem = class {
     }
 
     setup(systemInfo) {
+        this.name = systemInfo.name;
         let coords = systemInfo.coordinates.split(" / ");
         this.coordinates = new THREE.Vector3(
             Number(coords[0]), Number(coords[1]), Number(coords[2])
@@ -47,7 +48,7 @@ StarSystem = class {
     // }
 
     createMapObject() {
-        let size = this.color == "white" ? 1 : 1.5;
+        let size = this.color == "white" ? 0.4 : 0.6;
         this.starMesh = new THREE.Mesh(
             new THREE.SphereGeometry(size, 16, 8),
             new THREE.MeshBasicMaterial({color: this.color})
@@ -65,5 +66,25 @@ StarSystem = class {
             new THREE.MeshBasicMaterial({color: 0x334455})
         );
         this.mapObject.add(this.starMesh, this.line, this.dot);
+        this.createNametag();
+    }
+
+    createNametag() {
+        let textSize = 10;
+        let letterGeo = new THREE.TextGeometry(this.name, {
+            font: font, size: textSize, height: 0, curveSegments: 2
+        });
+        letterGeo.computeBoundingBox();
+        // // let xOffset = -0.5 * (letterGeo.boundingBox.max.x - letterGeo.boundingBox.min.x);
+        // // let yOffset = 20;
+        let xOffset = 15;
+        let yOffset = -0.5 * letterGeo.boundingBox.max.y;
+        let letterMaterial = new THREE.MeshBasicMaterial({color: 0xffffff, transparent: true});
+        let nametag = new THREE.Mesh(letterGeo, letterMaterial);
+        let hudElement = new HUDElement(sc.camera, this.mapObject);
+        hudElement.offset = {x: xOffset, y: yOffset};
+        hudElement.object = nametag;
+        hudElement.overlapElements = hud.elements;
+        hud.createElement(hudElement);
     }
 }

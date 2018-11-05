@@ -1,20 +1,18 @@
 
 var SceneController = class {
-    constructor(update) {
+    constructor() {
         this.scene = new THREE.Scene();
         this.renderer = new THREE.WebGLRenderer({antialias: true});
         this.camera = new THREE.PerspectiveCamera(
             45, window.innerWidth / window.innerHeight, 1, 100000
         );
         this.lighting = new THREE.Group();
-        this.setupScene();
-        this.setupRenderer(update);
-        this.setupLighting();
     }
 
     setupScene() {
         this.renderer.autoClear = false;
         // this.scene.fog = new THREE.Fog(0x00, 100, 10000);
+        this.camera.position.z = 100
         this.scene.add(this.camera, this.lighting);
     }
 
