@@ -4,17 +4,20 @@
 
 // const server = new ServerConnection.ServerConnection();
 
-let clock = new THREE.Clock();
-let stats = new Stats();
+const clock = new THREE.Clock();
+const stats = new Stats();
 
-const sc = new SceneController(update);
-const am = new AudioManager(sc.camera);
+const sc  = new SceneController(update);
+const am  = new AudioManager(sc.camera);
+const gd  = new GalaxyDisplay(sc.scene);
 const hud = new CameraHUD(sc.renderer, sc.camera);
 
 let paused = false;
 
 let axesHelper;
 let grid;
+
+let galaxySphere;
 
 let starSystems = [];
 var mapObjects = new THREE.Group();
@@ -27,10 +30,10 @@ start();
 
 function start() {
     clock.start();
+    statsContainer.appendChild(stats.dom);
     setupCamera();
     setupObjects();
-    statsContainer.appendChild(stats.dom);
-    window.addEventListener("resize", onWindowResize);
+    setupEvents();
 }
 
 function update() {
@@ -38,7 +41,9 @@ function update() {
         let deltaTime = clock.getDelta();
         controls.update();
         am.update();
+        gd.update();
         axesHelper.position.set(controls.target.x, controls.target.y, controls.target.z);
+        updateSky();
         sc.renderer.render(sc.scene, sc.camera);
         hud.update(deltaTime);
     }
@@ -48,11 +53,42 @@ function update() {
 function pause() {
     am.pause();
     paused = !paused;
+    console.log("Application " + (paused ? "paused" : "resumed"));
 }
 
 function setupCamera() {
     sc.camera.position.z = 250;
     controls = new THREE.OrbitControls(sc.camera);
+}
+
+function setupSky() {
+    let galaxyTexture = new THREE.TextureLoader().load("assets/textures/galaxy_darker_blur.png");
+    galaxySphere = new THREE.Mesh(
+        new THREE.SphereGeometry(5000, 32, 16),
+        new THREE.MeshBasicMaterial({map: galaxyTexture, side: THREE.BackSide})
+    );
+    // galaxySphere.scale.x = -1;
+    galaxySphere.rotation.y = -Math.PI * 0.5;
+    sc.scene.add(galaxySphere);
+    // let origin = new THREE.Mesh(
+    //     new THREE.SphereGeometry(1, 1, 1),
+    //     new THREE.MeshBasicMaterial({color: "blue"})
+    // );
+    // origin.position.set(
+    //     mapObjects.position.x,
+    //     mapObjects.position.y,
+    //     mapObjects.position.z
+    // );
+    // sc.scene.add(origin);
+}
+
+function updateSky() {
+    if(galaxySphere && sc.camera)
+        galaxySphere.position.set(
+            sc.camera.position.x,
+            sc.camera.position.y,
+            sc.camera.position.z
+        );
 }
 
 function setupObjects() {
@@ -62,8 +98,9 @@ function setupObjects() {
     fontLoader.load(
         "assets/fonts/helvetiker_regular.typeface.json",
         (font) => {
-            setupMapObjects(font);
-            drawChain();
+            // setupMapObjects(font);
+            // drawChain();
+            setupSky();
             setupNebula();
         }
     );
@@ -80,10 +117,10 @@ function setupCursor() {
 
 function setupGrid() {
     let plane = new THREE.Mesh(
-        new THREE.PlaneGeometry(10000, 10000),
+        new THREE.PlaneGeometry(100000, 100000),
         new THREE.MeshBasicMaterial({
-            color: 0xffffff, 
-            transparent: true, opacity: 0.025, 
+            color: 0x000000, 
+            transparent: true, opacity: 0.25, 
             side: THREE.DoubleSide
         })
     );
@@ -112,21 +149,21 @@ function setupMapObjects(font) {
             case "hyades sector ab-w b2-2":    index = 2; break;
             case "42 n persei":                
                 index = 3; 
-                // mapObjects.position.set(
-                //     -starSystem.coordinates.x, 
-                //     -starSystem.coordinates.y,
-                //     -starSystem.coordinates.z
-                // );
-                break;
-            case "pleiades sector jc-v d2-62": index = 4; break;
-            // case "hip 17044":                  index = 5; break;
-            case "hip 17044":
-                index = 5;
                 mapObjects.position.set(
                     -starSystem.coordinates.x, 
                     -starSystem.coordinates.y,
                     -starSystem.coordinates.z
                 );
+                break;
+            case "pleiades sector jc-v d2-62": index = 4; break;
+            // case "hip 17044":                  index = 5; break;
+            case "hip 17044":
+                index = 5;
+                // mapObjects.position.set(
+                //     -starSystem.coordinates.x, 
+                //     -starSystem.coordinates.y,
+                //     -starSystem.coordinates.z
+                // );
                 break;
             case "hip 16813":                  index = 6; break;
             case "pleiades sector hr-w d1-57": index = 7; break;
@@ -144,18 +181,19 @@ function setupMapObjects(font) {
             font: font, size: textSize, height: 0, curveSegments: 2
         });
         letterGeo.computeBoundingBox();
-        let xOffset = -0.5 * (letterGeo.boundingBox.max.x - letterGeo.boundingBox.min.x);
-        let letterMaterial = new THREE.MeshBasicMaterial({
-            color: 0xffffff,
-            transparent: true
-        });
+        // let xOffset = -0.5 * (letterGeo.boundingBox.max.x - letterGeo.boundingBox.min.x);
+        // let yOffset = 20;
+        let xOffset = 15;
+        let yOffset = -0.5 * letterGeo.boundingBox.max.y;
+        let letterMaterial = new THREE.MeshBasicMaterial({color: 0xffffff, transparent: true});
         let nametag = new THREE.Mesh(letterGeo, letterMaterial);
         let hudElement = new HUDElement(sc.camera, starSystem.mapObject);
-        hudElement.offset = {x: xOffset, y: 20};
+        hudElement.offset = {x: xOffset, y: yOffset};
         hudElement.object = nametag;
         hudElement.overlapElements = hud.elements;
         hud.createElement(hudElement);
     }
+    // setupSky();
 }
 
 function drawChain() {
@@ -241,14 +279,14 @@ function setupNebula() {
 
     }
 
-    particleGeometry.addAttribute('position', new THREE.Float32BufferAttribute(positions, 3));
-    // particleGeometry.addAttribute('color', new THREE.Float32BufferAttribute(imageColors, 3));
+    particleGeometry.addAttribute("position", new THREE.Float32BufferAttribute(positions, 3));
+    // particleGeometry.addAttribute("color", new THREE.Float32BufferAttribute(imageColors, 3));
     particleGeometry.computeBoundingSphere();
 
     nebulaPoints.geometry = particleGeometry;
     nebulaPoints.geometry.verticesNeedUpdate = true;
 
-    smokeGeometry.addAttribute('position', new THREE.Float32BufferAttribute(smokePositions, 3));
+    smokeGeometry.addAttribute("position", new THREE.Float32BufferAttribute(smokePositions, 3));
     // particleGeometry.addAttribute('color', new THREE.Float32BufferAttribute(imageColors, 3));
     smokeGeometry.computeBoundingSphere();
 
@@ -256,6 +294,16 @@ function setupNebula() {
     smokePoints.geometry.verticesNeedUpdate = true;
 
     sc.scene.add(nebulaPoints, smokePoints);
+}
+
+function setupEvents() {
+    window.addEventListener("resize", onWindowResize);
+    window.addEventListener("keydown", (event) => {
+        switch(event.keyCode) {
+            case 77: am.mute(); break; // M
+            case 80: pause(); break;    // P
+        }
+    });
 }
 
 function onWindowResize() {

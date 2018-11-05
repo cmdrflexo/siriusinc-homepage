@@ -13,6 +13,7 @@ var AudioManager = class {
         this.analysers = {
             mapAmbient: new THREE.AudioAnalyser(this.music.mapAmbient.audio)
         }
+        this.masterVolume = 0.5;
         this.setup();
     }
 
@@ -21,7 +22,7 @@ var AudioManager = class {
         this.audioLoader.load(this.files.mapAmbient, (buffer) => {
             this.music.mapAmbient.audio.setBuffer(buffer);
             this.music.mapAmbient.audio.setLoop(true);
-            this.music.mapAmbient.audio.setVolume(0.5);
+            this.music.mapAmbient.audio.setVolume(this.masterVolume);
             console.log("Spacial Harvest Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 3.0 License\nhttp://creativecommons.org/licenses/by/3.0/");
             this.play(this.music.mapAmbient.audio);
         });
@@ -29,9 +30,11 @@ var AudioManager = class {
 
     update() {
         if(this.music.mapAmbient.audio.isPlaying) {
+            this.music.mapAmbient.audio.setVolume(this.masterVolume);
             let freqAdjust = 0.005;
             let soundFreq = this.analysers.mapAmbient.getAverageFrequency();
-            if(smokePoints) smokePoints.material.opacity = soundFreq * freqAdjust;
+            if(smokePoints) smokePoints.material.opacity = this.masterVolume > 0 ?
+                soundFreq * freqAdjust : 0.015;
         }
     }
 
@@ -40,32 +43,17 @@ var AudioManager = class {
     }
 
     pause() {
-        if(this.music.mapAmbient.audio.isPlaying) this.music.mapAmbient.audio.pause();
-        else this.music.mapAmbient.audio.play();
+        if(this.music.mapAmbient.audio.isPlaying) {
+            this.music.mapAmbient.audio.pause();
+            console.log("Audio paused");
+        } else {
+            this.music.mapAmbient.audio.play();
+            console.log("Audio resumed");
+        }
+    }
+
+    mute() {
+        if(this.masterVolume > 0) {this.masterVolume = 0; console.log("Audio muted");}
+        else {this.masterVolume = 0.5; console.log("Audio unmuted");}
     }
 }
-/*
-    var analyser = new THREE.AudioAnalyser(_ambientSound.audio, 32);
-    var soundFreq;
-    var soundData = [];
-    soundFreq = analyser.getAverageFrequency();
-    if(_exogons[0])
-        for(var i = 0; i < _exogons[0].children.length; i++) {
-            if(_exogons[0].children[i].material)
-                _exogons[0].children[i].material.color = {
-                    r: 1 * soundFreq * matSoundScale + colorBoost.r,
-                    g: 1 * soundFreq * matSoundScale + colorBoost.g,
-                    b: 1 * soundFreq * matSoundScale + colorBoost.b
-                };
-            }
-    if(soundData.length == l.geometry.vertices.length) {
-        soundData.shift();
-        soundData.push(soundFreq);
-        for(var i = 0; i < l.geometry.vertices.length; i++) {
-            l.geometry.vertices[i].y = l.position.y + soundData[i] * lineScale;
-        }
-        l.geometry.verticesNeedUpdate = true;
-    } else {
-        soundData.push(soundFreq);
-    }
-*/

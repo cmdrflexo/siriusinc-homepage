@@ -9,12 +9,13 @@ var HUDElement = class {
         this.overlapPadding = 5;
         this.overlapElements;
         this.hidden = true;
+        this.fadeMin = 0.1;
         this.fadeSpeed = 5;
     }
 
     update(deltaTime) {
         if(this.hidden || !this.targetOnScreen()) {
-            if(this.object.material.opacity > 0)
+            if(this.object.material.opacity > this.fadeMin)
                 this.object.material.opacity -= this.fadeSpeed * deltaTime;
         } else {
             if(this.object.material.opacity < 1)
@@ -51,7 +52,7 @@ var HUDElement = class {
         ]; 
         let overlap = false;
         for(let element of this.overlapElements)
-            if(element.boundingBoxCorners && this.boundingBoxOverlap(element.boundingBoxCorners, this.boundingBoxCorners)){
+            if(!element.hidden && element.boundingBoxCorners && this.boundingBoxOverlap(element.boundingBoxCorners, this.boundingBoxCorners)){
                 let cameraPos = this.camera.getWorldPosition(new THREE.Vector3());
                 let pos = this.target.getWorldPosition(new THREE.Vector3());
                 let elementPos = element.target.getWorldPosition(new THREE.Vector3());

@@ -4,7 +4,7 @@ var SceneController = class {
         this.scene = new THREE.Scene();
         this.renderer = new THREE.WebGLRenderer({antialias: true});
         this.camera = new THREE.PerspectiveCamera(
-            45, window.innerWidth / window.innerHeight, 1, 10000
+            45, window.innerWidth / window.innerHeight, 1, 100000
         );
         this.lighting = new THREE.Group();
         this.setupScene();
@@ -14,7 +14,7 @@ var SceneController = class {
 
     setupScene() {
         this.renderer.autoClear = false;
-        // this.scene.fog = new THREE.Fog(0x00, 100, 1000);
+        // this.scene.fog = new THREE.Fog(0x00, 100, 10000);
         this.scene.add(this.camera, this.lighting);
     }
 
