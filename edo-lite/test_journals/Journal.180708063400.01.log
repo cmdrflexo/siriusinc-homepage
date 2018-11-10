@@ -1,0 +1,6 @@
+{ "timestamp":"2018-07-08T11:34:00Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"3.1.1.201 EDH", "build":"r174680/r0 " }
+{ "timestamp":"2018-07-08T11:34:00Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-07-08T11:34:00Z", "event":"Music", "MusicTrack":"MainMenu" }
+{ "timestamp":"2018-07-08T11:33:52Z", "event":"Friends", "Status":"Online", "Name":"Rooster-14" }
+{ "timestamp":"2018-07-08T11:33:52Z", "event":"Friends", "Status":"Online", "Name":"Jokonnoh" }
+{ "timestamp":"2018-07-08T11:34:19Z", "event":"Shutdown" }

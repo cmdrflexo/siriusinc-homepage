@@ -1,0 +1,172 @@
+{ "timestamp":"2018-09-06T08:24:54Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"3.2.1.300 EDH", "build":"r180310/r0 " }
+{ "timestamp":"2018-09-06T08:24:54Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-09-06T08:24:54Z", "event":"Music", "MusicTrack":"MainMenu" }
+{ "timestamp":"2018-09-06T08:25:42Z", "event":"Friends", "Status":"Online", "Name":"Julian McCoy" }
+{ "timestamp":"2018-09-06T08:25:42Z", "event":"Friends", "Status":"Online", "Name":"TICO-CR" }
+{ "timestamp":"2018-09-06T08:26:04Z", "event":"Friends", "Status":"Online", "Name":"Julian McCoy" }
+{ "timestamp":"2018-09-06T08:26:04Z", "event":"Friends", "Status":"Online", "Name":"TICO-CR" }
+{ "timestamp":"2018-09-06T08:50:06Z", "event":"Commander", "Name":"McCaslin" }
+{ "timestamp":"2018-09-06T08:50:06Z", "event":"Materials", "Raw":[ { "Name":"nickel", "Count":287 }, { "Name":"sulphur", "Count":262 }, { "Name":"carbon", "Count":279 }, { "Name":"iron", "Count":288 }, { "Name":"zinc", "Count":113 }, { "Name":"mercury", "Count":22 }, { "Name":"yttrium", "Count":120 }, { "Name":"zirconium", "Count":126 }, { "Name":"tellurium", "Count":50 }, { "Name":"technetium", "Count":100 }, { "Name":"polonium", "Count":10 }, { "Name":"phosphorus", "Count":282 }, { "Name":"cadmium", "Count":101 }, { "Name":"germanium", "Count":229 }, { "Name":"antimony", "Count":72 }, { "Name":"vanadium", "Count":250 }, { "Name":"manganese", "Count":240 }, { "Name":"molybdenum", "Count":172 }, { "Name":"chromium", "Count":250 }, { "Name":"tin", "Count":168 }, { "Name":"tungsten", "Count":177 }, { "Name":"niobium", "Count":171 }, { "Name":"selenium", "Count":83 }, { "Name":"arsenic", "Count":109 }, { "Name":"ruthenium", "Count":25 }, { "Name":"rhenium", "Count":177 } ], "Manufactured":[ { "Name":"mechanicalscrap", "Name_Localised":"Mechanical Scrap", "Count":171 }, { "Name":"hybridcapacitors", "Name_Localised":"Hybrid Capacitors", "Count":250 }, { "Name":"chemicalprocessors", "Name_Localised":"Chemical Processors", "Count":250 }, { "Name":"refinedfocuscrystals", "Name_Localised":"Refined Focus Crystals", "Count":150 }, { "Name":"focuscrystals", "Name_Localised":"Focus Crystals", "Count":200 }, { "Name":"gridresistors", "Name_Localised":"Grid Resistors", "Count":300 }, { "Name":"galvanisingalloys", "Name_Localised":"Galvanising Alloys", "Count":250 }, { "Name":"precipitatedalloys", "Name_Localised":"Precipitated Alloys", "Count":200 }, { "Name":"shieldingsensors", "Name_Localised":"Shielding Sensors", "Count":200 }, { "Name":"militarygradealloys", "Name_Localised":"Military Grade Alloys", "Count":93 }, { "Name":"heatexchangers", "Name_Localised":"Heat Exchangers", "Count":142 }, { "Name":"configurablecomponents", "Name_Localised":"Configurable Components", "Count":85 }, { "Name":"conductivepolymers", "Name_Localised":"Conductive Polymers", "Count":106 }, { "Name":"heatvanes", "Name_Localised":"Heat Vanes", "Count":76 }, { "Name":"biotechconductors", "Name_Localised":"Biotech Conductors", "Count":86 }, { "Name":"thermicalloys", "Name_Localised":"Thermic Alloys", "Count":150 }, { "Name":"highdensitycomposites", "Name_Localised":"High Density Composites", "Count":200 }, { "Name":"chemicaldistillery", "Name_Localised":"Chemical Distillery", "Count":200 }, { "Name":"shieldemitters", "Name_Localised":"Shield Emitters", "Count":250 }, { "Name":"improvisedcomponents", "Name_Localised":"Improvised Components", "Count":11 }, { "Name":"heatdispersionplate", "Name_Localised":"Heat Dispersion Plate", "Count":187 }, { "Name":"heatresistantceramics", "Name_Localised":"Heat Resistant Ceramics", "Count":250 }, { "Name":"mechanicalequipment", "Name_Localised":"Mechanical Equipment", "Count":250 }, { "Name":"salvagedalloys", "Name_Localised":"Salvaged Alloys", "Count":295 }, { "Name":"protolightalloys", "Name_Localised":"Proto Light Alloys", "Count":150 }, { "Name":"pharmaceuticalisolators", "Name_Localised":"Pharmaceutical Isolators", "Count":73 }, { "Name":"protoheatradiators", "Name_Localised":"Proto Heat Radiators", "Count":1 }, { "Name":"fedproprietarycomposites", "Name_Localised":"Proprietary Composites", "Count":150 }, { "Name":"conductiveceramics", "Name_Localised":"Conductive Ceramics", "Count":185 }, { "Name":"conductivecomponents", "Name_Localised":"Conductive Components", "Count":250 }, { "Name":"electrochemicalarrays", "Name_Localised":"Electrochemical Arrays", "Count":200 }, { "Name":"exquisitefocuscrystals", "Name_Localised":"Exquisite Focus Crystals", "Count":58 }, { "Name":"fedcorecomposites", "Name_Localised":"Core Dynamics Composites", "Count":100 }, { "Name":"militarysupercapacitors", "Name_Localised":"Military Supercapacitors", "Count":13 }, { "Name":"mechanicalcomponents", "Name_Localised":"Mechanical Components", "Count":196 }, { "Name":"heatconductionwiring", "Name_Localised":"Heat Conduction Wiring", "Count":181 }, { "Name":"wornshieldemitters", "Name_Localised":"Worn Shield Emitters", "Count":288 }, { "Name":"phasealloys", "Name_Localised":"Phase Alloys", "Count":200 }, { "Name":"chemicalmanipulators", "Name_Localised":"Chemical Manipulators", "Count":150 }, { "Name":"compoundshielding", "Name_Localised":"Compound Shielding", "Count":150 }, { "Name":"uncutfocuscrystals", "Name_Localised":"Flawed Focus Crystals", "Count":249 }, { "Name":"imperialshielding", "Name_Localised":"Imperial Shielding", "Count":64 }, { "Name":"protoradiolicalloys", "Name_Localised":"Proto Radiolic Alloys", "Count":60 }, { "Name":"polymercapacitors", "Name_Localised":"Polymer Capacitors", "Count":150 }, { "Name":"basicconductors", "Name_Localised":"Basic Conductors", "Count":249 }, { "Name":"crystalshards", "Name_Localised":"Crystal Shards", "Count":285 }, { "Name":"temperedalloys", "Name_Localised":"Tempered Alloys", "Count":300 }, { "Name":"filamentcomposites", "Name_Localised":"Filament Composites", "Count":250 }, { "Name":"chemicalstorageunits", "Name_Localised":"Chemical Storage Units", "Count":279 }, { "Name":"compactcomposites", "Name_Localised":"Compact Composites", "Count":274 }, { "Name":"guardian_powercell", "Name_Localised":"Guardian Power Cell", "Count":264 }, { "Name":"guardian_powerconduit", "Name_Localised":"Guardian Power Conduit", "Count":150 }, { "Name":"guardian_techcomponent", "Name_Localised":"Guardian Technology Component", "Count":156 }, { "Name":"guardian_sentinel_weaponparts", "Name_Localised":"Guardian Sentinel Weapon Parts", "Count":99 }, { "Name":"guardian_sentinel_wreckagecomponents", "Name_Localised":"Guardian Wreckage Components", "Count":54 } ], "Encoded":[ { "Name":"compactemissionsdata", "Name_Localised":"Abnormal Compact Emissions Data", "Count":69 }, { "Name":"shieldpatternanalysis", "Name_Localised":"Aberrant Shield Pattern Analysis", "Count":150 }, { "Name":"decodedemissiondata", "Name_Localised":"Decoded Emission Data", "Count":150 }, { "Name":"shielddensityreports", "Name_Localised":"Untypical Shield Scans ", "Count":200 }, { "Name":"hyperspacetrajectories", "Name_Localised":"Eccentric Hyperspace Trajectories", "Count":29 }, { "Name":"shieldfrequencydata", "Name_Localised":"Peculiar Shield Frequency Data", "Count":64 }, { "Name":"fsdtelemetry", "Name_Localised":"Anomalous FSD Telemetry", "Count":23 }, { "Name":"scanarchives", "Name_Localised":"Unidentified Scan Archives", "Count":159 }, { "Name":"encodedscandata", "Name_Localised":"Divergent Scan Data", "Count":134 }, { "Name":"classifiedscandata", "Name_Localised":"Classified Scan Fragment", "Count":26 }, { "Name":"encryptioncodes", "Name_Localised":"Tagged Encryption Codes", "Count":2 }, { "Name":"embeddedfirmware", "Name_Localised":"Modified Embedded Firmware", "Count":73 }, { "Name":"encryptedfiles", "Name_Localised":"Unusual Encrypted Files", "Count":5 }, { "Name":"consumerfirmware", "Name_Localised":"Modified Consumer Firmware", "Count":84 }, { "Name":"symmetrickeys", "Name_Localised":"Open Symmetric Keys", "Count":8 }, { "Name":"encryptionarchives", "Name_Localised":"Atypical Encryption Archives", "Count":6 }, { "Name":"wakesolutions", "Name_Localised":"Strange Wake Solutions", "Count":45 }, { "Name":"securityfirmware", "Name_Localised":"Security Firmware Patch", "Count":85 }, { "Name":"adaptiveencryptors", "Name_Localised":"Adaptive Encryptors Capture", "Count":6 }, { "Name":"legacyfirmware", "Name_Localised":"Specialised Legacy Firmware", "Count":247 }, { "Name":"scandatabanks", "Name_Localised":"Classified Scan Databanks", "Count":200 }, { "Name":"emissiondata", "Name_Localised":"Unexpected Emission Data", "Count":200 }, { "Name":"industrialfirmware", "Name_Localised":"Cracked Industrial Firmware", "Count":50 }, { "Name":"dataminedwake", "Name_Localised":"Datamined Wake Exceptions", "Count":15 }, { "Name":"scrambledemissiondata", "Name_Localised":"Exceptional Scrambled Emission Data", "Count":230 }, { "Name":"shieldcyclerecordings", "Name_Localised":"Distorted Shield Cycle Recordings", "Count":300 }, { "Name":"shieldsoakanalysis", "Name_Localised":"Inconsistent Shield Soak Analysis", "Count":250 }, { "Name":"bulkscandata", "Name_Localised":"Anomalous Bulk Scan Data", "Count":300 }, { "Name":"disruptedwakeechoes", "Name_Localised":"Atypical Disrupted Wake Echoes", "Count":136 }, { "Name":"archivedemissiondata", "Name_Localised":"Irregular Emission Data", "Count":230 }, { "Name":"guardian_vesselblueprint", "Name_Localised":"Guardian Vessel Blueprint Segment", "Count":3 }, { "Name":"ancienthistoricaldata", "Name_Localised":"Pattern Gamma Obelisk Data", "Count":72 }, { "Name":"ancientbiologicaldata", "Name_Localised":"Pattern Alpha Obelisk Data", "Count":63 }, { "Name":"ancientculturaldata", "Name_Localised":"Pattern Beta Obelisk Data", "Count":51 }, { "Name":"ancientlanguagedata", "Name_Localised":"Pattern Delta Obelisk Data", "Count":33 }, { "Name":"ancienttechnologicaldata", "Name_Localised":"Pattern Epsilon Obelisk Data", "Count":33 }, { "Name":"guardian_moduleblueprint", "Name_Localised":"Guardian Module Blueprint Segment", "Count":6 } ] }
+{ "timestamp":"2018-09-06T08:50:06Z", "event":"LoadGame", "Commander":"McCaslin", "Horizons":true, "Ship":"TestBuggy", "Ship_Localised":"SRV Scarab", "ShipID":32, "ShipName":"", "ShipIdent":"", "FuelLevel":0.000000, "FuelCapacity":0.000000, "GameMode":"Solo", "Credits":1841498862, "Loan":0 }
+{ "timestamp":"2018-09-06T08:50:06Z", "event":"Rank", "Combat":8, "Trade":8, "Explore":7, "Empire":12, "Federation":14, "CQC":0 }
+{ "timestamp":"2018-09-06T08:50:06Z", "event":"Progress", "Combat":100, "Trade":100, "Explore":74, "Empire":63, "Federation":100, "CQC":0 }
+{ "timestamp":"2018-09-06T08:50:06Z", "event":"Reputation", "Empire":75.000000, "Federation":94.045700, "Independent":75.000000, "Alliance":75.000000 }
+{ "timestamp":"2018-09-06T08:50:13Z", "event":"ApproachSettlement", "Name":"$Ancient_Small_005;", "Name_Localised":"Guardian Structure", "MarketID":2952790016 }
+{ "timestamp":"2018-09-06T08:50:23Z", "event":"Location", "Latitude":5.524323, "Longitude":144.361526, "Docked":false, "StarSystem":"Col 173 Sector GS-J b25-4", "SystemAddress":9479931962729, "StarPos":[957.03125,-142.00000,-160.53125], "SystemAllegiance":"Guardian", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemSecondEconomy":"$economy_None;", "SystemSecondEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$GAlAXY_MAP_INFO_state_anarchy;", "SystemSecurity_Localised":"Anarchy", "Population":0, "Body":"Col 173 Sector GS-J b25-4 D 2", "BodyID":52, "BodyType":"Planet" }
+{ "timestamp":"2018-09-06T08:50:25Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-09-06T08:50:25Z", "event":"Missions", "Active":[  ], "Failed":[  ], "Complete":[  ] }
+{ "timestamp":"2018-09-06T08:50:25Z", "event":"Cargo", "Inventory":[ { "Name":"ancientrelic", "Name_Localised":"Ancient Relic", "Count":1, "Stolen":0 } ] }
+{ "timestamp":"2018-09-06T08:50:25Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-09-06T08:50:25Z", "event":"Music", "MusicTrack":"GuardianSites" }
+{ "timestamp":"2018-09-06T08:50:26Z", "event":"Statistics", "Bank_Account":{ "Current_Wealth":3517994833, "Spent_On_Ships":442228313, "Spent_On_Outfitting":1540365367, "Spent_On_Repairs":43571334, "Spent_On_Fuel":5999988, "Spent_On_Ammo_Consumables":11140166, "Insurance_Claims":8, "Spent_On_Insurance":76777257 }, "Combat":{ "Bounties_Claimed":20472, "Bounty_Hunting_Profit":1061025120, "Combat_Bonds":10666, "Combat_Bond_Profits":292473135, "Assassinations":538, "Assassination_Profits":85441497, "Highest_Single_Reward":786902, "Skimmers_Killed":1077 }, "Crime":{ "Notoriety":0, "Fines":571, "Total_Fines":4344230, "Bounties_Received":955, "Total_Bounties":250525, "Highest_Bounty":12705 }, "Smuggling":{ "Black_Markets_Traded_With":24, "Black_Markets_Profits":88626294, "Resources_Smuggled":8917, "Average_Profit":410306.91666667, "Highest_Single_Transaction":25639296 }, "Trading":{ "Markets_Traded_With":459, "Market_Profits":834807915, "Resources_Traded":706884, "Average_Profit":113842.61761898, "Highest_Single_Transaction":5462548 }, "Mining":{ "Mining_Profits":486478069, "Quantity_Mined":7643, "Materials_Collected":31284 }, "Exploration":{ "Systems_Visited":8503, "Exploration_Profits":144495912, "Planets_Scanned_To_Level_2":21527, "Planets_Scanned_To_Level_3":22152, "Highest_Payout":4865443, "Total_Hyperspace_Distance":500083, "Total_Hyperspace_Jumps":32143, "Greatest_Distance_From_Start":5076.9003052044, "Time_Played":34883460 }, "Passengers":{ "Passengers_Missions_Accepted":2193, "Passengers_Missions_Disgruntled":0, "Passengers_Missions_Bulk":23613, "Passengers_Missions_VIP":690, "Passengers_Missions_Delivered":24303, "Passengers_Missions_Ejected":260 }, "Search_And_Rescue":{ "SearchRescue_Traded":3, "SearchRescue_Profit":90803, "SearchRescue_Count":2 }, "Crafting":{ "Count_Of_Used_Engineers":18, "Recipes_Generated":1705, "Recipes_Generated_Rank_1":166, "Recipes_Generated_Rank_2":91, "Recipes_Generated_Rank_3":237, "Recipes_Generated_Rank_4":230, "Recipes_Generated_Rank_5":981 }, "Crew":{ "NpcCrew_TotalWages":465156769, "NpcCrew_Hired":6, "NpcCrew_Fired":3, "NpcCrew_Died":1 }, "Multicrew":{ "Multicrew_Time_Total":112574, "Multicrew_Gunner_Time_Total":22943, "Multicrew_Fighter_Time_Total":2780, "Multicrew_Credits_Total":3148452, "Multicrew_Fines_Total":1551254 }, "Material_Trader_Stats":{ "Trades_Completed":119, "Materials_Traded":6076, "Encoded_Materials_Traded":1800, "Raw_Materials_Traded":1285, "Grade_1_Materials_Traded":1650, "Grade_2_Materials_Traded":1796, "Grade_3_Materials_Traded":1541, "Grade_4_Materials_Traded":965, "Grade_5_Materials_Traded":124 } }
+{ "timestamp":"2018-09-06T08:51:00Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T08:51:17Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T08:51:46Z", "event":"Touchdown", "PlayerControlled":false }
+{ "timestamp":"2018-09-06T08:51:54Z", "event":"Screenshot", "Filename":"\\ED_Pictures\\Screenshot_1607.bmp", "Width":1920, "Height":1080, "System":"Col 173 Sector GS-J b25-4", "Body":"Col 173 Sector GS-J b25-4 D 2", "Latitude":5.536512, "Longitude":144.369247, "Heading":34, "Altitude":0.152037 }
+{ "timestamp":"2018-09-06T08:51:56Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T08:52:07Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T08:52:16Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T08:52:26Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T08:52:41Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T08:52:54Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T08:53:17Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T08:53:27Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T08:53:46Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T08:53:55Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T08:54:30Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T08:54:39Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T08:54:47Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T08:54:57Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T08:55:01Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T08:55:11Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T08:55:36Z", "event":"Screenshot", "Filename":"\\ED_Pictures\\Screenshot_1608.bmp", "Width":1920, "Height":1080, "System":"Col 173 Sector GS-J b25-4", "Body":"Col 173 Sector GS-J b25-4 D 2", "Latitude":5.536512, "Longitude":144.369247, "Heading":34, "Altitude":0.152037 }
+{ "timestamp":"2018-09-06T08:55:39Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T08:55:51Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T08:56:22Z", "event":"Screenshot", "Filename":"\\ED_Pictures\\Screenshot_1609.bmp", "Width":1920, "Height":1080, "System":"Col 173 Sector GS-J b25-4", "Body":"Col 173 Sector GS-J b25-4 D 2", "Latitude":5.536512, "Longitude":144.369247, "Heading":34, "Altitude":0.152037 }
+{ "timestamp":"2018-09-06T08:56:24Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T08:56:34Z", "event":"Music", "MusicTrack":"GuardianSites" }
+{ "timestamp":"2018-09-06T08:56:38Z", "event":"ShipTargeted", "TargetLocked":true, "Ship":"anaconda", "ScanStage":0 }
+{ "timestamp":"2018-09-06T08:56:38Z", "event":"ShipTargeted", "TargetLocked":true, "Ship":"anaconda", "ScanStage":3, "PilotName":"$RolePanel2_unmanned; $cmdr_decorate:#name=McCaslin;", "PilotName_Localised":"unmanned CMDR McCaslin", "PilotRank":"Harmless", "ShieldHealth":100.000000, "HullHealth":98.805305, "LegalStatus":"Lawless" }
+{ "timestamp":"2018-09-06T08:58:29Z", "event":"DockSRV" }
+{ "timestamp":"2018-09-06T09:03:01Z", "event":"Liftoff", "PlayerControlled":true, "Latitude":5.504935, "Longitude":144.387238 }
+{ "timestamp":"2018-09-06T09:04:06Z", "event":"Touchdown", "PlayerControlled":true, "Latitude":5.531731, "Longitude":144.329071 }
+{ "timestamp":"2018-09-06T09:06:34Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T09:06:48Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T09:06:57Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T09:07:07Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T09:07:14Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T09:07:22Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T09:08:56Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T09:09:05Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T09:09:10Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T09:09:20Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T09:09:25Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T09:09:38Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T09:11:43Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-09-06T09:13:11Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-09-06T09:13:26Z", "event":"Music", "MusicTrack":"GuardianSites" }
+{ "timestamp":"2018-09-06T09:17:18Z", "event":"LaunchSRV", "Loadout":"starter", "PlayerControlled":true }
+{ "timestamp":"2018-09-06T09:18:27Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_powerconduit", "Name_Localised":"Guardian Power Conduit", "Count":3 }
+{ "timestamp":"2018-09-06T09:18:47Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_powerconduit", "Name_Localised":"Guardian Power Conduit", "Count":3 }
+{ "timestamp":"2018-09-06T09:19:17Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:19:17Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:19:18Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:19:19Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:19:19Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:20:30Z", "event":"Bounty", "Target":"Skimmer", "Reward":0, "VictimFaction":"$faction_none;", "VictimFaction_Localised":"None" }
+{ "timestamp":"2018-09-06T09:20:44Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_sentinel_wreckagecomponents", "Name_Localised":"Guardian Wreckage Components", "Count":3 }
+{ "timestamp":"2018-09-06T09:21:31Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_powerconduit", "Name_Localised":"Guardian Power Conduit", "Count":3 }
+{ "timestamp":"2018-09-06T09:21:37Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_powercell", "Name_Localised":"Guardian Power Cell", "Count":3 }
+{ "timestamp":"2018-09-06T09:22:26Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancienthistoricaldata", "Name_Localised":"Pattern Gamma Obelisk Data", "Count":3 }
+{ "timestamp":"2018-09-06T09:23:11Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_powercell", "Name_Localised":"Guardian Power Cell", "Count":3 }
+{ "timestamp":"2018-09-06T09:23:49Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_powercell", "Name_Localised":"Guardian Power Cell", "Count":3 }
+{ "timestamp":"2018-09-06T09:23:53Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_techcomponent", "Name_Localised":"Guardian Technology Component", "Count":3 }
+{ "timestamp":"2018-09-06T09:24:28Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_powerconduit", "Name_Localised":"Guardian Power Conduit", "Count":3 }
+{ "timestamp":"2018-09-06T09:24:29Z", "event":"CollectCargo", "Type":"ancientcasket", "Type_Localised":"Ancient Casket", "Stolen":false }
+{ "timestamp":"2018-09-06T09:24:37Z", "event":"CollectCargo", "Type":"ancienttablet", "Type_Localised":"Ancient Tablet", "Stolen":false }
+{ "timestamp":"2018-09-06T09:24:39Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:24:39Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:24:40Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:24:40Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:24:40Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:24:40Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:24:41Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:24:41Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:24:42Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:24:42Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:24:43Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:24:43Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:25:17Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:25:18Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:25:18Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:25:18Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:25:18Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:25:19Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:25:20Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:25:20Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:25:21Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:25:21Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:25:21Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:25:21Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:25:21Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:25:22Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:25:22Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:25:32Z", "event":"Bounty", "Target":"Skimmer", "Reward":0, "VictimFaction":"$faction_none;", "VictimFaction_Localised":"None" }
+{ "timestamp":"2018-09-06T09:25:46Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_powercell", "Name_Localised":"Guardian Power Cell", "Count":3 }
+{ "timestamp":"2018-09-06T09:26:09Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancienttechnologicaldata", "Name_Localised":"Pattern Epsilon Obelisk Data", "Count":3 }
+{ "timestamp":"2018-09-06T09:26:40Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_techcomponent", "Name_Localised":"Guardian Technology Component", "Count":3 }
+{ "timestamp":"2018-09-06T09:26:47Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_techcomponent", "Name_Localised":"Guardian Technology Component", "Count":3 }
+{ "timestamp":"2018-09-06T09:27:01Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_powercell", "Name_Localised":"Guardian Power Cell", "Count":3 }
+{ "timestamp":"2018-09-06T09:27:22Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:27:23Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:27:23Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:27:23Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:27:24Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:27:24Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:27:24Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:27:25Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:27:25Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:27:25Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:27:26Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:27:26Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:27:59Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:28:00Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:28:00Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:28:00Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:28:01Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:28:01Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:28:01Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:28:02Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:28:02Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:28:02Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:28:03Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:28:10Z", "event":"Bounty", "Target":"Skimmer", "Reward":0, "VictimFaction":"$faction_none;", "VictimFaction_Localised":"None" }
+{ "timestamp":"2018-09-06T09:28:19Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_sentinel_weaponparts", "Name_Localised":"Guardian Sentinel Weapon Parts", "Count":3 }
+{ "timestamp":"2018-09-06T09:29:19Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancientbiologicaldata", "Name_Localised":"Pattern Alpha Obelisk Data", "Count":3 }
+{ "timestamp":"2018-09-06T09:29:46Z", "event":"ShipTargeted", "TargetLocked":true, "Ship":"anaconda", "ScanStage":3, "PilotName":"$RolePanel2_unmanned; $cmdr_decorate:#name=McCaslin;", "PilotName_Localised":"unmanned CMDR McCaslin", "PilotRank":"Harmless", "ShieldHealth":100.000000, "HullHealth":98.805305, "LegalStatus":"Lawless" }
+{ "timestamp":"2018-09-06T09:29:47Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_powerconduit", "Name_Localised":"Guardian Power Conduit", "Count":3 }
+{ "timestamp":"2018-09-06T09:29:47Z", "event":"ShipTargeted", "TargetLocked":false }
+{ "timestamp":"2018-09-06T09:29:47Z", "event":"ShipTargeted", "TargetLocked":true, "Ship":"anaconda", "ScanStage":3, "PilotName":"$RolePanel2_unmanned; $cmdr_decorate:#name=McCaslin;", "PilotName_Localised":"unmanned CMDR McCaslin", "PilotRank":"Harmless", "ShieldHealth":100.000000, "HullHealth":98.805305, "LegalStatus":"Lawless" }
+{ "timestamp":"2018-09-06T09:29:48Z", "event":"ShipTargeted", "TargetLocked":false }
+{ "timestamp":"2018-09-06T09:29:53Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_powercell", "Name_Localised":"Guardian Power Cell", "Count":3 }
+{ "timestamp":"2018-09-06T09:30:15Z", "event":"ShipTargeted", "TargetLocked":true, "Ship":"anaconda", "ScanStage":3, "PilotName":"$RolePanel2_unmanned; $cmdr_decorate:#name=McCaslin;", "PilotName_Localised":"unmanned CMDR McCaslin", "PilotRank":"Harmless", "ShieldHealth":100.000000, "HullHealth":98.805305, "LegalStatus":"Lawless" }
+{ "timestamp":"2018-09-06T09:30:19Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:30:23Z", "event":"UnderAttack", "Target":"You" }
+{ "timestamp":"2018-09-06T09:30:30Z", "event":"ShipTargeted", "TargetLocked":false }
+{ "timestamp":"2018-09-06T09:30:55Z", "event":"Bounty", "Target":"Skimmer", "Reward":0, "VictimFaction":"$faction_none;", "VictimFaction_Localised":"None" }
+{ "timestamp":"2018-09-06T09:31:10Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_sentinel_weaponparts", "Name_Localised":"Guardian Sentinel Weapon Parts", "Count":3 }
+{ "timestamp":"2018-09-06T09:31:16Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_powerconduit", "Name_Localised":"Guardian Power Conduit", "Count":3 }
+{ "timestamp":"2018-09-06T09:31:37Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancienthistoricaldata", "Name_Localised":"Pattern Gamma Obelisk Data", "Count":3 }
+{ "timestamp":"2018-09-06T09:33:21Z", "event":"CollectCargo", "Type":"ancienttotem", "Type_Localised":"Ancient Totem", "Stolen":false }
+{ "timestamp":"2018-09-06T09:33:57Z", "event":"CollectCargo", "Type":"ancienturn", "Type_Localised":"Ancient Urn", "Stolen":false }
+{ "timestamp":"2018-09-06T09:37:00Z", "event":"Bounty", "Target":"Skimmer", "Reward":0, "VictimFaction":"$faction_none;", "VictimFaction_Localised":"None" }
+{ "timestamp":"2018-09-06T09:37:03Z", "event":"Bounty", "Target":"Skimmer", "Reward":0, "VictimFaction":"$faction_none;", "VictimFaction_Localised":"None" }
+{ "timestamp":"2018-09-06T09:37:26Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_sentinel_weaponparts", "Name_Localised":"Guardian Sentinel Weapon Parts", "Count":3 }
+{ "timestamp":"2018-09-06T09:37:43Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_powercell", "Name_Localised":"Guardian Power Cell", "Count":3 }
+{ "timestamp":"2018-09-06T09:38:00Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_sentinel_wreckagecomponents", "Name_Localised":"Guardian Wreckage Components", "Count":3 }
+{ "timestamp":"2018-09-06T09:38:29Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_powercell", "Name_Localised":"Guardian Power Cell", "Count":3 }
+{ "timestamp":"2018-09-06T09:39:03Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_powerconduit", "Name_Localised":"Guardian Power Conduit", "Count":3 }
+{ "timestamp":"2018-09-06T09:39:59Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_powerconduit", "Name_Localised":"Guardian Power Conduit", "Count":3 }
+{ "timestamp":"2018-09-06T09:40:13Z", "event":"MaterialCollected", "Category":"Manufactured", "Name":"guardian_techcomponent", "Name_Localised":"Guardian Technology Component", "Count":3 }
+{ "timestamp":"2018-09-06T09:41:42Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-09-06T09:41:44Z", "event":"Shutdown" }

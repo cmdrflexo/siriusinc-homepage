@@ -26,6 +26,7 @@ StarSystem = class {
         this.starMesh;
         this.state;
         this.color = systemInfo.color;
+        this.distScale;
         this.setup(systemInfo);
     }
 
@@ -48,7 +49,7 @@ StarSystem = class {
     // }
 
     createMapObject() {
-        let size = this.color == "white" ? 0.4 : 0.6;
+        let size = this.color == "white" ? 0.5 : 0.75;
         this.starMesh = new THREE.Mesh(
             new THREE.SphereGeometry(size, 16, 8),
             new THREE.MeshBasicMaterial({color: this.color})
@@ -66,7 +67,32 @@ StarSystem = class {
             new THREE.MeshBasicMaterial({color: 0x334455})
         );
         this.mapObject.add(this.starMesh, this.line, this.dot);
+        // this.createRing();
         this.createNametag();
+    }
+
+    createRing() {
+        /*
+        Vector3[] GetEllipsePoints(int points, float major, float ecc) {
+            Vector3[] ellipsePoints = new Vector3[points];
+            float step = 360f/points;
+
+            float focus = major*ecc;
+            float minor = Mathf.Sqrt(major*major - focus*focus);
+
+            for (int i = 0; i < ellipsePoints.Length; i++) {
+                // Position
+                Vector3 position = new Vector3(
+                    major * Mathf.Cos(step*i*Mathf.Deg2Rad), 0, 
+                    minor * Mathf.Sin(step*i*Mathf.Deg2Rad)
+                );
+                // Rotation
+                rotation = RotatePointAroundPivot(position, Vector3.zero, Vector3.up * systemBodies[1].argumentOfPeriapsis);
+                ellipsePoints[i] = RotatePointAroundPivot(rotation, Vector3.zero, Vector3.right * systemBodies[1].inclination);
+            }
+            return ellipsePoints;
+        }
+        */
     }
 
     createNametag() {

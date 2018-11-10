@@ -1,0 +1,701 @@
+{ "timestamp":"2018-02-17T08:25:15Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"2.4", "build":"r160439/r0 " }
+{ "timestamp":"2018-02-17T08:25:15Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-02-17T08:25:15Z", "event":"Music", "MusicTrack":"MainMenu" }
+{ "timestamp":"2018-02-17T08:26:04Z", "event":"Friends", "Status":"Online", "Name":"Araphel" }
+{ "timestamp":"2018-02-17T08:26:04Z", "event":"Friends", "Status":"Online", "Name":"Polycrates" }
+{ "timestamp":"2018-02-17T08:26:04Z", "event":"Friends", "Status":"Online", "Name":"Gabriel Case" }
+{ "timestamp":"2018-02-17T08:28:07Z", "event":"Friends", "Status":"Online", "Name":"Araphel" }
+{ "timestamp":"2018-02-17T08:28:07Z", "event":"Friends", "Status":"Online", "Name":"Polycrates" }
+{ "timestamp":"2018-02-17T08:28:07Z", "event":"Friends", "Status":"Online", "Name":"Gabriel Case" }
+{ "timestamp":"2018-02-17T08:29:10Z", "event":"Cargo", "Inventory":[  ] }
+{ "timestamp":"2018-02-17T08:29:10Z", "event":"Loadout", "Ship":"Python", "ShipID":2, "ShipName":"kaa", "ShipIdent":"k44-py", "Modules":[ { "Slot":"LargeHardpoint1", "Item":"Hpt_BeamLaser_Gimbal_Large", "On":true, "Priority":0, "Health":1.000000, "Value":2336256, "EngineerBlueprint":"Weapon_Efficient", "EngineerLevel":5 }, { "Slot":"LargeHardpoint2", "Item":"Hpt_BeamLaser_Gimbal_Large", "On":true, "Priority":0, "Health":1.000000, "Value":2336256, "EngineerBlueprint":"Weapon_Efficient", "EngineerLevel":5 }, { "Slot":"LargeHardpoint3", "Item":"Hpt_MultiCannon_Gimbal_Large", "On":true, "Priority":0, "AmmoInClip":90, "AmmoInHopper":2100, "Health":0.984375, "Value":479380, "EngineerBlueprint":"Weapon_Efficient", "EngineerLevel":5 }, { "Slot":"MediumHardpoint1", "Item":"Hpt_PulseLaserBurst_Gimbal_Medium", "On":true, "Priority":0, "Health":1.000000, "Value":47288, "EngineerBlueprint":"Weapon_LightWeight", "EngineerLevel":5 }, { "Slot":"MediumHardpoint2", "Item":"Hpt_DrunkMissileRack_Fixed_Medium", "On":true, "Priority":0, "AmmoInClip":24, "AmmoInHopper":232, "Health":0.990196, "Value":653310, "EngineerBlueprint":"Weapon_HighCapacity", "EngineerLevel":5 }, { "Slot":"TinyHardpoint1", "Item":"Hpt_HeatSinkLauncher_Turret_Tiny", "On":true, "Priority":0, "AmmoInClip":1, "AmmoInHopper":3, "Health":1.000000, "Value":3413, "EngineerBlueprint":"HeatSinkLauncher_HeatSinkCapacity", "EngineerLevel":3 }, { "Slot":"TinyHardpoint2", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Thermic", "EngineerLevel":5 }, { "Slot":"TinyHardpoint3", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":273975, "EngineerBlueprint":"ShieldBooster_Thermic", "EngineerLevel":5 }, { "Slot":"TinyHardpoint4", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Thermic", "EngineerLevel":5 }, { "Slot":"PaintJob", "Item":"PaintJob_Python_Militaire_Earth_Yellow", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"Decal1", "Item":"Decal_Combat_Elite", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"Decal2", "Item":"Decal_PlayerGroup_GalCop", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"Decal3", "Item":"Decal_PlayerGroup_GalCop", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"Armour", "Item":"Python_Armour_Grade3", "On":true, "Priority":1, "Health":1.000000, "Value":42498600, "EngineerBlueprint":"Armour_Advanced", "EngineerLevel":5 }, { "Slot":"PowerPlant", "Item":"Int_Powerplant_Size7_Class5", "On":true, "Priority":1, "Health":1.000000, "Value":43595744, "EngineerBlueprint":"PowerPlant_Boosted", "EngineerLevel":4 }, { "Slot":"MainEngines", "Item":"Int_Engine_Size6_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":14561578, "EngineerBlueprint":"Engine_Tuned", "EngineerLevel":5 }, { "Slot":"FrameShiftDrive", "Item":"Int_Hyperdrive_Size5_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":4593558, "EngineerBlueprint":"FSD_LongRange", "EngineerLevel":5 }, { "Slot":"LifeSupport", "Item":"Int_LifeSupport_Size4_Class2", "On":true, "Priority":0, "Health":0.987195, "Value":23516, "EngineerBlueprint":"LifeSupport_LightWeight", "EngineerLevel":4 }, { "Slot":"PowerDistributor", "Item":"Int_PowerDistributor_Size7_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":8272141, "EngineerBlueprint":"PowerDistributor_PriorityWeapons", "EngineerLevel":3 }, { "Slot":"Radar", "Item":"Int_Sensors_Size6_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":3128120, "EngineerBlueprint":"Sensor_Sensor_LightWeight", "EngineerLevel":5 }, { "Slot":"FuelTank", "Item":"Int_FuelTank_Size5_Class3", "On":true, "Priority":1, "Health":1.000000, "Value":97754 }, { "Slot":"Slot01_Size6", "Item":"Int_ShieldGenerator_Size6_Class5_Strong", "On":true, "Priority":0, "Health":1.000000, "Value":20113181, "EngineerBlueprint":"ShieldGenerator_Reinforced", "EngineerLevel":5 }, { "Slot":"Slot02_Size6", "Item":"Int_ShieldCellBank_Size6_Class4", "On":true, "Priority":0, "AmmoInClip":1, "AmmoInHopper":5, "Health":0.996836, "Value":1152191 }, { "Slot":"Slot03_Size6", "Item":"Int_HullReinforcement_Size5_Class2", "On":true, "Priority":1, "Health":1.000000, "Value":372938, "EngineerBlueprint":"HullReinforcement_HeavyDuty", "EngineerLevel":5 }, { "Slot":"Slot04_Size5", "Item":"Int_HullReinforcement_Size5_Class2", "On":true, "Priority":1, "Health":1.000000, "Value":372938, "EngineerBlueprint":"HullReinforcement_HeavyDuty", "EngineerLevel":5 }, { "Slot":"Slot05_Size5", "Item":"Int_HullReinforcement_Size5_Class2", "On":true, "Priority":1, "Health":1.000000, "Value":372938, "EngineerBlueprint":"HullReinforcement_HeavyDuty", "EngineerLevel":5 }, { "Slot":"Slot06_Size4", "Item":"Int_FSDInterdictor_Size4_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":18136743, "EngineerBlueprint":"FSDinterdictor_LongRange", "EngineerLevel":3 }, { "Slot":"Slot07_Size3", "Item":"Int_CargoRack_Size3_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":8754 }, { "Slot":"Slot08_Size3", "Item":"Int_FuelScoop_Size3_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":767511 }, { "Slot":"Slot09_Size2", "Item":"Int_StellarBodyDiscoveryScanner_Advanced", "On":true, "Priority":1, "Health":0.987500, "Value":1313250 }, { "Slot":"PlanetaryApproachSuite", "Item":"Int_PlanetApproachSuite", "On":true, "Priority":1, "Health":1.000000, "Value":500 }, { "Slot":"ShipCockpit", "Item":"Python_Cockpit", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"CargoHatch", "Item":"ModularCargoBayDoor", "On":true, "Priority":0, "Health":0.975000, "Value":0 } ] }
+{ "timestamp":"2018-02-17T08:29:10Z", "event":"Materials", "Raw":[ { "Name":"nickel", "Count":16 }, { "Name":"sulphur", "Count":14 }, { "Name":"carbon", "Count":20 }, { "Name":"iron", "Count":14 }, { "Name":"zinc", "Count":12 }, { "Name":"mercury", "Count":23 }, { "Name":"yttrium", "Count":3 }, { "Name":"zirconium", "Count":2 }, { "Name":"tellurium", "Count":28 }, { "Name":"technetium", "Count":24 }, { "Name":"polonium", "Count":10 }, { "Name":"phosphorus", "Count":8 }, { "Name":"cadmium", "Count":26 }, { "Name":"germanium", "Count":11 }, { "Name":"antimony", "Count":17 }, { "Name":"vanadium", "Count":15 }, { "Name":"manganese", "Count":10 }, { "Name":"molybdenum", "Count":4 }, { "Name":"chromium", "Count":18 }, { "Name":"tin", "Count":5 }, { "Name":"tungsten", "Count":1 } ], "Manufactured":[ { "Name":"mechanicalscrap", "Count":5 }, { "Name":"hybridcapacitors", "Count":15 }, { "Name":"chemicalprocessors", "Count":15 }, { "Name":"refinedfocuscrystals", "Count":35 }, { "Name":"focuscrystals", "Count":25 }, { "Name":"gridresistors", "Count":15 }, { "Name":"galvanisingalloys", "Count":15 }, { "Name":"precipitatedalloys", "Count":26 }, { "Name":"shieldingsensors", "Count":15 }, { "Name":"militarygradealloys", "Count":38 }, { "Name":"heatexchangers", "Count":9 }, { "Name":"configurablecomponents", "Count":20 }, { "Name":"conductivepolymers", "Count":40 }, { "Name":"heatvanes", "Count":10 }, { "Name":"biotechconductors", "Count":90 }, { "Name":"thermicalloys", "Count":22 }, { "Name":"highdensitycomposites", "Count":18 }, { "Name":"chemicaldistillery", "Count":15 }, { "Name":"shieldemitters", "Count":15 }, { "Name":"improvisedcomponents", "Count":10 }, { "Name":"heatdispersionplate", "Count":10 }, { "Name":"heatresistantceramics", "Count":10 }, { "Name":"mechanicalequipment", "Count":20 }, { "Name":"salvagedalloys", "Count":10 }, { "Name":"protolightalloys", "Count":18 }, { "Name":"pharmaceuticalisolators", "Count":1 }, { "Name":"protoheatradiators", "Count":6 }, { "Name":"fedproprietarycomposites", "Count":16 }, { "Name":"conductiveceramics", "Count":28 }, { "Name":"conductivecomponents", "Count":30 }, { "Name":"electrochemicalarrays", "Count":24 }, { "Name":"exquisitefocuscrystals", "Count":80 }, { "Name":"fedcorecomposites", "Count":1 }, { "Name":"militarysupercapacitors", "Count":2 }, { "Name":"mechanicalcomponents", "Count":7 } ], "Encoded":[ { "Name":"compactemissionsdata", "Count":35 }, { "Name":"shieldpatternanalysis", "Count":63 }, { "Name":"decodedemissiondata", "Count":25 }, { "Name":"shielddensityreports", "Count":20 }, { "Name":"hyperspacetrajectories", "Count":20 }, { "Name":"shieldfrequencydata", "Count":23 }, { "Name":"fsdtelemetry", "Count":5 }, { "Name":"scanarchives", "Count":15 }, { "Name":"encodedscandata", "Count":25 }, { "Name":"classifiedscandata", "Count":20 }, { "Name":"encryptioncodes", "Count":10 }, { "Name":"embeddedfirmware", "Count":65 }, { "Name":"encryptedfiles", "Count":5 }, { "Name":"consumerfirmware", "Count":20 }, { "Name":"symmetrickeys", "Count":8 }, { "Name":"encryptionarchives", "Count":6 }, { "Name":"wakesolutions", "Count":20 }, { "Name":"securityfirmware", "Count":25 }, { "Name":"adaptiveencryptors", "Count":6 }, { "Name":"legacyfirmware", "Count":15 }, { "Name":"scandatabanks", "Count":20 }, { "Name":"emissiondata", "Count":25 }, { "Name":"industrialfirmware", "Count":21 }, { "Name":"dataminedwake", "Count":3 } ] }
+{ "timestamp":"2018-02-17T08:29:10Z", "event":"LoadGame", "Commander":"McCaslin", "Ship":"Python", "ShipID":2, "ShipName":"kaa", "ShipIdent":"k44-py", "FuelLevel":29.783165, "FuelCapacity":32.000000, "GameMode":"Open", "Credits":2345681876, "Loan":0 }
+{ "timestamp":"2018-02-17T08:29:10Z", "event":"Rank", "Combat":8, "Trade":8, "Explore":7, "Empire":12, "Federation":13, "CQC":0 }
+{ "timestamp":"2018-02-17T08:29:10Z", "event":"Progress", "Combat":100, "Trade":100, "Explore":72, "Empire":13, "Federation":63, "CQC":0 }
+{ "timestamp":"2018-02-17T08:29:27Z", "event":"Location", "Docked":true, "StationName":"PRE Logistics Support Delta", "StationType":"Outpost", "StarSystem":"Hyades Sector AB-W b2-2", "StarPos":[-91.656,-62.531,-224.500], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Military;", "SystemEconomy_Localised":"Military", "SystemGovernment":"$government_Democracy;", "SystemGovernment_Localised":"Democracy", "SystemSecurity":"$SYSTEM_SECURITY_medium;", "SystemSecurity_Localised":"Medium Security", "Population":1200000, "Body":"PRE Logistics Support Delta", "BodyType":"Station", "Factions":[ { "Name":"Cooper Research Associates", "FactionState":"None", "Government":"Democracy", "Influence":0.193000, "Allegiance":"Alliance", "PendingStates":[ { "State":"Boom", "Trend":1 } ] }, { "Name":"Hurn's Marauders", "FactionState":"Boom", "Government":"Anarchy", "Influence":0.177000, "Allegiance":"Independent" }, { "Name":"Hunting Dog Crew", "FactionState":"Boom", "Government":"Anarchy", "Influence":0.094000, "Allegiance":"Independent" }, { "Name":"Pilots Federation Local Branch", "FactionState":"None", "Government":"Democracy", "Influence":0.000000, "Allegiance":"PilotsFederation" }, { "Name":"Dan Lao Clan", "FactionState":"Boom", "Government":"Anarchy", "Influence":0.152000, "Allegiance":"Independent" }, { "Name":"Janus Incorporated", "FactionState":"None", "Government":"Corporate", "Influence":0.092000, "Allegiance":"Independent", "RecoveringStates":[ { "State":"CivilUnrest", "Trend":0 } ] }, { "Name":"Aegis Research", "FactionState":"None", "Government":"Cooperative", "Influence":0.036000, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 } ] }, { "Name":"Sirius Inc", "FactionState":"None", "Government":"Democracy", "Influence":0.256000, "Allegiance":"Independent" } ], "SystemFaction":"Sirius Inc" }
+{ "timestamp":"2018-02-17T08:29:28Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-02-17T08:29:28Z", "event":"Docked", "StationName":"PRE Logistics Support Delta", "StationType":"Outpost", "StarSystem":"Hyades Sector AB-W b2-2", "StationFaction":"Sirius Inc", "StationGovernment":"$government_Democracy;", "StationGovernment_Localised":"Democracy", "StationServices":[ "Dock", "Autodock", "Commodities", "Contacts", "Missions", "Rearm", "Refuel", "Repair", "Tuning", "MissionsGenerated", "FlightController", "StationOperations", "Powerplay", "SearchAndRescue" ], "StationEconomy":"$economy_Military;", "StationEconomy_Localised":"Military", "DistFromStarLS":260.714203 }
+{ "timestamp":"2018-02-17T08:29:28Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T08:29:56Z", "event":"SendText", "To":"Gabriel Case", "Message":"s7  Hunting or hauling? :)" }
+{ "timestamp":"2018-02-17T08:30:19Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-02-17T08:30:30Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-02-17T08:30:38Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T08:30:43Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"I just finished one sortie in the Persei HAZ RES and went to Ngalia to switch ships... I'll be back at Persei in a bit", "Channel":"player" }
+{ "timestamp":"2018-02-17T08:30:44Z", "event":"RepairAll", "Cost":363 }
+{ "timestamp":"2018-02-17T08:31:58Z", "event":"SendText", "To":"Gabriel Case", "Message":"Cool, I'll be in high res this time... I have less trouble huning in Python with cops around" }
+{ "timestamp":"2018-02-17T08:32:23Z", "event":"Undocked", "StationName":"PRE Logistics Support Delta", "StationType":"Outpost" }
+{ "timestamp":"2018-02-17T08:32:51Z", "event":"ReceiveText", "From":"PRE Logistics Support Delta", "Message":"$STATION_NoFireZone_exited;", "Message_Localised":"No fire zone left.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:33:05Z", "event":"StartJump", "JumpType":"Hyperspace", "StarSystem":"Hyades Sector ZU-Y c4", "StarClass":"K" }
+{ "timestamp":"2018-02-17T08:33:10Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-02-17T08:33:24Z", "event":"FSDJump", "StarSystem":"Hyades Sector ZU-Y c4", "StarPos":[-86.000,-69.375,-236.375], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$GAlAXY_MAP_INFO_state_anarchy;", "SystemSecurity_Localised":"Anarchy", "Population":0, "JumpDist":14.827, "FuelUsed":1.994215, "FuelLevel":27.788950 }
+{ "timestamp":"2018-02-17T08:33:24Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T08:33:49Z", "event":"FuelScoop", "Scooped":1.739562, "Total":29.528490 }
+{ "timestamp":"2018-02-17T08:34:09Z", "event":"StartJump", "JumpType":"Hyperspace", "StarSystem":"42 n Persei", "StarClass":"A" }
+{ "timestamp":"2018-02-17T08:34:14Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-02-17T08:34:27Z", "event":"FSDJump", "StarSystem":"42 n Persei", "StarPos":[-83.563,-73.406,-244.344], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Extraction;", "SystemEconomy_Localised":"Extraction", "SystemGovernment":"$government_Democracy;", "SystemGovernment_Localised":"Democracy", "SystemSecurity":"$SYSTEM_SECURITY_medium;", "SystemSecurity_Localised":"Medium Security", "Population":1200000, "JumpDist":9.257, "FuelUsed":0.628367, "FuelLevel":28.900124, "Factions":[ { "Name":"Pleiades Resource Enterprise", "FactionState":"None", "Government":"Corporate", "Influence":0.216000, "Allegiance":"Federation", "PendingStates":[ { "State":"Boom", "Trend":1 } ] }, { "Name":"Cooper Research Associates", "FactionState":"None", "Government":"Democracy", "Influence":0.225000, "Allegiance":"Alliance", "PendingStates":[ { "State":"Boom", "Trend":1 } ] }, { "Name":"I.P.S.A.L Project", "FactionState":"None", "Government":"Corporate", "Influence":0.012000, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":0 }, { "State":"CivilUnrest", "Trend":-1 } ] }, { "Name":"Pilots Federation Local Branch", "FactionState":"None", "Government":"Democracy", "Influence":0.000000, "Allegiance":"PilotsFederation" }, { "Name":"Black Flag Operations", "FactionState":"Boom", "Government":"Anarchy", "Influence":0.258000, "Allegiance":"Independent", "PendingStates":[ { "State":"Famine", "Trend":0 } ] }, { "Name":"Sirius Inc", "FactionState":"None", "Government":"Democracy", "Influence":0.289000, "Allegiance":"Independent" } ], "SystemFaction":"Sirius Inc" }
+{ "timestamp":"2018-02-17T08:34:28Z", "event":"Music", "MusicTrack":"DestinationFromHyperspace" }
+{ "timestamp":"2018-02-17T08:34:33Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T08:34:47Z", "event":"FuelScoop", "Scooped":0.582226, "Total":29.482365 }
+{ "timestamp":"2018-02-17T08:35:00Z", "event":"Friends", "Status":"Offline", "Name":"Polycrates" }
+{ "timestamp":"2018-02-17T08:36:02Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-02-17T08:36:10Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T08:38:09Z", "event":"SupercruiseExit", "StarSystem":"42 n Persei", "Body":"42 n Persei A 5 B Ring", "BodyType":"PlanetaryRing" }
+{ "timestamp":"2018-02-17T08:38:09Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T08:38:29Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"I'm wanted so before going into a res with cops I should probably clear my bounty with a suicidewinder", "Channel":"player" }
+{ "timestamp":"2018-02-17T08:38:50Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Matthias Ochs;", "From_Localised":"Matthias Ochs", "Message":"$Pirate_OnStartScanCargo11;", "Message_Localised":"I hope you have something good in your hold.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:39:00Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Matthias Ochs;", "From_Localised":"Matthias Ochs", "Message":"$Pirate_OnNoCargoFound06;", "Message_Localised":"Another dream of riches dashed.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:39:00Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T08:39:06Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"And this time remember to pay it off the dormant bounty so it doesn't get reactivated by friendly fire ", "Channel":"player" }
+{ "timestamp":"2018-02-17T08:39:30Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Matthias Ochs;", "From_Localised":"Matthias Ochs", "Message":"$Pirate_OnDeclarePiracyAttack02;", "Message_Localised":"You choose death then. Very well.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:39:31Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T08:39:34Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Charles Tsang;", "From_Localised":"Charles Tsang", "Message":"$Pirate_OnStartScanCargo05;", "Message_Localised":"What treats do you carry?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:39:42Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Matthias Ochs;", "From_Localised":"Matthias Ochs", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:39:44Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Charles Tsang;", "From_Localised":"Charles Tsang", "Message":"$Pirate_OnNoCargoFound01;", "Message_Localised":"No cargo? Waste of time...", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:39:44Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T08:39:54Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":16130 } ], "Target":"adder", "TotalReward":16130, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T08:40:25Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Redirin Markela;", "From_Localised":"Redirin Markela", "Message":"$BadKarmaCriticalDamage04;", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:40:30Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_ArrivedAtInvestigationLocation04;", "Message_Localised":"Rapid deployment unit deployed. Initiating scans of all ships in the area.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:40:38Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":61250 } ], "Target":"asp_scout", "TotalReward":61250, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T08:40:43Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_ArrivedAtInvestigationLocation01;", "Message_Localised":"All citizens must submit to authority scans. Do not attempt to flee!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:40:53Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T08:40:57Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Pienzje;", "From_Localised":"Pienzje", "Message":"$Pirate_OnDeclarePiracyAttack05;", "Message_Localised":"You have no chance now.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:40:57Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T08:41:08Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Pienzje;", "From_Localised":"Pienzje", "Message":"$Pirate_NiggledByNewShip01;", "Message_Localised":"Oh, so you think you can take me?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:41:22Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Sefrys;", "From_Localised":"Sefrys", "Message":"$Escort_NearDeath09;", "Message_Localised":"Where's my support?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:41:55Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":30470 } ], "Target":"cobramkiii", "TotalReward":30470, "VictimFaction":"Pleiades Resource Enterprise" }
+{ "timestamp":"2018-02-17T08:41:58Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ystrad;", "From_Localised":"Ystrad", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:42:10Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T08:42:21Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_FinishedAtInvestigationLocation01;", "Message_Localised":"Scanning complete. Citizens, please return to your business.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:43:08Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T08:43:17Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_ArriveInvestigate02;", "Message_Localised":"Incident response units on station.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:43:17Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_ArrivedAtInvestigationLocation01;", "Message_Localised":"All citizens must submit to authority scans. Do not attempt to flee!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:43:39Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":69770 } ], "Target":"asp_scout", "TotalReward":69770, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T08:43:56Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T08:44:06Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T08:44:43Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":94505 } ], "Target":"asp_scout", "TotalReward":94505, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T08:44:58Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T08:45:07Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_FinishedAtInvestigationLocation03;", "Message_Localised":"Crime scene cordon removed, go back about your business.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:45:13Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Zander;", "From_Localised":"Zander", "Message":"$Pirate_OnStartScanCargo07;", "Message_Localised":"Do you have anything of value?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:45:19Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Zander;", "From_Localised":"Zander", "Message":"$Pirate_OnStartScanCargo09;", "Message_Localised":"The scan will soon be over.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:46:08Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T08:46:12Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Zander;", "From_Localised":"Zander", "Message":"$Pirate_OnStartScanCargo10;", "Message_Localised":"Let me see what you have.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:46:16Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":9140 } ], "Target":"eagle", "TotalReward":9140, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T08:46:36Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":8015 } ], "Target":"eagle", "TotalReward":8015, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T08:46:43Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Reginald McGillicuddy;", "From_Localised":"Reginald McGillicuddy", "Message":"$Pirate_OnDeclarePiracyAttack01;", "Message_Localised":"I'll pick your bones clean, greenhorn.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:46:59Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":45799 } ], "Target":"cobramkiv", "TotalReward":45799, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2018-02-17T08:47:14Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T08:48:05Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Soup Dragon;", "From_Localised":"Soup Dragon", "Message":"$Pirate_OnDeclarePiracyAttack05;", "Message_Localised":"You have no chance now.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:48:05Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T08:48:36Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":30230 } ], "Target":"viper", "TotalReward":30230, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T08:48:51Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T08:49:07Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ferritas;", "From_Localised":"Ferritas", "Message":"$Pirate_OnDeclarePiracyAttack04;", "Message_Localised":"I'm gonna boil you up!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:49:07Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T08:49:40Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ferritas;", "From_Localised":"Ferritas", "Message":"$BadKarmaCriticalDamage04;", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:50:01Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Axel Kessler;", "From_Localised":"Axel Kessler", "Message":"$BadKarmaCriticalDamage01;", "Message_Localised":"How is this happening?!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:50:04Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":58504 } ], "Target":"cobramkiv", "TotalReward":58504, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T08:50:19Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Axel Kessler;", "From_Localised":"Axel Kessler", "Message":"$Pirate_OnHullLowJumpAway05;", "Message_Localised":"No, help!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:50:19Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T08:51:05Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2018-02-17T08:51:10Z", "event":"SupercruiseEntry", "StarSystem":"42 n Persei" }
+{ "timestamp":"2018-02-17T08:51:11Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T08:51:35Z", "event":"SupercruiseExit", "StarSystem":"42 n Persei", "Body":"42 n Persei A 5 B Ring", "BodyType":"PlanetaryRing" }
+{ "timestamp":"2018-02-17T08:51:35Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T08:53:19Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=George De Koning;", "From_Localised":"George De Koning", "Message":"$Pirate_OnStartScanCargo07;", "Message_Localised":"Do you have anything of value?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:53:25Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=George De Koning;", "From_Localised":"George De Koning", "Message":"$Pirate_OnStartScanCargo10;", "Message_Localised":"Let me see what you have.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:53:35Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=George De Koning;", "From_Localised":"George De Koning", "Message":"$Pirate_OnNoCargoFound04;", "Message_Localised":"Another dud? Damn it all!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:53:35Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T08:53:37Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=George De Koning;", "From_Localised":"George De Koning", "Message":"$Pirate_OnDeclarePiracyAttack03;", "Message_Localised":"Now you die, victim.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:53:37Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T08:53:47Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=George De Koning;", "From_Localised":"George De Koning", "Message":"$BadKarmaCriticalDamage03;", "Message_Localised":"You fight a good fight!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:53:53Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":19130 } ], "Target":"eagle", "TotalReward":19130, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T08:54:08Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T08:54:16Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Darren cousins;", "From_Localised":"Darren cousins", "Message":"$Pirate_OnStartScanCargo07;", "Message_Localised":"Do you have anything of value?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:54:17Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Darren cousins;", "From_Localised":"Darren cousins", "Message":"$Pirate_OnDeclarePiracyAttack04;", "Message_Localised":"I'm gonna boil you up!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:54:18Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T08:54:47Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":31280 } ], "Target":"adder", "TotalReward":31280, "VictimFaction":"I.P.S.A.L Project" }
+{ "timestamp":"2018-02-17T08:55:02Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T08:55:30Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Edders;", "From_Localised":"Edders", "Message":"$Pirate_OnStartScanCargo04;", "Message_Localised":"What do you carry, I wonder?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:56:06Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2018-02-17T08:56:11Z", "event":"SupercruiseEntry", "StarSystem":"42 n Persei" }
+{ "timestamp":"2018-02-17T08:56:12Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T08:56:35Z", "event":"SupercruiseExit", "StarSystem":"42 n Persei", "Body":"42 n Persei A 5 B Ring", "BodyType":"PlanetaryRing" }
+{ "timestamp":"2018-02-17T08:56:36Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T08:57:27Z", "event":"WingJoin", "Others":[] }
+{ "timestamp":"2018-02-17T08:57:27Z", "event":"WingAdd", "Name":"Gabriel Case" }
+{ "timestamp":"2018-02-17T08:57:48Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Fry;", "From_Localised":"Fry", "Message":"$Pirate_OnStartScanCargo04;", "Message_Localised":"What do you carry, I wonder?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:57:58Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Fry;", "From_Localised":"Fry", "Message":"$Pirate_OnNoCargoFound03;", "Message_Localised":"No cargo? Useless dreg.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:57:58Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T08:58:01Z", "event":"SendText", "To":"wing", "Message":"Elite conda here... I'll wait until you arrive :)" }
+{ "timestamp":"2018-02-17T08:58:19Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"beacon?", "Channel":"wing" }
+{ "timestamp":"2018-02-17T08:58:25Z", "event":"SendText", "To":"wing", "Message":"on" }
+{ "timestamp":"2018-02-17T08:58:38Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"ah, there it is", "Channel":"wing" }
+{ "timestamp":"2018-02-17T08:58:49Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Lucy Ellinor;", "From_Localised":"Lucy Ellinor", "Message":"$Pirate_OnDeclarePiracyAttack01;", "Message_Localised":"I'll pick your bones clean, greenhorn.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:58:49Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T08:58:57Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Johnny Oikarinen;", "From_Localised":"Johnny Oikarinen", "Message":"$Escort_AttackRun04;", "Message_Localised":"Weapons free. Die!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T08:59:50Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Lucy Ellinor;", "From_Localised":"Lucy Ellinor", "Message":"$BadKarmaCriticalDamage10;", "Message_Localised":"You've scratched my paint!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:00:04Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_ArriveInvestigate02;", "Message_Localised":"Incident response units on station.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:00:07Z", "event":"HeatWarning" }
+{ "timestamp":"2018-02-17T09:00:27Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_ArrivedAtInvestigationLocation06;", "Message_Localised":"Crime response team in situ. Security sweep and scan commencing.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:00:33Z", "event":"HeatWarning" }
+{ "timestamp":"2018-02-17T09:01:15Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":108530 } ], "Target":"python", "TotalReward":108530, "VictimFaction":"Pleiades Resource Enterprise" }
+{ "timestamp":"2018-02-17T09:01:16Z", "event":"ReceiveText", "From":"", "Message":"$Pirate_OnDeclarePiracyAttack04;", "Message_Localised":"I'm gonna boil you up!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:01:24Z", "event":"HeatWarning" }
+{ "timestamp":"2018-02-17T09:01:30Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:01:38Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:01:45Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Fry;", "From_Localised":"Fry", "Message":"$BadKarmaCriticalDamage10;", "Message_Localised":"You've scratched my paint!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:01:54Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":293935 } ], "Target":"anaconda", "TotalReward":293935, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:02:09Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:02:22Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:02:32Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Blackhawk;", "From_Localised":"Blackhawk", "Message":"$BadKarmaCriticalDamage04;", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:02:35Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Louanne Barros;", "From_Localised":"Louanne Barros", "Message":"$Pirate_OnStartScanCargo11;", "Message_Localised":"I hope you have something good in your hold.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:02:35Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Yung Shun;", "From_Localised":"Yung Shun", "Message":"$Pirate_OnStartScanCargo01;", "Message_Localised":"I see all!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:02:36Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":15795 } ], "Target":"eagle", "TotalReward":15795, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:02:37Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":12280 } ], "Target":"empire_eagle", "TotalReward":12280, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T09:02:41Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Louanne Barros;", "From_Localised":"Louanne Barros", "Message":"$Pirate_OnStartScanCargo06;", "Message_Localised":"Let's see what you are carrying.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:02:43Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Yung Shun;", "From_Localised":"Yung Shun", "Message":"$Pirate_OnStartScanCargo04;", "Message_Localised":"What do you carry, I wonder?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:02:48Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Louanne Barros;", "From_Localised":"Louanne Barros", "Message":"$Pirate_OnStartScanCargo06;", "Message_Localised":"Let's see what you are carrying.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:02:48Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Daniel Zanella;", "From_Localised":"Daniel Zanella", "Message":"$Pirate_OnStartScanCargo04;", "Message_Localised":"What do you carry, I wonder?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:02:52Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:02:53Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Yung Shun;", "From_Localised":"Yung Shun", "Message":"$Pirate_OnNoCargoFound11;", "Message_Localised":"Another empty cargo hold. My children will go hungry tonight.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:02:53Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T09:02:57Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:02:58Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Daniel Zanella;", "From_Localised":"Daniel Zanella", "Message":"$Pirate_OnNoCargoFound01;", "Message_Localised":"No cargo? Waste of time...", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:02:58Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T09:03:06Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Louanne Barros;", "From_Localised":"Louanne Barros", "Message":"$BadKarmaCriticalDamage03;", "Message_Localised":"You fight a good fight!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:03:13Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":54252 } ], "Target":"asp", "TotalReward":54252, "VictimFaction":"I.P.S.A.L Project", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:03:28Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:03:28Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:03:40Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Gary Sonitude;", "From_Localised":"Gary Sonitude", "Message":"$BadKarmaCriticalDamage05;", "Message_Localised":"No, no!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:03:49Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":46102 } ], "Target":"viper_mkiv", "TotalReward":46102, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:04:23Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=LaCerda;", "From_Localised":"LaCerda", "Message":"$Escort_NearDeath07;", "Message_Localised":"I've taken too much damage.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:04:25Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":14790 } ], "Target":"adder", "TotalReward":14790, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:04:32Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":28470 } ], "Target":"adder", "TotalReward":28470, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:04:44Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Gerard Postma;", "From_Localised":"Gerard Postma", "Message":"$Pirate_OnStartScanCargo08;", "Message_Localised":"What do you have in your cargo hold?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:05:08Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Yung Shun;", "From_Localised":"Yung Shun", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:05:18Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Yung Shun;", "From_Localised":"Yung Shun", "Message":"$Pirate_OnHullLowJumpAway06;", "Message_Localised":"Must... escape!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:05:35Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":51120 } ], "Target":"viper_mkiv", "TotalReward":51120, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:05:48Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Daniel Zanella;", "From_Localised":"Daniel Zanella", "Message":"$BadKarmaCriticalDamage03;", "Message_Localised":"You fight a good fight!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:05:50Z", "event":"SendText", "To":"wing", "Message":"clipper" }
+{ "timestamp":"2018-02-17T09:05:50Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:05:55Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:05:59Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ceri Stagg;", "From_Localised":"Ceri Stagg", "Message":"$Pirate_OnStartScanCargo10;", "Message_Localised":"Let me see what you have.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:06:09Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ceri Stagg;", "From_Localised":"Ceri Stagg", "Message":"$Pirate_OnNoCargoFound01;", "Message_Localised":"No cargo? Waste of time...", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:06:09Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T09:06:21Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Enya Zoe;", "From_Localised":"Enya Zoe", "Message":"$BadKarmaCriticalDamage10;", "Message_Localised":"You've scratched my paint!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:06:32Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":108904 } ], "Target":"empire_trader", "TotalReward":108904, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:07:10Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":147290 } ], "Target":"anaconda", "TotalReward":147290, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:07:25Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:07:30Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Marie Weir;", "From_Localised":"Marie Weir", "Message":"$Pirate_OnStartScanCargo08;", "Message_Localised":"What do you have in your cargo hold?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:07:42Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Marie Weir;", "From_Localised":"Marie Weir", "Message":"$Pirate_OnDeclarePiracyAttack03;", "Message_Localised":"Now you die, victim.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:07:42Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:07:53Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Marie Weir;", "From_Localised":"Marie Weir", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:07:58Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":62704 } ], "Target":"diamondbackxl", "TotalReward":62704, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T09:08:13Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:08:34Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Jan Williamson;", "From_Localised":"Jan Williamson", "Message":"$Miner_OnJumpCargoFull02;", "Message_Localised":"Reporting in. Cargo full, returning to base.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:08:41Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:09:15Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Craig Hart;", "From_Localised":"Craig Hart", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:09:23Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Joachim Riedle;", "From_Localised":"Joachim Riedle", "Message":"$Escort_NearDeath08;", "Message_Localised":"Avenge me!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:09:41Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":143925 } ], "Target":"empire_trader", "TotalReward":143925, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:09:42Z", "event":"ReceiveText", "From":"", "Message":"$Pirate_OnDeclarePiracyAttack01;", "Message_Localised":"I'll pick your bones clean, greenhorn.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:09:52Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":20265 } ], "Target":"empire_eagle", "TotalReward":20265, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:10:07Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:10:07Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Miro;", "From_Localised":"Miro", "Message":"$Pirate_OnStartScanCargo11;", "Message_Localised":"I hope you have something good in your hold.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:10:08Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:10:40Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Miro;", "From_Localised":"Miro", "Message":"$BadKarmaCriticalDamage05;", "Message_Localised":"No, no!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:10:47Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":101030 } ], "Target":"federation_gunship", "TotalReward":101030, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:11:02Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:11:05Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:11:47Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Karl Winterbottom;", "From_Localised":"Karl Winterbottom", "Message":"$Pirate_OnStartScanCargo08;", "Message_Localised":"What do you have in your cargo hold?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:11:47Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ville;", "From_Localised":"Ville", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:11:57Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Karl Winterbottom;", "From_Localised":"Karl Winterbottom", "Message":"$Pirate_OnNoCargoFound01;", "Message_Localised":"No cargo? Waste of time...", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:11:57Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T09:12:00Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":106502 } ], "Target":"federation_gunship", "TotalReward":106502, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2018-02-17T09:12:16Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:12:16Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:12:41Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":65150 } ], "Target":"diamondbackxl", "TotalReward":65150, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:13:26Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Armadus;", "From_Localised":"Armadus", "Message":"$BadKarmaCriticalDamage10;", "Message_Localised":"You've scratched my paint!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:13:43Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":154967 } ], "Target":"federation_dropship", "TotalReward":154967, "VictimFaction":"I.P.S.A.L Project", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:13:47Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Valamex;", "From_Localised":"Valamex", "Message":"$Pirate_OnStartScanCargo05;", "Message_Localised":"What treats do you carry?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:13:57Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Valamex;", "From_Localised":"Valamex", "Message":"$Pirate_OnNoCargoFound09;", "Message_Localised":"Next time you should fill your hold with gold.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:13:57Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T09:13:58Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:13:59Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Valamex;", "From_Localised":"Valamex", "Message":"$Pirate_OnDeclarePiracyAttack03;", "Message_Localised":"Now you die, victim.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:13:59Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:14:15Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Valamex;", "From_Localised":"Valamex", "Message":"$BadKarmaCriticalDamage06;", "Message_Localised":"I hadn't expected this.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:14:21Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":41810 } ], "Target":"viper", "TotalReward":41810, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:14:36Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:14:56Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Binny;", "From_Localised":"Binny", "Message":"$BadKarmaCriticalDamage07;", "Message_Localised":"Too much damage!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:15:05Z", "event":"SendText", "To":"wing", "Message":"just about ready to cash in mc2 and take a 5 min break" }
+{ "timestamp":"2018-02-17T09:15:19Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"ok", "Channel":"wing" }
+{ "timestamp":"2018-02-17T09:15:35Z", "event":"SendText", "To":"wing", "Message":"This is less efficient a hunter than my conda" }
+{ "timestamp":"2018-02-17T09:15:44Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:15:48Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Nituna Winterwalker;", "From_Localised":"Nituna Winterwalker", "Message":"$BadKarmaCriticalDamage08;", "Message_Localised":"I've taken too many hits.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:15:58Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":69580 } ], "Target":"cobramkiv", "TotalReward":69580, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:16:13Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:16:22Z", "event":"SendText", "To":"wing", "Message":"Pretty good instance" }
+{ "timestamp":"2018-02-17T09:16:59Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"yeah, I don't think it's that much different from the haz res", "Channel":"wing" }
+{ "timestamp":"2018-02-17T09:17:11Z", "event":"SendText", "To":"wing", "Message":"If you have ammo, I'd lurk here for a bit and keep the party going" }
+{ "timestamp":"2018-02-17T09:17:20Z", "event":"SendText", "To":"wing", "Message":"I'll brb" }
+{ "timestamp":"2018-02-17T09:17:26Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-02-17T09:17:31Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-02-17T09:17:38Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:17:57Z", "event":"SendText", "To":"wing", "Message":"I cycled about 4 times before you arrived to get this instance" }
+{ "timestamp":"2018-02-17T09:17:59Z", "event":"StartJump", "JumpType":"Hyperspace", "StarSystem":"HIP 17943", "StarClass":"F" }
+{ "timestamp":"2018-02-17T09:18:07Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-02-17T09:18:17Z", "event":"SendText", "To":"wing", "Message":"other 3 were nothing but eagles and adders" }
+{ "timestamp":"2018-02-17T09:18:20Z", "event":"FSDJump", "StarSystem":"HIP 17943", "StarPos":[-85.813,-64.938,-236.594], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$GAlAXY_MAP_INFO_state_anarchy;", "SystemSecurity_Localised":"Anarchy", "Population":0, "JumpDist":11.698, "FuelUsed":1.109591, "FuelLevel":26.712772 }
+{ "timestamp":"2018-02-17T09:18:20Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T09:18:36Z", "event":"FuelScoop", "Scooped":0.235845, "Total":26.948610 }
+{ "timestamp":"2018-02-17T09:18:59Z", "event":"StartJump", "JumpType":"Hyperspace", "StarSystem":"Hyades Sector AB-W b2-2", "StarClass":"M" }
+{ "timestamp":"2018-02-17T09:19:04Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-02-17T09:19:20Z", "event":"FSDJump", "StarSystem":"Hyades Sector AB-W b2-2", "StarPos":[-91.656,-62.531,-224.500], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Military;", "SystemEconomy_Localised":"Military", "SystemGovernment":"$government_Democracy;", "SystemGovernment_Localised":"Democracy", "SystemSecurity":"$SYSTEM_SECURITY_medium;", "SystemSecurity_Localised":"Medium Security", "Population":1200000, "JumpDist":13.645, "FuelUsed":1.614063, "FuelLevel":25.334547, "Factions":[ { "Name":"Cooper Research Associates", "FactionState":"None", "Government":"Democracy", "Influence":0.193000, "Allegiance":"Alliance", "PendingStates":[ { "State":"Boom", "Trend":1 } ] }, { "Name":"Hurn's Marauders", "FactionState":"Boom", "Government":"Anarchy", "Influence":0.177000, "Allegiance":"Independent" }, { "Name":"Hunting Dog Crew", "FactionState":"Boom", "Government":"Anarchy", "Influence":0.094000, "Allegiance":"Independent" }, { "Name":"Pilots Federation Local Branch", "FactionState":"None", "Government":"Democracy", "Influence":0.000000, "Allegiance":"PilotsFederation" }, { "Name":"Dan Lao Clan", "FactionState":"Boom", "Government":"Anarchy", "Influence":0.152000, "Allegiance":"Independent" }, { "Name":"Janus Incorporated", "FactionState":"None", "Government":"Corporate", "Influence":0.092000, "Allegiance":"Independent", "RecoveringStates":[ { "State":"CivilUnrest", "Trend":0 } ] }, { "Name":"Aegis Research", "FactionState":"None", "Government":"Cooperative", "Influence":0.036000, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 } ] }, { "Name":"Sirius Inc", "FactionState":"None", "Government":"Democracy", "Influence":0.256000, "Allegiance":"Independent" } ], "SystemFaction":"Sirius Inc" }
+{ "timestamp":"2018-02-17T09:19:20Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T09:19:34Z", "event":"FuelScoop", "Scooped":0.499682, "Total":25.834213 }
+{ "timestamp":"2018-02-17T09:20:13Z", "event":"Friends", "Status":"Online", "Name":"Veedubbin" }
+{ "timestamp":"2018-02-17T09:21:26Z", "event":"SupercruiseExit", "StarSystem":"Hyades Sector AB-W b2-2", "Body":"PRE Logistics Support Delta", "BodyType":"Station" }
+{ "timestamp":"2018-02-17T09:21:27Z", "event":"Music", "MusicTrack":"DestinationFromSupercruise" }
+{ "timestamp":"2018-02-17T09:21:32Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:21:32Z", "event":"ReceiveText", "From":"PRE Logistics Support Delta", "Message":"$STATION_NoFireZone_entered;", "Message_Localised":"No fire zone entered.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:21:35Z", "event":"DockingRequested", "StationName":"PRE Logistics Support Delta" }
+{ "timestamp":"2018-02-17T09:21:35Z", "event":"ReceiveText", "From":"PRE Logistics Support Delta", "Message":"$DockingChatter_Allied;", "Message_Localised":"An ally like you is always welcome here.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:21:37Z", "event":"ReceiveText", "From":"PRE Logistics Support Delta", "Message":"$STATION_docking_granted;", "Message_Localised":"Docking request granted.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:21:37Z", "event":"DockingGranted", "LandingPad":3, "StationName":"PRE Logistics Support Delta" }
+{ "timestamp":"2018-02-17T09:22:07Z", "event":"Docked", "StationName":"PRE Logistics Support Delta", "StationType":"Outpost", "StarSystem":"Hyades Sector AB-W b2-2", "StationFaction":"Sirius Inc", "StationGovernment":"$government_Democracy;", "StationGovernment_Localised":"Democracy", "StationServices":[ "Dock", "Autodock", "Commodities", "Contacts", "Missions", "Rearm", "Refuel", "Repair", "Tuning", "MissionsGenerated", "FlightController", "StationOperations", "Powerplay", "SearchAndRescue" ], "StationEconomy":"$economy_Military;", "StationEconomy_Localised":"Military", "DistFromStarLS":260.715485 }
+{ "timestamp":"2018-02-17T09:22:28Z", "event":"RedeemVoucher", "Type":"bounty", "Amount":2121624, "Factions":[ { "Faction":"Sirius Inc", "Amount":2121624 } ] }
+{ "timestamp":"2018-02-17T09:22:35Z", "event":"BuyAmmo", "Cost":9385 }
+{ "timestamp":"2018-02-17T09:27:40Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Edwin Platteel;", "From_Localised":"Edwin Platteel", "Message":"$Commuter_AuthorityScan04;", "Message_Localised":"Is this really necessary?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:30:56Z", "event":"RepairAll", "Cost":3220 }
+{ "timestamp":"2018-02-17T09:31:00Z", "event":"RefuelAll", "Cost":352, "Amount":7.025785 }
+{ "timestamp":"2018-02-17T09:31:05Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-02-17T09:31:08Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:31:12Z", "event":"Undocked", "StationName":"PRE Logistics Support Delta", "StationType":"Outpost" }
+{ "timestamp":"2018-02-17T09:31:41Z", "event":"ReceiveText", "From":"PRE Logistics Support Delta", "Message":"$STATION_NoFireZone_exited;", "Message_Localised":"No fire zone left.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:31:50Z", "event":"StartJump", "JumpType":"Hyperspace", "StarSystem":"Hyades Sector ZU-Y c4", "StarClass":"K" }
+{ "timestamp":"2018-02-17T09:31:55Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-02-17T09:32:09Z", "event":"FSDJump", "StarSystem":"Hyades Sector ZU-Y c4", "StarPos":[-86.000,-69.375,-236.375], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$GAlAXY_MAP_INFO_state_anarchy;", "SystemSecurity_Localised":"Anarchy", "Population":0, "JumpDist":14.827, "FuelUsed":2.006650, "FuelLevel":29.993349 }
+{ "timestamp":"2018-02-17T09:32:09Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T09:32:47Z", "event":"FuelScoop", "Scooped":1.412073, "Total":31.405386 }
+{ "timestamp":"2018-02-17T09:32:56Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-02-17T09:33:04Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T09:33:07Z", "event":"StartJump", "JumpType":"Hyperspace", "StarSystem":"42 n Persei", "StarClass":"A" }
+{ "timestamp":"2018-02-17T09:33:12Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-02-17T09:33:27Z", "event":"FSDJump", "StarSystem":"42 n Persei", "StarPos":[-83.563,-73.406,-244.344], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Extraction;", "SystemEconomy_Localised":"Extraction", "SystemGovernment":"$government_Democracy;", "SystemGovernment_Localised":"Democracy", "SystemSecurity":"$SYSTEM_SECURITY_medium;", "SystemSecurity_Localised":"Medium Security", "Population":1200000, "JumpDist":9.257, "FuelUsed":0.631672, "FuelLevel":30.773714, "Factions":[ { "Name":"Pleiades Resource Enterprise", "FactionState":"None", "Government":"Corporate", "Influence":0.216000, "Allegiance":"Federation", "PendingStates":[ { "State":"Boom", "Trend":1 } ] }, { "Name":"Cooper Research Associates", "FactionState":"None", "Government":"Democracy", "Influence":0.225000, "Allegiance":"Alliance", "PendingStates":[ { "State":"Boom", "Trend":1 } ] }, { "Name":"I.P.S.A.L Project", "FactionState":"None", "Government":"Corporate", "Influence":0.012000, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":0 }, { "State":"CivilUnrest", "Trend":-1 } ] }, { "Name":"Pilots Federation Local Branch", "FactionState":"None", "Government":"Democracy", "Influence":0.000000, "Allegiance":"PilotsFederation" }, { "Name":"Black Flag Operations", "FactionState":"Boom", "Government":"Anarchy", "Influence":0.258000, "Allegiance":"Independent", "PendingStates":[ { "State":"Famine", "Trend":0 } ] }, { "Name":"Sirius Inc", "FactionState":"None", "Government":"Democracy", "Influence":0.289000, "Allegiance":"Independent" } ], "SystemFaction":"Sirius Inc" }
+{ "timestamp":"2018-02-17T09:33:28Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T09:33:50Z", "event":"FuelScoop", "Scooped":0.918833, "Total":31.692568 }
+{ "timestamp":"2018-02-17T09:33:59Z", "event":"Friends", "Status":"Online", "Name":"3RR0R" }
+{ "timestamp":"2018-02-17T09:34:30Z", "event":"SupercruiseExit", "StarSystem":"42 n Persei", "Body":"42 n Persei A", "BodyType":"Star" }
+{ "timestamp":"2018-02-17T09:34:30Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:34:45Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2018-02-17T09:34:50Z", "event":"SupercruiseEntry", "StarSystem":"42 n Persei" }
+{ "timestamp":"2018-02-17T09:34:51Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T09:35:36Z", "event":"SupercruiseExit", "StarSystem":"42 n Persei", "Body":"42 n Persei A 5+6", "BodyType":"Null" }
+{ "timestamp":"2018-02-17T09:35:36Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:36:00Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2018-02-17T09:36:05Z", "event":"SupercruiseEntry", "StarSystem":"42 n Persei" }
+{ "timestamp":"2018-02-17T09:36:06Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T09:36:17Z", "event":"SendText", "To":"wing", "Message":"Sorry, nav lock bug" }
+{ "timestamp":"2018-02-17T09:36:32Z", "event":"SupercruiseExit", "StarSystem":"42 n Persei", "Body":"42 n Persei A 5", "BodyType":"Planet" }
+{ "timestamp":"2018-02-17T09:36:32Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:36:44Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"does the beacon appear while I'm in the SLF?", "Channel":"wing" }
+{ "timestamp":"2018-02-17T09:36:49Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2018-02-17T09:36:54Z", "event":"SupercruiseEntry", "StarSystem":"42 n Persei" }
+{ "timestamp":"2018-02-17T09:36:55Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T09:36:56Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"there is no option for it in the functions pane so I don't know", "Channel":"wing" }
+{ "timestamp":"2018-02-17T09:37:18Z", "event":"SendText", "To":"wing", "Message":"I see the beacon, but the auto-lock keeps dropping me early" }
+{ "timestamp":"2018-02-17T09:37:27Z", "event":"SendText", "To":"wing", "Message":"Sometimes 100+ ls away" }
+{ "timestamp":"2018-02-17T09:37:51Z", "event":"SupercruiseExit", "StarSystem":"42 n Persei", "Body":"42 n Persei A 5 B Ring", "BodyType":"PlanetaryRing" }
+{ "timestamp":"2018-02-17T09:37:52Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:38:25Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Michael Santos;", "From_Localised":"Michael Santos", "Message":"$Pirate_OnStartScanCargo07;", "Message_Localised":"Do you have anything of value?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:38:25Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Michael Santos;", "From_Localised":"Michael Santos", "Message":"$Pirate_OnStartScanCargo03;", "Message_Localised":"What are you hauling?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:38:28Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Michael Santos;", "From_Localised":"Michael Santos", "Message":"$Pirate_OnStartScanCargo05;", "Message_Localised":"What treats do you carry?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:38:29Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:38:35Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Parkes;", "From_Localised":"Parkes", "Message":"$BadKarmaCriticalDamage07;", "Message_Localised":"Too much damage!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:38:42Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Michael Santos;", "From_Localised":"Michael Santos", "Message":"$Pirate_OnStartScanCargo07;", "Message_Localised":"Do you have anything of value?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:38:47Z", "event":"Bounty", "Target":"empire_courier", "TotalReward":0, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:38:52Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Michael Santos;", "From_Localised":"Michael Santos", "Message":"$Pirate_OnNoCargoFound06;", "Message_Localised":"Another dream of riches dashed.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:38:52Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T09:38:53Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Michael Santos;", "From_Localised":"Michael Santos", "Message":"$Pirate_NotEnoughCargo06;", "Message_Localised":"There's nothing but slim pickings around here.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:39:02Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:39:10Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:39:45Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:41:28Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Mikolos;", "From_Localised":"Mikolos", "Message":"$Pirate_OnDeclarePiracyAttack03;", "Message_Localised":"Now you die, victim.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:41:28Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:41:43Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Mikolos;", "From_Localised":"Mikolos", "Message":"$BadKarmaCriticalDamage06;", "Message_Localised":"I hadn't expected this.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:41:55Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":58887 } ], "Target":"asp_scout", "TotalReward":58887, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:42:10Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:42:42Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:43:21Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:44:04Z", "event":"SendText", "To":"wing", "Message":"Maybe we should reset instance?" }
+{ "timestamp":"2018-02-17T09:44:08Z", "event":"SendText", "To":"wing", "Message":"Not seeing any big ships" }
+{ "timestamp":"2018-02-17T09:44:16Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"yeah, sounds good", "Channel":"wing" }
+{ "timestamp":"2018-02-17T09:44:23Z", "event":"SendText", "To":"wing", "Message":"cool, jumping out" }
+{ "timestamp":"2018-02-17T09:44:35Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2018-02-17T09:44:40Z", "event":"SupercruiseEntry", "StarSystem":"42 n Persei" }
+{ "timestamp":"2018-02-17T09:44:40Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T09:45:44Z", "event":"SupercruiseExit", "StarSystem":"42 n Persei", "Body":"42 n Persei A 5 B Ring", "BodyType":"PlanetaryRing" }
+{ "timestamp":"2018-02-17T09:45:44Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:45:59Z", "event":"SendText", "To":"wing", "Message":"vulture" }
+{ "timestamp":"2018-02-17T09:46:05Z", "event":"SendText", "To":"wing", "Message":"so, ok instance at least" }
+{ "timestamp":"2018-02-17T09:46:09Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Peet Lee;", "From_Localised":"Peet Lee", "Message":"$Pirate_OnDeclarePiracyAttack03;", "Message_Localised":"Now you die, victim.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:46:09Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:46:46Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Peet Lee;", "From_Localised":"Peet Lee", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:46:51Z", "event":"SendText", "To":"wing", "Message":"argh" }
+{ "timestamp":"2018-02-17T09:47:04Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:47:06Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Uncle Gonzo;", "From_Localised":"Uncle Gonzo", "Message":"$Pirate_OnDeclarePiracyAttack01;", "Message_Localised":"I'll pick your bones clean, greenhorn.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:47:06Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:47:30Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ivan Konovalow;", "From_Localised":"Ivan Konovalow", "Message":"$Pirate_OnStartScanCargo11;", "Message_Localised":"I hope you have something good in your hold.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:47:40Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ivan Konovalow;", "From_Localised":"Ivan Konovalow", "Message":"$Pirate_OnNoCargoFound01;", "Message_Localised":"No cargo? Waste of time...", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:47:40Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T09:47:47Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":24770 } ], "Target":"cobramkiii", "TotalReward":24770, "VictimFaction":"Cooper Research Associates", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:48:01Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ivan Konovalow;", "From_Localised":"Ivan Konovalow", "Message":"$BadKarmaCriticalDamage03;", "Message_Localised":"You fight a good fight!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:48:08Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":7725 } ], "Target":"sidewinder", "TotalReward":7725, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:48:23Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:48:42Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Chris \"RedZy\" Karreman;", "From_Localised":"Chris \"RedZy\" Karreman", "Message":"$Pirate_OnStartScanCargo09;", "Message_Localised":"The scan will soon be over.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:48:43Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:48:52Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Chris \"RedZy\" Karreman;", "From_Localised":"Chris \"RedZy\" Karreman", "Message":"$Pirate_OnNoCargoFound11;", "Message_Localised":"Another empty cargo hold. My children will go hungry tonight.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:48:52Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T09:49:23Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":48605 } ], "Target":"cobramkiv", "TotalReward":48605, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:49:29Z", "event":"Friends", "Status":"Online", "Name":"Juan the Smith" }
+{ "timestamp":"2018-02-17T09:49:37Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Paul Greener;", "From_Localised":"Paul Greener", "Message":"$Pirate_OnStartScanCargo02;", "Message_Localised":"Carrying anything nice?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:49:42Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Osito de Felpa;", "From_Localised":"Osito de Felpa", "Message":"$BadKarmaCriticalDamage06;", "Message_Localised":"I hadn't expected this.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:49:42Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Paul Greener;", "From_Localised":"Paul Greener", "Message":"$Pirate_OnStartScanCargo08;", "Message_Localised":"What do you have in your cargo hold?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:49:51Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":34540 } ], "Target":"viper", "TotalReward":34540, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:49:52Z", "event":"ReceiveText", "From":"", "Message":"$Pirate_OnDeclarePiracyAttack01;", "Message_Localised":"I'll pick your bones clean, greenhorn.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:50:29Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":74620 } ], "Target":"federation_dropship_mkii", "TotalReward":74620, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:50:53Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Chris \"RedZy\" Karreman;", "From_Localised":"Chris \"RedZy\" Karreman", "Message":"$BadKarmaCriticalDamage07;", "Message_Localised":"Too much damage!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:51:00Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":40707 } ], "Target":"viper_mkiv", "TotalReward":40707, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:51:54Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Bo Mertz;", "From_Localised":"Bo Mertz", "Message":"$BadKarmaCriticalDamage05;", "Message_Localised":"No, no!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:52:05Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":27840 } ], "Target":"viper", "TotalReward":27840, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T09:52:12Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Andy Edwards;", "From_Localised":"Andy Edwards", "Message":"$Pirate_OnStartScanCargo02;", "Message_Localised":"Carrying anything nice?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:52:17Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Andy Edwards;", "From_Localised":"Andy Edwards", "Message":"$Pirate_OnStartScanCargo10;", "Message_Localised":"Let me see what you have.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:52:18Z", "event":"SendText", "To":"wing", "Message":"run" }
+{ "timestamp":"2018-02-17T09:52:30Z", "event":"SendText", "To":"wing", "Message":"you shot a cop :D" }
+{ "timestamp":"2018-02-17T09:52:46Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:52:58Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Graeme Wisely;", "From_Localised":"Graeme Wisely", "Message":"$Pirate_OnStartScanCargo03;", "Message_Localised":"What are you hauling?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:53:11Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Graeme Wisely;", "From_Localised":"Graeme Wisely", "Message":"$Pirate_OnStartScanCargo03;", "Message_Localised":"What are you hauling?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:53:45Z", "event":"SendText", "To":"wing", "Message":"omw out" }
+{ "timestamp":"2018-02-17T09:53:53Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2018-02-17T09:53:58Z", "event":"SupercruiseEntry", "StarSystem":"42 n Persei" }
+{ "timestamp":"2018-02-17T09:53:58Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T09:54:06Z", "event":"SendText", "To":"wing", "Message":"took me a minute to realize what happened" }
+{ "timestamp":"2018-02-17T09:54:08Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"8 minute timer, I'll just go cash out and let it expire", "Channel":"wing" }
+{ "timestamp":"2018-02-17T09:54:29Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"yeah, I saw another ship was attacking my mothership but didn't realize it was a cop ", "Channel":"wing" }
+{ "timestamp":"2018-02-17T09:54:40Z", "event":"SendText", "To":"wing", "Message":"sure.  Or you can keep hunting; I doubt they will hassle you for that small amount (?)" }
+{ "timestamp":"2018-02-17T09:54:55Z", "event":"SupercruiseExit", "StarSystem":"42 n Persei", "Body":"42 n Persei A 5 B Ring", "BodyType":"PlanetaryRing" }
+{ "timestamp":"2018-02-17T09:54:55Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:55:56Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Andy McFadden;", "From_Localised":"Andy McFadden", "Message":"$Pirate_OnStartScanCargo09;", "Message_Localised":"The scan will soon be over.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:56:06Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Andy McFadden;", "From_Localised":"Andy McFadden", "Message":"$Pirate_OnNoCargoFound06;", "Message_Localised":"Another dream of riches dashed.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:56:06Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T09:56:11Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Andy McFadden;", "From_Localised":"Andy McFadden", "Message":"$Pirate_OnDeclarePiracyAttack02;", "Message_Localised":"You choose death then. Very well.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:56:12Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:56:54Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Andy McFadden;", "From_Localised":"Andy McFadden", "Message":"$BadKarmaCriticalDamage08;", "Message_Localised":"I've taken too many hits.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:57:08Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":86330 } ], "Target":"vulture", "TotalReward":86330, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T09:57:23Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T09:57:39Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Nobaru;", "From_Localised":"Nobaru", "Message":"$Pirate_OnStartScanCargo09;", "Message_Localised":"The scan will soon be over.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:57:40Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T09:57:51Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=James;", "From_Localised":"James", "Message":"$Pirate_OnStartScanCargo07;", "Message_Localised":"Do you have anything of value?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:58:01Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=James;", "From_Localised":"James", "Message":"$Pirate_OnNoCargoFound02;", "Message_Localised":"Bah, nothing.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:58:01Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T09:58:03Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Nobaru;", "From_Localised":"Nobaru", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:58:11Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":122712 } ], "Target":"python", "TotalReward":122712, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T09:58:22Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=James;", "From_Localised":"James", "Message":"$Pirate_OnDeclarePiracyAttack04;", "Message_Localised":"I'm gonna boil you up!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:58:42Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=James;", "From_Localised":"James", "Message":"$BadKarmaCriticalDamage06;", "Message_Localised":"I hadn't expected this.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:58:46Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":108904 } ], "Target":"empire_trader", "TotalReward":108904, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T09:58:59Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Handrup;", "From_Localised":"Handrup", "Message":"$Pirate_OnDeclarePiracyAttack04;", "Message_Localised":"I'm gonna boil you up!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:59:09Z", "event":"Friends", "Status":"Online", "Name":"Marco Sparks" }
+{ "timestamp":"2018-02-17T09:59:25Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Handrup;", "From_Localised":"Handrup", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T09:59:57Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Arkady Nikelyovich Bogdanov;", "From_Localised":"Arkady Nikelyovich Bogdanov", "Message":"$Pirate_OnStartScanCargo03;", "Message_Localised":"What are you hauling?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:00:07Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Arkady Nikelyovich Bogdanov;", "From_Localised":"Arkady Nikelyovich Bogdanov", "Message":"$Pirate_OnNoCargoFound11;", "Message_Localised":"Another empty cargo hold. My children will go hungry tonight.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:00:07Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:00:07Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":82660 } ], "Target":"federation_dropship", "TotalReward":82660, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T10:00:11Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Arkady Nikelyovich Bogdanov;", "From_Localised":"Arkady Nikelyovich Bogdanov", "Message":"$Pirate_OnDeclarePiracyAttack02;", "Message_Localised":"You choose death then. Very well.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:00:27Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Arkady Nikelyovich Bogdanov;", "From_Localised":"Arkady Nikelyovich Bogdanov", "Message":"$BadKarmaCriticalDamage01;", "Message_Localised":"How is this happening?!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:00:42Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":131260 } ], "Target":"federation_dropship", "TotalReward":131260, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T10:00:57Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:01:03Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Saffronique Ntrakwah;", "From_Localised":"Saffronique Ntrakwah", "Message":"$Pirate_OnDeclarePiracyAttack04;", "Message_Localised":"I'm gonna boil you up!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:01:03Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:01:29Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Saffronique Ntrakwah;", "From_Localised":"Saffronique Ntrakwah", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:01:45Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":58790 } ], "Target":"diamondbackxl", "TotalReward":58790, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T10:02:00Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:02:36Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Graham Kesley;", "From_Localised":"Graham Kesley", "Message":"$Pirate_OnDeclarePiracyAttack03;", "Message_Localised":"Now you die, victim.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:02:36Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:03:04Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Graham Kesley;", "From_Localised":"Graham Kesley", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:03:24Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":104389 } ], "Target":"federation_dropship_mkii", "TotalReward":104389, "VictimFaction":"Pleiades Resource Enterprise" }
+{ "timestamp":"2018-02-17T10:03:36Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Joharra;", "From_Localised":"Joharra", "Message":"$Pirate_OnStartScanCargo04;", "Message_Localised":"What do you carry, I wonder?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:03:39Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:03:45Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Alix Gunn;", "From_Localised":"Alix Gunn", "Message":"$Pirate_OnStartScanCargo05;", "Message_Localised":"What treats do you carry?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:03:46Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Joharra;", "From_Localised":"Joharra", "Message":"$Pirate_OnNoCargoFound08;", "Message_Localised":"A wasted effort. There's no cargo here.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:03:46Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:03:55Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Alix Gunn;", "From_Localised":"Alix Gunn", "Message":"$Pirate_OnNoCargoFound03;", "Message_Localised":"No cargo? Useless dreg.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:03:55Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:04:00Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:04:32Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Joharra;", "From_Localised":"Joharra", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:04:49Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":136900 } ], "Target":"anaconda", "TotalReward":136900, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T10:05:34Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Alix Gunn;", "From_Localised":"Alix Gunn", "Message":"$BadKarmaCriticalDamage10;", "Message_Localised":"You've scratched my paint!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:05:46Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":132395 } ], "Target":"python", "TotalReward":132395, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T10:05:56Z", "event":"SendText", "To":"wing", "Message":"Got a good instance here... up to 1.5 million already" }
+{ "timestamp":"2018-02-17T10:06:01Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:06:03Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:06:28Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":68817 } ], "Target":"empire_trader", "TotalReward":68817, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T10:06:41Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":72837 } ], "Target":"federation_gunship", "TotalReward":72837, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T10:06:56Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:07:07Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Neil Hatcher;", "From_Localised":"Neil Hatcher", "Message":"$Pirate_OnStartScanCargo02;", "Message_Localised":"Carrying anything nice?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:07:17Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Neil Hatcher;", "From_Localised":"Neil Hatcher", "Message":"$Pirate_OnNoCargoFound11;", "Message_Localised":"Another empty cargo hold. My children will go hungry tonight.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:07:17Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:07:23Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Neil Hatcher;", "From_Localised":"Neil Hatcher", "Message":"$Pirate_OnDeclarePiracyAttack03;", "Message_Localised":"Now you die, victim.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:07:24Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:07:41Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Dewi Griffiths;", "From_Localised":"Dewi Griffiths", "Message":"$BadKarmaCriticalDamage08;", "Message_Localised":"I've taken too many hits.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:07:48Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"I just cashed 2.2mil, total is up to 13mil", "Channel":"wing" }
+{ "timestamp":"2018-02-17T10:08:17Z", "event":"SendText", "To":"wing", "Message":"nice" }
+{ "timestamp":"2018-02-17T10:08:28Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Neil Hatcher;", "From_Localised":"Neil Hatcher", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:08:50Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":240327 } ], "Target":"anaconda", "TotalReward":240327, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T10:09:05Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:10:51Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:11:11Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=LRT-RedSwan;", "From_Localised":"LRT-RedSwan", "Message":"$BadKarmaCriticalDamage01;", "Message_Localised":"How is this happening?!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:11:23Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":55940 } ], "Target":"asp", "TotalReward":55940, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:11:24Z", "event":"SendText", "To":"wing", "Message":"fdl" }
+{ "timestamp":"2018-02-17T10:12:16Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ricardo Madeira;", "From_Localised":"Ricardo Madeira", "Message":"$BadKarmaCriticalDamage04;", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:12:27Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":223205 } ], "Target":"ferdelance", "TotalReward":223205, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:12:43Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:12:45Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-02-17T10:12:53Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:13:13Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Daan G'llam;", "From_Localised":"Daan G'llam", "Message":"$Pirate_OnDeclarePiracyAttack04;", "Message_Localised":"I'm gonna boil you up!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:13:14Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:13:20Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Blaart Tiwkcuffoobar;", "From_Localised":"Blaart Tiwkcuffoobar", "Message":"$Pirate_OnStartScanCargo09;", "Message_Localised":"The scan will soon be over.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:13:25Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Blaart Tiwkcuffoobar;", "From_Localised":"Blaart Tiwkcuffoobar", "Message":"$Pirate_OnStartScanCargo08;", "Message_Localised":"What do you have in your cargo hold?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:13:35Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Blaart Tiwkcuffoobar;", "From_Localised":"Blaart Tiwkcuffoobar", "Message":"$Pirate_OnNoCargoFound07;", "Message_Localised":"Nothing for me here.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:13:35Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:13:55Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":109154 } ], "Target":"federation_gunship", "TotalReward":109154, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:13:57Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Jobsworth;", "From_Localised":"Jobsworth", "Message":"$Pirate_OnStartScanCargo04;", "Message_Localised":"What do you carry, I wonder?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:14:07Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Jobsworth;", "From_Localised":"Jobsworth", "Message":"$Pirate_OnNoCargoFound08;", "Message_Localised":"A wasted effort. There's no cargo here.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:14:07Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:14:38Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":117672 } ], "Target":"federation_dropship", "TotalReward":117672, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:14:58Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Dim Sum;", "From_Localised":"Dim Sum", "Message":"$BadKarmaCriticalDamage03;", "Message_Localised":"You fight a good fight!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:15:06Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":38555 } ], "Target":"asp_scout", "TotalReward":38555, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2018-02-17T10:15:10Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Jobsworth;", "From_Localised":"Jobsworth", "Message":"$Pirate_OnDeclarePiracyAttack01;", "Message_Localised":"I'll pick your bones clean, greenhorn.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:15:12Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Steinar Sele;", "From_Localised":"Steinar Sele", "Message":"$Pirate_OnStartScanCargo03;", "Message_Localised":"What are you hauling?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:15:13Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Xanthaar;", "From_Localised":"Xanthaar", "Message":"$Pirate_OnStartScanCargo07;", "Message_Localised":"Do you have anything of value?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:15:19Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Steinar Sele;", "From_Localised":"Steinar Sele", "Message":"$Pirate_OnStartScanCargo08;", "Message_Localised":"What do you have in your cargo hold?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:15:23Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Xanthaar;", "From_Localised":"Xanthaar", "Message":"$Pirate_OnNoCargoFound11;", "Message_Localised":"Another empty cargo hold. My children will go hungry tonight.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:15:23Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:15:29Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Steinar Sele;", "From_Localised":"Steinar Sele", "Message":"$Pirate_OnNoCargoFound02;", "Message_Localised":"Bah, nothing.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:15:29Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:15:30Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Jobsworth;", "From_Localised":"Jobsworth", "Message":"$BadKarmaCriticalDamage10;", "Message_Localised":"You've scratched my paint!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:15:36Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":48372 } ], "Target":"asp_scout", "TotalReward":48372, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:15:51Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":15874 } ], "Target":"empire_eagle", "TotalReward":15874, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:16:06Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:16:12Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:16:20Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Steinar Sele;", "From_Localised":"Steinar Sele", "Message":"$BadKarmaCriticalDamage04;", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:16:29Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":24799 } ], "Target":"cobramkiii", "TotalReward":24799, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:17:16Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":27770 } ], "Target":"empire_courier", "TotalReward":27770, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:17:25Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ashkan;", "From_Localised":"Ashkan", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:17:45Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":89045 } ], "Target":"asp_scout", "TotalReward":89045, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:18:00Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:18:05Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:18:11Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Olainen;", "From_Localised":"Olainen", "Message":"$Pirate_OnStartScanCargo04;", "Message_Localised":"What do you carry, I wonder?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:18:26Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Richard Glen Owen;", "From_Localised":"Richard Glen Owen", "Message":"$Escort_NearDeath03;", "Message_Localised":"I've got a problem here... requesting assistance.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:18:26Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=redpath-small;", "From_Localised":"redpath-small", "Message":"$Pirate_OnStartScanCargo01;", "Message_Localised":"I see all!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:18:27Z", "event":"SendText", "To":"wing", "Message":"out of ammo... going to cash again soon" }
+{ "timestamp":"2018-02-17T10:18:28Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Will Mashinoa;", "From_Localised":"Will Mashinoa", "Message":"$Pirate_OnStartScanCargo02;", "Message_Localised":"Carrying anything nice?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:18:29Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Olainen;", "From_Localised":"Olainen", "Message":"$Pirate_OnStartScanCargo05;", "Message_Localised":"What treats do you carry?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:18:35Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":44105 } ], "Target":"cobramkiii", "TotalReward":44105, "VictimFaction":"Cooper Research Associates", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:18:38Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Will Mashinoa;", "From_Localised":"Will Mashinoa", "Message":"$Pirate_OnNoCargoFound09;", "Message_Localised":"Next time you should fill your hold with gold.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:18:38Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:18:39Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Olainen;", "From_Localised":"Olainen", "Message":"$Pirate_OnNoCargoFound07;", "Message_Localised":"Nothing for me here.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:18:39Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:18:44Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"ok", "Channel":"wing" }
+{ "timestamp":"2018-02-17T10:18:49Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Xanthaar;", "From_Localised":"Xanthaar", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:19:04Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":41782 } ], "Target":"cobramkiii", "TotalReward":41782, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T10:19:18Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:19:27Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Will Mashinoa;", "From_Localised":"Will Mashinoa", "Message":"$Pirate_OnDeclarePiracyAttack03;", "Message_Localised":"Now you die, victim.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:19:27Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:19:43Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Will Mashinoa;", "From_Localised":"Will Mashinoa", "Message":"$BadKarmaCriticalDamage10;", "Message_Localised":"You've scratched my paint!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:19:57Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":64384 } ], "Target":"empire_trader", "TotalReward":64384, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:20:25Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Duke;", "From_Localised":"Duke", "Message":"$Escort_NearDeath04;", "Message_Localised":"Breaking off attack, I can't hold it.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:20:34Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":92435 } ], "Target":"federation_dropship", "TotalReward":92435, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:20:42Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Butters;", "From_Localised":"Butters", "Message":"$Escort_NearDeath04;", "Message_Localised":"Breaking off attack, I can't hold it.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:20:53Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":124670 } ], "Target":"federation_dropship", "TotalReward":124670, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T10:21:18Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Olainen;", "From_Localised":"Olainen", "Message":"$BadKarmaCriticalDamage01;", "Message_Localised":"How is this happening?!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:21:32Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":76585 } ], "Target":"federation_dropship", "TotalReward":76585, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:21:37Z", "event":"SendText", "To":"wing", "Message":"better run" }
+{ "timestamp":"2018-02-17T10:21:41Z", "event":"SendText", "To":"wing", "Message":"you shot the t7 :D" }
+{ "timestamp":"2018-02-17T10:21:51Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$OverwatchCriticalDamage08;", "Message_Localised":"This is the end!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:23:12Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Harry Wilkinson;", "From_Localised":"Harry Wilkinson", "Message":"$Pirate_OnStartScanCargo07;", "Message_Localised":"Do you have anything of value?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:23:21Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Harry Wilkinson;", "From_Localised":"Harry Wilkinson", "Message":"$Pirate_OnStartScanCargo01;", "Message_Localised":"I see all!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:23:23Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":164350 } ], "Target":"python", "TotalReward":164350, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T10:23:27Z", "event":"SendText", "To":"wing", "Message":"omw to MC2" }
+{ "timestamp":"2018-02-17T10:23:31Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Harry Wilkinson;", "From_Localised":"Harry Wilkinson", "Message":"$Pirate_OnNoCargoFound04;", "Message_Localised":"Another dud? Damn it all!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:23:31Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:23:32Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-02-17T10:23:34Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:23:37Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-02-17T10:23:41Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:23:55Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:24:05Z", "event":"SendText", "To":"wing", "Message":"3 million... nice" }
+{ "timestamp":"2018-02-17T10:24:10Z", "event":"StartJump", "JumpType":"Hyperspace", "StarSystem":"HIP 17943", "StarClass":"F" }
+{ "timestamp":"2018-02-17T10:24:15Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-02-17T10:24:28Z", "event":"FSDJump", "StarSystem":"HIP 17943", "StarPos":[-85.813,-64.938,-236.594], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$GAlAXY_MAP_INFO_state_anarchy;", "SystemSecurity_Localised":"Anarchy", "Population":0, "JumpDist":11.698, "FuelUsed":1.116506, "FuelLevel":28.916061 }
+{ "timestamp":"2018-02-17T10:24:29Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T10:24:46Z", "event":"FuelScoop", "Scooped":0.383123, "Total":29.299194 }
+{ "timestamp":"2018-02-17T10:25:09Z", "event":"StartJump", "JumpType":"Hyperspace", "StarSystem":"Hyades Sector AB-W b2-2", "StarClass":"M" }
+{ "timestamp":"2018-02-17T10:25:15Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-02-17T10:25:28Z", "event":"FSDJump", "StarSystem":"Hyades Sector AB-W b2-2", "StarPos":[-91.656,-62.531,-224.500], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Military;", "SystemEconomy_Localised":"Military", "SystemGovernment":"$government_Democracy;", "SystemGovernment_Localised":"Democracy", "SystemSecurity":"$SYSTEM_SECURITY_medium;", "SystemSecurity_Localised":"Medium Security", "Population":1200000, "JumpDist":13.645, "FuelUsed":1.624753, "FuelLevel":27.674440, "Factions":[ { "Name":"Cooper Research Associates", "FactionState":"None", "Government":"Democracy", "Influence":0.193000, "Allegiance":"Alliance", "PendingStates":[ { "State":"Boom", "Trend":1 } ] }, { "Name":"Hurn's Marauders", "FactionState":"Boom", "Government":"Anarchy", "Influence":0.177000, "Allegiance":"Independent" }, { "Name":"Hunting Dog Crew", "FactionState":"Boom", "Government":"Anarchy", "Influence":0.094000, "Allegiance":"Independent" }, { "Name":"Pilots Federation Local Branch", "FactionState":"None", "Government":"Democracy", "Influence":0.000000, "Allegiance":"PilotsFederation" }, { "Name":"Dan Lao Clan", "FactionState":"Boom", "Government":"Anarchy", "Influence":0.152000, "Allegiance":"Independent" }, { "Name":"Janus Incorporated", "FactionState":"None", "Government":"Corporate", "Influence":0.092000, "Allegiance":"Independent", "RecoveringStates":[ { "State":"CivilUnrest", "Trend":0 } ] }, { "Name":"Aegis Research", "FactionState":"None", "Government":"Cooperative", "Influence":0.036000, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 } ] }, { "Name":"Sirius Inc", "FactionState":"None", "Government":"Democracy", "Influence":0.256000, "Allegiance":"Independent" } ], "SystemFaction":"Sirius Inc" }
+{ "timestamp":"2018-02-17T10:25:28Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T10:25:49Z", "event":"FuelScoop", "Scooped":0.841335, "Total":28.515772 }
+{ "timestamp":"2018-02-17T10:29:24Z", "event":"SupercruiseExit", "StarSystem":"Hyades Sector AB-W b2-2", "Body":"PRE Logistics Support Delta", "BodyType":"Station" }
+{ "timestamp":"2018-02-17T10:29:24Z", "event":"Music", "MusicTrack":"DestinationFromSupercruise" }
+{ "timestamp":"2018-02-17T10:29:29Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:29:29Z", "event":"ReceiveText", "From":"PRE Logistics Support Delta", "Message":"$STATION_NoFireZone_entered;", "Message_Localised":"No fire zone entered.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:29:31Z", "event":"DockingRequested", "StationName":"PRE Logistics Support Delta" }
+{ "timestamp":"2018-02-17T10:29:31Z", "event":"ReceiveText", "From":"PRE Logistics Support Delta", "Message":"$DockingChatter_Allied;", "Message_Localised":"An ally like you is always welcome here.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:29:33Z", "event":"ReceiveText", "From":"PRE Logistics Support Delta", "Message":"$STATION_docking_granted;", "Message_Localised":"Docking request granted.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:29:33Z", "event":"DockingGranted", "LandingPad":3, "StationName":"PRE Logistics Support Delta" }
+{ "timestamp":"2018-02-17T10:30:11Z", "event":"Docked", "StationName":"PRE Logistics Support Delta", "StationType":"Outpost", "StarSystem":"Hyades Sector AB-W b2-2", "StationFaction":"Sirius Inc", "StationGovernment":"$government_Democracy;", "StationGovernment_Localised":"Democracy", "StationServices":[ "Dock", "Autodock", "Commodities", "Contacts", "Missions", "Rearm", "Refuel", "Repair", "Tuning", "MissionsGenerated", "FlightController", "StationOperations", "Powerplay", "SearchAndRescue" ], "StationEconomy":"$economy_Military;", "StationEconomy_Localised":"Military", "DistFromStarLS":260.717163 }
+{ "timestamp":"2018-02-17T10:30:26Z", "event":"RedeemVoucher", "Type":"bounty", "Amount":3022712, "Factions":[ { "Faction":"Sirius Inc", "Amount":3022712 } ] }
+{ "timestamp":"2018-02-17T10:30:40Z", "event":"BuyAmmo", "Cost":9385 }
+{ "timestamp":"2018-02-17T10:30:45Z", "event":"RefuelAll", "Cost":217, "Amount":4.322406 }
+{ "timestamp":"2018-02-17T10:30:49Z", "event":"Repair", "Item":"Wear", "Cost":1334 }
+{ "timestamp":"2018-02-17T10:32:46Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-02-17T10:32:49Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:32:53Z", "event":"Undocked", "StationName":"PRE Logistics Support Delta", "StationType":"Outpost" }
+{ "timestamp":"2018-02-17T10:33:18Z", "event":"ReceiveText", "From":"PRE Logistics Support Delta", "Message":"$STATION_NoFireZone_exited;", "Message_Localised":"No fire zone left.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:33:20Z", "event":"StartJump", "JumpType":"Hyperspace", "StarSystem":"Hyades Sector ZU-Y c4", "StarClass":"K" }
+{ "timestamp":"2018-02-17T10:33:26Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-02-17T10:33:42Z", "event":"FSDJump", "StarSystem":"Hyades Sector ZU-Y c4", "StarPos":[-86.000,-69.375,-236.375], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$GAlAXY_MAP_INFO_state_anarchy;", "SystemSecurity_Localised":"Anarchy", "Population":0, "JumpDist":14.827, "FuelUsed":2.006650, "FuelLevel":29.993349 }
+{ "timestamp":"2018-02-17T10:33:43Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T10:34:05Z", "event":"FuelScoop", "Scooped":1.268801, "Total":31.262123 }
+{ "timestamp":"2018-02-17T10:34:27Z", "event":"StartJump", "JumpType":"Hyperspace", "StarSystem":"42 n Persei", "StarClass":"A" }
+{ "timestamp":"2018-02-17T10:34:33Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-02-17T10:34:46Z", "event":"FSDJump", "StarSystem":"42 n Persei", "StarPos":[-83.563,-73.406,-244.344], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Extraction;", "SystemEconomy_Localised":"Extraction", "SystemGovernment":"$government_Democracy;", "SystemGovernment_Localised":"Democracy", "SystemSecurity":"$SYSTEM_SECURITY_medium;", "SystemSecurity_Localised":"Medium Security", "Population":1200000, "JumpDist":9.257, "FuelUsed":0.631432, "FuelLevel":30.630692, "Factions":[ { "Name":"Pleiades Resource Enterprise", "FactionState":"None", "Government":"Corporate", "Influence":0.216000, "Allegiance":"Federation", "PendingStates":[ { "State":"Boom", "Trend":1 } ] }, { "Name":"Cooper Research Associates", "FactionState":"None", "Government":"Democracy", "Influence":0.225000, "Allegiance":"Alliance", "PendingStates":[ { "State":"Boom", "Trend":1 } ] }, { "Name":"I.P.S.A.L Project", "FactionState":"None", "Government":"Corporate", "Influence":0.012000, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":0 }, { "State":"CivilUnrest", "Trend":-1 } ] }, { "Name":"Pilots Federation Local Branch", "FactionState":"None", "Government":"Democracy", "Influence":0.000000, "Allegiance":"PilotsFederation" }, { "Name":"Black Flag Operations", "FactionState":"Boom", "Government":"Anarchy", "Influence":0.258000, "Allegiance":"Independent", "PendingStates":[ { "State":"Famine", "Trend":0 } ] }, { "Name":"Sirius Inc", "FactionState":"None", "Government":"Democracy", "Influence":0.289000, "Allegiance":"Independent" } ], "SystemFaction":"Sirius Inc" }
+{ "timestamp":"2018-02-17T10:34:46Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T10:35:04Z", "event":"FuelScoop", "Scooped":0.166725, "Total":30.797430 }
+{ "timestamp":"2018-02-17T10:36:04Z", "event":"SupercruiseExit", "StarSystem":"42 n Persei", "Body":"42 n Persei A 5", "BodyType":"Planet" }
+{ "timestamp":"2018-02-17T10:36:05Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:36:20Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2018-02-17T10:36:25Z", "event":"SupercruiseEntry", "StarSystem":"42 n Persei" }
+{ "timestamp":"2018-02-17T10:36:25Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T10:36:42Z", "event":"SupercruiseExit", "StarSystem":"42 n Persei", "Body":"42 n Persei A 5", "BodyType":"Planet" }
+{ "timestamp":"2018-02-17T10:36:42Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:36:57Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2018-02-17T10:37:02Z", "event":"SupercruiseEntry", "StarSystem":"42 n Persei" }
+{ "timestamp":"2018-02-17T10:37:03Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T10:37:19Z", "event":"SupercruiseExit", "StarSystem":"42 n Persei", "Body":"42 n Persei A 5 B Ring", "BodyType":"PlanetaryRing" }
+{ "timestamp":"2018-02-17T10:37:19Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:38:08Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:38:17Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_ArrivedAtInvestigationLocation03;", "Message_Localised":"Crime scene cordon initialised, all ships must submit to police scan.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:38:35Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Nina Killam;", "From_Localised":"Nina Killam", "Message":"$BadKarmaCriticalDamage08;", "Message_Localised":"I've taken too many hits.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:38:43Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":49860 } ], "Target":"diamondbackxl", "TotalReward":49860, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:38:57Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":20255 } ], "Target":"viper", "TotalReward":20255, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:39:12Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:39:21Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:39:28Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Gordon Valiant;", "From_Localised":"Gordon Valiant", "Message":"$BadKarmaCriticalDamage06;", "Message_Localised":"I hadn't expected this.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:39:33Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Nathan Corn;", "From_Localised":"Nathan Corn", "Message":"$Escort_EscortJump02;", "Message_Localised":"Damn. Looks like I'm done here.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:39:37Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":84080 } ], "Target":"empire_trader", "TotalReward":84080, "VictimFaction":"Pleiades Resource Enterprise", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:39:41Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Kukkuruzo;", "From_Localised":"Kukkuruzo", "Message":"$Pirate_OnStartScanCargo01;", "Message_Localised":"I see all!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:39:49Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Kukkuruzo;", "From_Localised":"Kukkuruzo", "Message":"$BadKarmaCriticalDamage05;", "Message_Localised":"No, no!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:39:55Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":5900 } ], "Target":"eagle", "TotalReward":5900, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:40:10Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:40:12Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:40:14Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Henke 'Kniiip' Löfqvist;", "From_Localised":"Henke 'Kniiip' Löfqvist", "Message":"$Pirate_OnDeclarePiracyAttack05;", "Message_Localised":"You have no chance now.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:40:48Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Henke 'Kniiip' Löfqvist;", "From_Localised":"Henke 'Kniiip' Löfqvist", "Message":"$BadKarmaCriticalDamage08;", "Message_Localised":"I've taken too many hits.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:40:58Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":72022 } ], "Target":"federation_dropship_mkii", "TotalReward":72022, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:41:13Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:42:15Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Nick Russell;", "From_Localised":"Nick Russell", "Message":"$Pirate_OnDeclarePiracyAttack02;", "Message_Localised":"You choose death then. Very well.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:42:15Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:42:43Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Scotto;", "From_Localised":"Scotto", "Message":"$Pirate_OnStartScanCargo09;", "Message_Localised":"The scan will soon be over.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:42:47Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Pacal Balan;", "From_Localised":"Pacal Balan", "Message":"$Pirate_OnStartScanCargo10;", "Message_Localised":"Let me see what you have.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:42:48Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Neil Cholerton;", "From_Localised":"Neil Cholerton", "Message":"$Pirate_OnStartScanCargo05;", "Message_Localised":"What treats do you carry?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:42:50Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Sebastian T. Clifton;", "From_Localised":"Sebastian T. Clifton", "Message":"$Pirate_OnStartScanCargo05;", "Message_Localised":"What treats do you carry?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:42:53Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Scotto;", "From_Localised":"Scotto", "Message":"$Pirate_OnNoCargoFound08;", "Message_Localised":"A wasted effort. There's no cargo here.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:42:53Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:42:54Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Pacal Balan;", "From_Localised":"Pacal Balan", "Message":"$Pirate_OnStartScanCargo01;", "Message_Localised":"I see all!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:42:58Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Neil Cholerton;", "From_Localised":"Neil Cholerton", "Message":"$Pirate_OnNoCargoFound10;", "Message_Localised":"There's nothing worth my while here.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:42:58Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:43:00Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Sebastian T. Clifton;", "From_Localised":"Sebastian T. Clifton", "Message":"$Pirate_OnNoCargoFound07;", "Message_Localised":"Nothing for me here.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:43:00Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:43:02Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Nick Russell;", "From_Localised":"Nick Russell", "Message":"$BadKarmaCriticalDamage10;", "Message_Localised":"You've scratched my paint!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:43:04Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Pacal Balan;", "From_Localised":"Pacal Balan", "Message":"$Pirate_OnNoCargoFound01;", "Message_Localised":"No cargo? Waste of time...", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:43:04Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:43:18Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":76955 } ], "Target":"federation_dropship", "TotalReward":76955, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:43:21Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Lovatt;", "From_Localised":"Lovatt", "Message":"$Pirate_OnDeclarePiracyAttack01;", "Message_Localised":"I'll pick your bones clean, greenhorn.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:43:44Z", "event":"Friends", "Status":"Online", "Name":"Araphel" }
+{ "timestamp":"2018-02-17T10:43:53Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Lovatt;", "From_Localised":"Lovatt", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:44:10Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":193055 } ], "Target":"ferdelance", "TotalReward":193055, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:44:44Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":28500 } ], "Target":"empire_courier", "TotalReward":28500, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:44:53Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":74510 } ], "Target":"diamondbackxl", "TotalReward":74510, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T10:44:58Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Pacal Balan;", "From_Localised":"Pacal Balan", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:45:08Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:45:12Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_ArrivedAtInvestigationLocation05;", "Message_Localised":"A crime has been reported here. All ships will be scanned.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:45:18Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_ArrivedAtInvestigationLocation02;", "Message_Localised":"Cease and desist! Submit to authority scans immediately!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:45:37Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:46:07Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ben Ria Reynolds;", "From_Localised":"Ben Ria Reynolds", "Message":"$BadKarmaCriticalDamage01;", "Message_Localised":"How is this happening?!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:46:15Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":63390 } ], "Target":"asp_scout", "TotalReward":63390, "VictimFaction":"I.P.S.A.L Project", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:46:27Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_FinishedAtInvestigationLocation04;", "Message_Localised":"Crime response sweep completed. All ships are free to depart.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:46:30Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:47:21Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Craig J Alderson;", "From_Localised":"Craig J Alderson", "Message":"$Pirate_OnDeclarePiracyAttack02;", "Message_Localised":"You choose death then. Very well.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:47:21Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:47:57Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":42282 } ], "Target":"diamondbackxl", "TotalReward":42282, "VictimFaction":"Cooper Research Associates", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:48:12Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:48:28Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Paul Mikhail;", "From_Localised":"Paul Mikhail", "Message":"$Pirate_OnStartScanCargo01;", "Message_Localised":"I see all!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:48:32Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:48:40Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":20790 } ], "Target":"eagle", "TotalReward":20790, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:48:44Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Jenny the Lovely;", "From_Localised":"Jenny the Lovely", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:48:50Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Hunter Howitt;", "From_Localised":"Hunter Howitt", "Message":"$Pirate_OnHullLowJumpAway15;", "Message_Localised":"Urgent repairs needed and then I will hunt you down, Commander.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:48:52Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":13797 } ], "Target":"eagle", "TotalReward":13797, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:49:07Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:49:39Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Duane Dibbley;", "From_Localised":"Duane Dibbley", "Message":"$Pirate_OnStartScanCargo01;", "Message_Localised":"I see all!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:49:42Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:49:47Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Duane Dibbley;", "From_Localised":"Duane Dibbley", "Message":"$Pirate_OnStartScanCargo07;", "Message_Localised":"Do you have anything of value?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:49:55Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Duane Dibbley;", "From_Localised":"Duane Dibbley", "Message":"$Pirate_OnStartScanCargo10;", "Message_Localised":"Let me see what you have.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:50:06Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Duane Dibbley;", "From_Localised":"Duane Dibbley", "Message":"$Pirate_OnStartScanCargo06;", "Message_Localised":"Let's see what you are carrying.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:50:07Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":19500 } ], "Target":"empire_eagle", "TotalReward":19500, "VictimFaction":"Black Flag Operations", "SharedWithOthers":1 }
+{ "timestamp":"2018-02-17T10:50:16Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Duane Dibbley;", "From_Localised":"Duane Dibbley", "Message":"$Pirate_OnNoCargoFound02;", "Message_Localised":"Bah, nothing.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:50:16Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:50:21Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Aradaus Nasdali;", "From_Localised":"Aradaus Nasdali", "Message":"$Pirate_OnStartScanCargo03;", "Message_Localised":"What are you hauling?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:50:22Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:50:30Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Aradaus Nasdali;", "From_Localised":"Aradaus Nasdali", "Message":"$Pirate_OnStartScanCargo03;", "Message_Localised":"What are you hauling?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:50:40Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Aradaus Nasdali;", "From_Localised":"Aradaus Nasdali", "Message":"$Pirate_OnNoCargoFound01;", "Message_Localised":"No cargo? Waste of time...", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:50:40Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:50:52Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:51:04Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Annelise Harvey;", "From_Localised":"Annelise Harvey", "Message":"$Pirate_OnStartScanCargo05;", "Message_Localised":"What treats do you carry?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:51:07Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Duane Dibbley;", "From_Localised":"Duane Dibbley", "Message":"$Pirate_OnDeclarePiracyAttack07;", "Message_Localised":"I consign your remains to the void.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:51:10Z", "event":"SendText", "To":"wing", "Message":"UH...RUN" }
+{ "timestamp":"2018-02-17T10:51:17Z", "event":"SendText", "To":"wing", "Message":"lol, again :D" }
+{ "timestamp":"2018-02-17T10:51:31Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Annelise Harvey;", "From_Localised":"Annelise Harvey", "Message":"$Pirate_OnStartScanCargo08;", "Message_Localised":"What do you have in your cargo hold?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:51:36Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$OverwatchAttackRun01;", "Message_Localised":"Engaging.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:51:50Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Jessica Good;", "From_Localised":"Jessica Good", "Message":"$Pirate_OnStartScanCargo02;", "Message_Localised":"Carrying anything nice?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:52:10Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"dunno what that was, my bounty didn't increase", "Channel":"wing" }
+{ "timestamp":"2018-02-17T10:52:13Z", "event":"SendText", "To":"wing", "Message":"hehe... we need an apology button" }
+{ "timestamp":"2018-02-17T10:52:20Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2018-02-17T10:52:25Z", "event":"SupercruiseEntry", "StarSystem":"42 n Persei" }
+{ "timestamp":"2018-02-17T10:52:25Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-02-17T10:52:38Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"out of missiles so a good time to cash bounties anyway", "Channel":"wing" }
+{ "timestamp":"2018-02-17T10:52:49Z", "event":"SupercruiseExit", "StarSystem":"42 n Persei", "Body":"42 n Persei A 5 B Ring", "BodyType":"PlanetaryRing" }
+{ "timestamp":"2018-02-17T10:52:50Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:53:03Z", "event":"SendText", "To":"wing", "Message":"Cool, I should probably log off in a few.  Nearly 5 am here :)" }
+{ "timestamp":"2018-02-17T10:53:14Z", "event":"SendText", "To":"wing", "Message":"I'll justy loiter in the res for another 5 minutes or so" }
+{ "timestamp":"2018-02-17T10:53:18Z", "event":"SendText", "To":"wing", "Message":"*just" }
+{ "timestamp":"2018-02-17T10:53:40Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Faldaran Waynolt;", "From_Localised":"Faldaran Waynolt", "Message":"$Pirate_OnStartScanCargo05;", "Message_Localised":"What treats do you carry?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:53:48Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Faldaran Waynolt;", "From_Localised":"Faldaran Waynolt", "Message":"$Pirate_OnStartScanCargo08;", "Message_Localised":"What do you have in your cargo hold?", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:53:51Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Jive Scarlet;", "From_Localised":"Jive Scarlet", "Message":"$Pirate_OnDeclarePiracyAttack01;", "Message_Localised":"I'll pick your bones clean, greenhorn.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:53:52Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:53:58Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Faldaran Waynolt;", "From_Localised":"Faldaran Waynolt", "Message":"$Pirate_OnNoCargoFound07;", "Message_Localised":"Nothing for me here.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:53:58Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-02-17T10:55:13Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Jive Scarlet;", "From_Localised":"Jive Scarlet", "Message":"$BadKarmaCriticalDamage07;", "Message_Localised":"Too much damage!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:55:27Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Leonard Nero;", "From_Localised":"Leonard Nero", "Message":"$MinerCriticalDamage03;", "Message_Localised":"You'll pay for this, murderer!", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:55:34Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":106177 } ], "Target":"empire_trader", "TotalReward":106177, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T10:55:49Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:56:07Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-02-17T10:56:28Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":117869 } ], "Target":"federation_gunship", "TotalReward":117869, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T10:57:09Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Faldaran Waynolt;", "From_Localised":"Faldaran Waynolt", "Message":"$BadKarmaCriticalDamage08;", "Message_Localised":"I've taken too many hits.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:57:30Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":130200 } ], "Target":"python", "TotalReward":130200, "VictimFaction":"Black Flag Operations" }
+{ "timestamp":"2018-02-17T10:57:45Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-02-17T10:58:41Z", "event":"SendText", "To":"wing", "Message":"Thanks for the wing, I'm gonna head out" }
+{ "timestamp":"2018-02-17T10:59:07Z", "event":"SendText", "To":"wing", "Message":"I think we're in good shape (MC2 and MC3); we should have a lot of positive influence shift at next daily tick" }
+{ "timestamp":"2018-02-17T10:59:09Z", "event":"ReceiveText", "From":"Gabriel Case", "Message":"s7 .,, cashing 2.3mil so the total in MC2 will be about 17mil", "Channel":"wing" }
+{ "timestamp":"2018-02-17T10:59:29Z", "event":"SendText", "To":"wing", "Message":"Great... was up to more than 20 million in MC3 when I last checked" }
+{ "timestamp":"2018-02-17T10:59:36Z", "event":"SendText", "To":"wing", "Message":"have a good one  s7" }
+{ "timestamp":"2018-02-17T10:59:43Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Iain Peirse;", "From_Localised":"Iain Peirse", "Message":"$BadKarmaCriticalDamage08;", "Message_Localised":"I've taken too many hits.", "Channel":"npc" }
+{ "timestamp":"2018-02-17T10:59:43Z", "event":"WingLeave" }
+{ "timestamp":"2018-02-17T10:59:48Z", "event":"Music", "MusicTrack":"MainMenu" }

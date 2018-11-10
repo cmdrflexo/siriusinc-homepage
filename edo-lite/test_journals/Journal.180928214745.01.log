@@ -1,0 +1,8 @@
+{ "timestamp":"2018-09-29T02:47:45Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"3.2.1.300 EDH", "build":"r180310/r0 " }
+{ "timestamp":"2018-09-29T02:47:45Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-09-29T02:47:45Z", "event":"Music", "MusicTrack":"MainMenu" }
+{ "timestamp":"2018-09-29T02:48:16Z", "event":"Friends", "Status":"Online", "Name":"C-137" }
+{ "timestamp":"2018-09-29T02:48:16Z", "event":"Friends", "Status":"Online", "Name":"GueroMarinero" }
+{ "timestamp":"2018-09-29T02:49:10Z", "event":"Friends", "Status":"Online", "Name":"C-137" }
+{ "timestamp":"2018-09-29T02:49:10Z", "event":"Friends", "Status":"Online", "Name":"GueroMarinero" }
+{ "timestamp":"2018-09-29T04:14:11Z", "event":"Shutdown" }

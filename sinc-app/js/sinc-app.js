@@ -120,11 +120,11 @@ function setupObjects() {
 }
 
 function setupCursor() {
-    axesHelper = new THREE.AxesHelper(10);
-    axesHelper.add(new THREE.Mesh(
-        new THREE.CylinderGeometry(2.5, 2.5, 0.001, 16),
-        new THREE.MeshBasicMaterial({color: 0x888888})
-    ));
+    axesHelper = new THREE.AxesHelper(3);
+    // axesHelper.add(new THREE.Mesh(
+    //     new THREE.CylinderGeometry(2.5, 2.5, 0.001, 16),
+    //     new THREE.MeshBasicMaterial({color: 0x888888})
+    // ));
     sc.scene.add(axesHelper);
 }
 

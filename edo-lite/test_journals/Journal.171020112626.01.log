@@ -1,0 +1,156 @@
+{ "timestamp":"2017-10-20T18:26:26Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"2.4", "build":"r156431/r0 " }
+{ "timestamp":"2017-10-20T18:26:26Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2017-10-20T18:26:26Z", "event":"Music", "MusicTrack":"MainMenu" }
+{ "timestamp":"2017-10-20T18:27:02Z", "event":"Friends", "Status":"Online", "Name":"L'ArtDéChØiX" }
+{ "timestamp":"2017-10-20T18:27:08Z", "event":"Cargo", "Inventory":[ { "Name":"silver", "Count":8 }, { "Name":"osmium", "Count":2 }, { "Name":"praseodymium", "Count":4 } ] }
+{ "timestamp":"2017-10-20T18:27:08Z", "event":"Loadout", "Ship":"Python", "ShipID":2, "ShipName":"kaa", "ShipIdent":"k44-py", "Modules":[ { "Slot":"LargeHardpoint1", "Item":"Hpt_BeamLaser_Gimbal_Large", "On":true, "Priority":0, "Health":1.000000, "Value":2336256, "EngineerBlueprint":"Weapon_Efficient", "EngineerLevel":5 }, { "Slot":"LargeHardpoint2", "Item":"Hpt_BeamLaser_Gimbal_Large", "On":true, "Priority":0, "Health":1.000000, "Value":2336256, "EngineerBlueprint":"Weapon_Efficient", "EngineerLevel":5 }, { "Slot":"LargeHardpoint3", "Item":"Hpt_Slugshot_Gimbal_Large", "On":true, "Priority":0, "AmmoInClip":6, "AmmoInHopper":180, "Health":1.000000, "Value":1488384, "EngineerBlueprint":"Weapon_DoubleShot", "EngineerLevel":3 }, { "Slot":"MediumHardpoint1", "Item":"Hpt_Slugshot_Gimbal_Medium", "On":true, "Priority":0, "AmmoInClip":6, "AmmoInHopper":180, "Health":1.000000, "Value":372096, "EngineerBlueprint":"Weapon_DoubleShot", "EngineerLevel":3 }, { "Slot":"MediumHardpoint2", "Item":"Hpt_Slugshot_Gimbal_Medium", "On":true, "Priority":0, "AmmoInClip":6, "AmmoInHopper":180, "Health":1.000000, "Value":372096, "EngineerBlueprint":"Weapon_DoubleShot", "EngineerLevel":3 }, { "Slot":"TinyHardpoint1", "Item":"Hpt_HeatSinkLauncher_Turret_Tiny", "On":true, "Priority":0, "AmmoInClip":1, "AmmoInHopper":3, "Health":1.000000, "Value":3413, "EngineerBlueprint":"HeatSinkLauncher_HeatSinkCapacity", "EngineerLevel":3 }, { "Slot":"TinyHardpoint2", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Thermic", "EngineerLevel":5 }, { "Slot":"TinyHardpoint3", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":273975, "EngineerBlueprint":"ShieldBooster_Thermic", "EngineerLevel":5 }, { "Slot":"TinyHardpoint4", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Thermic", "EngineerLevel":5 }, { "Slot":"PaintJob", "Item":"PaintJob_Python_Militaire_Earth_Yellow", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"Decal1", "Item":"Decal_Combat_Elite", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"Decal2", "Item":"Decal_PlayerGroup_GalCop", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"Decal3", "Item":"Decal_PlayerGroup_GalCop", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"Armour", "Item":"Python_Armour_Grade3", "On":true, "Priority":1, "Health":1.000000, "Value":42498600, "EngineerBlueprint":"Armour_Advanced", "EngineerLevel":5 }, { "Slot":"PowerPlant", "Item":"Int_Powerplant_Size7_Class5", "On":true, "Priority":1, "Health":1.000000, "Value":43595744, "EngineerBlueprint":"PowerPlant_Boosted", "EngineerLevel":4 }, { "Slot":"MainEngines", "Item":"Int_Engine_Size6_Class5", "On":true, "Priority":1, "Health":1.000000, "Value":14561578, "EngineerBlueprint":"Engine_Tuned", "EngineerLevel":5 }, { "Slot":"FrameShiftDrive", "Item":"Int_Hyperdrive_Size5_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":4593558, "EngineerBlueprint":"FSD_LongRange", "EngineerLevel":5 }, { "Slot":"LifeSupport", "Item":"Int_LifeSupport_Size4_Class2", "On":true, "Priority":0, "Health":1.000000, "Value":23516, "EngineerBlueprint":"LifeSupport_LightWeight", "EngineerLevel":4 }, { "Slot":"PowerDistributor", "Item":"Int_PowerDistributor_Size7_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":8272141, "EngineerBlueprint":"PowerDistributor_PriorityWeapons", "EngineerLevel":3 }, { "Slot":"Radar", "Item":"Int_Sensors_Size6_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":3128120, "EngineerBlueprint":"Sensor_Sensor_LightWeight", "EngineerLevel":5 }, { "Slot":"FuelTank", "Item":"Int_FuelTank_Size5_Class3", "On":true, "Priority":1, "Health":1.000000, "Value":97754 }, { "Slot":"Slot01_Size6", "Item":"Int_ShieldGenerator_Size6_Class5_Strong", "On":true, "Priority":0, "Health":1.000000, "Value":20113181, "EngineerBlueprint":"ShieldGenerator_Reinforced", "EngineerLevel":5 }, { "Slot":"Slot02_Size6", "Item":"Int_CargoRack_Size6_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":353527 }, { "Slot":"Slot03_Size6", "Item":"Int_CargoRack_Size6_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":326332 }, { "Slot":"Slot04_Size5", "Item":"Int_CargoRack_Size5_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":111566 }, { "Slot":"Slot05_Size5", "Item":"Int_CargoRack_Size5_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":92460 }, { "Slot":"Slot06_Size4", "Item":"Int_CargoRack_Size4_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":33470 }, { "Slot":"Slot07_Size3", "Item":"Int_CargoRack_Size3_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":8754 }, { "Slot":"Slot08_Size3", "Item":"Int_FuelScoop_Size3_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":767511 }, { "Slot":"Slot09_Size2", "Item":"Int_StellarBodyDiscoveryScanner_Advanced", "On":true, "Priority":1, "Health":1.000000, "Value":1313250 }, { "Slot":"PlanetaryApproachSuite", "Item":"Int_PlanetApproachSuite", "On":true, "Priority":1, "Health":1.000000, "Value":500 }, { "Slot":"ShipCockpit", "Item":"Python_Cockpit", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"CargoHatch", "Item":"ModularCargoBayDoor", "On":true, "Priority":0, "Health":1.000000, "Value":0 } ] }
+{ "timestamp":"2017-10-20T18:27:08Z", "event":"Materials", "Raw":[ { "Name":"nickel", "Count":18 }, { "Name":"sulphur", "Count":14 }, { "Name":"carbon", "Count":20 }, { "Name":"iron", "Count":18 }, { "Name":"zinc", "Count":12 }, { "Name":"mercury", "Count":23 }, { "Name":"yttrium", "Count":3 }, { "Name":"zirconium", "Count":2 }, { "Name":"tellurium", "Count":25 }, { "Name":"technetium", "Count":24 }, { "Name":"polonium", "Count":10 }, { "Name":"phosphorus", "Count":8 }, { "Name":"cadmium", "Count":2 }, { "Name":"germanium", "Count":11 }, { "Name":"antimony", "Count":17 }, { "Name":"vanadium", "Count":15 }, { "Name":"manganese", "Count":10 }, { "Name":"molybdenum", "Count":4 }, { "Name":"chromium", "Count":18 }, { "Name":"tin", "Count":5 } ], "Manufactured":[ { "Name":"mechanicalscrap", "Count":12 }, { "Name":"hybridcapacitors", "Count":15 }, { "Name":"wornshieldemitters", "Count":10 }, { "Name":"chemicalprocessors", "Count":15 }, { "Name":"refinedfocuscrystals", "Count":37 }, { "Name":"focuscrystals", "Count":20 }, { "Name":"gridresistors", "Count":31 }, { "Name":"compoundshielding", "Count":20 }, { "Name":"uncutfocuscrystals", "Count":6 }, { "Name":"galvanisingalloys", "Count":15 }, { "Name":"precipitatedalloys", "Count":25 }, { "Name":"shieldingsensors", "Count":15 }, { "Name":"militarygradealloys", "Count":38 }, { "Name":"heatexchangers", "Count":3 }, { "Name":"configurablecomponents", "Count":20 }, { "Name":"conductivepolymers", "Count":35 }, { "Name":"heatvanes", "Count":10 }, { "Name":"biotechconductors", "Count":66 }, { "Name":"thermicalloys", "Count":39 }, { "Name":"highdensitycomposites", "Count":15 }, { "Name":"chemicaldistillery", "Count":15 }, { "Name":"shieldemitters", "Count":15 }, { "Name":"improvisedcomponents", "Count":10 }, { "Name":"heatdispersionplate", "Count":10 }, { "Name":"heatresistantceramics", "Count":10 }, { "Name":"mechanicalequipment", "Count":34 }, { "Name":"temperedalloys", "Count":10 }, { "Name":"salvagedalloys", "Count":10 }, { "Name":"protolightalloys", "Count":18 }, { "Name":"pharmaceuticalisolators", "Count":1 }, { "Name":"protoheatradiators", "Count":6 }, { "Name":"fedproprietarycomposites", "Count":16 }, { "Name":"conductiveceramics", "Count":18 }, { "Name":"conductivecomponents", "Count":31 }, { "Name":"electrochemicalarrays", "Count":20 }, { "Name":"exquisitefocuscrystals", "Count":15 }, { "Name":"fedcorecomposites", "Count":33 }, { "Name":"militarysupercapacitors", "Count":8 }, { "Name":"mechanicalcomponents", "Count":6 } ], "Encoded":[ { "Name":"compactemissionsdata", "Count":28 }, { "Name":"scrambledemissiondata", "Count":5 }, { "Name":"shieldcyclerecordings", "Count":5 }, { "Name":"shieldsoakanalysis", "Count":10 }, { "Name":"shieldpatternanalysis", "Count":43 }, { "Name":"decodedemissiondata", "Count":25 }, { "Name":"shielddensityreports", "Count":15 }, { "Name":"hyperspacetrajectories", "Count":20 }, { "Name":"disruptedwakeechoes", "Count":5 }, { "Name":"shieldfrequencydata", "Count":23 }, { "Name":"fsdtelemetry", "Count":5 }, { "Name":"scanarchives", "Count":15 }, { "Name":"encodedscandata", "Count":23 }, { "Name":"classifiedscandata", "Count":20 }, { "Name":"archivedemissiondata", "Count":15 }, { "Name":"encryptioncodes", "Count":10 }, { "Name":"embeddedfirmware", "Count":45 }, { "Name":"encryptedfiles", "Count":5 }, { "Name":"consumerfirmware", "Count":25 }, { "Name":"symmetrickeys", "Count":8 }, { "Name":"encryptionarchives", "Count":6 }, { "Name":"wakesolutions", "Count":25 }, { "Name":"securityfirmware", "Count":25 }, { "Name":"adaptiveencryptors", "Count":6 }, { "Name":"legacyfirmware", "Count":25 }, { "Name":"scandatabanks", "Count":20 }, { "Name":"bulkscandata", "Count":5 }, { "Name":"emissiondata", "Count":20 }, { "Name":"industrialfirmware", "Count":7 }, { "Name":"dataminedwake", "Count":3 } ] }
+{ "timestamp":"2017-10-20T18:27:08Z", "event":"LoadGame", "Commander":"McCaslin", "Ship":"Python", "ShipID":2, "ShipName":"kaa", "ShipIdent":"k44-py", "FuelLevel":32.000000, "FuelCapacity":32.000000, "GameMode":"Solo", "Credits":1936824170, "Loan":0 }
+{ "timestamp":"2017-10-20T18:27:08Z", "event":"Rank", "Combat":8, "Trade":8, "Explore":7, "Empire":12, "Federation":12, "CQC":0 }
+{ "timestamp":"2017-10-20T18:27:08Z", "event":"Progress", "Combat":100, "Trade":100, "Explore":69, "Empire":3, "Federation":57, "CQC":0 }
+{ "timestamp":"2017-10-20T18:27:32Z", "event":"Location", "Docked":true, "StationName":"Davis Settlement", "StationType":"Coriolis", "StarSystem":"Liu Beni", "StarPos":[-96.094,-11.219,-135.250], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Refinery;", "SystemEconomy_Localised":"Refinery", "SystemGovernment":"$government_Democracy;", "SystemGovernment_Localised":"Democracy", "SystemSecurity":"$SYSTEM_SECURITY_medium;", "SystemSecurity_Localised":"Medium Security", "Population":142068, "Body":"Davis Settlement", "BodyType":"Station", "Factions":[ { "Name":"Future of Segovan", "FactionState":"Boom", "Government":"Democracy", "Influence":0.093000, "Allegiance":"Federation" }, { "Name":"Pilots Federation Local Branch", "FactionState":"None", "Government":"Democracy", "Influence":0.000000, "Allegiance":"PilotsFederation" }, { "Name":"Shoroteni for Equality", "FactionState":"None", "Government":"Democracy", "Influence":0.013000, "Allegiance":"Federation", "PendingStates":[ { "State":"Boom", "Trend":0 }, { "State":"Expansion", "Trend":0 } ] }, { "Name":"Labour of Liu Beni", "FactionState":"None", "Government":"Democracy", "Influence":0.124000, "Allegiance":"Federation" }, { "Name":"Liu Beni Industry", "FactionState":"None", "Government":"Corporate", "Influence":0.086000, "Allegiance":"Independent" }, { "Name":"Natural Liu Beni Dominion", "FactionState":"None", "Government":"Dictatorship", "Influence":0.070000, "Allegiance":"Independent" }, { "Name":"Liu Beni Drug Empire", "FactionState":"Outbreak", "Government":"Anarchy", "Influence":0.044000, "Allegiance":"Independent", "RecoveringStates":[ { "State":"Famine", "Trend":0 } ] }, { "Name":"Sirius Inc", "FactionState":"Boom", "Government":"Democracy", "Influence":0.570000, "Allegiance":"Independent", "PendingStates":[ { "State":"Expansion", "Trend":0 } ] } ], "SystemFaction":"Sirius Inc", "FactionState":"Boom" }
+{ "timestamp":"2017-10-20T18:27:33Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2017-10-20T18:27:33Z", "event":"Docked", "StationName":"Davis Settlement", "StationType":"Coriolis", "StarSystem":"Liu Beni", "StationFaction":"Sirius Inc", "FactionState":"Boom", "StationGovernment":"$government_Democracy;", "StationGovernment_Localised":"Democracy", "StationServices":[ "Dock", "Autodock", "BlackMarket", "Commodities", "Contacts", "Exploration", "Missions", "Outfitting", "CrewLounge", "Rearm", "Refuel", "Repair", "Shipyard", "Tuning", "MissionsGenerated", "FlightController", "StationOperations", "Powerplay", "SearchAndRescue" ], "StationEconomy":"$economy_Terraforming;", "StationEconomy_Localised":"Terraforming", "DistFromStarLS":85.970879 }
+{ "timestamp":"2017-10-20T18:27:33Z", "event":"Music", "MusicTrack":"Starport" }
+{ "timestamp":"2017-10-20T18:27:41Z", "event":"Friends", "Status":"Online", "Name":"L'ArtDéChØiX" }
+{ "timestamp":"2017-10-20T18:27:41Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:28:40Z", "event":"Music", "MusicTrack":"Starport" }
+{ "timestamp":"2017-10-20T18:28:43Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:28:56Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:29:13Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:29:18Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:29:33Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:29:37Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:29:39Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:29:47Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:30:05Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:30:14Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:30:41Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:30:52Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:31:17Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:31:23Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:31:36Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:31:43Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:32:34Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:32:42Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:32:57Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:33:02Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:33:30Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:33:38Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:34:03Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:34:11Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:34:15Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:34:23Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:34:42Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:34:51Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:35:06Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:35:11Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:35:30Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:35:34Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:35:52Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:36:00Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:36:29Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:36:35Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:36:42Z", "event":"Friends", "Status":"Online", "Name":"Marco Sparks" }
+{ "timestamp":"2017-10-20T18:36:53Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:37:02Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:37:19Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:37:23Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:37:40Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:37:49Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:38:04Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:38:08Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:38:27Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:38:30Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:38:50Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:38:58Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:39:26Z", "event":"Screenshot", "Filename":"\\ED_Pictures\\Screenshot_0319.bmp", "Width":1920, "Height":1080, "System":"Liu Beni", "Body":"Davis Settlement" }
+{ "timestamp":"2017-10-20T18:39:28Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:39:31Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:39:35Z", "event":"Music", "MusicTrack":"Starport" }
+{ "timestamp":"2017-10-20T18:39:48Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:39:55Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:39:59Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:40:07Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:41:24Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:41:36Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:42:06Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:42:14Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:42:16Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Jock Ripper;", "From_Localised":"Jock Ripper", "Message":"$Commuter_AuthorityScan05;", "Message_Localised":"On what grounds are you scanning this vessel, officer?", "Channel":"npc" }
+{ "timestamp":"2017-10-20T18:42:29Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:42:37Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:42:55Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:43:02Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:44:23Z", "event":"Music", "MusicTrack":"Starport" }
+{ "timestamp":"2017-10-20T18:44:32Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:44:39Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:44:43Z", "event":"Music", "MusicTrack":"Starport" }
+{ "timestamp":"2017-10-20T18:45:03Z", "event":"Undocked", "StationName":"Davis Settlement", "StationType":"Coriolis" }
+{ "timestamp":"2017-10-20T18:45:13Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2017-10-20T18:45:35Z", "event":"ReceiveText", "From":"Davis Settlement", "Message":"$STATION_NoFireZone_exited;", "Message_Localised":"No fire zone left.", "Channel":"npc" }
+{ "timestamp":"2017-10-20T18:45:45Z", "event":"Friends", "Status":"Online", "Name":"Ben Ryder" }
+{ "timestamp":"2017-10-20T18:45:45Z", "event":"StartJump", "JumpType":"Hyperspace", "StarSystem":"Hyades Sector DR-V c2-23", "StarClass":"M" }
+{ "timestamp":"2017-10-20T18:46:03Z", "event":"FSDJump", "StarSystem":"Hyades Sector DR-V c2-23", "StarPos":[-104.625,-0.813,-151.906], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Colony;", "SystemEconomy_Localised":"Colony", "SystemGovernment":"$government_Cooperative;", "SystemGovernment_Localised":"Cooperative", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Population":1220, "JumpDist":21.413, "FuelUsed":3.321987, "FuelLevel":28.678013, "Factions":[ { "Name":"HIP 17706 allied", "FactionState":"CivilUnrest", "Government":"Cooperative", "Influence":0.073000, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":0 } ] }, { "Name":"Pilots Federation Local Branch", "FactionState":"None", "Government":"Democracy", "Influence":0.000000, "Allegiance":"PilotsFederation" }, { "Name":"Yun Nigh Central Exchange", "FactionState":"None", "Government":"Corporate", "Influence":0.481000, "Allegiance":"Federation" }, { "Name":"Co-op of Ch'ortamaye", "FactionState":"None", "Government":"Cooperative", "Influence":0.235000, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 }, { "State":"CivilUnrest", "Trend":1 }, { "State":"Lockdown", "Trend":1 } ] }, { "Name":"Sirius Inc", "FactionState":"Boom", "Government":"Democracy", "Influence":0.211000, "Allegiance":"Independent" } ], "SystemFaction":"Co-op of Ch'ortamaye" }
+{ "timestamp":"2017-10-20T18:46:04Z", "event":"Music", "MusicTrack":"DestinationFromHyperspace" }
+{ "timestamp":"2017-10-20T18:46:09Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2017-10-20T18:46:47Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:47:12Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:47:30Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2017-10-20T18:47:34Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:47:40Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:47:55Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:47:59Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:48:08Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:48:15Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:48:34Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:48:46Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T18:49:00Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2017-10-20T18:53:16Z", "event":"ApproachSettlement", "Name":"Asire Base" }
+{ "timestamp":"2017-10-20T18:54:17Z", "event":"ApproachSettlement", "Name":"Asire Base" }
+{ "timestamp":"2017-10-20T18:54:20Z", "event":"SupercruiseExit", "StarSystem":"Hyades Sector DR-V c2-23", "Body":"Hyades Sector DR-V c2-23 C 5", "BodyType":"Planet" }
+{ "timestamp":"2017-10-20T18:54:21Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2017-10-20T18:54:29Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2017-10-20T18:54:33Z", "event":"ReceiveText", "From":"Asire Base", "Message":"$STATION_NoFireZone_entered;", "Message_Localised":"No fire zone entered.", "Channel":"npc" }
+{ "timestamp":"2017-10-20T18:54:41Z", "event":"DockingRequested", "StationName":"Asire Base" }
+{ "timestamp":"2017-10-20T18:54:41Z", "event":"ReceiveText", "From":"Asire Base", "Message":"$DockingChatter_Allied;", "Message_Localised":"An ally like you is always welcome here.", "Channel":"npc" }
+{ "timestamp":"2017-10-20T18:54:43Z", "event":"ReceiveText", "From":"Asire Base", "Message":"$STATION_docking_granted;", "Message_Localised":"Docking request granted.", "Channel":"npc" }
+{ "timestamp":"2017-10-20T18:54:43Z", "event":"DockingGranted", "LandingPad":6, "StationName":"Asire Base" }
+{ "timestamp":"2017-10-20T18:55:07Z", "event":"Docked", "StationName":"Asire Base", "StationType":"SurfaceStation", "StarSystem":"Hyades Sector DR-V c2-23", "StationFaction":"Co-op of Ch'ortamaye", "StationGovernment":"$government_Cooperative;", "StationGovernment_Localised":"Cooperative", "StationServices":[ "Dock", "Autodock", "BlackMarket", "Commodities", "Contacts", "Exploration", "Missions", "Rearm", "Refuel", "Repair", "Tuning", "MissionsGenerated", "Facilitator", "FlightController", "StationOperations", "Powerplay", "SearchAndRescue" ], "StationEconomy":"$economy_Colony;", "StationEconomy_Localised":"Colony", "DistFromStarLS":22414.947266 }
+{ "timestamp":"2017-10-20T18:55:43Z", "event":"Screenshot", "Filename":"\\ED_Pictures\\Screenshot_0320.bmp", "Width":1920, "Height":1080, "System":"Hyades Sector DR-V c2-23", "Body":"Hyades Sector DR-V c2-23 C 5", "Latitude":43.177830, "Longitude":37.819229 }
+{ "timestamp":"2017-10-20T18:55:45Z", "event":"Screenshot", "Filename":"\\ED_Pictures\\Screenshot_0321.bmp", "Width":1920, "Height":1080, "System":"Hyades Sector DR-V c2-23", "Body":"Hyades Sector DR-V c2-23 C 5", "Latitude":43.177830, "Longitude":37.819229 }
+{ "timestamp":"2017-10-20T18:58:24Z", "event":"Friends", "Status":"Online", "Name":"Frankfort" }
+{ "timestamp":"2017-10-20T18:59:25Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_EndPatrol03;", "Message_Localised":"Tower, this is Patrol. I'm inbound for landing.", "Channel":"npc" }
+{ "timestamp":"2017-10-20T18:59:45Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T18:59:56Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T19:00:02Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2017-10-20T19:00:49Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T19:00:56Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_EndPatrol02;", "Message_Localised":"Requesting docking clearance, Control.", "Channel":"npc" }
+{ "timestamp":"2017-10-20T19:00:57Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T19:01:02Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2017-10-20T19:01:54Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T19:02:01Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T19:02:04Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T19:02:11Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T19:02:15Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T19:02:21Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol05;", "Message_Localised":"I'm heading out, Control. Hearing that rattle again, I'll see if I can lock it down.", "Channel":"npc" }
+{ "timestamp":"2017-10-20T19:02:21Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T19:02:25Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2017-10-20T19:02:33Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2017-10-20T19:02:42Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2017-10-20T19:04:31Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol05;", "Message_Localised":"I'm heading out, Control. Hearing that rattle again, I'll see if I can lock it down.", "Channel":"npc" }
+{ "timestamp":"2017-10-20T19:05:28Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol03;", "Message_Localised":"Receiving five by five, I'm in the air now, joining patrol.", "Channel":"npc" }
+{ "timestamp":"2017-10-20T19:06:31Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_EndPatrol05;", "Message_Localised":"Patrol completed, Command, I'm heading home.", "Channel":"npc" }
+{ "timestamp":"2017-10-20T19:08:25Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol05;", "Message_Localised":"I'm heading out, Control. Hearing that rattle again, I'll see if I can lock it down.", "Channel":"npc" }
+{ "timestamp":"2017-10-20T19:09:48Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol02;", "Message_Localised":"Tower, this is Patrol. Launch completed.", "Channel":"npc" }
+{ "timestamp":"2017-10-20T19:11:46Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol03;", "Message_Localised":"Receiving five by five, I'm in the air now, joining patrol.", "Channel":"npc" }
+{ "timestamp":"2017-10-20T19:14:51Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_EndPatrol02;", "Message_Localised":"Requesting docking clearance, Control.", "Channel":"npc" }
+{ "timestamp":"2017-10-20T19:14:51Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol04;", "Message_Localised":"I'm away, heading to patrol route alpha now.", "Channel":"npc" }
+{ "timestamp":"2017-10-20T19:15:03Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2017-10-20T19:15:05Z", "event":"Music", "MusicTrack":"MainMenu" }
+{ "timestamp":"2017-10-20T19:50:44Z", "event":"Friends", "Status":"Online", "Name":"Sancon" }
+{ "timestamp":"2017-10-20T20:43:07Z", "event":"Friends", "Status":"Online", "Name":"Sali Vader" }
+{ "timestamp":"2017-10-20T20:49:09Z", "event":"Friends", "Status":"Offline", "Name":"Ben Ryder" }
+{ "timestamp":"2017-10-20T22:29:52Z", "event":"Friends", "Status":"Online", "Name":"L'ArtDéChØiX" }
+{ "timestamp":"2017-10-20T22:45:58Z", "event":"Friends", "Status":"Offline", "Name":"L'ArtDéChØiX" }
+{ "timestamp":"2017-10-21T01:23:07Z", "event":"Friends", "Status":"Online", "Name":"Sancon" }
+{ "timestamp":"2017-10-21T01:29:10Z", "event":"Friends", "Status":"Online", "Name":"Ben Ryder" }

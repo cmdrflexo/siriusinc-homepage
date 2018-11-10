@@ -1,0 +1,433 @@
+{ "timestamp":"2017-08-12T12:05:39Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"2.3.11", "build":"r148764/r0 " }
+{ "timestamp":"2017-08-12T12:07:38Z", "event":"Cargo", "Inventory":[ { "Name":"platinum", "Count":8 }, { "Name":"osmium", "Count":4 } ] }
+{ "timestamp":"2017-08-12T12:07:38Z", "event":"Loadout", "Ship":"Anaconda", "ShipID":8, "ShipName":"Anya", "ShipIdent":"4ny-0n", "Modules":[ { "Slot":"HugeHardpoint1", "Item":"Hpt_MultiCannon_Gimbal_Huge", "On":true, "Priority":0, "AmmoInClip":90, "AmmoInHopper":1680, "Health":1.000000, "Value":5285436, "EngineerBlueprint":"Weapon_Efficient", "EngineerLevel":5 }, { "Slot":"LargeHardpoint1", "Item":"Hpt_MultiCannon_Gimbal_Large", "On":true, "Priority":0, "AmmoInClip":90, "AmmoInHopper":2100, "Health":1.000000, "Value":479380, "EngineerBlueprint":"Weapon_Efficient", "EngineerLevel":5 }, { "Slot":"LargeHardpoint2", "Item":"Hpt_PulseLaserBurst_Turret_Large", "On":true, "Priority":0, "Health":1.000000, "Value":780390, "EngineerBlueprint":"Weapon_Focused", "EngineerLevel":5 }, { "Slot":"LargeHardpoint3", "Item":"Hpt_PulseLaserBurst_Turret_Large", "On":true, "Priority":0, "Health":1.000000, "Value":780390, "EngineerBlueprint":"Weapon_Focused", "EngineerLevel":5 }, { "Slot":"MediumHardpoint1", "Item":"Hpt_PulseLaserBurst_Gimbal_Medium", "On":true, "Priority":0, "Health":1.000000, "Value":47288, "EngineerBlueprint":"Weapon_LightWeight", "EngineerLevel":5 }, { "Slot":"MediumHardpoint2", "Item":"Hpt_DrunkMissileRack_Fixed_Medium", "On":true, "Priority":0, "AmmoInClip":24, "AmmoInHopper":235, "Health":1.000000, "Value":653310, "EngineerBlueprint":"Weapon_HighCapacity", "EngineerLevel":5 }, { "Slot":"SmallHardpoint1", "Item":"Hpt_BeamLaser_Turret_Small", "On":true, "Priority":0, "Health":1.000000, "Value":414375, "EngineerBlueprint":"Weapon_Efficient", "EngineerLevel":5 }, { "Slot":"SmallHardpoint2", "Item":"Hpt_BeamLaser_Turret_Small", "On":true, "Priority":0, "Health":1.000000, "Value":414375, "EngineerBlueprint":"Weapon_Efficient", "EngineerLevel":5 }, { "Slot":"TinyHardpoint1", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":273975, "EngineerBlueprint":"ShieldBooster_HeavyDuty", "EngineerLevel":5 }, { "Slot":"TinyHardpoint2", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_HeavyDuty", "EngineerLevel":5 }, { "Slot":"TinyHardpoint3", "Item":"Hpt_PlasmaPointDefence_Turret_Tiny", "On":true, "Priority":0, "AmmoInClip":12, "AmmoInHopper":10000, "Health":1.000000, "Value":15371 }, { "Slot":"TinyHardpoint4", "Item":"Hpt_PlasmaPointDefence_Turret_Tiny", "On":true, "Priority":0, "AmmoInClip":12, "AmmoInHopper":10000, "Health":1.000000, "Value":15371 }, { "Slot":"TinyHardpoint5", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":232879, "EngineerBlueprint":"ShieldBooster_Resistive", "EngineerLevel":5 }, { "Slot":"TinyHardpoint6", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Thermic", "EngineerLevel":5 }, { "Slot":"TinyHardpoint7", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Thermic", "EngineerLevel":5 }, { "Slot":"TinyHardpoint8", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":273975, "EngineerBlueprint":"ShieldBooster_Thermic", "EngineerLevel":5 }, { "Slot":"Armour", "Item":"Anaconda_Armour_Grade3", "On":true, "Priority":1, "Health":1.000000, "Value":109620840, "EngineerBlueprint":"Armour_HeavyDuty", "EngineerLevel":5 }, { "Slot":"PaintJob", "Item":"PaintJob_Anaconda_BlackFriday_01", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"PowerPlant", "Item":"Int_Powerplant_Size8_Class5", "On":true, "Priority":1, "Health":1.000000, "Value":134743552, "EngineerBlueprint":"PowerPlant_Boosted", "EngineerLevel":5 }, { "Slot":"MainEngines", "Item":"Int_Engine_Size7_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":43595746, "EngineerBlueprint":"Engine_Dirty", "EngineerLevel":5 }, { "Slot":"FrameShiftDrive", "Item":"Int_Hyperdrive_Size6_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":13752601, "EngineerBlueprint":"FSD_LongRange", "EngineerLevel":5 }, { "Slot":"LifeSupport", "Item":"Int_LifeSupport_Size5_Class2", "On":true, "Priority":0, "Health":1.000000, "Value":67524, "EngineerBlueprint":"LifeSupport_LightWeight", "EngineerLevel":4 }, { "Slot":"PowerDistributor", "Item":"Int_PowerDistributor_Size7_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":8758733, "EngineerBlueprint":"PowerDistributor_HighFrequency", "EngineerLevel":5 }, { "Slot":"Radar", "Item":"Int_Sensors_Size8_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":22582934, "EngineerBlueprint":"Sensor_Sensor_LightWeight", "EngineerLevel":5 }, { "Slot":"FuelTank", "Item":"Int_FuelTank_Size5_Class3", "On":true, "Priority":1, "Health":1.000000, "Value":97750 }, { "Slot":"Decal1", "Item":"Decal_Combat_Elite", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"Decal2", "Item":"Decal_PlayerGroup_GalCop", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"Decal3", "Item":"Decal_PlayerGroup_GalCop", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"Slot01_Size7", "Item":"Int_ShieldGenerator_Size7_Class5_Strong", "On":true, "Priority":0, "Health":1.000000, "Value":63758778, "EngineerBlueprint":"ShieldGenerator_Reinforced", "EngineerLevel":5 }, { "Slot":"Slot02_Size6", "Item":"Int_FighterBay_Size6_Class1", "On":true, "Priority":0, "Health":1.000000, "Value":1549216 }, { "Slot":"Slot03_Size6", "Item":"Int_CargoRack_Size6_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":353527 }, { "Slot":"Slot04_Size6", "Item":"Int_ShieldCellBank_Size6_Class4", "On":true, "Priority":0, "AmmoInClip":1, "AmmoInHopper":5, "Health":1.000000, "Value":1152191 }, { "Slot":"Slot05_Size5", "Item":"Int_DroneControl_Collection_Size5_Class3", "On":true, "Priority":0, "Health":1.000000, "Value":189540, "EngineerBlueprint":"CollectionLimpet_LightWeight", "EngineerLevel":5 }, { "Slot":"Slot06_Size5", "Item":"Int_HullReinforcement_Size5_Class2", "On":true, "Priority":1, "Health":1.000000, "Value":372938, "EngineerBlueprint":"HullReinforcement_HeavyDuty", "EngineerLevel":5 }, { "Slot":"Slot07_Size5", "Item":"Int_HullReinforcement_Size5_Class2", "On":true, "Priority":1, "Health":1.000000, "Value":372938, "EngineerBlueprint":"HullReinforcement_HeavyDuty", "EngineerLevel":5 }, { "Slot":"Slot08_Size4", "Item":"Int_FSDInterdictor_Size4_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":18136743, "EngineerBlueprint":"FSDinterdictor_LongRange", "EngineerLevel":3 }, { "Slot":"Slot09_Size4", "Item":"Int_BuggyBay_Size4_Class2", "On":true, "Priority":0, "Health":1.000000, "Value":84240 }, { "Slot":"Slot10_Size4", "Item":"Int_FuelScoop_Size4_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":2433006 }, { "Slot":"Slot13_Size2", "Item":"Int_StellarBodyDiscoveryScanner_Advanced", "On":true, "Priority":1, "Health":1.000000, "Value":1313250 }, { "Slot":"Military01", "Item":"Int_HullReinforcement_Size5_Class2", "On":true, "Priority":1, "Health":1.000000, "Value":372938, "EngineerBlueprint":"HullReinforcement_HeavyDuty", "EngineerLevel":5 }, { "Slot":"PlanetaryApproachSuite", "Item":"Int_PlanetApproachSuite", "On":true, "Priority":1, "Health":1.000000, "Value":500 }, { "Slot":"ShipCockpit", "Item":"Anaconda_Cockpit", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"CargoHatch", "Item":"ModularCargoBayDoor", "On":true, "Priority":0, "Health":1.000000, "Value":0 } ] }
+{ "timestamp":"2017-08-12T12:07:38Z", "event":"Materials", "Raw":[ { "Name":"nickel", "Count":18 }, { "Name":"sulphur", "Count":14 }, { "Name":"carbon", "Count":20 }, { "Name":"iron", "Count":18 }, { "Name":"zinc", "Count":14 }, { "Name":"mercury", "Count":23 }, { "Name":"tungsten", "Count":2 }, { "Name":"yttrium", "Count":3 }, { "Name":"zirconium", "Count":2 }, { "Name":"tellurium", "Count":25 }, { "Name":"technetium", "Count":24 }, { "Name":"polonium", "Count":10 }, { "Name":"ruthenium", "Count":14 }, { "Name":"phosphorus", "Count":8 }, { "Name":"cadmium", "Count":2 }, { "Name":"germanium", "Count":12 }, { "Name":"antimony", "Count":17 }, { "Name":"vanadium", "Count":18 }, { "Name":"manganese", "Count":10 }, { "Name":"molybdenum", "Count":20 }, { "Name":"chromium", "Count":18 }, { "Name":"tin", "Count":18 }, { "Name":"niobium", "Count":3 } ], "Manufactured":[ { "Name":"mechanicalscrap", "Count":20 }, { "Name":"hybridcapacitors", "Count":19 }, { "Name":"wornshieldemitters", "Count":10 }, { "Name":"chemicalprocessors", "Count":15 }, { "Name":"refinedfocuscrystals", "Count":30 }, { "Name":"focuscrystals", "Count":20 }, { "Name":"gridresistors", "Count":30 }, { "Name":"compoundshielding", "Count":20 }, { "Name":"uncutfocuscrystals", "Count":10 }, { "Name":"galvanisingalloys", "Count":15 }, { "Name":"precipitatedalloys", "Count":12 }, { "Name":"shieldingsensors", "Count":15 }, { "Name":"militarygradealloys", "Count":30 }, { "Name":"exquisitefocuscrystals", "Count":35 }, { "Name":"heatexchangers", "Count":14 }, { "Name":"configurablecomponents", "Count":20 }, { "Name":"conductivepolymers", "Count":25 }, { "Name":"heatvanes", "Count":10 }, { "Name":"biotechconductors", "Count":42 }, { "Name":"thermicalloys", "Count":25 }, { "Name":"highdensitycomposites", "Count":15 }, { "Name":"chemicaldistillery", "Count":15 }, { "Name":"shieldemitters", "Count":15 }, { "Name":"improvisedcomponents", "Count":10 }, { "Name":"heatdispersionplate", "Count":14 }, { "Name":"heatresistantceramics", "Count":10 }, { "Name":"mechanicalequipment", "Count":25 }, { "Name":"temperedalloys", "Count":10 }, { "Name":"salvagedalloys", "Count":15 }, { "Name":"phasealloys", "Count":15 }, { "Name":"mechanicalcomponents", "Count":25 }, { "Name":"protolightalloys", "Count":10 }, { "Name":"pharmaceuticalisolators", "Count":1 }, { "Name":"protoheatradiators", "Count":6 }, { "Name":"fedproprietarycomposites", "Count":15 }, { "Name":"conductiveceramics", "Count":22 }, { "Name":"conductivecomponents", "Count":20 }, { "Name":"electrochemicalarrays", "Count":17 } ], "Encoded":[ { "Name":"compactemissionsdata", "Count":25 }, { "Name":"scrambledemissiondata", "Count":16 }, { "Name":"shieldcyclerecordings", "Count":15 }, { "Name":"shieldsoakanalysis", "Count":15 }, { "Name":"shieldpatternanalysis", "Count":35 }, { "Name":"decodedemissiondata", "Count":20 }, { "Name":"shielddensityreports", "Count":26 }, { "Name":"hyperspacetrajectories", "Count":20 }, { "Name":"disruptedwakeechoes", "Count":15 }, { "Name":"shieldfrequencydata", "Count":20 }, { "Name":"fsdtelemetry", "Count":20 }, { "Name":"scanarchives", "Count":15 }, { "Name":"encodedscandata", "Count":20 }, { "Name":"classifiedscandata", "Count":20 }, { "Name":"archivedemissiondata", "Count":15 }, { "Name":"encryptioncodes", "Count":15 }, { "Name":"embeddedfirmware", "Count":27 }, { "Name":"encryptedfiles", "Count":15 }, { "Name":"consumerfirmware", "Count":6 }, { "Name":"symmetrickeys", "Count":8 }, { "Name":"encryptionarchives", "Count":6 }, { "Name":"wakesolutions", "Count":21 }, { "Name":"securityfirmware", "Count":25 }, { "Name":"adaptiveencryptors", "Count":6 }, { "Name":"legacyfirmware", "Count":15 }, { "Name":"scandatabanks", "Count":20 }, { "Name":"bulkscandata", "Count":15 }, { "Name":"emissiondata", "Count":4 }, { "Name":"industrialfirmware", "Count":6 } ] }
+{ "timestamp":"2017-08-12T12:07:38Z", "event":"LoadGame", "Commander":"McCaslin", "Ship":"Anaconda", "ShipID":8, "ShipName":"Anya", "ShipIdent":"4ny-0n", "FuelLevel":28.994909, "FuelCapacity":32.000000, "GameMode":"Open", "Credits":1972150985, "Loan":0 }
+{ "timestamp":"2017-08-12T12:07:38Z", "event":"Rank", "Combat":8, "Trade":8, "Explore":7, "Empire":12, "Federation":11, "CQC":0 }
+{ "timestamp":"2017-08-12T12:07:38Z", "event":"Progress", "Combat":100, "Trade":100, "Explore":68, "Empire":3, "Federation":97, "CQC":0 }
+{ "timestamp":"2017-08-12T12:07:54Z", "event":"Location", "Docked":true, "StationName":"Green Enterprise", "StationType":"Coriolis", "StarSystem":"Ngalia", "StarPos":[-74.625,-35.031,-165.969], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Industrial;", "SystemEconomy_Localised":"Industrial", "SystemGovernment":"$government_Democracy;", "SystemGovernment_Localised":"Democracy", "SystemSecurity":"$SYSTEM_SECURITY_medium;", "SystemSecurity_Localised":"Medium Security", "Body":"Green Enterprise", "BodyType":"Station", "Factions":[ { "Name":"Sirius Hyperspace", "FactionState":"None", "Government":"Corporate", "Influence":0.069000, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 }, { "State":"CivilUnrest", "Trend":0 }, { "State":"Lockdown", "Trend":0 } ] }, { "Name":"Ngalia Flag", "FactionState":"Boom", "Government":"Dictatorship", "Influence":0.132000, "Allegiance":"Independent" }, { "Name":"Future of Ngalia", "FactionState":"None", "Government":"Democracy", "Influence":0.104000, "Allegiance":"Independent", "RecoveringStates":[ { "State":"CivilWar", "Trend":0 } ] }, { "Name":"Ngalia Family", "FactionState":"None", "Government":"Anarchy", "Influence":0.054000, "Allegiance":"Independent", "RecoveringStates":[ { "State":"CivilWar", "Trend":0 } ] }, { "Name":"Sirius Inc", "FactionState":"None", "Government":"Democracy", "Influence":0.641000, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 }, { "State":"CivilUnrest", "Trend":0 } ] } ], "SystemFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:07:55Z", "event":"Docked", "StationName":"Green Enterprise", "StationType":"Coriolis", "StarSystem":"Ngalia", "StationFaction":"Sirius Inc", "StationGovernment":"$government_Democracy;", "StationGovernment_Localised":"Democracy", "StationEconomy":"$economy_Industrial;", "StationEconomy_Localised":"Industrial", "DistFromStarLS":23.576990 }
+{ "timestamp":"2017-08-12T12:10:28Z", "event":"Undocked", "StationName":"Green Enterprise", "StationType":"Coriolis" }
+{ "timestamp":"2017-08-12T12:11:09Z", "event":"ReceiveText", "From":"Green Enterprise", "Message":"$STATION_NoFireZone_exited;", "Message_Localised":"No fire zone left.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:11:44Z", "event":"StartJump", "JumpType":"Hyperspace", "StarSystem":"Pic Tok", "StarClass":"M" }
+{ "timestamp":"2017-08-12T12:12:02Z", "event":"FSDJump", "StarSystem":"Pic Tok", "StarPos":[-81.469,-22.875,-160.844], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Extraction;", "SystemEconomy_Localised":"Extraction", "SystemGovernment":"$government_Democracy;", "SystemGovernment_Localised":"Democracy", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":14.862, "FuelUsed":2.034972, "FuelLevel":26.959936, "Factions":[ { "Name":"Sirius Hyperspace", "FactionState":"None", "Government":"Corporate", "Influence":0.035000, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 }, { "State":"CivilUnrest", "Trend":0 }, { "State":"Lockdown", "Trend":0 } ] }, { "Name":"Pic Tok League", "FactionState":"None", "Government":"Confederacy", "Influence":0.173000, "Allegiance":"Independent" }, { "Name":"Pic Tok Clan", "FactionState":"CivilWar", "Government":"Anarchy", "Influence":0.091000, "Allegiance":"Independent", "RecoveringStates":[ { "State":"Famine", "Trend":0 } ] }, { "Name":"Dukes of Pic Tok", "FactionState":"CivilWar", "Government":"Feudal", "Influence":0.084000, "Allegiance":"Independent", "RecoveringStates":[ { "State":"Outbreak", "Trend":0 } ] }, { "Name":"Sirius Inc", "FactionState":"None", "Government":"Democracy", "Influence":0.617000, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 }, { "State":"CivilUnrest", "Trend":0 } ] } ], "SystemFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:12:24Z", "event":"FuelScoop", "Scooped":1.516158, "Total":28.476070 }
+{ "timestamp":"2017-08-12T12:12:44Z", "event":"StartJump", "JumpType":"Hyperspace", "StarSystem":"Arietis Sector BB-W b2-1", "StarClass":"M" }
+{ "timestamp":"2017-08-12T12:13:03Z", "event":"FSDJump", "StarSystem":"Arietis Sector BB-W b2-1", "StarPos":[-89.781,-9.969,-154.469], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":16.623, "FuelUsed":2.719638, "FuelLevel":25.756433 }
+{ "timestamp":"2017-08-12T12:13:28Z", "event":"FuelScoop", "Scooped":1.563247, "Total":27.319645 }
+{ "timestamp":"2017-08-12T12:13:46Z", "event":"StartJump", "JumpType":"Hyperspace", "StarSystem":"Hyades Sector DR-V c2-23", "StarClass":"M" }
+{ "timestamp":"2017-08-12T12:14:04Z", "event":"FSDJump", "StarSystem":"Hyades Sector DR-V c2-23", "StarPos":[-104.625,-0.813,-151.906], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Colony;", "SystemEconomy_Localised":"Colony", "SystemGovernment":"$government_Democracy;", "SystemGovernment_Localised":"Democracy", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":17.628, "FuelUsed":3.160898, "FuelLevel":24.158747, "Factions":[ { "Name":"HIP 17706 allied", "FactionState":"War", "Government":"Cooperative", "Influence":0.394000, "Allegiance":"Independent", "RecoveringStates":[ { "State":"Boom", "Trend":0 } ] }, { "Name":"Co-op of Ch'ortamaye", "FactionState":"None", "Government":"Cooperative", "Influence":0.286000, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 } ] }, { "Name":"Sirius Inc", "FactionState":"War", "Government":"Democracy", "Influence":0.320000, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 }, { "State":"CivilUnrest", "Trend":0 } ] } ], "SystemFaction":"Sirius Inc", "FactionState":"War" }
+{ "timestamp":"2017-08-12T12:20:21Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ranulph Dixonroad;", "From_Localised":"Ranulph Dixonroad", "Message":"$RefugeeFlotillaWar_Patrol06;", "Message_Localised":"Gotta get as far away from this place as we can. It's nothing but death and destruction.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:21:07Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Varenais Janeks;", "From_Localised":"Varenais Janeks", "Message":"$RefugeeFlotillaWar_Patrol04;", "Message_Localised":"Stay away, you don't want to get caught in the cross fire.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:32:15Z", "event":"Friends", "Status":"Online", "Name":"CyberX" }
+{ "timestamp":"2017-08-12T12:33:09Z", "event":"ApproachSettlement", "Name":"Asire Base" }
+{ "timestamp":"2017-08-12T12:33:18Z", "event":"SupercruiseExit", "StarSystem":"Hyades Sector DR-V c2-23", "Body":"Hyades Sector DR-V c2-23 C 5", "BodyType":"Planet" }
+{ "timestamp":"2017-08-12T12:33:22Z", "event":"LaunchFighter", "Loadout":"one", "PlayerControlled":false }
+{ "timestamp":"2017-08-12T12:33:44Z", "event":"WingInvite", "Name":"CyberX" }
+{ "timestamp":"2017-08-12T12:33:52Z", "event":"ReceiveText", "From":"&CyberX", "Message":"i am in c2-23", "Channel":"player" }
+{ "timestamp":"2017-08-12T12:33:53Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"shieldcyclerecordings", "Count":3 }
+{ "timestamp":"2017-08-12T12:33:54Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"decodedemissiondata", "Count":3 }
+{ "timestamp":"2017-08-12T12:33:54Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"decodedemissiondata", "Count":3 }
+{ "timestamp":"2017-08-12T12:33:56Z", "event":"WingJoin", "Others":[ "CyberX" ] }
+{ "timestamp":"2017-08-12T12:33:56Z", "event":"WingAdd", "Name":"CyberX" }
+{ "timestamp":"2017-08-12T12:34:17Z", "event":"Bounty", "Target":"asp_scout", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:34:17Z", "event":"FactionKillBond", "Reward":27600, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:34:28Z", "event":"ReceiveText", "From":"&CyberX", "Message":"I am here at cz", "Channel":"wing" }
+{ "timestamp":"2017-08-12T12:34:31Z", "event":"HullDamage", "Health":0.761073, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T12:34:39Z", "event":"HullDamage", "Health":0.218462, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T12:34:39Z", "event":"HullDamage", "Health":0.218462, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T12:34:39Z", "event":"HullDamage", "Health":0.198514, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T12:34:55Z", "event":"Bounty", "Target":"anaconda", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:34:55Z", "event":"FactionKillBond", "Reward":92000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:34:57Z", "event":"SendText", "To":"wing", "Message":"I am in other one :D" }
+{ "timestamp":"2017-08-12T12:35:07Z", "event":"SendText", "To":"wing", "Message":"Want me to come there, or you come here?" }
+{ "timestamp":"2017-08-12T12:35:15Z", "event":"ReceiveText", "From":"&CyberX", "Message":"i am coming", "Channel":"wing" }
+{ "timestamp":"2017-08-12T12:35:34Z", "event":"Bounty", "Target":"asp_scout", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:35:34Z", "event":"FactionKillBond", "Reward":27600, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:35:58Z", "event":"Bounty", "Target":"asp_scout", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:35:58Z", "event":"FactionKillBond", "Reward":27600, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:36:12Z", "event":"LaunchFighter", "Loadout":"two", "PlayerControlled":false }
+{ "timestamp":"2017-08-12T12:36:40Z", "event":"Bounty", "Target":"vulture", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:36:40Z", "event":"FactionKillBond", "Reward":41400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:37:07Z", "event":"FactionKillBond", "Reward":4600, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:37:19Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire10;", "Message_Localised":"I'm under attack.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:37:36Z", "event":"Bounty", "Target":"vulture", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:37:36Z", "event":"FactionKillBond", "Reward":41400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:37:46Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire08;", "Message_Localised":"Enemy fire incoming!", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:37:51Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire02;", "Message_Localised":"You picked the wrong fight today, Commander.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:38:00Z", "event":"Bounty", "Target":"vulture", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:38:00Z", "event":"FactionKillBond", "Reward":41400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:38:20Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire04;", "Message_Localised":"Your ticket is about to get well and truly punched.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:38:24Z", "event":"Bounty", "Target":"eagle", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:38:24Z", "event":"FactionKillBond", "Reward":9200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:38:28Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire04;", "Message_Localised":"Your ticket is about to get well and truly punched.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:38:53Z", "event":"Bounty", "Target":"python", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:38:53Z", "event":"FactionKillBond", "Reward":59800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:39:08Z", "event":"SendText", "To":"wing", "Message":"melted" }
+{ "timestamp":"2017-08-12T12:39:30Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire02;", "Message_Localised":"You picked the wrong fight today, Commander.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:39:51Z", "event":"Bounty", "Target":"cobramkiii", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:39:51Z", "event":"FactionKillBond", "Reward":18400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:39:56Z", "event":"HeatWarning" }
+{ "timestamp":"2017-08-12T12:40:13Z", "event":"FactionKillBond", "Reward":23000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:40:13Z", "event":"Bounty", "Target":"viper_mkiv", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:40:33Z", "event":"Bounty", "Target":"asp", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:40:33Z", "event":"FactionKillBond", "Reward":32200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:41:08Z", "event":"Bounty", "Target":"python", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:41:09Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire01;", "Message_Localised":"Bandit on my six...", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:41:12Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire07;", "Message_Localised":"You've just made a big mistake.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:41:38Z", "event":"HullDamage", "Health":0.700368, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T12:41:41Z", "event":"HullDamage", "Health":0.167031, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T12:41:41Z", "event":"HullDamage", "Health":0.167031, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T12:41:41Z", "event":"HullDamage", "Health":0.167031, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T12:41:49Z", "event":"LaunchFighter", "Loadout":"one", "PlayerControlled":false }
+{ "timestamp":"2017-08-12T12:42:00Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire08;", "Message_Localised":"Enemy fire incoming!", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:42:09Z", "event":"FactionKillBond", "Reward":41400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:42:09Z", "event":"Bounty", "Target":"vulture", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:42:33Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire03;", "Message_Localised":"Time to show you what a real pilot can do... ", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:43:04Z", "event":"Bounty", "Target":"vulture", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:43:37Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire03;", "Message_Localised":"Time to show you what a real pilot can do... ", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:43:47Z", "event":"HullDamage", "Health":0.320145, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T12:43:47Z", "event":"HullDamage", "Health":0.320145, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T12:43:47Z", "event":"HullDamage", "Health":0.320145, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T12:43:52Z", "event":"FactionKillBond", "Reward":23000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:43:53Z", "event":"Bounty", "Target":"viper_mkiv", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:43:55Z", "event":"HullDamage", "Health":0.194587, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T12:44:03Z", "event":"Bounty", "Target":"vulture", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:44:03Z", "event":"FactionKillBond", "Reward":41400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:44:12Z", "event":"ReceiveText", "From":"&CyberX", "Message":"c", "Channel":"wing" }
+{ "timestamp":"2017-08-12T12:44:19Z", "event":"ReceiveText", "From":"&CyberX", "Message":"conda", "Channel":"wing" }
+{ "timestamp":"2017-08-12T12:44:35Z", "event":"SendText", "To":"wing", "Message":"omw" }
+{ "timestamp":"2017-08-12T12:45:10Z", "event":"Bounty", "Target":"anaconda", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:45:10Z", "event":"FactionKillBond", "Reward":92000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:45:12Z", "event":"SendText", "To":"wing", "Message":"lol" }
+{ "timestamp":"2017-08-12T12:46:23Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire06;", "Message_Localised":"I'm taking hits!", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:46:26Z", "event":"FactionKillBond", "Reward":23000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:46:26Z", "event":"Bounty", "Target":"viper_mkiv", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:46:40Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire09;", "Message_Localised":"Allow me to show you the error of your ways.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:47:02Z", "event":"Bounty", "Target":"asp", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:47:02Z", "event":"FactionKillBond", "Reward":32200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:47:09Z", "event":"Bounty", "Target":"cobramkiii", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:47:42Z", "event":"Bounty", "Target":"eagle", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:48:33Z", "event":"FactionKillBond", "Reward":18400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:48:33Z", "event":"Bounty", "Target":"cobramkiii", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:48:55Z", "event":"Bounty", "Target":"vulture", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:48:56Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire10;", "Message_Localised":"I'm under attack.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:48:58Z", "event":"SendText", "To":"wing", "Message":"t9" }
+{ "timestamp":"2017-08-12T12:49:29Z", "event":"FactionKillBond", "Reward":36800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:49:29Z", "event":"Bounty", "Target":"type9", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:49:48Z", "event":"FactionKillBond", "Reward":18400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:49:48Z", "event":"Bounty", "Target":"cobramkiii", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:50:22Z", "event":"SendText", "To":"wing", "Message":"trying to heal ya" }
+{ "timestamp":"2017-08-12T12:50:34Z", "event":"ReceiveText", "From":"&CyberX", "Message":"ty", "Channel":"wing" }
+{ "timestamp":"2017-08-12T12:50:38Z", "event":"SendText", "To":"wing", "Message":"np" }
+{ "timestamp":"2017-08-12T12:51:25Z", "event":"Bounty", "Target":"cobramkiii", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:51:25Z", "event":"FactionKillBond", "Reward":18400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:52:03Z", "event":"Bounty", "Target":"viper_mkiv", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:52:44Z", "event":"Bounty", "Target":"python", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:52:44Z", "event":"FactionKillBond", "Reward":59800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:52:44Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire03;", "Message_Localised":"Time to show you what a real pilot can do... ", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:53:03Z", "event":"Bounty", "Target":"asp", "TotalReward":0, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2017-08-12T12:53:28Z", "event":"ReceiveText", "From":"&CyberX", "Message":"I have to ", "Channel":"wing" }
+{ "timestamp":"2017-08-12T12:53:30Z", "event":"ReceiveText", "From":"&CyberX", "Message":"go", "Channel":"wing" }
+{ "timestamp":"2017-08-12T12:53:31Z", "event":"SendText", "To":"wing", "Message":"s7" }
+{ "timestamp":"2017-08-12T12:53:34Z", "event":"ReceiveText", "From":"&CyberX", "Message":"o7", "Channel":"wing" }
+{ "timestamp":"2017-08-12T12:53:35Z", "event":"SendText", "To":"wing", "Message":"cya later :)" }
+{ "timestamp":"2017-08-12T12:53:38Z", "event":"ReceiveText", "From":"&CyberX", "Message":"cya", "Channel":"wing" }
+{ "timestamp":"2017-08-12T12:53:50Z", "event":"SendText", "To":"wing", "Message":"got time to cash bonds 1st?" }
+{ "timestamp":"2017-08-12T12:54:01Z", "event":"WingLeave" }
+{ "timestamp":"2017-08-12T12:54:15Z", "event":"Bounty", "Target":"viper_mkiv", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:54:15Z", "event":"FactionKillBond", "Reward":23000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:54:40Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire03;", "Message_Localised":"Time to show you what a real pilot can do... ", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:55:04Z", "event":"Bounty", "Target":"viper", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:55:04Z", "event":"FactionKillBond", "Reward":23000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:55:27Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"shielddensityreports", "Count":3 }
+{ "timestamp":"2017-08-12T12:55:28Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"encodedscandata", "Count":2 }
+{ "timestamp":"2017-08-12T12:56:02Z", "event":"Bounty", "Target":"asp_scout", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:56:02Z", "event":"FactionKillBond", "Reward":27600, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:56:15Z", "event":"Bounty", "Target":"cobramkiii", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:56:15Z", "event":"FactionKillBond", "Reward":18400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:57:21Z", "event":"Bounty", "Target":"viper", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:57:21Z", "event":"FactionKillBond", "Reward":23000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:57:45Z", "event":"Bounty", "Target":"vulture", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:57:45Z", "event":"FactionKillBond", "Reward":41400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:57:59Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire03;", "Message_Localised":"Time to show you what a real pilot can do... ", "Channel":"npc" }
+{ "timestamp":"2017-08-12T12:58:24Z", "event":"LaunchFighter", "Loadout":"one", "PlayerControlled":false }
+{ "timestamp":"2017-08-12T12:59:17Z", "event":"Bounty", "Target":"vulture", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:59:17Z", "event":"FactionKillBond", "Reward":41400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T12:59:33Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2017-08-12T12:59:33Z", "event":"ApproachSettlement", "Name":"Asire Base" }
+{ "timestamp":"2017-08-12T12:59:38Z", "event":"SupercruiseEntry", "StarSystem":"Hyades Sector DR-V c2-23" }
+{ "timestamp":"2017-08-12T13:01:19Z", "event":"ApproachSettlement", "Name":"Asire Base" }
+{ "timestamp":"2017-08-12T13:01:21Z", "event":"SupercruiseExit", "StarSystem":"Hyades Sector DR-V c2-23", "Body":"Hyades Sector DR-V c2-23 C 5", "BodyType":"Planet" }
+{ "timestamp":"2017-08-12T13:01:45Z", "event":"DockingRequested", "StationName":"Asire Base" }
+{ "timestamp":"2017-08-12T13:01:45Z", "event":"ReceiveText", "From":"Asire Base", "Message":"$DockingChatter_Allied;", "Message_Localised":"An ally like you is always welcome here.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:01:47Z", "event":"ReceiveText", "From":"Asire Base", "Message":"$STATION_docking_granted;", "Message_Localised":"Docking request granted.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:01:47Z", "event":"DockingGranted", "LandingPad":7, "StationName":"Asire Base" }
+{ "timestamp":"2017-08-12T13:01:54Z", "event":"Friends", "Status":"Offline", "Name":"Sali Vader" }
+{ "timestamp":"2017-08-12T13:01:59Z", "event":"ReceiveText", "From":"Asire Base", "Message":"$STATION_NoFireZone_entered;", "Message_Localised":"No fire zone entered.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:02:04Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol01;", "Message_Localised":"Patrol craft checking in. Pre-flight checks complete, I'm heading out.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:02:34Z", "event":"Docked", "StationName":"Asire Base", "StationType":"SurfaceStation", "StarSystem":"Hyades Sector DR-V c2-23", "StationFaction":"Sirius Inc", "FactionState":"War", "StationGovernment":"$government_Democracy;", "StationGovernment_Localised":"Democracy", "StationEconomy":"$economy_Colony;", "StationEconomy_Localised":"Colony", "DistFromStarLS":22463.814453 }
+{ "timestamp":"2017-08-12T13:02:43Z", "event":"RepairAll", "Cost":83 }
+{ "timestamp":"2017-08-12T13:02:45Z", "event":"BuyAmmo", "Cost":10771 }
+{ "timestamp":"2017-08-12T13:02:45Z", "event":"RestockVehicle", "Type":"independent_fighter", "Loadout":"one", "Cost":3090, "Count":3 }
+{ "timestamp":"2017-08-12T13:02:45Z", "event":"RestockVehicle", "Type":"independent_fighter", "Loadout":"two", "Cost":1030, "Count":1 }
+{ "timestamp":"2017-08-12T13:02:53Z", "event":"RedeemVoucher", "Type":"CombatBond", "Amount":1150920, "Faction":"HIP 17706 allied" }
+{ "timestamp":"2017-08-12T13:03:07Z", "event":"RefuelAll", "Cost":563, "Amount":11.243771 }
+{ "timestamp":"2017-08-12T13:05:18Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_EndPatrol01;", "Message_Localised":"Shift's over guys, I'm heading back to base.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:09:35Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol01;", "Message_Localised":"Patrol craft checking in. Pre-flight checks complete, I'm heading out.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:12:45Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol04;", "Message_Localised":"I'm away, heading to patrol route alpha now.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:16:53Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_EndPatrol05;", "Message_Localised":"Patrol completed, Command, I'm heading home.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:19:53Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol03;", "Message_Localised":"Receiving five by five, I'm in the air now, joining patrol.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:23:14Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol03;", "Message_Localised":"Receiving five by five, I'm in the air now, joining patrol.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:26:38Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_EndPatrol04;", "Message_Localised":"Negative, Tower, I'm bingo on fuel, RTB.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:30:42Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol02;", "Message_Localised":"Tower, this is Patrol. Launch completed.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:38:00Z", "event":"Undocked", "StationName":"Asire Base", "StationType":"SurfaceStation" }
+{ "timestamp":"2017-08-12T13:38:16Z", "event":"ReceiveText", "From":"Asire Base", "Message":"$STATION_NoFireZone_exited;", "Message_Localised":"No fire zone left.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:38:29Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2017-08-12T13:38:29Z", "event":"ApproachSettlement", "Name":"Asire Base" }
+{ "timestamp":"2017-08-12T13:38:34Z", "event":"SupercruiseEntry", "StarSystem":"Hyades Sector DR-V c2-23" }
+{ "timestamp":"2017-08-12T13:39:48Z", "event":"SupercruiseExit", "StarSystem":"Hyades Sector DR-V c2-23", "Body":"Hyades Sector DR-V c2-23 C 5", "BodyType":"Planet" }
+{ "timestamp":"2017-08-12T13:40:02Z", "event":"LaunchFighter", "Loadout":"one", "PlayerControlled":false }
+{ "timestamp":"2017-08-12T13:40:30Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire01;", "Message_Localised":"Bandit on my six...", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:40:35Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Iain McCafferty;", "From_Localised":"Iain McCafferty", "Message":"$Pirate_ThreatenValue01:#value=91500;", "Message_Localised":"Give me 91,500 Cr worth of cargo if you want to live.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:40:36Z", "event":"Bounty", "Target":"viper_mkiv", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:40:36Z", "event":"FactionKillBond", "Reward":23000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:40:36Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Iain McCafferty;", "From_Localised":"Iain McCafferty", "Message":"$Pirate_ThreatenTimer05:#seconds=10;", "Message_Localised":"In 10 seconds, I'm going to start boiling bulkheads off you.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:40:51Z", "event":"Bounty", "Target":"eagle", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:40:51Z", "event":"FactionKillBond", "Reward":9200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:40:53Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Iain McCafferty;", "From_Localised":"Iain McCafferty", "Message":"$Pirate_OnDeclarePiracyAttack05;", "Message_Localised":"You have no chance now.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:41:03Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire09;", "Message_Localised":"Allow me to show you the error of your ways.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:41:06Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Iain McCafferty;", "From_Localised":"Iain McCafferty", "Message":"$Pirate_OnDeclarePiracyAttack09;", "Message_Localised":"I will end you!", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:42:16Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Iain McCafferty;", "From_Localised":"Iain McCafferty", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:42:16Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Iain McCafferty;", "From_Localised":"Iain McCafferty", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:42:23Z", "event":"Bounty", "Target":"python", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:42:23Z", "event":"FactionKillBond", "Reward":59800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:42:38Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":126900 } ], "Target":"federation_dropship", "TotalReward":126900, "VictimFaction":"Co-op of Ch'ortamaye" }
+{ "timestamp":"2017-08-12T13:42:38Z", "event":"FactionKillBond", "Reward":50600, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Co-op of Ch'ortamaye" }
+{ "timestamp":"2017-08-12T13:42:47Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire02;", "Message_Localised":"You picked the wrong fight today, Commander.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:42:58Z", "event":"Bounty", "Target":"cobramkiii", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:42:58Z", "event":"FactionKillBond", "Reward":18400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:43:05Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire02;", "Message_Localised":"You picked the wrong fight today, Commander.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:43:12Z", "event":"Bounty", "Target":"eagle", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:43:12Z", "event":"FactionKillBond", "Reward":9200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:43:52Z", "event":"Bounty", "Target":"viper_mkiv", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:43:52Z", "event":"FactionKillBond", "Reward":23000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:43:58Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire02;", "Message_Localised":"You picked the wrong fight today, Commander.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:44:23Z", "event":"Bounty", "Target":"viper", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:44:23Z", "event":"FactionKillBond", "Reward":23000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:44:55Z", "event":"Bounty", "Target":"viper", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:44:55Z", "event":"FactionKillBond", "Reward":23000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:45:08Z", "event":"Bounty", "Target":"viper_mkiv", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:45:08Z", "event":"FactionKillBond", "Reward":23000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:45:38Z", "event":"FactionKillBond", "Reward":4600, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:45:51Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire07;", "Message_Localised":"You've just made a big mistake.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:45:58Z", "event":"Bounty", "Target":"eagle", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:45:58Z", "event":"FactionKillBond", "Reward":9200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:46:20Z", "event":"HullDamage", "Health":0.358247, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T13:46:20Z", "event":"HullDamage", "Health":0.358247, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T13:46:20Z", "event":"HullDamage", "Health":0.358247, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T13:46:38Z", "event":"Bounty", "Target":"python", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:46:38Z", "event":"FactionKillBond", "Reward":59800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:47:02Z", "event":"Bounty", "Target":"asp", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:47:02Z", "event":"FactionKillBond", "Reward":32200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:48:56Z", "event":"Bounty", "Target":"type9", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:48:56Z", "event":"FactionKillBond", "Reward":36800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:49:18Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire01;", "Message_Localised":"Bandit on my six...", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:49:19Z", "event":"Bounty", "Target":"python", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:49:19Z", "event":"FactionKillBond", "Reward":59800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:49:37Z", "event":"Bounty", "Target":"python", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:49:37Z", "event":"FactionKillBond", "Reward":59800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:50:28Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire02;", "Message_Localised":"You picked the wrong fight today, Commander.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:50:53Z", "event":"Bounty", "Target":"asp", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:50:53Z", "event":"FactionKillBond", "Reward":32200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:50:56Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire03;", "Message_Localised":"Time to show you what a real pilot can do... ", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:51:06Z", "event":"LaunchFighter", "Loadout":"one", "PlayerControlled":false }
+{ "timestamp":"2017-08-12T13:51:41Z", "event":"HullDamage", "Health":0.505698, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T13:51:41Z", "event":"HullDamage", "Health":0.505698, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T13:52:22Z", "event":"Bounty", "Target":"python", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:52:22Z", "event":"FactionKillBond", "Reward":59800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:52:36Z", "event":"Bounty", "Target":"eagle", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:52:36Z", "event":"FactionKillBond", "Reward":9200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:52:58Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire10;", "Message_Localised":"I'm under attack.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:53:32Z", "event":"Bounty", "Target":"asp", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:53:32Z", "event":"FactionKillBond", "Reward":32200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:53:55Z", "event":"Bounty", "Target":"asp", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:53:55Z", "event":"FactionKillBond", "Reward":32200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:54:14Z", "event":"Bounty", "Target":"eagle", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:54:14Z", "event":"FactionKillBond", "Reward":9200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:55:03Z", "event":"LaunchFighter", "Loadout":"one", "PlayerControlled":false }
+{ "timestamp":"2017-08-12T13:55:14Z", "event":"HullDamage", "Health":0.786972, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T13:55:49Z", "event":"HullDamage", "Health":0.072360, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T13:55:49Z", "event":"HullDamage", "Health":0.072360, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T13:55:49Z", "event":"HullDamage", "Health":0.072360, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T13:56:16Z", "event":"Bounty", "Target":"anaconda", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:56:16Z", "event":"FactionKillBond", "Reward":92000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:56:23Z", "event":"HeatWarning" }
+{ "timestamp":"2017-08-12T13:56:35Z", "event":"HeatWarning" }
+{ "timestamp":"2017-08-12T13:57:09Z", "event":"Bounty", "Target":"asp_scout", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:57:09Z", "event":"FactionKillBond", "Reward":27600, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:57:40Z", "event":"Bounty", "Target":"asp", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:57:40Z", "event":"FactionKillBond", "Reward":32200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:58:17Z", "event":"LaunchFighter", "Loadout":"two", "PlayerControlled":false }
+{ "timestamp":"2017-08-12T13:58:27Z", "event":"Bounty", "Target":"asp", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:58:27Z", "event":"FactionKillBond", "Reward":32200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:58:58Z", "event":"Bounty", "Target":"eagle", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:58:58Z", "event":"FactionKillBond", "Reward":9200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:59:13Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire02;", "Message_Localised":"You picked the wrong fight today, Commander.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T13:59:52Z", "event":"Bounty", "Target":"python", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T13:59:52Z", "event":"FactionKillBond", "Reward":59800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:00:14Z", "event":"HeatWarning" }
+{ "timestamp":"2017-08-12T14:00:16Z", "event":"LaunchFighter", "Loadout":"one", "PlayerControlled":false }
+{ "timestamp":"2017-08-12T14:00:30Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire02;", "Message_Localised":"You picked the wrong fight today, Commander.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:00:50Z", "event":"HullDamage", "Health":0.782590, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:00:51Z", "event":"HullDamage", "Health":0.569418, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:01:03Z", "event":"Bounty", "Target":"vulture", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:01:03Z", "event":"FactionKillBond", "Reward":41400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:01:12Z", "event":"HeatWarning" }
+{ "timestamp":"2017-08-12T14:01:46Z", "event":"Bounty", "Target":"python", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:01:46Z", "event":"FactionKillBond", "Reward":59800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:02:10Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire04;", "Message_Localised":"Your ticket is about to get well and truly punched.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:02:35Z", "event":"LaunchFighter", "Loadout":"two", "PlayerControlled":false }
+{ "timestamp":"2017-08-12T14:02:55Z", "event":"Bounty", "Target":"python", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:02:55Z", "event":"FactionKillBond", "Reward":59800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:03:16Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire03;", "Message_Localised":"Time to show you what a real pilot can do... ", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:03:29Z", "event":"Bounty", "Target":"vulture", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:03:29Z", "event":"FactionKillBond", "Reward":41400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:03:59Z", "event":"Bounty", "Target":"cobramkiii", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:03:59Z", "event":"FactionKillBond", "Reward":18400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:03:59Z", "event":"HullDamage", "Health":0.525425, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:03:59Z", "event":"HullDamage", "Health":0.525425, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:04:20Z", "event":"HeatWarning" }
+{ "timestamp":"2017-08-12T14:05:08Z", "event":"Bounty", "Target":"asp", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:05:08Z", "event":"FactionKillBond", "Reward":32200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:06:24Z", "event":"Bounty", "Target":"asp_scout", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:06:24Z", "event":"FactionKillBond", "Reward":27600, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:12:33Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2017-08-12T14:12:33Z", "event":"ApproachSettlement", "Name":"Asire Base" }
+{ "timestamp":"2017-08-12T14:12:38Z", "event":"SupercruiseEntry", "StarSystem":"Hyades Sector DR-V c2-23" }
+{ "timestamp":"2017-08-12T14:13:42Z", "event":"ApproachSettlement", "Name":"Asire Base" }
+{ "timestamp":"2017-08-12T14:13:45Z", "event":"SupercruiseExit", "StarSystem":"Hyades Sector DR-V c2-23", "Body":"Hyades Sector DR-V c2-23 C 5", "BodyType":"Planet" }
+{ "timestamp":"2017-08-12T14:13:59Z", "event":"DockingRequested", "StationName":"Asire Base" }
+{ "timestamp":"2017-08-12T14:13:59Z", "event":"ReceiveText", "From":"Asire Base", "Message":"$DockingChatter_Allied;", "Message_Localised":"An ally like you is always welcome here.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:14:01Z", "event":"ReceiveText", "From":"Asire Base", "Message":"$STATION_docking_granted;", "Message_Localised":"Docking request granted.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:14:01Z", "event":"DockingGranted", "LandingPad":7, "StationName":"Asire Base" }
+{ "timestamp":"2017-08-12T14:14:10Z", "event":"ReceiveText", "From":"Asire Base", "Message":"$STATION_NoFireZone_entered;", "Message_Localised":"No fire zone entered.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:14:48Z", "event":"Docked", "StationName":"Asire Base", "StationType":"SurfaceStation", "StarSystem":"Hyades Sector DR-V c2-23", "StationFaction":"Sirius Inc", "FactionState":"War", "StationGovernment":"$government_Democracy;", "StationGovernment_Localised":"Democracy", "StationEconomy":"$economy_Colony;", "StationEconomy_Localised":"Colony", "DistFromStarLS":22463.746094 }
+{ "timestamp":"2017-08-12T14:16:12Z", "event":"BuyAmmo", "Cost":11507 }
+{ "timestamp":"2017-08-12T14:16:12Z", "event":"RestockVehicle", "Type":"independent_fighter", "Loadout":"one", "Cost":4120, "Count":4 }
+{ "timestamp":"2017-08-12T14:16:12Z", "event":"RestockVehicle", "Type":"independent_fighter", "Loadout":"two", "Cost":2060, "Count":2 }
+{ "timestamp":"2017-08-12T14:16:14Z", "event":"RepairAll", "Cost":26808 }
+{ "timestamp":"2017-08-12T14:16:16Z", "event":"RefuelAll", "Cost":106, "Amount":2.091849 }
+{ "timestamp":"2017-08-12T14:16:30Z", "event":"RedeemVoucher", "Type":"CombatBond", "Amount":1109520, "Faction":"HIP 17706 allied" }
+{ "timestamp":"2017-08-12T14:16:39Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_EndPatrol02;", "Message_Localised":"Requesting docking clearance, Control.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:20:58Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol05;", "Message_Localised":"I'm heading out, Control. Hearing that rattle again, I'll see if I can lock it down.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:24:01Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol05;", "Message_Localised":"I'm heading out, Control. Hearing that rattle again, I'll see if I can lock it down.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:34:27Z", "event":"Undocked", "StationName":"Asire Base", "StationType":"SurfaceStation" }
+{ "timestamp":"2017-08-12T14:34:49Z", "event":"ReceiveText", "From":"Asire Base", "Message":"$STATION_NoFireZone_exited;", "Message_Localised":"No fire zone left.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:35:02Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2017-08-12T14:35:02Z", "event":"ApproachSettlement", "Name":"Asire Base" }
+{ "timestamp":"2017-08-12T14:35:07Z", "event":"SupercruiseEntry", "StarSystem":"Hyades Sector DR-V c2-23" }
+{ "timestamp":"2017-08-12T14:36:23Z", "event":"SupercruiseExit", "StarSystem":"Hyades Sector DR-V c2-23", "Body":"Hyades Sector DR-V c2-23 C 5", "BodyType":"Planet" }
+{ "timestamp":"2017-08-12T14:37:26Z", "event":"Bounty", "Target":"type9", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:37:26Z", "event":"FactionKillBond", "Reward":36800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:37:31Z", "event":"LaunchFighter", "Loadout":"one", "PlayerControlled":false }
+{ "timestamp":"2017-08-12T14:37:59Z", "event":"Bounty", "Target":"asp", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:37:59Z", "event":"FactionKillBond", "Reward":32200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:38:07Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire04;", "Message_Localised":"Your ticket is about to get well and truly punched.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:39:18Z", "event":"Bounty", "Target":"asp", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:39:18Z", "event":"FactionKillBond", "Reward":32200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:40:07Z", "event":"Bounty", "Target":"viper_mkiv", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:40:07Z", "event":"FactionKillBond", "Reward":23000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:40:23Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire03;", "Message_Localised":"Time to show you what a real pilot can do... ", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:41:01Z", "event":"Bounty", "Target":"anaconda", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:41:01Z", "event":"FactionKillBond", "Reward":92000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:41:20Z", "event":"HeatWarning" }
+{ "timestamp":"2017-08-12T14:41:45Z", "event":"Bounty", "Target":"anaconda", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:41:45Z", "event":"FactionKillBond", "Reward":92000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:42:57Z", "event":"HullDamage", "Health":0.346738, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:42:57Z", "event":"HullDamage", "Health":0.346738, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:42:57Z", "event":"HullDamage", "Health":0.346738, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:42:59Z", "event":"Bounty", "Target":"asp", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:42:59Z", "event":"FactionKillBond", "Reward":32200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:43:14Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire04;", "Message_Localised":"Your ticket is about to get well and truly punched.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:43:57Z", "event":"LaunchFighter", "Loadout":"two", "PlayerControlled":false }
+{ "timestamp":"2017-08-12T14:44:17Z", "event":"HullDamage", "Health":0.370656, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:44:17Z", "event":"HullDamage", "Health":0.370656, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:44:17Z", "event":"HullDamage", "Health":0.370656, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:44:51Z", "event":"Bounty", "Target":"vulture", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:44:51Z", "event":"FactionKillBond", "Reward":41400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:45:53Z", "event":"Bounty", "Target":"asp_scout", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:45:53Z", "event":"FactionKillBond", "Reward":27600, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:46:09Z", "event":"Bounty", "Target":"python", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:46:09Z", "event":"FactionKillBond", "Reward":59800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:46:47Z", "event":"Bounty", "Target":"python", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:46:47Z", "event":"FactionKillBond", "Reward":59800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:47:00Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire08;", "Message_Localised":"Enemy fire incoming!", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:47:19Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire01;", "Message_Localised":"Bandit on my six...", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:47:19Z", "event":"Bounty", "Target":"python", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:47:19Z", "event":"FactionKillBond", "Reward":59800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:48:25Z", "event":"Bounty", "Target":"type9", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:48:25Z", "event":"FactionKillBond", "Reward":36800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:49:24Z", "event":"Bounty", "Target":"asp", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:49:24Z", "event":"FactionKillBond", "Reward":32200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:50:16Z", "event":"Bounty", "Target":"viper_mkiv", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:50:16Z", "event":"FactionKillBond", "Reward":23000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:50:27Z", "event":"LaunchFighter", "Loadout":"one", "PlayerControlled":false }
+{ "timestamp":"2017-08-12T14:50:49Z", "event":"HullDamage", "Health":0.718364, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:50:52Z", "event":"HullDamage", "Health":0.535945, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:50:53Z", "event":"HullDamage", "Health":0.367944, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:50:53Z", "event":"HullDamage", "Health":0.199942, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:51:01Z", "event":"Bounty", "Target":"viper_mkiv", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:51:01Z", "event":"FactionKillBond", "Reward":23000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:51:13Z", "event":"LaunchFighter", "Loadout":"two", "PlayerControlled":false }
+{ "timestamp":"2017-08-12T14:51:46Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire08;", "Message_Localised":"Enemy fire incoming!", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:52:12Z", "event":"Bounty", "Target":"anaconda", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:52:12Z", "event":"FactionKillBond", "Reward":92000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:52:26Z", "event":"Bounty", "Target":"type9", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:52:26Z", "event":"FactionKillBond", "Reward":36800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:52:34Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire05;", "Message_Localised":"Incoming...", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:53:24Z", "event":"Bounty", "Target":"cobramkiii", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:53:24Z", "event":"FactionKillBond", "Reward":18400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:53:43Z", "event":"Bounty", "Target":"cobramkiii", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:53:43Z", "event":"FactionKillBond", "Reward":18400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:54:54Z", "event":"Bounty", "Target":"type9", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:54:54Z", "event":"FactionKillBond", "Reward":36800, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:54:59Z", "event":"HullDamage", "Health":0.342363, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:54:59Z", "event":"HullDamage", "Health":0.342363, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:54:59Z", "event":"HullDamage", "Health":0.342363, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:55:27Z", "event":"Bounty", "Target":"asp", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:55:27Z", "event":"FactionKillBond", "Reward":32200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:55:53Z", "event":"Bounty", "Target":"cobramkiii", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:55:53Z", "event":"FactionKillBond", "Reward":18400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:56:16Z", "event":"Bounty", "Target":"viper", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:56:16Z", "event":"FactionKillBond", "Reward":23000, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:56:53Z", "event":"LaunchFighter", "Loadout":"one", "PlayerControlled":false }
+{ "timestamp":"2017-08-12T14:57:22Z", "event":"Bounty", "Target":"vulture", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:57:22Z", "event":"FactionKillBond", "Reward":41400, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:58:08Z", "event":"Bounty", "Target":"asp_scout", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:58:08Z", "event":"FactionKillBond", "Reward":27600, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:58:49Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire09;", "Message_Localised":"Allow me to show you the error of your ways.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:59:10Z", "event":"HullDamage", "Health":0.731694, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:59:20Z", "event":"Bounty", "Target":"asp", "TotalReward":0, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:59:20Z", "event":"FactionKillBond", "Reward":32200, "AwardingFaction":"HIP 17706 allied", "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2017-08-12T14:59:21Z", "event":"HullDamage", "Health":0.198358, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:59:21Z", "event":"HullDamage", "Health":0.198358, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:59:21Z", "event":"HullDamage", "Health":0.198358, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2017-08-12T14:59:23Z", "event":"ReceiveText", "From":"$ShipName_Military_Independent;", "From_Localised":"System Defence Force", "Message":"$Military_UnderFire10;", "Message_Localised":"I'm under attack.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T14:59:47Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2017-08-12T14:59:47Z", "event":"ApproachSettlement", "Name":"Asire Base" }
+{ "timestamp":"2017-08-12T14:59:52Z", "event":"SupercruiseEntry", "StarSystem":"Hyades Sector DR-V c2-23" }
+{ "timestamp":"2017-08-12T15:00:53Z", "event":"ApproachSettlement", "Name":"Asire Base" }
+{ "timestamp":"2017-08-12T15:00:56Z", "event":"SupercruiseExit", "StarSystem":"Hyades Sector DR-V c2-23", "Body":"Hyades Sector DR-V c2-23 C 5", "BodyType":"Planet" }
+{ "timestamp":"2017-08-12T15:01:12Z", "event":"DockingRequested", "StationName":"Asire Base" }
+{ "timestamp":"2017-08-12T15:01:12Z", "event":"ReceiveText", "From":"Asire Base", "Message":"$DockingChatter_Allied;", "Message_Localised":"An ally like you is always welcome here.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T15:01:13Z", "event":"ReceiveText", "From":"Asire Base", "Message":"$STATION_docking_granted;", "Message_Localised":"Docking request granted.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T15:01:13Z", "event":"DockingGranted", "LandingPad":8, "StationName":"Asire Base" }
+{ "timestamp":"2017-08-12T15:01:29Z", "event":"ReceiveText", "From":"Asire Base", "Message":"$STATION_NoFireZone_entered;", "Message_Localised":"No fire zone entered.", "Channel":"npc" }
+{ "timestamp":"2017-08-12T15:02:00Z", "event":"Docked", "StationName":"Asire Base", "StationType":"SurfaceStation", "StarSystem":"Hyades Sector DR-V c2-23", "StationFaction":"Sirius Inc", "FactionState":"War", "StationGovernment":"$government_Democracy;", "StationGovernment_Localised":"Democracy", "StationEconomy":"$economy_Colony;", "StationEconomy_Localised":"Colony", "DistFromStarLS":22463.701172 }
+{ "timestamp":"2017-08-12T15:02:16Z", "event":"BuyAmmo", "Cost":10779 }
+{ "timestamp":"2017-08-12T15:02:16Z", "event":"RestockVehicle", "Type":"independent_fighter", "Loadout":"one", "Cost":3090, "Count":3 }
+{ "timestamp":"2017-08-12T15:02:16Z", "event":"RestockVehicle", "Type":"independent_fighter", "Loadout":"two", "Cost":2060, "Count":2 }
+{ "timestamp":"2017-08-12T15:02:18Z", "event":"RepairAll", "Cost":7413 }
+{ "timestamp":"2017-08-12T15:02:19Z", "event":"RefuelAll", "Cost":81, "Amount":1.605539 }
+{ "timestamp":"2017-08-12T15:02:26Z", "event":"RedeemVoucher", "Type":"CombatBond", "Amount":972900, "Faction":"HIP 17706 allied" }

@@ -1,0 +1,463 @@
+{ "timestamp":"2018-04-08T00:48:06Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"3.0.5.402 EDH", "build":"r168330/r0 " }
+{ "timestamp":"2018-04-08T00:48:06Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-04-08T00:48:06Z", "event":"Music", "MusicTrack":"MainMenu" }
+{ "timestamp":"2018-04-08T00:48:45Z", "event":"Friends", "Status":"Online", "Name":"Liberty" }
+{ "timestamp":"2018-04-08T00:48:45Z", "event":"Friends", "Status":"Online", "Name":"Araphel" }
+{ "timestamp":"2018-04-08T00:48:45Z", "event":"Friends", "Status":"Online", "Name":"WEGORIN" }
+{ "timestamp":"2018-04-08T00:48:45Z", "event":"Friends", "Status":"Online", "Name":"C-137" }
+{ "timestamp":"2018-04-08T00:48:45Z", "event":"Friends", "Status":"Online", "Name":"Corunna" }
+{ "timestamp":"2018-04-08T00:50:02Z", "event":"Commander", "Name":"McCaslin" }
+{ "timestamp":"2018-04-08T00:50:02Z", "event":"Materials", "Raw":[ { "Name":"nickel", "Count":75 }, { "Name":"sulphur", "Count":10 }, { "Name":"carbon", "Count":20 }, { "Name":"iron", "Count":131 }, { "Name":"zinc", "Count":12 }, { "Name":"mercury", "Count":23 }, { "Name":"yttrium", "Count":3 }, { "Name":"zirconium", "Count":2 }, { "Name":"tellurium", "Count":28 }, { "Name":"technetium", "Count":24 }, { "Name":"polonium", "Count":10 }, { "Name":"phosphorus", "Count":7 }, { "Name":"cadmium", "Count":41 }, { "Name":"germanium", "Count":4 }, { "Name":"antimony", "Count":17 }, { "Name":"vanadium", "Count":90 }, { "Name":"manganese", "Count":102 }, { "Name":"molybdenum", "Count":40 }, { "Name":"chromium", "Count":18 }, { "Name":"tungsten", "Count":1 }, { "Name":"arsenic", "Count":9 } ], "Manufactured":[ { "Name":"mechanicalscrap", "Name_Localised":"Mechanical Scrap", "Count":96 }, { "Name":"hybridcapacitors", "Name_Localised":"Hybrid Capacitors", "Count":161 }, { "Name":"chemicalprocessors", "Name_Localised":"Chemical Processors", "Count":250 }, { "Name":"refinedfocuscrystals", "Name_Localised":"Refined Focus Crystals", "Count":150 }, { "Name":"focuscrystals", "Name_Localised":"Focus Crystals", "Count":200 }, { "Name":"gridresistors", "Name_Localised":"Grid Resistors", "Count":209 }, { "Name":"galvanisingalloys", "Name_Localised":"Galvanising Alloys", "Count":250 }, { "Name":"precipitatedalloys", "Name_Localised":"Precipitated Alloys", "Count":200 }, { "Name":"shieldingsensors", "Name_Localised":"Shielding Sensors", "Count":200 }, { "Name":"militarygradealloys", "Name_Localised":"Military Grade Alloys", "Count":85 }, { "Name":"heatexchangers", "Name_Localised":"Heat Exchangers", "Count":105 }, { "Name":"configurablecomponents", "Name_Localised":"Configurable Components", "Count":75 }, { "Name":"conductivepolymers", "Name_Localised":"Conductive Polymers", "Count":113 }, { "Name":"heatvanes", "Name_Localised":"Heat Vanes", "Count":43 }, { "Name":"biotechconductors", "Name_Localised":"Biotech Conductors", "Count":70 }, { "Name":"thermicalloys", "Name_Localised":"Thermic Alloys", "Count":150 }, { "Name":"highdensitycomposites", "Name_Localised":"High Density Composites", "Count":200 }, { "Name":"chemicaldistillery", "Name_Localised":"Chemical Distillery", "Count":200 }, { "Name":"shieldemitters", "Name_Localised":"Shield Emitters", "Count":250 }, { "Name":"improvisedcomponents", "Name_Localised":"Improvised Components", "Count":10 }, { "Name":"heatdispersionplate", "Name_Localised":"Heat Dispersion Plate", "Count":91 }, { "Name":"heatresistantceramics", "Name_Localised":"Heat Resistant Ceramics", "Count":200 }, { "Name":"mechanicalequipment", "Name_Localised":"Mechanical Equipment", "Count":148 }, { "Name":"salvagedalloys", "Name_Localised":"Salvaged Alloys", "Count":300 }, { "Name":"protolightalloys", "Name_Localised":"Proto Light Alloys", "Count":150 }, { "Name":"pharmaceuticalisolators", "Name_Localised":"Pharmaceutical Isolators", "Count":52 }, { "Name":"protoheatradiators", "Name_Localised":"Proto Heat Radiators", "Count":18 }, { "Name":"fedproprietarycomposites", "Name_Localised":"Proprietary Composites", "Count":150 }, { "Name":"conductiveceramics", "Name_Localised":"Conductive Ceramics", "Count":193 }, { "Name":"conductivecomponents", "Name_Localised":"Conductive Components", "Count":250 }, { "Name":"electrochemicalarrays", "Name_Localised":"Electrochemical Arrays", "Count":112 }, { "Name":"exquisitefocuscrystals", "Name_Localised":"Exquisite Focus Crystals", "Count":100 }, { "Name":"fedcorecomposites", "Name_Localised":"Core Dynamics Composites", "Count":88 }, { "Name":"militarysupercapacitors", "Name_Localised":"Military Supercapacitors", "Count":7 }, { "Name":"mechanicalcomponents", "Name_Localised":"Mechanical Components", "Count":136 }, { "Name":"heatconductionwiring", "Name_Localised":"Heat Conduction Wiring", "Count":93 }, { "Name":"wornshieldemitters", "Name_Localised":"Worn Shield Emitters", "Count":300 }, { "Name":"phasealloys", "Name_Localised":"Phase Alloys", "Count":200 }, { "Name":"chemicalmanipulators", "Name_Localised":"Chemical Manipulators", "Count":150 }, { "Name":"compoundshielding", "Name_Localised":"Compound Shielding", "Count":150 }, { "Name":"uncutfocuscrystals", "Name_Localised":"Flawed Focus Crystals", "Count":250 }, { "Name":"imperialshielding", "Name_Localised":"Imperial Shielding", "Count":71 }, { "Name":"protoradiolicalloys", "Name_Localised":"Proto Radiolic Alloys", "Count":70 }, { "Name":"polymercapacitors", "Name_Localised":"Polymer Capacitors", "Count":77 }, { "Name":"basicconductors", "Name_Localised":"Basic Conductors", "Count":123 }, { "Name":"crystalshards", "Name_Localised":"Crystal Shards", "Count":300 }, { "Name":"temperedalloys", "Name_Localised":"Tempered Alloys", "Count":300 }, { "Name":"filamentcomposites", "Name_Localised":"Filament Composites", "Count":250 }, { "Name":"chemicalstorageunits", "Name_Localised":"Chemical Storage Units", "Count":240 }, { "Name":"compactcomposites", "Name_Localised":"Compact Composites", "Count":300 } ], "Encoded":[ { "Name":"compactemissionsdata", "Name_Localised":"Abnormal Compact Emissions Data", "Count":58 }, { "Name":"shieldpatternanalysis", "Name_Localised":"Aberrant Shield Pattern Analysis", "Count":150 }, { "Name":"decodedemissiondata", "Name_Localised":"Decoded Emission Data", "Count":150 }, { "Name":"shielddensityreports", "Name_Localised":"Untypical Shield Scans ", "Count":200 }, { "Name":"hyperspacetrajectories", "Name_Localised":"Eccentric Hyperspace Trajectories", "Count":20 }, { "Name":"shieldfrequencydata", "Name_Localised":"Peculiar Shield Frequency Data", "Count":53 }, { "Name":"fsdtelemetry", "Name_Localised":"Anomalous FSD Telemetry", "Count":5 }, { "Name":"scanarchives", "Name_Localised":"Unidentified Scan Archives", "Count":66 }, { "Name":"encodedscandata", "Name_Localised":"Divergent Scan Data", "Count":84 }, { "Name":"classifiedscandata", "Name_Localised":"Classified Scan Fragment", "Count":20 }, { "Name":"encryptioncodes", "Name_Localised":"Tagged Encryption Codes", "Count":10 }, { "Name":"embeddedfirmware", "Name_Localised":"Modified Embedded Firmware", "Count":62 }, { "Name":"encryptedfiles", "Name_Localised":"Unusual Encrypted Files", "Count":5 }, { "Name":"consumerfirmware", "Name_Localised":"Modified Consumer Firmware", "Count":100 }, { "Name":"symmetrickeys", "Name_Localised":"Open Symmetric Keys", "Count":8 }, { "Name":"encryptionarchives", "Name_Localised":"Atypical Encryption Archives", "Count":6 }, { "Name":"wakesolutions", "Name_Localised":"Strange Wake Solutions", "Count":20 }, { "Name":"securityfirmware", "Name_Localised":"Security Firmware Patch", "Count":62 }, { "Name":"adaptiveencryptors", "Name_Localised":"Adaptive Encryptors Capture", "Count":6 }, { "Name":"legacyfirmware", "Name_Localised":"Specialised Legacy Firmware", "Count":167 }, { "Name":"scandatabanks", "Name_Localised":"Classified Scan Databanks", "Count":98 }, { "Name":"emissiondata", "Name_Localised":"Unexpected Emission Data", "Count":200 }, { "Name":"industrialfirmware", "Name_Localised":"Cracked Industrial Firmware", "Count":75 }, { "Name":"dataminedwake", "Name_Localised":"Datamined Wake Exceptions", "Count":3 }, { "Name":"scrambledemissiondata", "Name_Localised":"Exceptional Scrambled Emission Data", "Count":224 }, { "Name":"shieldcyclerecordings", "Name_Localised":"Distorted Shield Cycle Recordings", "Count":216 }, { "Name":"shieldsoakanalysis", "Name_Localised":"Inconsistent Shield Soak Analysis", "Count":200 }, { "Name":"bulkscandata", "Name_Localised":"Anomalous Bulk Scan Data", "Count":153 }, { "Name":"disruptedwakeechoes", "Name_Localised":"Atypical Disrupted Wake Echoes", "Count":29 }, { "Name":"archivedemissiondata", "Name_Localised":"Irregular Emission Data", "Count":182 } ] }
+{ "timestamp":"2018-04-08T00:50:02Z", "event":"LoadGame", "Commander":"McCaslin", "Horizons":true, "Ship":"TestBuggy", "Ship_Localised":"SRV Scarab", "ShipID":31, "ShipName":"", "ShipIdent":"", "FuelLevel":0.000000, "FuelCapacity":0.000000, "GameMode":"Open", "Credits":2468971190, "Loan":0 }
+{ "timestamp":"2018-04-08T00:50:02Z", "event":"Rank", "Combat":8, "Trade":8, "Explore":7, "Empire":12, "Federation":14, "CQC":0 }
+{ "timestamp":"2018-04-08T00:50:02Z", "event":"Progress", "Combat":100, "Trade":100, "Explore":73, "Empire":13, "Federation":100, "CQC":0 }
+{ "timestamp":"2018-04-08T00:50:02Z", "event":"Reputation", "Empire":75.000000, "Federation":99.901199, "Independent":75.000000, "Alliance":74.971298 }
+{ "timestamp":"2018-04-08T00:50:13Z", "event":"Friends", "Status":"Online", "Name":"Liberty" }
+{ "timestamp":"2018-04-08T00:50:13Z", "event":"Friends", "Status":"Online", "Name":"Araphel" }
+{ "timestamp":"2018-04-08T00:50:13Z", "event":"Friends", "Status":"Online", "Name":"WEGORIN" }
+{ "timestamp":"2018-04-08T00:50:13Z", "event":"Friends", "Status":"Online", "Name":"C-137" }
+{ "timestamp":"2018-04-08T00:50:13Z", "event":"Friends", "Status":"Online", "Name":"Corunna" }
+{ "timestamp":"2018-04-08T00:50:39Z", "event":"Location", "Latitude":-28.607573, "Longitude":41.339848, "Docked":false, "StarSystem":"42 n Persei", "SystemAddress":138745472172, "StarPos":[-83.56250,-73.40625,-244.34375], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Military;", "SystemEconomy_Localised":"Military", "SystemSecondEconomy":"$economy_Extraction;", "SystemSecondEconomy_Localised":"Extraction", "SystemGovernment":"$government_Democracy;", "SystemGovernment_Localised":"Democracy", "SystemSecurity":"$SYSTEM_SECURITY_medium;", "SystemSecurity_Localised":"Medium Security", "Population":1200000, "Body":"42 n Persei A 2", "BodyID":6, "BodyType":"Planet", "Factions":[ { "Name":"Pleiades Resource Enterprise", "FactionState":"None", "Government":"Corporate", "Influence":0.153617, "Allegiance":"Federation", "PendingStates":[ { "State":"Boom", "Trend":1 }, { "State":"CivilUnrest", "Trend":0 }, { "State":"Lockdown", "Trend":-1 } ] }, { "Name":"Cooper Research Associates", "FactionState":"None", "Government":"Democracy", "Influence":0.170466, "Allegiance":"Alliance", "PendingStates":[ { "State":"Boom", "Trend":1 } ], "RecoveringStates":[ { "State":"War", "Trend":0 } ] }, { "Name":"I.P.S.A.L Project", "FactionState":"None", "Government":"Corporate", "Influence":0.009911, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 }, { "State":"CivilUnrest", "Trend":0 }, { "State":"Lockdown", "Trend":0 } ], "RecoveringStates":[ { "State":"War", "Trend":0 } ] }, { "Name":"Pilots Federation Local Branch", "FactionState":"None", "Government":"Democracy", "Influence":0.000000, "Allegiance":"PilotsFederation" }, { "Name":"Black Flag Operations", "FactionState":"Outbreak", "Government":"Anarchy", "Influence":0.100099, "Allegiance":"Independent" }, { "Name":"Sirius Inc", "FactionState":"None", "Government":"Democracy", "Influence":0.565907, "Allegiance":"Independent" } ], "SystemFaction":"Sirius Inc" }
+{ "timestamp":"2018-04-08T00:50:39Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-04-08T00:50:39Z", "event":"Missions", "Active":[  ], "Failed":[  ], "Complete":[  ] }
+{ "timestamp":"2018-04-08T00:50:39Z", "event":"Cargo", "Inventory":[  ] }
+{ "timestamp":"2018-04-08T00:50:39Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-04-08T00:50:41Z", "event":"Statistics", "Bank_Account":{ "Current_Wealth":4140211861, "Spent_On_Ships":442228313, "Spent_On_Outfitting":1534664683, "Spent_On_Repairs":41708361, "Spent_On_Fuel":5677764, "Spent_On_Ammo_Consumables":9725255, "Insurance_Claims":8, "Spent_On_Insurance":76777257 }, "Combat":{ "Bounties_Claimed":17748, "Bounty_Hunting_Profit":909997355, "Combat_Bonds":9940, "Combat_Bond_Profits":269662241, "Assassinations":525, "Assassination_Profits":76489061, "Highest_Single_Reward":786902, "Skimmers_Killed":1077 }, "Crime":{ "Notoriety":0, "Fines":553, "Total_Fines":3491267, "Bounties_Received":952, "Total_Bounties":245325, "Highest_Bounty":12705 }, "Smuggling":{ "Black_Markets_Traded_With":24, "Black_Markets_Profits":88626294, "Resources_Smuggled":8917, "Average_Profit":410306.91666667, "Highest_Single_Transaction":25639296 }, "Trading":{ "Markets_Traded_With":454, "Market_Profits":799107539, "Resources_Traded":664359, "Average_Profit":111435.99762934, "Highest_Single_Transaction":5462548 }, "Mining":{ "Mining_Profits":474051140, "Quantity_Mined":7643, "Materials_Collected":23351 }, "Exploration":{ "Systems_Visited":8323, "Exploration_Profits":142035817, "Planets_Scanned_To_Level_2":21386, "Planets_Scanned_To_Level_3":22148, "Highest_Payout":4865443, "Total_Hyperspace_Distance":464843, "Total_Hyperspace_Jumps":30127, "Greatest_Distance_From_Start":5076.9003052044, "Time_Played":31035060 }, "Passengers":{ "Passengers_Missions_Accepted":1962, "Passengers_Missions_Disgruntled":0, "Passengers_Missions_Bulk":17598, "Passengers_Missions_VIP":492, "Passengers_Missions_Delivered":18090, "Passengers_Missions_Ejected":260 }, "Search_And_Rescue":{ "SearchRescue_Traded":1, "SearchRescue_Profit":30287, "SearchRescue_Count":1 }, "Crafting":{ "Count_Of_Used_Engineers":18, "Recipes_Generated":1181, "Recipes_Generated_Rank_1":158, "Recipes_Generated_Rank_2":77, "Recipes_Generated_Rank_3":213, "Recipes_Generated_Rank_4":188, "Recipes_Generated_Rank_5":545 }, "Crew":{ "NpcCrew_TotalWages":331171321, "NpcCrew_Hired":4, "NpcCrew_Fired":2, "NpcCrew_Died":1 }, "Multicrew":{ "Multicrew_Time_Total":102664, "Multicrew_Gunner_Time_Total":22943, "Multicrew_Fighter_Time_Total":1872, "Multicrew_Credits_Total":3148452, "Multicrew_Fines_Total":1551254 }, "Material_Trader_Stats":{ "Trades_Completed":94, "Materials_Traded":4651, "Encoded_Materials_Traded":1660, "Grade_1_Materials_Traded":1188, "Grade_2_Materials_Traded":1396, "Grade_3_Materials_Traded":1116, "Grade_4_Materials_Traded":832, "Grade_5_Materials_Traded":119 } }
+{ "timestamp":"2018-04-08T00:52:21Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T00:52:23Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T00:52:48Z", "event":"Screenshot", "Filename":"\\ED_Pictures\\Screenshot_1133.bmp", "Width":1920, "Height":1080, "System":"42 n Persei", "Body":"42 n Persei A 2", "Latitude":-28.609266, "Longitude":41.337143, "Heading":171 }
+{ "timestamp":"2018-04-08T00:53:08Z", "event":"Screenshot", "Filename":"\\ED_Pictures\\Screenshot_1134.bmp", "Width":1920, "Height":1080, "System":"42 n Persei", "Body":"42 n Persei A 2", "Latitude":-28.609266, "Longitude":41.337143, "Heading":171 }
+{ "timestamp":"2018-04-08T00:53:10Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-04-08T00:54:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T00:54:59Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T00:55:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T00:55:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T00:55:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T00:55:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T00:55:40Z", "event":"HullDamage", "Health":0.397090, "PlayerPilot":true }
+{ "timestamp":"2018-04-08T00:56:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T00:56:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T00:56:23Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T00:56:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T00:56:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T00:56:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T00:58:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T00:58:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T00:59:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T00:59:04Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T00:59:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T00:59:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T00:59:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T00:59:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T00:59:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T00:59:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:00:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T01:00:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:00:49Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T01:00:52Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T01:01:56Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:02:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:02:06Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T01:02:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:02:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T01:03:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T01:03:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:03:19Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:03:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:03:24Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:03:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:04:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:04:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T01:04:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T01:04:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:04:34Z", "event":"HullDamage", "Health":0.164316, "PlayerPilot":true }
+{ "timestamp":"2018-04-08T01:05:25Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T01:05:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T01:05:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T01:05:36Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T01:05:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:05:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T01:06:06Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T01:06:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-08T01:06:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T01:06:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:07:01Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T01:07:05Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:07:09Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:07:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:08:51Z", "event":"DatalinkScan", "Message":"$DATAPOINT_GAMEPLAY_complete;", "Message_Localised":"Alert: All Data Point telemetry links established, Intel package created." }
+{ "timestamp":"2018-04-08T01:08:51Z", "event":"DatalinkVoucher", "Reward":2986, "VictimFaction":"", "PayeeFaction":"Alliance" }
+{ "timestamp":"2018-04-08T01:09:37Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T01:09:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T01:09:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T01:10:04Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T01:10:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:10:37Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T01:10:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T01:10:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:10:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T01:10:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T01:10:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T01:10:56Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T01:11:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T01:11:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:11:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:11:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:11:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:11:44Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:11:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:12:00Z", "event":"ModuleInfo" }
+{ "timestamp":"2018-04-08T01:12:09Z", "event":"Friends", "Status":"Online", "Name":"Mr. Facebreaker" }
+{ "timestamp":"2018-04-08T01:13:04Z", "event":"Touchdown", "PlayerControlled":false }
+{ "timestamp":"2018-04-08T01:13:43Z", "event":"DockSRV" }
+{ "timestamp":"2018-04-08T01:15:51Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:16:10Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:16:30Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:16:41Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:16:55Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:17:13Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:17:34Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:17:49Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:18:07Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:18:18Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:18:37Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:18:52Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:19:25Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:19:37Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:20:24Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:20:35Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:20:51Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:21:06Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:21:19Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:21:32Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:21:54Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:22:05Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:22:30Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:22:41Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:22:57Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:23:09Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:23:47Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:23:57Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:24:48Z", "event":"Friends", "Status":"Online", "Name":"Dianesion" }
+{ "timestamp":"2018-04-08T01:26:15Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-04-08T01:26:19Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:26:54Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:27:19Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:27:22Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:27:26Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:27:38Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:28:00Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:28:14Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:28:39Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:28:52Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:29:34Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:29:44Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:30:00Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:30:11Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:30:28Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:30:39Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:30:57Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:31:09Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:31:29Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:31:41Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:32:00Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:32:17Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:32:40Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:32:41Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-04-08T01:32:48Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:33:17Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-04-08T01:33:21Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:33:36Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:33:54Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:34:13Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:34:25Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:34:34Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:34:54Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:35:08Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:35:27Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:35:40Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:38:22Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:38:29Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:38:38Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:38:41Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:38:44Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:38:47Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:38:53Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:38:57Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:40:06Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:40:11Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:40:58Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-08T01:41:04Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-08T01:41:08Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-04-08T01:47:05Z", "event":"LaunchSRV", "Loadout":"starter", "PlayerControlled":true }
+{ "timestamp":"2018-04-08T01:48:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:48:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:48:23Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:48:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T01:48:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:48:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:48:35Z", "event":"Friends", "Status":"Online", "Name":"Corunna" }
+{ "timestamp":"2018-04-08T01:49:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:49:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:49:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:50:39Z", "event":"HullDamage", "Health":0.796767, "PlayerPilot":true }
+{ "timestamp":"2018-04-08T01:50:59Z", "event":"Friends", "Status":"Online", "Name":"C-137" }
+{ "timestamp":"2018-04-08T01:51:35Z", "event":"Liftoff", "PlayerControlled":false }
+{ "timestamp":"2018-04-08T01:52:23Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T01:52:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T01:52:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T01:52:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T01:52:37Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:53:59Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T01:54:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T01:54:04Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T01:54:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:54:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T01:54:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:55:08Z", "event":"HullDamage", "Health":0.567019, "PlayerPilot":true }
+{ "timestamp":"2018-04-08T01:55:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T01:55:56Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:55:59Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:56:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:56:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:56:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:56:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:56:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:56:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:56:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:58:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:58:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:58:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T01:58:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:58:59Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T01:59:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T01:59:05Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T02:00:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:00:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:00:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:00:23Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:00:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:00:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:00:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:00:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:00:55Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:01:55Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:01:58Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:02:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:02:05Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:02:08Z", "event":"Friends", "Status":"Offline", "Name":"Mr. Facebreaker" }
+{ "timestamp":"2018-04-08T02:02:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T02:02:46Z", "event":"Friends", "Status":"Online", "Name":"Dianesion" }
+{ "timestamp":"2018-04-08T02:02:58Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:03:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:03:05Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:03:09Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:03:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:03:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:03:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:04:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:04:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:04:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:04:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:04:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:04:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:04:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:04:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:05:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T02:05:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:05:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T02:05:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-08T02:06:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T02:06:49Z", "event":"SendText", "To":"Liberty", "Message":"s7  Seeing any commanders today?" }
+{ "timestamp":"2018-04-08T02:07:38Z", "event":"Friends", "Status":"Online", "Name":"Dianesion" }
+{ "timestamp":"2018-04-08T02:09:04Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T02:09:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T02:09:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:09:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:09:23Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-08T02:09:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:10:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:10:25Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:10:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:10:37Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:10:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:10:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:11:21Z", "event":"HullDamage", "Health":0.389678, "PlayerPilot":true }
+{ "timestamp":"2018-04-08T02:11:47Z", "event":"HullDamage", "Health":0.184607, "PlayerPilot":true }
+{ "timestamp":"2018-04-08T02:12:06Z", "event":"ReceiveText", "From":"Liberty", "Message":"s7 nope, all quiet here at Dionysus", "Channel":"player" }
+{ "timestamp":"2018-04-08T02:12:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T02:12:36Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:12:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:13:01Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T02:13:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:13:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:13:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:13:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T02:14:00Z", "event":"SendText", "To":"Liberty", "Message":"good.  We've sold a few thousand tons of meta alloys at this point, and I was curious if there was any sign of larger problems" }
+{ "timestamp":"2018-04-08T02:15:50Z", "event":"ReceiveText", "From":"Liberty", "Message":"lol, actually, you say that and I just got interdicted in a system right off of 17044, a hauler and a python right there at the star", "Channel":"player" }
+{ "timestamp":"2018-04-08T02:15:58Z", "event":"ReceiveText", "From":"Liberty", "Message":"let me get the names", "Channel":"player" }
+{ "timestamp":"2018-04-08T02:18:12Z", "event":"ReceiveText", "From":"Liberty", "Message":"neutronwolfstar and jfsjr86", "Channel":"player" }
+{ "timestamp":"2018-04-08T02:21:31Z", "event":"ReceiveText", "From":"Liberty", "Message":"system was P S MN-T C3-1", "Channel":"player" }
+{ "timestamp":"2018-04-08T02:33:12Z", "event":"SendText", "To":"Liberty", "Message":"whoa" }
+{ "timestamp":"2018-04-08T02:33:28Z", "event":"SendText", "To":"Liberty", "Message":"did they kill you?" }
+{ "timestamp":"2018-04-08T02:35:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:35:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:35:50Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:36:45Z", "event":"ReceiveText", "From":"Liberty", "Message":"nope", "Channel":"player" }
+{ "timestamp":"2018-04-08T02:37:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T02:37:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:37:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:37:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:37:24Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:37:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T02:38:09Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:38:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:38:23Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:38:28Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:38:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:38:56Z", "event":"SendText", "To":"Liberty", "Message":"good" }
+{ "timestamp":"2018-04-08T02:39:22Z", "event":"SendText", "To":"Liberty", "Message":"If they are still in the system, I can head that way" }
+{ "timestamp":"2018-04-08T02:39:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T02:40:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T02:40:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T02:40:05Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:40:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T02:40:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T02:40:40Z", "event":"ReceiveText", "From":"Liberty", "Message":"beats me, I got to log for a little tho. it seems like that neutronwolfstar I've seen somewhere before...", "Channel":"player" }
+{ "timestamp":"2018-04-08T02:40:56Z", "event":"SendText", "To":"Liberty", "Message":"np, we'll get his name on the GalCop shitlist" }
+{ "timestamp":"2018-04-08T02:41:03Z", "event":"SendText", "To":"Liberty", "Message":"cya later  s7" }
+{ "timestamp":"2018-04-08T02:41:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"technetium", "Count":3 }
+{ "timestamp":"2018-04-08T02:41:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:41:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:41:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:41:58Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:42:05Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:42:13Z", "event":"Synthesis", "Name":"Repair Basic", "Materials":[ { "Name":"iron", "Count":2 }, { "Name":"nickel", "Count":1 } ] }
+{ "timestamp":"2018-04-08T02:43:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"technetium", "Count":3 }
+{ "timestamp":"2018-04-08T02:43:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:43:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:43:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:43:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T02:43:56Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:44:30Z", "event":"HullDamage", "Health":0.799376, "PlayerPilot":true }
+{ "timestamp":"2018-04-08T02:45:41Z", "event":"HullDamage", "Health":0.585654, "PlayerPilot":true }
+{ "timestamp":"2018-04-08T02:48:06Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:48:09Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:48:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T02:48:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2018-04-08T02:49:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:49:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:49:59Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T02:50:01Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:50:05Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:50:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:50:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:51:19Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:51:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:51:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:51:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:52:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:52:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:52:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"technetium", "Count":3 }
+{ "timestamp":"2018-04-08T02:52:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:52:25Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:52:28Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:53:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:53:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:54:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"technetium", "Count":3 }
+{ "timestamp":"2018-04-08T02:54:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:54:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:54:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:54:56Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:55:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:55:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:55:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:56:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:56:24Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:56:28Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:56:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:56:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T02:57:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T02:57:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T02:57:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"technetium", "Count":3 }
+{ "timestamp":"2018-04-08T02:57:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:57:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:58:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2018-04-08T02:58:33Z", "event":"HullDamage", "Health":0.361270, "PlayerPilot":true }
+{ "timestamp":"2018-04-08T02:58:59Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T02:59:06Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T02:59:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T02:59:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":1 }
+{ "timestamp":"2018-04-08T02:59:55Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:00:28Z", "event":"HullDamage", "Health":0.157968, "PlayerPilot":true }
+{ "timestamp":"2018-04-08T03:00:39Z", "event":"Synthesis", "Name":"Repair Basic", "Materials":[ { "Name":"iron", "Count":2 }, { "Name":"nickel", "Count":1 } ] }
+{ "timestamp":"2018-04-08T03:01:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T03:01:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":2 }
+{ "timestamp":"2018-04-08T03:01:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T03:02:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:02:50Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T03:02:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T03:03:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T03:03:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:03:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T03:04:55Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T03:04:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:05:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T03:05:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T03:05:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:05:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T03:05:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T03:06:15Z", "event":"Friends", "Status":"Online", "Name":"SM-T2100" }
+{ "timestamp":"2018-04-08T03:06:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T03:06:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:06:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:07:04Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:07:46Z", "event":"Friends", "Status":"Online", "Name":"Dianesion" }
+{ "timestamp":"2018-04-08T03:08:52Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:08:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T03:09:59Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:15:44Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T03:15:50Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T03:15:58Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T03:16:25Z", "event":"Friends", "Status":"Online", "Name":"Gabriel J" }
+{ "timestamp":"2018-04-08T03:17:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T03:17:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T03:23:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:23:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T03:26:34Z", "event":"Synthesis", "Name":"Fuel Basic", "Materials":[ { "Name":"sulphur", "Count":1 }, { "Name":"phosphorus", "Count":1 } ] }
+{ "timestamp":"2018-04-08T03:28:01Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:28:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:31:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:33:11Z", "event":"Friends", "Status":"Online", "Name":"Corunna" }
+{ "timestamp":"2018-04-08T03:34:14Z", "event":"HullDamage", "Health":0.785070, "PlayerPilot":true }
+{ "timestamp":"2018-04-08T03:35:25Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:35:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:35:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:35:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:35:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T03:38:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2018-04-08T03:38:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":2 }
+{ "timestamp":"2018-04-08T03:39:04Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:39:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T03:40:23Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T03:40:28Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T03:40:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:42:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T03:42:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:42:56Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:44:05Z", "event":"MaterialCollected", "Category":"Raw", "Name":"molybdenum", "Count":3 }
+{ "timestamp":"2018-04-08T03:44:29Z", "event":"Friends", "Status":"Offline", "Name":"Liberty" }
+{ "timestamp":"2018-04-08T03:44:59Z", "event":"HullDamage", "Health":0.588053, "PlayerPilot":true }
+{ "timestamp":"2018-04-08T03:47:49Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2018-04-08T03:49:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-08T03:49:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T03:50:36Z", "event":"HullDamage", "Health":0.399491, "PlayerPilot":true }
+{ "timestamp":"2018-04-08T03:51:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T03:51:19Z", "event":"MaterialCollected", "Category":"Raw", "Name":"technetium", "Count":3 }
+{ "timestamp":"2018-04-08T03:51:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2018-04-08T03:52:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"technetium", "Count":3 }
+{ "timestamp":"2018-04-08T03:53:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-08T03:53:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":1 }
+{ "timestamp":"2018-04-08T03:55:50Z", "event":"MaterialCollected", "Category":"Raw", "Name":"technetium", "Count":3 }
+{ "timestamp":"2018-04-08T03:56:52Z", "event":"HullDamage", "Health":0.176559, "PlayerPilot":true }
+{ "timestamp":"2018-04-08T03:58:41Z", "event":"Shutdown" }

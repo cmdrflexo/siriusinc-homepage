@@ -1,0 +1,5 @@
+{ "timestamp":"2017-11-01T01:13:59Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"2.4", "build":"r156431/r0 " }
+{ "timestamp":"2017-11-01T01:13:59Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2017-11-01T01:14:00Z", "event":"Music", "MusicTrack":"MainMenu" }
+{ "timestamp":"2017-11-01T01:16:08Z", "event":"Friends", "Status":"Online", "Name":"Ben Ryder" }
+{ "timestamp":"2017-11-01T01:16:08Z", "event":"Friends", "Status":"Online", "Name":"Rooster-14" }

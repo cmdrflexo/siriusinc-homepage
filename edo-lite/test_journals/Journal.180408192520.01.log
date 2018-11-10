@@ -1,0 +1,531 @@
+{ "timestamp":"2018-04-09T00:25:20Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"3.0.5.402 EDH", "build":"r168330/r0 " }
+{ "timestamp":"2018-04-09T00:25:20Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-04-09T00:25:20Z", "event":"Music", "MusicTrack":"MainMenu" }
+{ "timestamp":"2018-04-09T00:26:00Z", "event":"Friends", "Status":"Online", "Name":"Liberty" }
+{ "timestamp":"2018-04-09T00:26:00Z", "event":"Friends", "Status":"Online", "Name":"Araphel" }
+{ "timestamp":"2018-04-09T00:26:00Z", "event":"Friends", "Status":"Online", "Name":"FILTHY_CASUAL86" }
+{ "timestamp":"2018-04-09T00:26:00Z", "event":"Friends", "Status":"Online", "Name":"Altherion" }
+{ "timestamp":"2018-04-09T00:26:00Z", "event":"Friends", "Status":"Online", "Name":"Corunna" }
+{ "timestamp":"2018-04-09T00:26:00Z", "event":"Friends", "Status":"Online", "Name":"Gabriel J" }
+{ "timestamp":"2018-04-09T00:26:00Z", "event":"Friends", "Status":"Online", "Name":"SM-T2100" }
+{ "timestamp":"2018-04-09T00:27:00Z", "event":"Friends", "Status":"Online", "Name":"Liberty" }
+{ "timestamp":"2018-04-09T00:27:00Z", "event":"Friends", "Status":"Online", "Name":"Araphel" }
+{ "timestamp":"2018-04-09T00:27:00Z", "event":"Friends", "Status":"Online", "Name":"FILTHY_CASUAL86" }
+{ "timestamp":"2018-04-09T00:27:00Z", "event":"Friends", "Status":"Online", "Name":"Altherion" }
+{ "timestamp":"2018-04-09T00:27:00Z", "event":"Friends", "Status":"Online", "Name":"Gabriel J" }
+{ "timestamp":"2018-04-09T00:27:00Z", "event":"Friends", "Status":"Online", "Name":"SM-T2100" }
+{ "timestamp":"2018-04-09T00:28:37Z", "event":"Friends", "Status":"Online", "Name":"Corunna" }
+{ "timestamp":"2018-04-09T00:55:46Z", "event":"Friends", "Status":"Online", "Name":"Mr. Facebreaker" }
+{ "timestamp":"2018-04-09T01:00:02Z", "event":"Friends", "Status":"Online", "Name":"Dianesion" }
+{ "timestamp":"2018-04-09T01:17:58Z", "event":"Friends", "Status":"Online", "Name":"C-137" }
+{ "timestamp":"2018-04-09T01:56:40Z", "event":"Commander", "Name":"McCaslin" }
+{ "timestamp":"2018-04-09T01:56:40Z", "event":"Materials", "Raw":[ { "Name":"nickel", "Count":300 }, { "Name":"sulphur", "Count":39 }, { "Name":"carbon", "Count":50 }, { "Name":"iron", "Count":300 }, { "Name":"zinc", "Count":12 }, { "Name":"mercury", "Count":22 }, { "Name":"yttrium", "Count":9 }, { "Name":"zirconium", "Count":2 }, { "Name":"tellurium", "Count":28 }, { "Name":"technetium", "Count":111 }, { "Name":"polonium", "Count":10 }, { "Name":"phosphorus", "Count":14 }, { "Name":"cadmium", "Count":200 }, { "Name":"germanium", "Count":4 }, { "Name":"antimony", "Count":17 }, { "Name":"vanadium", "Count":250 }, { "Name":"manganese", "Count":250 }, { "Name":"molybdenum", "Count":186 }, { "Name":"chromium", "Count":54 }, { "Name":"tungsten", "Count":4 }, { "Name":"niobium", "Count":6 }, { "Name":"selenium", "Count":12 }, { "Name":"arsenic", "Count":98 } ], "Manufactured":[ { "Name":"mechanicalscrap", "Name_Localised":"Mechanical Scrap", "Count":96 }, { "Name":"hybridcapacitors", "Name_Localised":"Hybrid Capacitors", "Count":161 }, { "Name":"chemicalprocessors", "Name_Localised":"Chemical Processors", "Count":250 }, { "Name":"refinedfocuscrystals", "Name_Localised":"Refined Focus Crystals", "Count":150 }, { "Name":"focuscrystals", "Name_Localised":"Focus Crystals", "Count":200 }, { "Name":"gridresistors", "Name_Localised":"Grid Resistors", "Count":209 }, { "Name":"galvanisingalloys", "Name_Localised":"Galvanising Alloys", "Count":250 }, { "Name":"precipitatedalloys", "Name_Localised":"Precipitated Alloys", "Count":200 }, { "Name":"shieldingsensors", "Name_Localised":"Shielding Sensors", "Count":200 }, { "Name":"militarygradealloys", "Name_Localised":"Military Grade Alloys", "Count":85 }, { "Name":"heatexchangers", "Name_Localised":"Heat Exchangers", "Count":105 }, { "Name":"configurablecomponents", "Name_Localised":"Configurable Components", "Count":75 }, { "Name":"conductivepolymers", "Name_Localised":"Conductive Polymers", "Count":113 }, { "Name":"heatvanes", "Name_Localised":"Heat Vanes", "Count":43 }, { "Name":"biotechconductors", "Name_Localised":"Biotech Conductors", "Count":70 }, { "Name":"thermicalloys", "Name_Localised":"Thermic Alloys", "Count":150 }, { "Name":"highdensitycomposites", "Name_Localised":"High Density Composites", "Count":200 }, { "Name":"chemicaldistillery", "Name_Localised":"Chemical Distillery", "Count":200 }, { "Name":"shieldemitters", "Name_Localised":"Shield Emitters", "Count":250 }, { "Name":"improvisedcomponents", "Name_Localised":"Improvised Components", "Count":10 }, { "Name":"heatdispersionplate", "Name_Localised":"Heat Dispersion Plate", "Count":91 }, { "Name":"heatresistantceramics", "Name_Localised":"Heat Resistant Ceramics", "Count":200 }, { "Name":"mechanicalequipment", "Name_Localised":"Mechanical Equipment", "Count":148 }, { "Name":"salvagedalloys", "Name_Localised":"Salvaged Alloys", "Count":300 }, { "Name":"protolightalloys", "Name_Localised":"Proto Light Alloys", "Count":150 }, { "Name":"pharmaceuticalisolators", "Name_Localised":"Pharmaceutical Isolators", "Count":52 }, { "Name":"protoheatradiators", "Name_Localised":"Proto Heat Radiators", "Count":18 }, { "Name":"fedproprietarycomposites", "Name_Localised":"Proprietary Composites", "Count":150 }, { "Name":"conductiveceramics", "Name_Localised":"Conductive Ceramics", "Count":193 }, { "Name":"conductivecomponents", "Name_Localised":"Conductive Components", "Count":250 }, { "Name":"electrochemicalarrays", "Name_Localised":"Electrochemical Arrays", "Count":112 }, { "Name":"exquisitefocuscrystals", "Name_Localised":"Exquisite Focus Crystals", "Count":100 }, { "Name":"fedcorecomposites", "Name_Localised":"Core Dynamics Composites", "Count":88 }, { "Name":"militarysupercapacitors", "Name_Localised":"Military Supercapacitors", "Count":7 }, { "Name":"mechanicalcomponents", "Name_Localised":"Mechanical Components", "Count":136 }, { "Name":"heatconductionwiring", "Name_Localised":"Heat Conduction Wiring", "Count":93 }, { "Name":"wornshieldemitters", "Name_Localised":"Worn Shield Emitters", "Count":300 }, { "Name":"phasealloys", "Name_Localised":"Phase Alloys", "Count":200 }, { "Name":"chemicalmanipulators", "Name_Localised":"Chemical Manipulators", "Count":150 }, { "Name":"compoundshielding", "Name_Localised":"Compound Shielding", "Count":150 }, { "Name":"uncutfocuscrystals", "Name_Localised":"Flawed Focus Crystals", "Count":250 }, { "Name":"imperialshielding", "Name_Localised":"Imperial Shielding", "Count":71 }, { "Name":"protoradiolicalloys", "Name_Localised":"Proto Radiolic Alloys", "Count":70 }, { "Name":"polymercapacitors", "Name_Localised":"Polymer Capacitors", "Count":77 }, { "Name":"basicconductors", "Name_Localised":"Basic Conductors", "Count":123 }, { "Name":"crystalshards", "Name_Localised":"Crystal Shards", "Count":300 }, { "Name":"temperedalloys", "Name_Localised":"Tempered Alloys", "Count":300 }, { "Name":"filamentcomposites", "Name_Localised":"Filament Composites", "Count":250 }, { "Name":"chemicalstorageunits", "Name_Localised":"Chemical Storage Units", "Count":240 }, { "Name":"compactcomposites", "Name_Localised":"Compact Composites", "Count":300 } ], "Encoded":[ { "Name":"compactemissionsdata", "Name_Localised":"Abnormal Compact Emissions Data", "Count":58 }, { "Name":"shieldpatternanalysis", "Name_Localised":"Aberrant Shield Pattern Analysis", "Count":150 }, { "Name":"decodedemissiondata", "Name_Localised":"Decoded Emission Data", "Count":150 }, { "Name":"shielddensityreports", "Name_Localised":"Untypical Shield Scans ", "Count":200 }, { "Name":"hyperspacetrajectories", "Name_Localised":"Eccentric Hyperspace Trajectories", "Count":20 }, { "Name":"shieldfrequencydata", "Name_Localised":"Peculiar Shield Frequency Data", "Count":53 }, { "Name":"fsdtelemetry", "Name_Localised":"Anomalous FSD Telemetry", "Count":5 }, { "Name":"scanarchives", "Name_Localised":"Unidentified Scan Archives", "Count":66 }, { "Name":"encodedscandata", "Name_Localised":"Divergent Scan Data", "Count":84 }, { "Name":"classifiedscandata", "Name_Localised":"Classified Scan Fragment", "Count":20 }, { "Name":"encryptioncodes", "Name_Localised":"Tagged Encryption Codes", "Count":10 }, { "Name":"embeddedfirmware", "Name_Localised":"Modified Embedded Firmware", "Count":62 }, { "Name":"encryptedfiles", "Name_Localised":"Unusual Encrypted Files", "Count":5 }, { "Name":"consumerfirmware", "Name_Localised":"Modified Consumer Firmware", "Count":100 }, { "Name":"symmetrickeys", "Name_Localised":"Open Symmetric Keys", "Count":8 }, { "Name":"encryptionarchives", "Name_Localised":"Atypical Encryption Archives", "Count":6 }, { "Name":"wakesolutions", "Name_Localised":"Strange Wake Solutions", "Count":20 }, { "Name":"securityfirmware", "Name_Localised":"Security Firmware Patch", "Count":62 }, { "Name":"adaptiveencryptors", "Name_Localised":"Adaptive Encryptors Capture", "Count":6 }, { "Name":"legacyfirmware", "Name_Localised":"Specialised Legacy Firmware", "Count":167 }, { "Name":"scandatabanks", "Name_Localised":"Classified Scan Databanks", "Count":98 }, { "Name":"emissiondata", "Name_Localised":"Unexpected Emission Data", "Count":200 }, { "Name":"industrialfirmware", "Name_Localised":"Cracked Industrial Firmware", "Count":75 }, { "Name":"dataminedwake", "Name_Localised":"Datamined Wake Exceptions", "Count":3 }, { "Name":"scrambledemissiondata", "Name_Localised":"Exceptional Scrambled Emission Data", "Count":224 }, { "Name":"shieldcyclerecordings", "Name_Localised":"Distorted Shield Cycle Recordings", "Count":216 }, { "Name":"shieldsoakanalysis", "Name_Localised":"Inconsistent Shield Soak Analysis", "Count":200 }, { "Name":"bulkscandata", "Name_Localised":"Anomalous Bulk Scan Data", "Count":153 }, { "Name":"disruptedwakeechoes", "Name_Localised":"Atypical Disrupted Wake Echoes", "Count":29 }, { "Name":"archivedemissiondata", "Name_Localised":"Irregular Emission Data", "Count":182 } ] }
+{ "timestamp":"2018-04-09T01:56:40Z", "event":"LoadGame", "Commander":"McCaslin", "Horizons":true, "Ship":"TestBuggy", "Ship_Localised":"SRV Scarab", "ShipID":31, "ShipName":"", "ShipIdent":"", "FuelLevel":0.000000, "FuelCapacity":0.000000, "GameMode":"Solo", "Credits":2468971190, "Loan":0 }
+{ "timestamp":"2018-04-09T01:56:40Z", "event":"Rank", "Combat":8, "Trade":8, "Explore":7, "Empire":12, "Federation":14, "CQC":0 }
+{ "timestamp":"2018-04-09T01:56:40Z", "event":"Progress", "Combat":100, "Trade":100, "Explore":73, "Empire":13, "Federation":100, "CQC":0 }
+{ "timestamp":"2018-04-09T01:56:40Z", "event":"Reputation", "Empire":75.000000, "Federation":97.503998, "Independent":75.000000, "Alliance":74.971298 }
+{ "timestamp":"2018-04-09T01:56:56Z", "event":"Location", "Latitude":26.224325, "Longitude":43.302719, "Docked":false, "StarSystem":"HIP 18987", "SystemAddress":697655347539, "StarPos":[-84.59375,-46.62500,-236.25000], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemSecondEconomy":"$economy_None;", "SystemSecondEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$GAlAXY_MAP_INFO_state_anarchy;", "SystemSecurity_Localised":"Anarchy", "Population":0, "Body":"HIP 18987 D 2", "BodyID":34, "BodyType":"Planet" }
+{ "timestamp":"2018-04-09T01:56:56Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-04-09T01:56:56Z", "event":"Missions", "Active":[  ], "Failed":[  ], "Complete":[  ] }
+{ "timestamp":"2018-04-09T01:56:56Z", "event":"Cargo", "Inventory":[  ] }
+{ "timestamp":"2018-04-09T01:56:56Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-04-09T01:56:59Z", "event":"Statistics", "Bank_Account":{ "Current_Wealth":4140258297, "Spent_On_Ships":442228313, "Spent_On_Outfitting":1534664683, "Spent_On_Repairs":41708361, "Spent_On_Fuel":5677764, "Spent_On_Ammo_Consumables":9725255, "Insurance_Claims":8, "Spent_On_Insurance":76777257 }, "Combat":{ "Bounties_Claimed":17748, "Bounty_Hunting_Profit":909997355, "Combat_Bonds":9940, "Combat_Bond_Profits":269662241, "Assassinations":525, "Assassination_Profits":76489061, "Highest_Single_Reward":786902, "Skimmers_Killed":1077 }, "Crime":{ "Notoriety":0, "Fines":553, "Total_Fines":3491267, "Bounties_Received":952, "Total_Bounties":245325, "Highest_Bounty":12705 }, "Smuggling":{ "Black_Markets_Traded_With":24, "Black_Markets_Profits":88626294, "Resources_Smuggled":8917, "Average_Profit":410306.91666667, "Highest_Single_Transaction":25639296 }, "Trading":{ "Markets_Traded_With":454, "Market_Profits":799107539, "Resources_Traded":664359, "Average_Profit":111435.99762934, "Highest_Single_Transaction":5462548 }, "Mining":{ "Mining_Profits":474051140, "Quantity_Mined":7643, "Materials_Collected":24701 }, "Exploration":{ "Systems_Visited":8323, "Exploration_Profits":142035817, "Planets_Scanned_To_Level_2":21386, "Planets_Scanned_To_Level_3":22148, "Highest_Payout":4865443, "Total_Hyperspace_Distance":464872, "Total_Hyperspace_Jumps":30129, "Greatest_Distance_From_Start":5076.9003052044, "Time_Played":31068660 }, "Passengers":{ "Passengers_Missions_Accepted":1962, "Passengers_Missions_Disgruntled":0, "Passengers_Missions_Bulk":17598, "Passengers_Missions_VIP":492, "Passengers_Missions_Delivered":18090, "Passengers_Missions_Ejected":260 }, "Search_And_Rescue":{ "SearchRescue_Traded":1, "SearchRescue_Profit":30287, "SearchRescue_Count":1 }, "Crafting":{ "Count_Of_Used_Engineers":18, "Recipes_Generated":1181, "Recipes_Generated_Rank_1":158, "Recipes_Generated_Rank_2":77, "Recipes_Generated_Rank_3":213, "Recipes_Generated_Rank_4":188, "Recipes_Generated_Rank_5":545 }, "Crew":{ "NpcCrew_TotalWages":331171321, "NpcCrew_Hired":4, "NpcCrew_Fired":2, "NpcCrew_Died":1 }, "Multicrew":{ "Multicrew_Time_Total":102664, "Multicrew_Gunner_Time_Total":22943, "Multicrew_Fighter_Time_Total":1872, "Multicrew_Credits_Total":3148452, "Multicrew_Fines_Total":1551254 }, "Material_Trader_Stats":{ "Trades_Completed":94, "Materials_Traded":4651, "Encoded_Materials_Traded":1660, "Grade_1_Materials_Traded":1188, "Grade_2_Materials_Traded":1396, "Grade_3_Materials_Traded":1116, "Grade_4_Materials_Traded":832, "Grade_5_Materials_Traded":119 } }
+{ "timestamp":"2018-04-09T01:57:41Z", "event":"Screenshot", "Filename":"\\ED_Pictures\\Screenshot_1137.bmp", "Width":1920, "Height":1080, "System":"HIP 18987", "Body":"HIP 18987 D 2", "Latitude":26.224857, "Longitude":43.302967, "Heading":203, "Altitude":0.025020 }
+{ "timestamp":"2018-04-09T02:01:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T02:01:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:01:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T02:01:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:01:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T02:01:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T02:03:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:03:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:03:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:06:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T02:06:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T02:06:44Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:06:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T02:07:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:08:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:08:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:08:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T02:08:24Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T02:08:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T02:08:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:08:37Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T02:13:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T02:13:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:13:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:13:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:14:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:14:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:14:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T02:14:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:14:28Z", "event":"Friends", "Status":"Online", "Name":"Corunna" }
+{ "timestamp":"2018-04-09T02:14:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:14:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:15:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:15:25Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:15:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:15:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:15:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:17:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:17:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T02:17:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:17:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T02:17:50Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:18:23Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:18:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:18:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T02:19:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:19:58Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:20:01Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T02:20:05Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:20:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:21:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T02:21:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:22:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T02:22:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:22:13Z", "event":"HullDamage", "Health":0.399538, "PlayerPilot":true }
+{ "timestamp":"2018-04-09T02:23:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T02:23:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T02:23:37Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:23:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:23:44Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:24:09Z", "event":"Screenshot", "Filename":"\\ED_Pictures\\Screenshot_1138.bmp", "Width":1920, "Height":1080, "System":"HIP 18987", "Body":"HIP 18987 D 2", "Latitude":26.092691, "Longitude":43.347435, "Heading":184, "Altitude":36.167778 }
+{ "timestamp":"2018-04-09T02:28:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T02:28:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T02:28:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T02:28:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:28:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T02:28:56Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:28:59Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:29:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:29:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:29:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:29:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:29:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T02:29:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:29:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T02:29:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T02:29:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:30:12Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-09T02:30:18Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-04-09T02:33:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:33:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:33:37Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:33:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T02:33:44Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:34:24Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:34:36Z", "event":"Synthesis", "Name":"Repair Basic", "Materials":[ { "Name":"iron", "Count":2 }, { "Name":"nickel", "Count":1 } ] }
+{ "timestamp":"2018-04-09T02:34:56Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":1 }
+{ "timestamp":"2018-04-09T02:34:59Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":2 }
+{ "timestamp":"2018-04-09T02:35:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:35:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:35:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:37:01Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:37:06Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T02:37:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:37:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:37:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:38:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T02:38:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:38:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:40:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T02:40:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T02:40:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:41:05Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:41:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T02:41:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:41:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T02:41:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:41:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T02:41:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T02:41:49Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:41:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:42:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T02:43:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:43:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:43:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T02:43:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:45:06Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:45:09Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:45:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:45:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:45:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T02:45:27Z", "event":"Friends", "Status":"Online", "Name":"Corunna" }
+{ "timestamp":"2018-04-09T02:47:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:47:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:47:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:47:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:47:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T02:47:50Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T02:48:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:48:52Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:48:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:49:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:49:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:49:06Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:49:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:51:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T02:51:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T02:51:56Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:52:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:52:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:52:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T02:52:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:53:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:53:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T02:53:23Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T02:53:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:53:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T02:53:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T02:53:36Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T02:54:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:54:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:54:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T02:54:50Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:55:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T02:55:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:55:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:55:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:55:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:55:56Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:56:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T02:57:05Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:57:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:58:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T02:58:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:58:44Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T02:58:50Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:59:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T02:59:19Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T02:59:25Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:00:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:00:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:00:59Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:11:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T03:11:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:12:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T03:12:18Z", "event":"HullDamage", "Health":0.785118, "PlayerPilot":true }
+{ "timestamp":"2018-04-09T03:15:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:15:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T03:15:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:15:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T03:16:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:16:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T03:16:19Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T03:17:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:17:28Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:17:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T03:17:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:18:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T03:18:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:18:36Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T03:18:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:19:04Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:19:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T03:19:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T03:19:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T03:20:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T03:20:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:20:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T03:20:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:20:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:20:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:20:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:21:02Z", "event":"HullDamage", "Health":0.581753, "PlayerPilot":true }
+{ "timestamp":"2018-04-09T03:22:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:24:06Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T03:24:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:24:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:24:36Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:26:24Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:26:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:26:33Z", "event":"HullDamage", "Health":0.398468, "PlayerPilot":true }
+{ "timestamp":"2018-04-09T03:27:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:27:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:27:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T03:28:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:28:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:28:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:28:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:29:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T03:29:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:29:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:31:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:31:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T03:31:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T03:31:44Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T03:31:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T03:32:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T03:32:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T03:33:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T03:33:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T03:33:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:34:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:34:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:34:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T03:34:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:34:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T03:34:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T03:34:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T03:35:04Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T03:35:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T03:35:24Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T03:35:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T03:35:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T03:36:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:36:36Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:36:52Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:37:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:37:32Z", "event":"Synthesis", "Name":"Fuel Basic", "Materials":[ { "Name":"sulphur", "Count":1 }, { "Name":"phosphorus", "Count":1 } ] }
+{ "timestamp":"2018-04-09T03:37:39Z", "event":"Synthesis", "Name":"Repair Basic", "Materials":[ { "Name":"iron", "Count":2 }, { "Name":"nickel", "Count":1 } ] }
+{ "timestamp":"2018-04-09T03:38:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:38:09Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:38:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:38:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:38:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":2 }
+{ "timestamp":"2018-04-09T03:39:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:39:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T03:39:52Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T03:39:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T03:39:58Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T03:41:32Z", "event":"Synthesis", "Name":"Ammo Basic", "Materials":[ { "Name":"sulphur", "Count":2 }, { "Name":"phosphorus", "Count":1 } ] }
+{ "timestamp":"2018-04-09T03:41:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T03:41:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:42:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:43:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T03:43:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:43:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T03:44:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T03:45:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:45:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:45:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T03:47:54Z", "event":"HullDamage", "Health":0.786465, "PlayerPilot":true }
+{ "timestamp":"2018-04-09T03:49:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T03:51:44Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:52:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:52:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:52:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T03:52:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":3 }
+{ "timestamp":"2018-04-09T03:52:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"chromium", "Count":1 }
+{ "timestamp":"2018-04-09T03:55:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T03:55:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T03:56:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T03:56:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T03:57:06Z", "event":"Music", "MusicTrack":"MainMenu" }
+{ "timestamp":"2018-04-09T04:02:46Z", "event":"Friends", "Status":"Online", "Name":"Weoleigh II" }
+{ "timestamp":"2018-04-09T06:03:53Z", "event":"Commander", "Name":"McCaslin" }
+{ "timestamp":"2018-04-09T06:03:53Z", "event":"Materials", "Raw":[ { "Name":"nickel", "Count":299 }, { "Name":"sulphur", "Count":213 }, { "Name":"carbon", "Count":161 }, { "Name":"iron", "Count":300 }, { "Name":"zinc", "Count":12 }, { "Name":"mercury", "Count":22 }, { "Name":"yttrium", "Count":84 }, { "Name":"zirconium", "Count":2 }, { "Name":"tellurium", "Count":28 }, { "Name":"technetium", "Count":111 }, { "Name":"polonium", "Count":10 }, { "Name":"phosphorus", "Count":60 }, { "Name":"cadmium", "Count":200 }, { "Name":"germanium", "Count":4 }, { "Name":"antimony", "Count":17 }, { "Name":"vanadium", "Count":250 }, { "Name":"manganese", "Count":250 }, { "Name":"molybdenum", "Count":186 }, { "Name":"chromium", "Count":250 }, { "Name":"tungsten", "Count":49 }, { "Name":"niobium", "Count":51 }, { "Name":"selenium", "Count":48 }, { "Name":"arsenic", "Count":158 } ], "Manufactured":[ { "Name":"mechanicalscrap", "Name_Localised":"Mechanical Scrap", "Count":96 }, { "Name":"hybridcapacitors", "Name_Localised":"Hybrid Capacitors", "Count":161 }, { "Name":"chemicalprocessors", "Name_Localised":"Chemical Processors", "Count":250 }, { "Name":"refinedfocuscrystals", "Name_Localised":"Refined Focus Crystals", "Count":150 }, { "Name":"focuscrystals", "Name_Localised":"Focus Crystals", "Count":200 }, { "Name":"gridresistors", "Name_Localised":"Grid Resistors", "Count":209 }, { "Name":"galvanisingalloys", "Name_Localised":"Galvanising Alloys", "Count":250 }, { "Name":"precipitatedalloys", "Name_Localised":"Precipitated Alloys", "Count":200 }, { "Name":"shieldingsensors", "Name_Localised":"Shielding Sensors", "Count":200 }, { "Name":"militarygradealloys", "Name_Localised":"Military Grade Alloys", "Count":85 }, { "Name":"heatexchangers", "Name_Localised":"Heat Exchangers", "Count":105 }, { "Name":"configurablecomponents", "Name_Localised":"Configurable Components", "Count":75 }, { "Name":"conductivepolymers", "Name_Localised":"Conductive Polymers", "Count":113 }, { "Name":"heatvanes", "Name_Localised":"Heat Vanes", "Count":43 }, { "Name":"biotechconductors", "Name_Localised":"Biotech Conductors", "Count":70 }, { "Name":"thermicalloys", "Name_Localised":"Thermic Alloys", "Count":150 }, { "Name":"highdensitycomposites", "Name_Localised":"High Density Composites", "Count":200 }, { "Name":"chemicaldistillery", "Name_Localised":"Chemical Distillery", "Count":200 }, { "Name":"shieldemitters", "Name_Localised":"Shield Emitters", "Count":250 }, { "Name":"improvisedcomponents", "Name_Localised":"Improvised Components", "Count":10 }, { "Name":"heatdispersionplate", "Name_Localised":"Heat Dispersion Plate", "Count":91 }, { "Name":"heatresistantceramics", "Name_Localised":"Heat Resistant Ceramics", "Count":200 }, { "Name":"mechanicalequipment", "Name_Localised":"Mechanical Equipment", "Count":148 }, { "Name":"salvagedalloys", "Name_Localised":"Salvaged Alloys", "Count":300 }, { "Name":"protolightalloys", "Name_Localised":"Proto Light Alloys", "Count":150 }, { "Name":"pharmaceuticalisolators", "Name_Localised":"Pharmaceutical Isolators", "Count":52 }, { "Name":"protoheatradiators", "Name_Localised":"Proto Heat Radiators", "Count":18 }, { "Name":"fedproprietarycomposites", "Name_Localised":"Proprietary Composites", "Count":150 }, { "Name":"conductiveceramics", "Name_Localised":"Conductive Ceramics", "Count":193 }, { "Name":"conductivecomponents", "Name_Localised":"Conductive Components", "Count":250 }, { "Name":"electrochemicalarrays", "Name_Localised":"Electrochemical Arrays", "Count":112 }, { "Name":"exquisitefocuscrystals", "Name_Localised":"Exquisite Focus Crystals", "Count":100 }, { "Name":"fedcorecomposites", "Name_Localised":"Core Dynamics Composites", "Count":88 }, { "Name":"militarysupercapacitors", "Name_Localised":"Military Supercapacitors", "Count":7 }, { "Name":"mechanicalcomponents", "Name_Localised":"Mechanical Components", "Count":136 }, { "Name":"heatconductionwiring", "Name_Localised":"Heat Conduction Wiring", "Count":93 }, { "Name":"wornshieldemitters", "Name_Localised":"Worn Shield Emitters", "Count":300 }, { "Name":"phasealloys", "Name_Localised":"Phase Alloys", "Count":200 }, { "Name":"chemicalmanipulators", "Name_Localised":"Chemical Manipulators", "Count":150 }, { "Name":"compoundshielding", "Name_Localised":"Compound Shielding", "Count":150 }, { "Name":"uncutfocuscrystals", "Name_Localised":"Flawed Focus Crystals", "Count":250 }, { "Name":"imperialshielding", "Name_Localised":"Imperial Shielding", "Count":71 }, { "Name":"protoradiolicalloys", "Name_Localised":"Proto Radiolic Alloys", "Count":70 }, { "Name":"polymercapacitors", "Name_Localised":"Polymer Capacitors", "Count":77 }, { "Name":"basicconductors", "Name_Localised":"Basic Conductors", "Count":123 }, { "Name":"crystalshards", "Name_Localised":"Crystal Shards", "Count":300 }, { "Name":"temperedalloys", "Name_Localised":"Tempered Alloys", "Count":300 }, { "Name":"filamentcomposites", "Name_Localised":"Filament Composites", "Count":250 }, { "Name":"chemicalstorageunits", "Name_Localised":"Chemical Storage Units", "Count":240 }, { "Name":"compactcomposites", "Name_Localised":"Compact Composites", "Count":300 } ], "Encoded":[ { "Name":"compactemissionsdata", "Name_Localised":"Abnormal Compact Emissions Data", "Count":58 }, { "Name":"shieldpatternanalysis", "Name_Localised":"Aberrant Shield Pattern Analysis", "Count":150 }, { "Name":"decodedemissiondata", "Name_Localised":"Decoded Emission Data", "Count":150 }, { "Name":"shielddensityreports", "Name_Localised":"Untypical Shield Scans ", "Count":200 }, { "Name":"hyperspacetrajectories", "Name_Localised":"Eccentric Hyperspace Trajectories", "Count":20 }, { "Name":"shieldfrequencydata", "Name_Localised":"Peculiar Shield Frequency Data", "Count":53 }, { "Name":"fsdtelemetry", "Name_Localised":"Anomalous FSD Telemetry", "Count":5 }, { "Name":"scanarchives", "Name_Localised":"Unidentified Scan Archives", "Count":66 }, { "Name":"encodedscandata", "Name_Localised":"Divergent Scan Data", "Count":84 }, { "Name":"classifiedscandata", "Name_Localised":"Classified Scan Fragment", "Count":20 }, { "Name":"encryptioncodes", "Name_Localised":"Tagged Encryption Codes", "Count":10 }, { "Name":"embeddedfirmware", "Name_Localised":"Modified Embedded Firmware", "Count":62 }, { "Name":"encryptedfiles", "Name_Localised":"Unusual Encrypted Files", "Count":5 }, { "Name":"consumerfirmware", "Name_Localised":"Modified Consumer Firmware", "Count":100 }, { "Name":"symmetrickeys", "Name_Localised":"Open Symmetric Keys", "Count":8 }, { "Name":"encryptionarchives", "Name_Localised":"Atypical Encryption Archives", "Count":6 }, { "Name":"wakesolutions", "Name_Localised":"Strange Wake Solutions", "Count":20 }, { "Name":"securityfirmware", "Name_Localised":"Security Firmware Patch", "Count":62 }, { "Name":"adaptiveencryptors", "Name_Localised":"Adaptive Encryptors Capture", "Count":6 }, { "Name":"legacyfirmware", "Name_Localised":"Specialised Legacy Firmware", "Count":167 }, { "Name":"scandatabanks", "Name_Localised":"Classified Scan Databanks", "Count":98 }, { "Name":"emissiondata", "Name_Localised":"Unexpected Emission Data", "Count":200 }, { "Name":"industrialfirmware", "Name_Localised":"Cracked Industrial Firmware", "Count":75 }, { "Name":"dataminedwake", "Name_Localised":"Datamined Wake Exceptions", "Count":3 }, { "Name":"scrambledemissiondata", "Name_Localised":"Exceptional Scrambled Emission Data", "Count":224 }, { "Name":"shieldcyclerecordings", "Name_Localised":"Distorted Shield Cycle Recordings", "Count":216 }, { "Name":"shieldsoakanalysis", "Name_Localised":"Inconsistent Shield Soak Analysis", "Count":200 }, { "Name":"bulkscandata", "Name_Localised":"Anomalous Bulk Scan Data", "Count":153 }, { "Name":"disruptedwakeechoes", "Name_Localised":"Atypical Disrupted Wake Echoes", "Count":29 }, { "Name":"archivedemissiondata", "Name_Localised":"Irregular Emission Data", "Count":182 } ] }
+{ "timestamp":"2018-04-09T06:03:53Z", "event":"LoadGame", "Commander":"McCaslin", "Horizons":true, "Ship":"TestBuggy", "Ship_Localised":"SRV Scarab", "ShipID":31, "ShipName":"", "ShipIdent":"", "FuelLevel":0.000000, "FuelCapacity":0.000000, "GameMode":"Solo", "Credits":2468971190, "Loan":0 }
+{ "timestamp":"2018-04-09T06:03:53Z", "event":"Rank", "Combat":8, "Trade":8, "Explore":7, "Empire":12, "Federation":14, "CQC":0 }
+{ "timestamp":"2018-04-09T06:03:53Z", "event":"Progress", "Combat":100, "Trade":100, "Explore":73, "Empire":13, "Federation":100, "CQC":0 }
+{ "timestamp":"2018-04-09T06:03:53Z", "event":"Reputation", "Empire":75.000000, "Federation":97.336700, "Independent":75.000000, "Alliance":74.971298 }
+{ "timestamp":"2018-04-09T06:04:03Z", "event":"Location", "Latitude":25.599669, "Longitude":43.098289, "Docked":false, "StarSystem":"HIP 18987", "SystemAddress":697655347539, "StarPos":[-84.59375,-46.62500,-236.25000], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemSecondEconomy":"$economy_None;", "SystemSecondEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$GAlAXY_MAP_INFO_state_anarchy;", "SystemSecurity_Localised":"Anarchy", "Population":0, "Body":"HIP 18987 D 2", "BodyID":34, "BodyType":"Planet" }
+{ "timestamp":"2018-04-09T06:04:03Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-04-09T06:04:03Z", "event":"Missions", "Active":[  ], "Failed":[  ], "Complete":[  ] }
+{ "timestamp":"2018-04-09T06:04:03Z", "event":"Cargo", "Inventory":[  ] }
+{ "timestamp":"2018-04-09T06:04:03Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-04-09T06:04:05Z", "event":"Statistics", "Bank_Account":{ "Current_Wealth":4140258297, "Spent_On_Ships":442228313, "Spent_On_Outfitting":1534664683, "Spent_On_Repairs":41708361, "Spent_On_Fuel":5677764, "Spent_On_Ammo_Consumables":9725255, "Insurance_Claims":8, "Spent_On_Insurance":76777257 }, "Combat":{ "Bounties_Claimed":17748, "Bounty_Hunting_Profit":909997355, "Combat_Bonds":9940, "Combat_Bond_Profits":269662241, "Assassinations":525, "Assassination_Profits":76489061, "Highest_Single_Reward":786902, "Skimmers_Killed":1077 }, "Crime":{ "Notoriety":0, "Fines":553, "Total_Fines":3491267, "Bounties_Received":952, "Total_Bounties":245325, "Highest_Bounty":12705 }, "Smuggling":{ "Black_Markets_Traded_With":24, "Black_Markets_Profits":88626294, "Resources_Smuggled":8917, "Average_Profit":410306.91666667, "Highest_Single_Transaction":25639296 }, "Trading":{ "Markets_Traded_With":454, "Market_Profits":799107539, "Resources_Traded":664359, "Average_Profit":111435.99762934, "Highest_Single_Transaction":5462548 }, "Mining":{ "Mining_Profits":474051140, "Quantity_Mined":7643, "Materials_Collected":25499 }, "Exploration":{ "Systems_Visited":8323, "Exploration_Profits":142035817, "Planets_Scanned_To_Level_2":21386, "Planets_Scanned_To_Level_3":22148, "Highest_Payout":4865443, "Total_Hyperspace_Distance":464872, "Total_Hyperspace_Jumps":30129, "Greatest_Distance_From_Start":5076.9003052044, "Time_Played":31068660 }, "Passengers":{ "Passengers_Missions_Accepted":1962, "Passengers_Missions_Disgruntled":0, "Passengers_Missions_Bulk":17598, "Passengers_Missions_VIP":492, "Passengers_Missions_Delivered":18090, "Passengers_Missions_Ejected":260 }, "Search_And_Rescue":{ "SearchRescue_Traded":1, "SearchRescue_Profit":30287, "SearchRescue_Count":1 }, "Crafting":{ "Count_Of_Used_Engineers":18, "Recipes_Generated":1181, "Recipes_Generated_Rank_1":158, "Recipes_Generated_Rank_2":77, "Recipes_Generated_Rank_3":213, "Recipes_Generated_Rank_4":188, "Recipes_Generated_Rank_5":545 }, "Crew":{ "NpcCrew_TotalWages":331171321, "NpcCrew_Hired":4, "NpcCrew_Fired":2, "NpcCrew_Died":1 }, "Multicrew":{ "Multicrew_Time_Total":102664, "Multicrew_Gunner_Time_Total":22943, "Multicrew_Fighter_Time_Total":1872, "Multicrew_Credits_Total":3148452, "Multicrew_Fines_Total":1551254 }, "Material_Trader_Stats":{ "Trades_Completed":94, "Materials_Traded":4651, "Encoded_Materials_Traded":1660, "Grade_1_Materials_Traded":1188, "Grade_2_Materials_Traded":1396, "Grade_3_Materials_Traded":1116, "Grade_4_Materials_Traded":832, "Grade_5_Materials_Traded":119 } }
+{ "timestamp":"2018-04-09T06:07:18Z", "event":"Friends", "Status":"Online", "Name":"Pirake" }
+{ "timestamp":"2018-04-09T06:08:37Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T06:08:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:08:55Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:09:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:09:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:09:50Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:10:33Z", "event":"HullDamage", "Health":0.511569, "PlayerPilot":true }
+{ "timestamp":"2018-04-09T06:11:21Z", "event":"ReceiveText", "From":"Pirake", "Message":"<S!>", "Channel":"player" }
+{ "timestamp":"2018-04-09T06:11:35Z", "event":"SendText", "To":"Pirake", "Message":"s7  Hey Pirake, how are you? :)" }
+{ "timestamp":"2018-04-09T06:12:00Z", "event":"ReceiveText", "From":"Pirake", "Message":"drunk with cachaça", "Channel":"player" }
+{ "timestamp":"2018-04-09T06:12:16Z", "event":"SendText", "To":"Pirake", "Message":"hehehe.... good? :D" }
+{ "timestamp":"2018-04-09T06:12:32Z", "event":"ReceiveText", "From":"Pirake", "Message":"course", "Channel":"player" }
+{ "timestamp":"2018-04-09T06:12:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:13:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T06:13:04Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:13:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:13:37Z", "event":"SendText", "To":"Pirake", "Message":"I am still in dusty crater, collecting materials" }
+{ "timestamp":"2018-04-09T06:14:01Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T06:14:04Z", "event":"ReceiveText", "From":"Pirake", "Message":"what kind of materials?", "Channel":"player" }
+{ "timestamp":"2018-04-09T06:14:17Z", "event":"SendText", "To":"Pirake", "Message":"Pretty much everything" }
+{ "timestamp":"2018-04-09T06:14:47Z", "event":"SendText", "To":"Pirake", "Message":"Moving from moon to moon, beginning with 42 n Persei, so I can get everything" }
+{ "timestamp":"2018-04-09T06:15:11Z", "event":"SendText", "To":"local", "Message":"Now I'm in HIP 18987.  There are 2-3 different moons here I am visiting" }
+{ "timestamp":"2018-04-09T06:15:37Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:16:56Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:17:05Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:17:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:17:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:17:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:17:25Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T06:18:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T06:18:56Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T06:18:59Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:20:05Z", "event":"SendText", "To":"local", "Message":"161/250 arsenic collected :P" }
+{ "timestamp":"2018-04-09T06:20:34Z", "event":"SendText", "To":"Pirake", "Message":"Now I'm in HIP 18987.  There are 2-3 different moons there I plan to visit" }
+{ "timestamp":"2018-04-09T06:20:44Z", "event":"SendText", "To":"Pirake", "Message":"161/250 arsenic collected! :P" }
+{ "timestamp":"2018-04-09T06:21:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T06:21:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:21:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:21:27Z", "event":"HullDamage", "Health":0.399252, "PlayerPilot":true }
+{ "timestamp":"2018-04-09T06:22:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T06:22:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T06:22:55Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T06:23:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T06:25:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:25:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T06:25:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:25:37Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T06:26:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T06:26:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T06:26:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T06:28:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T06:28:17Z", "event":"Friends", "Status":"Online", "Name":"Daz Jensen" }
+{ "timestamp":"2018-04-09T06:28:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T06:29:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:29:28Z", "event":"Synthesis", "Name":"Repair Basic", "Materials":[ { "Name":"iron", "Count":2 }, { "Name":"nickel", "Count":1 } ] }
+{ "timestamp":"2018-04-09T06:29:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":2 }
+{ "timestamp":"2018-04-09T06:30:58Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T06:31:01Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T06:31:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T06:31:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:31:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T06:31:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T06:33:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:33:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:35:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:35:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:35:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:35:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:36:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T06:36:52Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:38:22Z", "event":"HullDamage", "Health":0.690624, "PlayerPilot":true }
+{ "timestamp":"2018-04-09T06:41:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T06:41:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:41:49Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T06:42:36Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:42:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T06:43:56Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:44:04Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:44:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T06:46:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T06:49:36Z", "event":"HullDamage", "Health":0.596636, "PlayerPilot":true }
+{ "timestamp":"2018-04-09T06:50:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T06:50:04Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T06:50:13Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-09T06:50:23Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-09T06:50:27Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-09T06:50:39Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-09T06:50:46Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-09T06:51:03Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-09T06:51:14Z", "event":"Screenshot", "Filename":"\\ED_Pictures\\Screenshot_1139.bmp", "Width":1920, "Height":1080, "System":"HIP 18987", "Body":"HIP 18987 D 2", "Latitude":25.320538, "Longitude":43.282558, "Heading":88, "Altitude":0.124427 }
+{ "timestamp":"2018-04-09T06:53:42Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-09T06:53:51Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-09T06:53:55Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-04-09T06:54:00Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-09T06:54:22Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-04-09T06:54:32Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-04-09T06:55:05Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-04-09T06:55:25Z", "event":"Music", "MusicTrack":"MainMenu" }
+{ "timestamp":"2018-04-09T06:57:29Z", "event":"Friends", "Status":"Online", "Name":"Weoleigh II" }
+{ "timestamp":"2018-04-09T06:57:29Z", "event":"Friends", "Status":"Online", "Name":"Veedubbin" }
+{ "timestamp":"2018-04-09T07:08:19Z", "event":"Friends", "Status":"Online", "Name":"Marco Sparks" }
+{ "timestamp":"2018-04-09T07:34:24Z", "event":"Friends", "Status":"Online", "Name":"FALAVA" }
+{ "timestamp":"2018-04-09T08:48:33Z", "event":"Friends", "Status":"Online", "Name":"Corunna" }
+{ "timestamp":"2018-04-09T09:07:09Z", "event":"Commander", "Name":"McCaslin" }
+{ "timestamp":"2018-04-09T09:07:09Z", "event":"Materials", "Raw":[ { "Name":"nickel", "Count":300 }, { "Name":"sulphur", "Count":264 }, { "Name":"carbon", "Count":212 }, { "Name":"iron", "Count":298 }, { "Name":"zinc", "Count":12 }, { "Name":"mercury", "Count":22 }, { "Name":"yttrium", "Count":96 }, { "Name":"zirconium", "Count":2 }, { "Name":"tellurium", "Count":28 }, { "Name":"technetium", "Count":111 }, { "Name":"polonium", "Count":10 }, { "Name":"phosphorus", "Count":81 }, { "Name":"cadmium", "Count":200 }, { "Name":"germanium", "Count":4 }, { "Name":"antimony", "Count":17 }, { "Name":"vanadium", "Count":250 }, { "Name":"manganese", "Count":250 }, { "Name":"molybdenum", "Count":186 }, { "Name":"chromium", "Count":250 }, { "Name":"tungsten", "Count":58 }, { "Name":"niobium", "Count":69 }, { "Name":"selenium", "Count":63 }, { "Name":"arsenic", "Count":170 } ], "Manufactured":[ { "Name":"mechanicalscrap", "Name_Localised":"Mechanical Scrap", "Count":96 }, { "Name":"hybridcapacitors", "Name_Localised":"Hybrid Capacitors", "Count":161 }, { "Name":"chemicalprocessors", "Name_Localised":"Chemical Processors", "Count":250 }, { "Name":"refinedfocuscrystals", "Name_Localised":"Refined Focus Crystals", "Count":150 }, { "Name":"focuscrystals", "Name_Localised":"Focus Crystals", "Count":200 }, { "Name":"gridresistors", "Name_Localised":"Grid Resistors", "Count":209 }, { "Name":"galvanisingalloys", "Name_Localised":"Galvanising Alloys", "Count":250 }, { "Name":"precipitatedalloys", "Name_Localised":"Precipitated Alloys", "Count":200 }, { "Name":"shieldingsensors", "Name_Localised":"Shielding Sensors", "Count":200 }, { "Name":"militarygradealloys", "Name_Localised":"Military Grade Alloys", "Count":85 }, { "Name":"heatexchangers", "Name_Localised":"Heat Exchangers", "Count":105 }, { "Name":"configurablecomponents", "Name_Localised":"Configurable Components", "Count":75 }, { "Name":"conductivepolymers", "Name_Localised":"Conductive Polymers", "Count":113 }, { "Name":"heatvanes", "Name_Localised":"Heat Vanes", "Count":43 }, { "Name":"biotechconductors", "Name_Localised":"Biotech Conductors", "Count":70 }, { "Name":"thermicalloys", "Name_Localised":"Thermic Alloys", "Count":150 }, { "Name":"highdensitycomposites", "Name_Localised":"High Density Composites", "Count":200 }, { "Name":"chemicaldistillery", "Name_Localised":"Chemical Distillery", "Count":200 }, { "Name":"shieldemitters", "Name_Localised":"Shield Emitters", "Count":250 }, { "Name":"improvisedcomponents", "Name_Localised":"Improvised Components", "Count":10 }, { "Name":"heatdispersionplate", "Name_Localised":"Heat Dispersion Plate", "Count":91 }, { "Name":"heatresistantceramics", "Name_Localised":"Heat Resistant Ceramics", "Count":200 }, { "Name":"mechanicalequipment", "Name_Localised":"Mechanical Equipment", "Count":148 }, { "Name":"salvagedalloys", "Name_Localised":"Salvaged Alloys", "Count":300 }, { "Name":"protolightalloys", "Name_Localised":"Proto Light Alloys", "Count":150 }, { "Name":"pharmaceuticalisolators", "Name_Localised":"Pharmaceutical Isolators", "Count":52 }, { "Name":"protoheatradiators", "Name_Localised":"Proto Heat Radiators", "Count":18 }, { "Name":"fedproprietarycomposites", "Name_Localised":"Proprietary Composites", "Count":150 }, { "Name":"conductiveceramics", "Name_Localised":"Conductive Ceramics", "Count":193 }, { "Name":"conductivecomponents", "Name_Localised":"Conductive Components", "Count":250 }, { "Name":"electrochemicalarrays", "Name_Localised":"Electrochemical Arrays", "Count":112 }, { "Name":"exquisitefocuscrystals", "Name_Localised":"Exquisite Focus Crystals", "Count":100 }, { "Name":"fedcorecomposites", "Name_Localised":"Core Dynamics Composites", "Count":88 }, { "Name":"militarysupercapacitors", "Name_Localised":"Military Supercapacitors", "Count":7 }, { "Name":"mechanicalcomponents", "Name_Localised":"Mechanical Components", "Count":136 }, { "Name":"heatconductionwiring", "Name_Localised":"Heat Conduction Wiring", "Count":93 }, { "Name":"wornshieldemitters", "Name_Localised":"Worn Shield Emitters", "Count":300 }, { "Name":"phasealloys", "Name_Localised":"Phase Alloys", "Count":200 }, { "Name":"chemicalmanipulators", "Name_Localised":"Chemical Manipulators", "Count":150 }, { "Name":"compoundshielding", "Name_Localised":"Compound Shielding", "Count":150 }, { "Name":"uncutfocuscrystals", "Name_Localised":"Flawed Focus Crystals", "Count":250 }, { "Name":"imperialshielding", "Name_Localised":"Imperial Shielding", "Count":71 }, { "Name":"protoradiolicalloys", "Name_Localised":"Proto Radiolic Alloys", "Count":70 }, { "Name":"polymercapacitors", "Name_Localised":"Polymer Capacitors", "Count":77 }, { "Name":"basicconductors", "Name_Localised":"Basic Conductors", "Count":123 }, { "Name":"crystalshards", "Name_Localised":"Crystal Shards", "Count":300 }, { "Name":"temperedalloys", "Name_Localised":"Tempered Alloys", "Count":300 }, { "Name":"filamentcomposites", "Name_Localised":"Filament Composites", "Count":250 }, { "Name":"chemicalstorageunits", "Name_Localised":"Chemical Storage Units", "Count":240 }, { "Name":"compactcomposites", "Name_Localised":"Compact Composites", "Count":300 } ], "Encoded":[ { "Name":"compactemissionsdata", "Name_Localised":"Abnormal Compact Emissions Data", "Count":58 }, { "Name":"shieldpatternanalysis", "Name_Localised":"Aberrant Shield Pattern Analysis", "Count":150 }, { "Name":"decodedemissiondata", "Name_Localised":"Decoded Emission Data", "Count":150 }, { "Name":"shielddensityreports", "Name_Localised":"Untypical Shield Scans ", "Count":200 }, { "Name":"hyperspacetrajectories", "Name_Localised":"Eccentric Hyperspace Trajectories", "Count":20 }, { "Name":"shieldfrequencydata", "Name_Localised":"Peculiar Shield Frequency Data", "Count":53 }, { "Name":"fsdtelemetry", "Name_Localised":"Anomalous FSD Telemetry", "Count":5 }, { "Name":"scanarchives", "Name_Localised":"Unidentified Scan Archives", "Count":66 }, { "Name":"encodedscandata", "Name_Localised":"Divergent Scan Data", "Count":84 }, { "Name":"classifiedscandata", "Name_Localised":"Classified Scan Fragment", "Count":20 }, { "Name":"encryptioncodes", "Name_Localised":"Tagged Encryption Codes", "Count":10 }, { "Name":"embeddedfirmware", "Name_Localised":"Modified Embedded Firmware", "Count":62 }, { "Name":"encryptedfiles", "Name_Localised":"Unusual Encrypted Files", "Count":5 }, { "Name":"consumerfirmware", "Name_Localised":"Modified Consumer Firmware", "Count":100 }, { "Name":"symmetrickeys", "Name_Localised":"Open Symmetric Keys", "Count":8 }, { "Name":"encryptionarchives", "Name_Localised":"Atypical Encryption Archives", "Count":6 }, { "Name":"wakesolutions", "Name_Localised":"Strange Wake Solutions", "Count":20 }, { "Name":"securityfirmware", "Name_Localised":"Security Firmware Patch", "Count":62 }, { "Name":"adaptiveencryptors", "Name_Localised":"Adaptive Encryptors Capture", "Count":6 }, { "Name":"legacyfirmware", "Name_Localised":"Specialised Legacy Firmware", "Count":167 }, { "Name":"scandatabanks", "Name_Localised":"Classified Scan Databanks", "Count":98 }, { "Name":"emissiondata", "Name_Localised":"Unexpected Emission Data", "Count":200 }, { "Name":"industrialfirmware", "Name_Localised":"Cracked Industrial Firmware", "Count":75 }, { "Name":"dataminedwake", "Name_Localised":"Datamined Wake Exceptions", "Count":3 }, { "Name":"scrambledemissiondata", "Name_Localised":"Exceptional Scrambled Emission Data", "Count":224 }, { "Name":"shieldcyclerecordings", "Name_Localised":"Distorted Shield Cycle Recordings", "Count":216 }, { "Name":"shieldsoakanalysis", "Name_Localised":"Inconsistent Shield Soak Analysis", "Count":200 }, { "Name":"bulkscandata", "Name_Localised":"Anomalous Bulk Scan Data", "Count":153 }, { "Name":"disruptedwakeechoes", "Name_Localised":"Atypical Disrupted Wake Echoes", "Count":29 }, { "Name":"archivedemissiondata", "Name_Localised":"Irregular Emission Data", "Count":182 } ] }
+{ "timestamp":"2018-04-09T09:07:09Z", "event":"LoadGame", "Commander":"McCaslin", "Horizons":true, "Ship":"TestBuggy", "Ship_Localised":"SRV Scarab", "ShipID":31, "ShipName":"", "ShipIdent":"", "FuelLevel":0.000000, "FuelCapacity":0.000000, "GameMode":"Open", "Credits":2468971190, "Loan":0 }
+{ "timestamp":"2018-04-09T09:07:09Z", "event":"Rank", "Combat":8, "Trade":8, "Explore":7, "Empire":12, "Federation":14, "CQC":0 }
+{ "timestamp":"2018-04-09T09:07:09Z", "event":"Progress", "Combat":100, "Trade":100, "Explore":73, "Empire":13, "Federation":100, "CQC":0 }
+{ "timestamp":"2018-04-09T09:07:09Z", "event":"Reputation", "Empire":75.000000, "Federation":97.163498, "Independent":75.000000, "Alliance":74.971298 }
+{ "timestamp":"2018-04-09T09:07:20Z", "event":"Location", "Latitude":25.320538, "Longitude":43.282558, "Docked":false, "StarSystem":"HIP 18987", "SystemAddress":697655347539, "StarPos":[-84.59375,-46.62500,-236.25000], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemSecondEconomy":"$economy_None;", "SystemSecondEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$GAlAXY_MAP_INFO_state_anarchy;", "SystemSecurity_Localised":"Anarchy", "Population":0, "Body":"HIP 18987 D 2", "BodyID":34, "BodyType":"Planet" }
+{ "timestamp":"2018-04-09T09:07:20Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-04-09T09:07:20Z", "event":"Missions", "Active":[  ], "Failed":[  ], "Complete":[  ] }
+{ "timestamp":"2018-04-09T09:07:20Z", "event":"Cargo", "Inventory":[  ] }
+{ "timestamp":"2018-04-09T09:07:20Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-04-09T09:07:22Z", "event":"Statistics", "Bank_Account":{ "Current_Wealth":4140258297, "Spent_On_Ships":442228313, "Spent_On_Outfitting":1534664683, "Spent_On_Repairs":41708361, "Spent_On_Fuel":5677764, "Spent_On_Ammo_Consumables":9725255, "Insurance_Claims":8, "Spent_On_Insurance":76777257 }, "Combat":{ "Bounties_Claimed":17748, "Bounty_Hunting_Profit":909997355, "Combat_Bonds":9940, "Combat_Bond_Profits":269662241, "Assassinations":525, "Assassination_Profits":76489061, "Highest_Single_Reward":786902, "Skimmers_Killed":1077 }, "Crime":{ "Notoriety":0, "Fines":553, "Total_Fines":3491267, "Bounties_Received":952, "Total_Bounties":245325, "Highest_Bounty":12705 }, "Smuggling":{ "Black_Markets_Traded_With":24, "Black_Markets_Profits":88626294, "Resources_Smuggled":8917, "Average_Profit":410306.91666667, "Highest_Single_Transaction":25639296 }, "Trading":{ "Markets_Traded_With":454, "Market_Profits":799107539, "Resources_Traded":664359, "Average_Profit":111435.99762934, "Highest_Single_Transaction":5462548 }, "Mining":{ "Mining_Profits":474051140, "Quantity_Mined":7643, "Materials_Collected":25690 }, "Exploration":{ "Systems_Visited":8323, "Exploration_Profits":142035817, "Planets_Scanned_To_Level_2":21386, "Planets_Scanned_To_Level_3":22148, "Highest_Payout":4865443, "Total_Hyperspace_Distance":464872, "Total_Hyperspace_Jumps":30129, "Greatest_Distance_From_Start":5076.9003052044, "Time_Played":31068660 }, "Passengers":{ "Passengers_Missions_Accepted":1962, "Passengers_Missions_Disgruntled":0, "Passengers_Missions_Bulk":17598, "Passengers_Missions_VIP":492, "Passengers_Missions_Delivered":18090, "Passengers_Missions_Ejected":260 }, "Search_And_Rescue":{ "SearchRescue_Traded":1, "SearchRescue_Profit":30287, "SearchRescue_Count":1 }, "Crafting":{ "Count_Of_Used_Engineers":18, "Recipes_Generated":1181, "Recipes_Generated_Rank_1":158, "Recipes_Generated_Rank_2":77, "Recipes_Generated_Rank_3":213, "Recipes_Generated_Rank_4":188, "Recipes_Generated_Rank_5":545 }, "Crew":{ "NpcCrew_TotalWages":331171321, "NpcCrew_Hired":4, "NpcCrew_Fired":2, "NpcCrew_Died":1 }, "Multicrew":{ "Multicrew_Time_Total":102664, "Multicrew_Gunner_Time_Total":22943, "Multicrew_Fighter_Time_Total":1872, "Multicrew_Credits_Total":3148452, "Multicrew_Fines_Total":1551254 }, "Material_Trader_Stats":{ "Trades_Completed":94, "Materials_Traded":4651, "Encoded_Materials_Traded":1660, "Grade_1_Materials_Traded":1188, "Grade_2_Materials_Traded":1396, "Grade_3_Materials_Traded":1116, "Grade_4_Materials_Traded":832, "Grade_5_Materials_Traded":119 } }
+{ "timestamp":"2018-04-09T09:08:53Z", "event":"HullDamage", "Health":0.395202, "PlayerPilot":true }
+{ "timestamp":"2018-04-09T09:10:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T09:10:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T09:11:09Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T09:12:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T09:12:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T09:12:16Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T09:12:23Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T09:12:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T09:13:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T09:14:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T09:14:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T09:14:44Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T09:15:30Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T09:15:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T09:18:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T09:18:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T09:18:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T09:19:04Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T09:19:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T09:19:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T09:19:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T09:20:38Z", "event":"Friends", "Status":"Online", "Name":"FALAVA" }
+{ "timestamp":"2018-04-09T09:21:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T09:21:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T09:21:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T09:21:56Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T09:21:59Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T09:22:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T09:22:23Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T09:22:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T09:22:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2018-04-09T09:22:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T09:23:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T09:23:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T09:23:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T09:23:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T09:23:24Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2018-04-09T09:24:44Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T09:24:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T09:25:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T09:25:11Z", "event":"Music", "MusicTrack":"MainMenu" }
+{ "timestamp":"2018-04-09T09:39:21Z", "event":"Friends", "Status":"Online", "Name":"SwiftJackal" }
+{ "timestamp":"2018-04-09T09:45:59Z", "event":"Friends", "Status":"Online", "Name":"Weoleigh II" }
+{ "timestamp":"2018-04-09T10:08:13Z", "event":"Commander", "Name":"McCaslin" }
+{ "timestamp":"2018-04-09T10:08:13Z", "event":"Materials", "Raw":[ { "Name":"nickel", "Count":300 }, { "Name":"sulphur", "Count":282 }, { "Name":"carbon", "Count":242 }, { "Name":"iron", "Count":298 }, { "Name":"zinc", "Count":12 }, { "Name":"mercury", "Count":22 }, { "Name":"yttrium", "Count":102 }, { "Name":"zirconium", "Count":2 }, { "Name":"tellurium", "Count":28 }, { "Name":"technetium", "Count":111 }, { "Name":"polonium", "Count":10 }, { "Name":"phosphorus", "Count":93 }, { "Name":"cadmium", "Count":200 }, { "Name":"germanium", "Count":4 }, { "Name":"antimony", "Count":17 }, { "Name":"vanadium", "Count":250 }, { "Name":"manganese", "Count":250 }, { "Name":"molybdenum", "Count":186 }, { "Name":"chromium", "Count":250 }, { "Name":"tungsten", "Count":70 }, { "Name":"niobium", "Count":84 }, { "Name":"selenium", "Count":81 }, { "Name":"arsenic", "Count":176 } ], "Manufactured":[ { "Name":"mechanicalscrap", "Name_Localised":"Mechanical Scrap", "Count":96 }, { "Name":"hybridcapacitors", "Name_Localised":"Hybrid Capacitors", "Count":161 }, { "Name":"chemicalprocessors", "Name_Localised":"Chemical Processors", "Count":250 }, { "Name":"refinedfocuscrystals", "Name_Localised":"Refined Focus Crystals", "Count":150 }, { "Name":"focuscrystals", "Name_Localised":"Focus Crystals", "Count":200 }, { "Name":"gridresistors", "Name_Localised":"Grid Resistors", "Count":209 }, { "Name":"galvanisingalloys", "Name_Localised":"Galvanising Alloys", "Count":250 }, { "Name":"precipitatedalloys", "Name_Localised":"Precipitated Alloys", "Count":200 }, { "Name":"shieldingsensors", "Name_Localised":"Shielding Sensors", "Count":200 }, { "Name":"militarygradealloys", "Name_Localised":"Military Grade Alloys", "Count":85 }, { "Name":"heatexchangers", "Name_Localised":"Heat Exchangers", "Count":105 }, { "Name":"configurablecomponents", "Name_Localised":"Configurable Components", "Count":75 }, { "Name":"conductivepolymers", "Name_Localised":"Conductive Polymers", "Count":113 }, { "Name":"heatvanes", "Name_Localised":"Heat Vanes", "Count":43 }, { "Name":"biotechconductors", "Name_Localised":"Biotech Conductors", "Count":70 }, { "Name":"thermicalloys", "Name_Localised":"Thermic Alloys", "Count":150 }, { "Name":"highdensitycomposites", "Name_Localised":"High Density Composites", "Count":200 }, { "Name":"chemicaldistillery", "Name_Localised":"Chemical Distillery", "Count":200 }, { "Name":"shieldemitters", "Name_Localised":"Shield Emitters", "Count":250 }, { "Name":"improvisedcomponents", "Name_Localised":"Improvised Components", "Count":10 }, { "Name":"heatdispersionplate", "Name_Localised":"Heat Dispersion Plate", "Count":91 }, { "Name":"heatresistantceramics", "Name_Localised":"Heat Resistant Ceramics", "Count":200 }, { "Name":"mechanicalequipment", "Name_Localised":"Mechanical Equipment", "Count":148 }, { "Name":"salvagedalloys", "Name_Localised":"Salvaged Alloys", "Count":300 }, { "Name":"protolightalloys", "Name_Localised":"Proto Light Alloys", "Count":150 }, { "Name":"pharmaceuticalisolators", "Name_Localised":"Pharmaceutical Isolators", "Count":52 }, { "Name":"protoheatradiators", "Name_Localised":"Proto Heat Radiators", "Count":18 }, { "Name":"fedproprietarycomposites", "Name_Localised":"Proprietary Composites", "Count":150 }, { "Name":"conductiveceramics", "Name_Localised":"Conductive Ceramics", "Count":193 }, { "Name":"conductivecomponents", "Name_Localised":"Conductive Components", "Count":250 }, { "Name":"electrochemicalarrays", "Name_Localised":"Electrochemical Arrays", "Count":112 }, { "Name":"exquisitefocuscrystals", "Name_Localised":"Exquisite Focus Crystals", "Count":100 }, { "Name":"fedcorecomposites", "Name_Localised":"Core Dynamics Composites", "Count":88 }, { "Name":"militarysupercapacitors", "Name_Localised":"Military Supercapacitors", "Count":7 }, { "Name":"mechanicalcomponents", "Name_Localised":"Mechanical Components", "Count":136 }, { "Name":"heatconductionwiring", "Name_Localised":"Heat Conduction Wiring", "Count":93 }, { "Name":"wornshieldemitters", "Name_Localised":"Worn Shield Emitters", "Count":300 }, { "Name":"phasealloys", "Name_Localised":"Phase Alloys", "Count":200 }, { "Name":"chemicalmanipulators", "Name_Localised":"Chemical Manipulators", "Count":150 }, { "Name":"compoundshielding", "Name_Localised":"Compound Shielding", "Count":150 }, { "Name":"uncutfocuscrystals", "Name_Localised":"Flawed Focus Crystals", "Count":250 }, { "Name":"imperialshielding", "Name_Localised":"Imperial Shielding", "Count":71 }, { "Name":"protoradiolicalloys", "Name_Localised":"Proto Radiolic Alloys", "Count":70 }, { "Name":"polymercapacitors", "Name_Localised":"Polymer Capacitors", "Count":77 }, { "Name":"basicconductors", "Name_Localised":"Basic Conductors", "Count":123 }, { "Name":"crystalshards", "Name_Localised":"Crystal Shards", "Count":300 }, { "Name":"temperedalloys", "Name_Localised":"Tempered Alloys", "Count":300 }, { "Name":"filamentcomposites", "Name_Localised":"Filament Composites", "Count":250 }, { "Name":"chemicalstorageunits", "Name_Localised":"Chemical Storage Units", "Count":240 }, { "Name":"compactcomposites", "Name_Localised":"Compact Composites", "Count":300 } ], "Encoded":[ { "Name":"compactemissionsdata", "Name_Localised":"Abnormal Compact Emissions Data", "Count":58 }, { "Name":"shieldpatternanalysis", "Name_Localised":"Aberrant Shield Pattern Analysis", "Count":150 }, { "Name":"decodedemissiondata", "Name_Localised":"Decoded Emission Data", "Count":150 }, { "Name":"shielddensityreports", "Name_Localised":"Untypical Shield Scans ", "Count":200 }, { "Name":"hyperspacetrajectories", "Name_Localised":"Eccentric Hyperspace Trajectories", "Count":20 }, { "Name":"shieldfrequencydata", "Name_Localised":"Peculiar Shield Frequency Data", "Count":53 }, { "Name":"fsdtelemetry", "Name_Localised":"Anomalous FSD Telemetry", "Count":5 }, { "Name":"scanarchives", "Name_Localised":"Unidentified Scan Archives", "Count":66 }, { "Name":"encodedscandata", "Name_Localised":"Divergent Scan Data", "Count":84 }, { "Name":"classifiedscandata", "Name_Localised":"Classified Scan Fragment", "Count":20 }, { "Name":"encryptioncodes", "Name_Localised":"Tagged Encryption Codes", "Count":10 }, { "Name":"embeddedfirmware", "Name_Localised":"Modified Embedded Firmware", "Count":62 }, { "Name":"encryptedfiles", "Name_Localised":"Unusual Encrypted Files", "Count":5 }, { "Name":"consumerfirmware", "Name_Localised":"Modified Consumer Firmware", "Count":100 }, { "Name":"symmetrickeys", "Name_Localised":"Open Symmetric Keys", "Count":8 }, { "Name":"encryptionarchives", "Name_Localised":"Atypical Encryption Archives", "Count":6 }, { "Name":"wakesolutions", "Name_Localised":"Strange Wake Solutions", "Count":20 }, { "Name":"securityfirmware", "Name_Localised":"Security Firmware Patch", "Count":62 }, { "Name":"adaptiveencryptors", "Name_Localised":"Adaptive Encryptors Capture", "Count":6 }, { "Name":"legacyfirmware", "Name_Localised":"Specialised Legacy Firmware", "Count":167 }, { "Name":"scandatabanks", "Name_Localised":"Classified Scan Databanks", "Count":98 }, { "Name":"emissiondata", "Name_Localised":"Unexpected Emission Data", "Count":200 }, { "Name":"industrialfirmware", "Name_Localised":"Cracked Industrial Firmware", "Count":75 }, { "Name":"dataminedwake", "Name_Localised":"Datamined Wake Exceptions", "Count":3 }, { "Name":"scrambledemissiondata", "Name_Localised":"Exceptional Scrambled Emission Data", "Count":224 }, { "Name":"shieldcyclerecordings", "Name_Localised":"Distorted Shield Cycle Recordings", "Count":216 }, { "Name":"shieldsoakanalysis", "Name_Localised":"Inconsistent Shield Soak Analysis", "Count":200 }, { "Name":"bulkscandata", "Name_Localised":"Anomalous Bulk Scan Data", "Count":153 }, { "Name":"disruptedwakeechoes", "Name_Localised":"Atypical Disrupted Wake Echoes", "Count":29 }, { "Name":"archivedemissiondata", "Name_Localised":"Irregular Emission Data", "Count":182 } ] }
+{ "timestamp":"2018-04-09T10:08:13Z", "event":"LoadGame", "Commander":"McCaslin", "Horizons":true, "Ship":"TestBuggy", "Ship_Localised":"SRV Scarab", "ShipID":31, "ShipName":"", "ShipIdent":"", "FuelLevel":0.000000, "FuelCapacity":0.000000, "GameMode":"Solo", "Credits":2468971190, "Loan":0 }
+{ "timestamp":"2018-04-09T10:08:13Z", "event":"Rank", "Combat":8, "Trade":8, "Explore":7, "Empire":12, "Federation":14, "CQC":0 }
+{ "timestamp":"2018-04-09T10:08:13Z", "event":"Progress", "Combat":100, "Trade":100, "Explore":73, "Empire":13, "Federation":100, "CQC":0 }
+{ "timestamp":"2018-04-09T10:08:13Z", "event":"Reputation", "Empire":75.000000, "Federation":97.107201, "Independent":75.000000, "Alliance":74.971298 }
+{ "timestamp":"2018-04-09T10:08:27Z", "event":"Location", "Latitude":25.397072, "Longitude":43.195782, "Docked":false, "StarSystem":"HIP 18987", "SystemAddress":697655347539, "StarPos":[-84.59375,-46.62500,-236.25000], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemSecondEconomy":"$economy_None;", "SystemSecondEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$GAlAXY_MAP_INFO_state_anarchy;", "SystemSecurity_Localised":"Anarchy", "Population":0, "Body":"HIP 18987 D 2", "BodyID":34, "BodyType":"Planet" }
+{ "timestamp":"2018-04-09T10:08:28Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-04-09T10:08:28Z", "event":"Missions", "Active":[  ], "Failed":[  ], "Complete":[  ] }
+{ "timestamp":"2018-04-09T10:08:28Z", "event":"Cargo", "Inventory":[  ] }
+{ "timestamp":"2018-04-09T10:08:28Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-04-09T10:08:30Z", "event":"Statistics", "Bank_Account":{ "Current_Wealth":4140258297, "Spent_On_Ships":442228313, "Spent_On_Outfitting":1534664683, "Spent_On_Repairs":41708361, "Spent_On_Fuel":5677764, "Spent_On_Ammo_Consumables":9725255, "Insurance_Claims":8, "Spent_On_Insurance":76777257 }, "Combat":{ "Bounties_Claimed":17748, "Bounty_Hunting_Profit":909997355, "Combat_Bonds":9940, "Combat_Bond_Profits":269662241, "Assassinations":525, "Assassination_Profits":76489061, "Highest_Single_Reward":786902, "Skimmers_Killed":1077 }, "Crime":{ "Notoriety":0, "Fines":553, "Total_Fines":3491267, "Bounties_Received":952, "Total_Bounties":245325, "Highest_Bounty":12705 }, "Smuggling":{ "Black_Markets_Traded_With":24, "Black_Markets_Profits":88626294, "Resources_Smuggled":8917, "Average_Profit":410306.91666667, "Highest_Single_Transaction":25639296 }, "Trading":{ "Markets_Traded_With":454, "Market_Profits":799107539, "Resources_Traded":664359, "Average_Profit":111435.99762934, "Highest_Single_Transaction":5462548 }, "Mining":{ "Mining_Profits":474051140, "Quantity_Mined":7643, "Materials_Collected":25807 }, "Exploration":{ "Systems_Visited":8323, "Exploration_Profits":142035817, "Planets_Scanned_To_Level_2":21386, "Planets_Scanned_To_Level_3":22148, "Highest_Payout":4865443, "Total_Hyperspace_Distance":464872, "Total_Hyperspace_Jumps":30129, "Greatest_Distance_From_Start":5076.9003052044, "Time_Played":31068660 }, "Passengers":{ "Passengers_Missions_Accepted":1962, "Passengers_Missions_Disgruntled":0, "Passengers_Missions_Bulk":17598, "Passengers_Missions_VIP":492, "Passengers_Missions_Delivered":18090, "Passengers_Missions_Ejected":260 }, "Search_And_Rescue":{ "SearchRescue_Traded":1, "SearchRescue_Profit":30287, "SearchRescue_Count":1 }, "Crafting":{ "Count_Of_Used_Engineers":18, "Recipes_Generated":1181, "Recipes_Generated_Rank_1":158, "Recipes_Generated_Rank_2":77, "Recipes_Generated_Rank_3":213, "Recipes_Generated_Rank_4":188, "Recipes_Generated_Rank_5":545 }, "Crew":{ "NpcCrew_TotalWages":331171321, "NpcCrew_Hired":4, "NpcCrew_Fired":2, "NpcCrew_Died":1 }, "Multicrew":{ "Multicrew_Time_Total":102664, "Multicrew_Gunner_Time_Total":22943, "Multicrew_Fighter_Time_Total":1872, "Multicrew_Credits_Total":3148452, "Multicrew_Fines_Total":1551254 }, "Material_Trader_Stats":{ "Trades_Completed":94, "Materials_Traded":4651, "Encoded_Materials_Traded":1660, "Grade_1_Materials_Traded":1188, "Grade_2_Materials_Traded":1396, "Grade_3_Materials_Traded":1116, "Grade_4_Materials_Traded":832, "Grade_5_Materials_Traded":119 } }
+{ "timestamp":"2018-04-09T10:11:08Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T10:11:17Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T10:11:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T10:11:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T10:11:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T10:11:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T10:11:50Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T10:12:47Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T10:13:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T10:14:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T10:14:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T10:14:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"niobium", "Count":3 }
+{ "timestamp":"2018-04-09T10:15:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T10:15:04Z", "event":"MaterialCollected", "Category":"Raw", "Name":"yttrium", "Count":3 }
+{ "timestamp":"2018-04-09T10:16:19Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2018-04-09T10:16:23Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T10:17:15Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T10:19:02Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T10:19:58Z", "event":"Friends", "Status":"Online", "Name":"FILTHY_CASUAL86" }
+{ "timestamp":"2018-04-09T10:20:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T10:20:52Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T10:20:54Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T10:20:59Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2018-04-09T10:21:04Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2018-04-09T10:21:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2018-04-09T10:26:25Z", "event":"Synthesis", "Name":"Fuel Basic", "Materials":[ { "Name":"sulphur", "Count":1 }, { "Name":"phosphorus", "Count":1 } ] }
+{ "timestamp":"2018-04-09T10:27:42Z", "event":"Music", "MusicTrack":"MainMenu" }
+{ "timestamp":"2018-04-09T11:39:59Z", "event":"Friends", "Status":"Online", "Name":"FALAVA" }
+{ "timestamp":"2018-04-09T11:50:13Z", "event":"Friends", "Status":"Online", "Name":"Araphel" }
+{ "timestamp":"2018-04-09T12:18:55Z", "event":"Shutdown" }

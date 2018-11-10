@@ -1,0 +1,12 @@
+{ "timestamp":"2018-03-20T04:49:39Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"3.0.3.402 EDH", "build":"r167515/r0 " }
+{ "timestamp":"2018-03-20T04:49:39Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-03-20T04:49:39Z", "event":"Music", "MusicTrack":"MainMenu" }
+{ "timestamp":"2018-03-20T04:50:31Z", "event":"Friends", "Status":"Online", "Name":"Araphel" }
+{ "timestamp":"2018-03-20T04:50:31Z", "event":"Friends", "Status":"Online", "Name":"Gabriel J" }
+{ "timestamp":"2018-03-20T04:50:31Z", "event":"Friends", "Status":"Online", "Name":"SM-T2100" }
+{ "timestamp":"2018-03-20T04:52:32Z", "event":"Friends", "Status":"Online", "Name":"Araphel" }
+{ "timestamp":"2018-03-20T04:52:32Z", "event":"Friends", "Status":"Online", "Name":"Gabriel J" }
+{ "timestamp":"2018-03-20T04:52:32Z", "event":"Friends", "Status":"Online", "Name":"SM-T2100" }
+{ "timestamp":"2018-03-20T04:59:36Z", "event":"ReceiveText", "From":"SM-T2100", "Message":"ok about to be finished with 36 of these missions but Im tired so ill have to do the rest tomorrow", "Channel":"player" }
+{ "timestamp":"2018-03-20T05:00:03Z", "event":"SendText", "To":"SM-T2100", "Message":"Thanks so much!  I'll send you a message if we finish those before you get online again" }
+{ "timestamp":"2018-03-20T05:00:09Z", "event":"Shutdown" }

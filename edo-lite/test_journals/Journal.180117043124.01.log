@@ -1,0 +1,699 @@
+{ "timestamp":"2018-01-17T10:31:24Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"2.4", "build":"r160439/r0 " }
+{ "timestamp":"2018-01-17T10:31:24Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-01-17T10:31:24Z", "event":"Music", "MusicTrack":"MainMenu" }
+{ "timestamp":"2018-01-17T10:32:13Z", "event":"Friends", "Status":"Online", "Name":"Ben Ryder" }
+{ "timestamp":"2018-01-17T10:32:13Z", "event":"Friends", "Status":"Online", "Name":"Araphel" }
+{ "timestamp":"2018-01-17T10:32:13Z", "event":"Friends", "Status":"Online", "Name":"Sali Vader" }
+{ "timestamp":"2018-01-17T10:32:13Z", "event":"Friends", "Status":"Online", "Name":"Sonja Valentine" }
+{ "timestamp":"2018-01-17T10:32:13Z", "event":"Friends", "Status":"Online", "Name":"MyGutFeeling" }
+{ "timestamp":"2018-01-17T10:32:23Z", "event":"Cargo", "Inventory":[  ] }
+{ "timestamp":"2018-01-17T10:32:23Z", "event":"Loadout", "Ship":"Anaconda", "ShipID":8, "ShipName":"Anya", "ShipIdent":"4ny-0n", "Modules":[ { "Slot":"HugeHardpoint1", "Item":"Hpt_MultiCannon_Gimbal_Huge", "On":true, "Priority":0, "AmmoInClip":90, "AmmoInHopper":1680, "Health":1.000000, "Value":5285436, "EngineerBlueprint":"Weapon_Efficient", "EngineerLevel":5 }, { "Slot":"LargeHardpoint1", "Item":"Hpt_MultiCannon_Gimbal_Large", "On":true, "Priority":0, "AmmoInClip":90, "AmmoInHopper":2100, "Health":1.000000, "Value":479380, "EngineerBlueprint":"Weapon_Efficient", "EngineerLevel":5 }, { "Slot":"LargeHardpoint2", "Item":"Hpt_PulseLaserBurst_Turret_Large", "On":true, "Priority":0, "Health":1.000000, "Value":780390, "EngineerBlueprint":"Weapon_Focused", "EngineerLevel":5 }, { "Slot":"LargeHardpoint3", "Item":"Hpt_PulseLaserBurst_Turret_Large", "On":true, "Priority":0, "Health":1.000000, "Value":780390, "EngineerBlueprint":"Weapon_Focused", "EngineerLevel":5 }, { "Slot":"MediumHardpoint1", "Item":"Hpt_PulseLaserBurst_Gimbal_Medium", "On":true, "Priority":0, "Health":1.000000, "Value":47288, "EngineerBlueprint":"Weapon_LightWeight", "EngineerLevel":5 }, { "Slot":"MediumHardpoint2", "Item":"Hpt_DrunkMissileRack_Fixed_Medium", "On":true, "Priority":0, "AmmoInClip":24, "AmmoInHopper":232, "Health":1.000000, "Value":653310, "EngineerBlueprint":"Weapon_HighCapacity", "EngineerLevel":5 }, { "Slot":"SmallHardpoint1", "Item":"Hpt_BeamLaser_Turret_Small", "On":true, "Priority":0, "Health":1.000000, "Value":414375, "EngineerBlueprint":"Weapon_Efficient", "EngineerLevel":5 }, { "Slot":"SmallHardpoint2", "Item":"Hpt_BeamLaser_Turret_Small", "On":true, "Priority":0, "Health":1.000000, "Value":414375, "EngineerBlueprint":"Weapon_Efficient", "EngineerLevel":5 }, { "Slot":"TinyHardpoint1", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_HeavyDuty", "EngineerLevel":5 }, { "Slot":"TinyHardpoint2", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_HeavyDuty", "EngineerLevel":5 }, { "Slot":"TinyHardpoint3", "Item":"Hpt_PlasmaPointDefence_Turret_Tiny", "On":true, "Priority":0, "AmmoInClip":12, "AmmoInHopper":10000, "Health":1.000000, "Value":15371 }, { "Slot":"TinyHardpoint4", "Item":"Hpt_PlasmaPointDefence_Turret_Tiny", "On":true, "Priority":0, "AmmoInClip":12, "AmmoInHopper":10000, "Health":1.000000, "Value":15371 }, { "Slot":"TinyHardpoint5", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":232879, "EngineerBlueprint":"ShieldBooster_Resistive", "EngineerLevel":5 }, { "Slot":"TinyHardpoint6", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Thermic", "EngineerLevel":5 }, { "Slot":"TinyHardpoint7", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Thermic", "EngineerLevel":5 }, { "Slot":"TinyHardpoint8", "Item":"Hpt_ShieldBooster_Size0_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":238850, "EngineerBlueprint":"ShieldBooster_Thermic", "EngineerLevel":5 }, { "Slot":"Armour", "Item":"Anaconda_Armour_Grade3", "On":true, "Priority":1, "Health":1.000000, "Value":109620840, "EngineerBlueprint":"Armour_HeavyDuty", "EngineerLevel":5 }, { "Slot":"PaintJob", "Item":"PaintJob_Anaconda_BlackFriday_01", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"PowerPlant", "Item":"Int_Powerplant_Size8_Class5", "On":true, "Priority":1, "Health":1.000000, "Value":134743552, "EngineerBlueprint":"PowerPlant_Boosted", "EngineerLevel":5 }, { "Slot":"MainEngines", "Item":"Int_Engine_Size7_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":43595746, "EngineerBlueprint":"Engine_Dirty", "EngineerLevel":5 }, { "Slot":"FrameShiftDrive", "Item":"Int_Hyperdrive_Size6_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":13752601, "EngineerBlueprint":"FSD_LongRange", "EngineerLevel":5 }, { "Slot":"LifeSupport", "Item":"Int_LifeSupport_Size5_Class2", "On":true, "Priority":0, "Health":1.000000, "Value":67524, "EngineerBlueprint":"LifeSupport_LightWeight", "EngineerLevel":4 }, { "Slot":"PowerDistributor", "Item":"Int_PowerDistributor_Size7_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":8758733, "EngineerBlueprint":"PowerDistributor_HighFrequency", "EngineerLevel":5 }, { "Slot":"Radar", "Item":"Int_Sensors_Size8_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":22582934, "EngineerBlueprint":"Sensor_Sensor_LightWeight", "EngineerLevel":5 }, { "Slot":"FuelTank", "Item":"Int_FuelTank_Size5_Class3", "On":true, "Priority":1, "Health":1.000000, "Value":97750 }, { "Slot":"Decal1", "Item":"Decal_Combat_Elite", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"Decal2", "Item":"Decal_PlayerGroup_GalCop", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"Decal3", "Item":"Decal_PlayerGroup_GalCop", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"Slot01_Size7", "Item":"Int_ShieldGenerator_Size7_Class5_Strong", "On":true, "Priority":0, "Health":1.000000, "Value":63758778, "EngineerBlueprint":"ShieldGenerator_Reinforced", "EngineerLevel":5 }, { "Slot":"Slot02_Size6", "Item":"Int_FighterBay_Size6_Class1", "On":true, "Priority":0, "Health":1.000000, "Value":1549216 }, { "Slot":"Slot03_Size6", "Item":"Int_CargoRack_Size6_Class1", "On":true, "Priority":1, "Health":1.000000, "Value":353527 }, { "Slot":"Slot04_Size6", "Item":"Int_ShieldCellBank_Size6_Class4", "On":true, "Priority":0, "AmmoInClip":1, "AmmoInHopper":5, "Health":1.000000, "Value":1152191 }, { "Slot":"Slot05_Size5", "Item":"Int_DroneControl_Collection_Size5_Class3", "On":true, "Priority":0, "Health":1.000000, "Value":189540, "EngineerBlueprint":"CollectionLimpet_LightWeight", "EngineerLevel":5 }, { "Slot":"Slot06_Size5", "Item":"Int_HullReinforcement_Size5_Class2", "On":true, "Priority":1, "Health":1.000000, "Value":372938, "EngineerBlueprint":"HullReinforcement_HeavyDuty", "EngineerLevel":5 }, { "Slot":"Slot07_Size5", "Item":"Int_HullReinforcement_Size5_Class2", "On":true, "Priority":1, "Health":1.000000, "Value":372938, "EngineerBlueprint":"HullReinforcement_HeavyDuty", "EngineerLevel":5 }, { "Slot":"Slot08_Size4", "Item":"Int_FSDInterdictor_Size4_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":18136743, "EngineerBlueprint":"FSDinterdictor_LongRange", "EngineerLevel":3 }, { "Slot":"Slot09_Size4", "Item":"Int_BuggyBay_Size4_Class2", "On":true, "Priority":0, "Health":1.000000, "Value":84240 }, { "Slot":"Slot10_Size4", "Item":"Int_FuelScoop_Size4_Class5", "On":true, "Priority":0, "Health":1.000000, "Value":2433006 }, { "Slot":"Slot13_Size2", "Item":"Int_StellarBodyDiscoveryScanner_Advanced", "On":true, "Priority":1, "Health":1.000000, "Value":1313250 }, { "Slot":"Military01", "Item":"Int_HullReinforcement_Size5_Class2", "On":true, "Priority":1, "Health":1.000000, "Value":372938, "EngineerBlueprint":"HullReinforcement_HeavyDuty", "EngineerLevel":5 }, { "Slot":"PlanetaryApproachSuite", "Item":"Int_PlanetApproachSuite", "On":true, "Priority":1, "Health":1.000000, "Value":500 }, { "Slot":"ShipCockpit", "Item":"Anaconda_Cockpit", "On":true, "Priority":1, "Health":1.000000, "Value":0 }, { "Slot":"CargoHatch", "Item":"ModularCargoBayDoor", "On":true, "Priority":0, "Health":1.000000, "Value":0 } ] }
+{ "timestamp":"2018-01-17T10:32:23Z", "event":"Materials", "Raw":[ { "Name":"nickel", "Count":16 }, { "Name":"sulphur", "Count":14 }, { "Name":"carbon", "Count":20 }, { "Name":"iron", "Count":14 }, { "Name":"zinc", "Count":12 }, { "Name":"mercury", "Count":23 }, { "Name":"yttrium", "Count":3 }, { "Name":"zirconium", "Count":2 }, { "Name":"tellurium", "Count":28 }, { "Name":"technetium", "Count":24 }, { "Name":"polonium", "Count":10 }, { "Name":"phosphorus", "Count":8 }, { "Name":"cadmium", "Count":26 }, { "Name":"germanium", "Count":11 }, { "Name":"antimony", "Count":17 }, { "Name":"vanadium", "Count":15 }, { "Name":"manganese", "Count":10 }, { "Name":"molybdenum", "Count":4 }, { "Name":"chromium", "Count":18 }, { "Name":"tin", "Count":5 }, { "Name":"tungsten", "Count":1 } ], "Manufactured":[ { "Name":"mechanicalscrap", "Count":5 }, { "Name":"hybridcapacitors", "Count":15 }, { "Name":"chemicalprocessors", "Count":15 }, { "Name":"refinedfocuscrystals", "Count":35 }, { "Name":"focuscrystals", "Count":15 }, { "Name":"gridresistors", "Count":15 }, { "Name":"galvanisingalloys", "Count":15 }, { "Name":"precipitatedalloys", "Count":20 }, { "Name":"shieldingsensors", "Count":15 }, { "Name":"militarygradealloys", "Count":38 }, { "Name":"heatexchangers", "Count":9 }, { "Name":"configurablecomponents", "Count":20 }, { "Name":"conductivepolymers", "Count":40 }, { "Name":"heatvanes", "Count":10 }, { "Name":"biotechconductors", "Count":57 }, { "Name":"thermicalloys", "Count":20 }, { "Name":"highdensitycomposites", "Count":18 }, { "Name":"chemicaldistillery", "Count":15 }, { "Name":"shieldemitters", "Count":15 }, { "Name":"improvisedcomponents", "Count":10 }, { "Name":"heatdispersionplate", "Count":10 }, { "Name":"heatresistantceramics", "Count":10 }, { "Name":"mechanicalequipment", "Count":20 }, { "Name":"salvagedalloys", "Count":10 }, { "Name":"protolightalloys", "Count":18 }, { "Name":"pharmaceuticalisolators", "Count":1 }, { "Name":"protoheatradiators", "Count":6 }, { "Name":"fedproprietarycomposites", "Count":16 }, { "Name":"conductiveceramics", "Count":26 }, { "Name":"conductivecomponents", "Count":30 }, { "Name":"electrochemicalarrays", "Count":20 }, { "Name":"exquisitefocuscrystals", "Count":61 }, { "Name":"fedcorecomposites", "Count":1 }, { "Name":"militarysupercapacitors", "Count":2 }, { "Name":"mechanicalcomponents", "Count":3 } ], "Encoded":[ { "Name":"compactemissionsdata", "Count":35 }, { "Name":"shieldpatternanalysis", "Count":65 }, { "Name":"decodedemissiondata", "Count":28 }, { "Name":"shielddensityreports", "Count":20 }, { "Name":"hyperspacetrajectories", "Count":20 }, { "Name":"shieldfrequencydata", "Count":23 }, { "Name":"fsdtelemetry", "Count":5 }, { "Name":"scanarchives", "Count":15 }, { "Name":"encodedscandata", "Count":25 }, { "Name":"classifiedscandata", "Count":20 }, { "Name":"encryptioncodes", "Count":10 }, { "Name":"embeddedfirmware", "Count":61 }, { "Name":"encryptedfiles", "Count":5 }, { "Name":"consumerfirmware", "Count":20 }, { "Name":"symmetrickeys", "Count":8 }, { "Name":"encryptionarchives", "Count":6 }, { "Name":"wakesolutions", "Count":20 }, { "Name":"securityfirmware", "Count":25 }, { "Name":"adaptiveencryptors", "Count":6 }, { "Name":"legacyfirmware", "Count":15 }, { "Name":"scandatabanks", "Count":20 }, { "Name":"emissiondata", "Count":25 }, { "Name":"industrialfirmware", "Count":20 }, { "Name":"dataminedwake", "Count":3 } ] }
+{ "timestamp":"2018-01-17T10:32:23Z", "event":"LoadGame", "Commander":"McCaslin", "Ship":"Anaconda", "ShipID":8, "ShipName":"Anya", "ShipIdent":"4ny-0n", "FuelLevel":24.642519, "FuelCapacity":32.000000, "GameMode":"Open", "Credits":2273432005, "Loan":0 }
+{ "timestamp":"2018-01-17T10:32:23Z", "event":"Rank", "Combat":8, "Trade":8, "Explore":7, "Empire":12, "Federation":13, "CQC":0 }
+{ "timestamp":"2018-01-17T10:32:23Z", "event":"Progress", "Combat":100, "Trade":100, "Explore":72, "Empire":3, "Federation":51, "CQC":0 }
+{ "timestamp":"2018-01-17T10:32:41Z", "event":"Location", "Docked":false, "StarSystem":"Ngalia", "StarPos":[-74.625,-35.031,-165.969], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Industrial;", "SystemEconomy_Localised":"Industrial", "SystemGovernment":"$government_Democracy;", "SystemGovernment_Localised":"Democracy", "SystemSecurity":"$SYSTEM_SECURITY_medium;", "SystemSecurity_Localised":"Medium Security", "Population":9695033, "Body":"Ngalia", "BodyType":"Star", "Factions":[ { "Name":"Sirius Hyperspace", "FactionState":"Lockdown", "Government":"Corporate", "Influence":0.178000, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 }, { "State":"CivilUnrest", "Trend":0 } ] }, { "Name":"Pilots Federation Local Branch", "FactionState":"None", "Government":"Democracy", "Influence":0.000000, "Allegiance":"PilotsFederation" }, { "Name":"Ngalia Flag", "FactionState":"None", "Government":"Dictatorship", "Influence":0.056000, "Allegiance":"Independent", "RecoveringStates":[ { "State":"CivilWar", "Trend":0 } ] }, { "Name":"Future of Ngalia", "FactionState":"None", "Government":"Democracy", "Influence":0.098000, "Allegiance":"Independent", "RecoveringStates":[ { "State":"CivilWar", "Trend":0 } ] }, { "Name":"Ngalia Family", "FactionState":"Boom", "Government":"Anarchy", "Influence":0.107000, "Allegiance":"Independent", "PendingStates":[ { "State":"Bust", "Trend":0 }, { "State":"CivilUnrest", "Trend":1 }, { "State":"Lockdown", "Trend":0 } ] }, { "Name":"Sirius Inc", "FactionState":"Investment", "Government":"Democracy", "Influence":0.561000, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 } ] } ], "SystemFaction":"Sirius Inc", "FactionState":"Investment" }
+{ "timestamp":"2018-01-17T10:32:41Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-01-17T10:32:41Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T10:32:48Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T10:32:51Z", "event":"Friends", "Status":"Online", "Name":"Ben Ryder" }
+{ "timestamp":"2018-01-17T10:32:51Z", "event":"Friends", "Status":"Online", "Name":"Araphel" }
+{ "timestamp":"2018-01-17T10:32:51Z", "event":"Friends", "Status":"Online", "Name":"Sali Vader" }
+{ "timestamp":"2018-01-17T10:32:51Z", "event":"Friends", "Status":"Online", "Name":"Sonja Valentine" }
+{ "timestamp":"2018-01-17T10:32:51Z", "event":"Friends", "Status":"Online", "Name":"MyGutFeeling" }
+{ "timestamp":"2018-01-17T10:33:03Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2018-01-17T10:33:03Z", "event":"WingJoin", "Others":[] }
+{ "timestamp":"2018-01-17T10:33:03Z", "event":"WingAdd", "Name":"Sali Vader" }
+{ "timestamp":"2018-01-17T10:33:08Z", "event":"SupercruiseEntry", "StarSystem":"Ngalia" }
+{ "timestamp":"2018-01-17T10:33:08Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-01-17T10:33:14Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"dc?", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:33:15Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T10:33:56Z", "event":"SendText", "To":"wing", "Message":"yeah" }
+{ "timestamp":"2018-01-17T10:34:19Z", "event":"SupercruiseExit", "StarSystem":"Ngalia", "Body":"Ngalia 9 A Ring", "BodyType":"PlanetaryRing" }
+{ "timestamp":"2018-01-17T10:34:19Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T10:34:26Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T10:34:29Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T10:34:36Z", "event":"LaunchFighter", "Loadout":"one", "PlayerControlled":false }
+{ "timestamp":"2018-01-17T10:34:45Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Nathalie;", "From_Localised":"Nathalie", "Message":"$MinerCriticalDamage05;", "Message_Localised":"Damn you!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:34:45Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Nathalie;", "From_Localised":"Nathalie", "Message":"$MinerCriticalDamage05;", "Message_Localised":"Damn you!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:34:51Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":15987 } ], "Target":"cobramkiii", "TotalReward":15987, "VictimFaction":"Future of Ngalia", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T10:35:03Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T10:35:14Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Markus P.;", "From_Localised":"Markus P.", "Message":"$BadKarmaCriticalDamage03;", "Message_Localised":"You fight a good fight!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:35:14Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Markus P.;", "From_Localised":"Markus P.", "Message":"$BadKarmaCriticalDamage03;", "Message_Localised":"You fight a good fight!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:35:26Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":117637 } ], "Target":"federation_dropship_mkii", "TotalReward":117637, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T10:35:36Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Gerald Olschewski;", "From_Localised":"Gerald Olschewski", "Message":"$Pirate_OnDeclarePiracyAttack02;", "Message_Localised":"You choose death then. Very well.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:36:00Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Hominid Monkieman;", "From_Localised":"Hominid Monkieman", "Message":"$Pirate_OnStartScanCargo01;", "Message_Localised":"I see all!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:36:08Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":93175 } ], "Target":"empire_trader", "TotalReward":93175, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T10:36:10Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Hominid Monkieman;", "From_Localised":"Hominid Monkieman", "Message":"$Pirate_OnNoCargoFound08;", "Message_Localised":"A wasted effort. There's no cargo here.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:36:10Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-01-17T10:36:13Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Hominid Monkieman;", "From_Localised":"Hominid Monkieman", "Message":"$Pirate_OnDeclarePiracyAttack02;", "Message_Localised":"You choose death then. Very well.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:36:24Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":131850 } ], "Target":"federation_dropship", "TotalReward":131850, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T10:36:40Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T10:36:44Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"have you sold anything in 16591?", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:36:49Z", "event":"SendText", "To":"wing", "Message":"Nope, not yet" }
+{ "timestamp":"2018-01-17T10:37:07Z", "event":"SendText", "To":"wing", "Message":"I was either going to jump into Python and do that next, or visit Hsie so noone else has to" }
+{ "timestamp":"2018-01-17T10:37:09Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"Can you do the next 2 round there?", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:37:15Z", "event":"SendText", "To":"wing", "Message":"Sure" }
+{ "timestamp":"2018-01-17T10:37:21Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"There's a large pad in 16591", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:37:25Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"planetary base", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:37:27Z", "event":"SendText", "To":"wing", "Message":"Oh yeah, I forgot" }
+{ "timestamp":"2018-01-17T10:37:30Z", "event":"SendText", "To":"wing", "Message":"suh" }
+{ "timestamp":"2018-01-17T10:37:32Z", "event":"SendText", "To":"wing", "Message":"*duh" }
+{ "timestamp":"2018-01-17T10:37:37Z", "event":"SendText", "To":"wing", "Message":"it's been awhile :P" }
+{ "timestamp":"2018-01-17T10:37:44Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"I'm going to 18218 again", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:37:45Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Odob;", "From_Localised":"Odob", "Message":"$BadKarmaCriticalDamage05;", "Message_Localised":"No, no!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:37:45Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Odob;", "From_Localised":"Odob", "Message":"$BadKarmaCriticalDamage05;", "Message_Localised":"No, no!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:37:52Z", "event":"SendText", "To":"wing", "Message":"that's probably a good idea" }
+{ "timestamp":"2018-01-17T10:37:53Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"then I'm gonna go get that sweet cadmium to persei", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:37:58Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"A 2 it was, right?", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:38:04Z", "event":"SendText", "To":"wing", "Message":"Yep, A 2" }
+{ "timestamp":"2018-01-17T10:38:24Z", "event":"SendText", "To":"wing", "Message":"2.9% (which is about the best you'll find)" }
+{ "timestamp":"2018-01-17T10:38:25Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"the problem with 18218 is that someone has been bounty hunting", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:38:34Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"so the fed faction gets a bonus", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:38:36Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Drakon Dean;", "From_Localised":"Drakon Dean", "Message":"$BadKarmaCriticalDamage10;", "Message_Localised":"You've scratched my paint!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:38:36Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Drakon Dean;", "From_Localised":"Drakon Dean", "Message":"$BadKarmaCriticalDamage10;", "Message_Localised":"You've scratched my paint!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:38:40Z", "event":"SendText", "To":"wing", "Message":"Why do you think they've been hunting?" }
+{ "timestamp":"2018-01-17T10:38:46Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"Wanna invite me to your wing?", "Channel":"player" }
+{ "timestamp":"2018-01-17T10:38:49Z", "event":"SendText", "To":"wing", "Message":"I mean, what's the appeal of that system?" }
+{ "timestamp":"2018-01-17T10:38:58Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"Well there are RES", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:39:00Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"that's about it", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:39:10Z", "event":"WingAdd", "Name":"MyGutFeeling" }
+{ "timestamp":"2018-01-17T10:39:15Z", "event":"SendText", "To":"wing", "Message":"True, it's just not what I consider a prime hunting location" }
+{ "timestamp":"2018-01-17T10:39:31Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Elvon;", "From_Localised":"Elvon", "Message":"$BadKarmaCriticalDamage08;", "Message_Localised":"I've taken too many hits.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:39:31Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Elvon;", "From_Localised":"Elvon", "Message":"$BadKarmaCriticalDamage08;", "Message_Localised":"I've taken too many hits.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:39:39Z", "event":"SendText", "To":"wing", "Message":"I'm confused why anyone would be active in HIP 18218" }
+{ "timestamp":"2018-01-17T10:39:39Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"I know they're hunting because of the amount of crimes issued and the amount of bounties sold (before I sold mine)", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:39:44Z", "event":"SendText", "To":"wing", "Message":"RIGHT" }
+{ "timestamp":"2018-01-17T10:39:47Z", "event":"SendText", "To":"wing", "Message":"*right" }
+{ "timestamp":"2018-01-17T10:40:10Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Odob;", "From_Localised":"Odob", "Message":"$BadKarmaCriticalDamage04;", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:40:10Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Odob;", "From_Localised":"Odob", "Message":"$BadKarmaCriticalDamage04;", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:40:13Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"we could use some data there once our war ends", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:40:27Z", "event":"SendText", "To":"wing", "Message":"What I mean is, what reason do you think they have to hunt there?" }
+{ "timestamp":"2018-01-17T10:40:33Z", "event":"SendText", "To":"wing", "Message":"Just randoms wandering by?" }
+{ "timestamp":"2018-01-17T10:40:44Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"I guess", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:41:14Z", "event":"SendText", "To":"wing", "Message":"That system was stagnant for more than a year" }
+{ "timestamp":"2018-01-17T10:41:18Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"or maybe they're also doing missions for the fed faction", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:41:20Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"who knows", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:41:24Z", "event":"SendText", "To":"wing", "Message":"Really weird that anyone would go there" }
+{ "timestamp":"2018-01-17T10:41:26Z", "event":"ReceiveText", "From":"Sali Vader", "Message":"I know", "Channel":"wing" }
+{ "timestamp":"2018-01-17T10:42:52Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T10:43:10Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=LIZA KKR;", "From_Localised":"LIZA KKR", "Message":"$Pirate_OnDeclarePiracyAttack03;", "Message_Localised":"Now you die, victim.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:43:54Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":248270 } ], "Target":"ferdelance", "TotalReward":248270, "VictimFaction":"Sirius Hyperspace" }
+{ "timestamp":"2018-01-17T10:44:09Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T10:44:31Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T10:44:32Z", "event":"SendText", "To":"local", "Message":"hi" }
+{ "timestamp":"2018-01-17T10:45:00Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"o7", "Channel":"local" }
+{ "timestamp":"2018-01-17T10:45:00Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"o7", "Channel":"local" }
+{ "timestamp":"2018-01-17T10:45:04Z", "event":"SendText", "To":"local", "Message":"s7" }
+{ "timestamp":"2018-01-17T10:45:19Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"Typo", "Channel":"local" }
+{ "timestamp":"2018-01-17T10:45:19Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"Typo", "Channel":"local" }
+{ "timestamp":"2018-01-17T10:45:22Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"s7", "Channel":"local" }
+{ "timestamp":"2018-01-17T10:45:22Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"s7", "Channel":"local" }
+{ "timestamp":"2018-01-17T10:45:30Z", "event":"SendText", "To":"local", "Message":"double entry too :D" }
+{ "timestamp":"2018-01-17T10:45:51Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"Yeah wierd, you too", "Channel":"local" }
+{ "timestamp":"2018-01-17T10:45:51Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"Yeah wierd, you too", "Channel":"local" }
+{ "timestamp":"2018-01-17T10:46:17Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Theo;", "From_Localised":"Theo", "Message":"$Pirate_OnStartScanCargo04;", "Message_Localised":"What do you carry, I wonder?", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:46:21Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T10:46:38Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Theo;", "From_Localised":"Theo", "Message":"$BadKarmaCriticalDamage08;", "Message_Localised":"I've taken too many hits.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:46:38Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Theo;", "From_Localised":"Theo", "Message":"$BadKarmaCriticalDamage08;", "Message_Localised":"I've taken too many hits.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:46:50Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":68135 } ], "Target":"diamondbackxl", "TotalReward":68135, "VictimFaction":"Ngalia Family" }
+{ "timestamp":"2018-01-17T10:47:05Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T10:47:16Z", "event":"SendText", "To":"local", "Message":"Sorry, my fighter killed it too fast" }
+{ "timestamp":"2018-01-17T10:47:28Z", "event":"SendText", "To":"local", "Message":"This instance has been good overall... lots of FDLs and condas" }
+{ "timestamp":"2018-01-17T10:47:35Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"nop probs", "Channel":"local" }
+{ "timestamp":"2018-01-17T10:47:35Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"nop probs", "Channel":"local" }
+{ "timestamp":"2018-01-17T10:48:05Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T10:48:52Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Mario Geatti;", "From_Localised":"Mario Geatti", "Message":"$Pirate_OnStartScanCargo04;", "Message_Localised":"What do you carry, I wonder?", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:49:01Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Mario Geatti;", "From_Localised":"Mario Geatti", "Message":"$Pirate_OnStartScanCargo03;", "Message_Localised":"What are you hauling?", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:49:02Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":131562 } ], "Target":"federation_dropship", "TotalReward":131562, "VictimFaction":"Future of Ngalia", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T10:49:10Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Stanley Lenox;", "From_Localised":"Stanley Lenox", "Message":"$Escort_AttackDutyStart04;", "Message_Localised":"We got reds on the radar, breaking formation.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:49:35Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":87530 } ], "Target":"federation_gunship", "TotalReward":87530, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T10:49:42Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Stanley Lenox;", "From_Localised":"Stanley Lenox", "Message":"$BadKarmaCriticalDamage03;", "Message_Localised":"You fight a good fight!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:49:42Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Stanley Lenox;", "From_Localised":"Stanley Lenox", "Message":"$BadKarmaCriticalDamage03;", "Message_Localised":"You fight a good fight!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:49:49Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":40850 } ], "Target":"vulture", "TotalReward":40850, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T10:50:00Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Carson;", "From_Localised":"Carson", "Message":"$Pirate_OnStartScanCargo06;", "Message_Localised":"Let's see what you are carrying.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:50:04Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T10:50:09Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T10:50:25Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":35070 } ], "Target":"diamondback", "TotalReward":35070, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T10:50:39Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T10:52:19Z", "event":"SendText", "To":"local", "Message":"conda" }
+{ "timestamp":"2018-01-17T10:52:25Z", "event":"HullDamage", "Health":0.762750, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2018-01-17T10:52:27Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Robbie;", "From_Localised":"Robbie", "Message":"$Pirate_OnDeclarePiracyAttack04;", "Message_Localised":"I'm gonna boil you up!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:52:27Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T10:53:04Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Matt Bailey;", "From_Localised":"Matt Bailey", "Message":"$Pirate_OnStartScanCargo09;", "Message_Localised":"The scan will soon be over.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:53:05Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Robbie;", "From_Localised":"Robbie", "Message":"$BadKarmaCriticalDamage07;", "Message_Localised":"Too much damage!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:53:05Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Robbie;", "From_Localised":"Robbie", "Message":"$BadKarmaCriticalDamage07;", "Message_Localised":"Too much damage!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:53:14Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Matt Bailey;", "From_Localised":"Matt Bailey", "Message":"$Pirate_OnNoCargoFound07;", "Message_Localised":"Nothing for me here.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:53:14Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-01-17T10:53:22Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":287627 } ], "Target":"anaconda", "TotalReward":287627, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T10:53:40Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Brandon Seibel;", "From_Localised":"Brandon Seibel", "Message":"$BadKarmaCriticalDamage07;", "Message_Localised":"Too much damage!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:53:40Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Brandon Seibel;", "From_Localised":"Brandon Seibel", "Message":"$BadKarmaCriticalDamage07;", "Message_Localised":"Too much damage!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:53:47Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":61610 } ], "Target":"empire_trader", "TotalReward":61610, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T10:54:20Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Matt Bailey;", "From_Localised":"Matt Bailey", "Message":"$BadKarmaCriticalDamage06;", "Message_Localised":"I hadn't expected this.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:54:20Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Matt Bailey;", "From_Localised":"Matt Bailey", "Message":"$BadKarmaCriticalDamage06;", "Message_Localised":"I hadn't expected this.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:54:30Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T10:54:34Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T10:54:34Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":143515 } ], "Target":"anaconda", "TotalReward":143515, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T10:54:50Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T10:54:55Z", "event":"HeatWarning" }
+{ "timestamp":"2018-01-17T10:55:56Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Madak;", "From_Localised":"Madak", "Message":"$Pirate_OnStartScanCargo02;", "Message_Localised":"Carrying anything nice?", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:56:02Z", "event":"SendText", "To":"local", "Message":"conda" }
+{ "timestamp":"2018-01-17T10:56:06Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Madak;", "From_Localised":"Madak", "Message":"$Pirate_OnNoCargoFound05;", "Message_Localised":"How do you fools make a living?", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:56:06Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-01-17T10:56:06Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T10:56:24Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Pinder;", "From_Localised":"Pinder", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:56:24Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Pinder;", "From_Localised":"Pinder", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:56:36Z", "event":"SendText", "To":"local", "Message":"mmmmelted" }
+{ "timestamp":"2018-01-17T10:56:40Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":107065 } ], "Target":"anaconda", "TotalReward":107065, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T10:57:01Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":15112 } ], "Target":"diamondback", "TotalReward":15112, "VictimFaction":"Ngalia Flag", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T10:57:01Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Madak;", "From_Localised":"Madak", "Message":"$Pirate_OnDeclarePiracyAttack03;", "Message_Localised":"Now you die, victim.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:57:04Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=DelBoy Lambert;", "From_Localised":"DelBoy Lambert", "Message":"$Pirate_OnDeclarePiracyAttack01;", "Message_Localised":"I'll pick your bones clean, greenhorn.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:57:04Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=DelBoy Lambert;", "From_Localised":"DelBoy Lambert", "Message":"$Pirate_OnDeclarePiracyAttack02;", "Message_Localised":"You choose death then. Very well.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:57:06Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=DelBoy Lambert;", "From_Localised":"DelBoy Lambert", "Message":"$BadKarmaCriticalDamage06;", "Message_Localised":"I hadn't expected this.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:57:06Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=DelBoy Lambert;", "From_Localised":"DelBoy Lambert", "Message":"$BadKarmaCriticalDamage06;", "Message_Localised":"I hadn't expected this.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:57:16Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":25317 } ], "Target":"asp_scout", "TotalReward":25317, "VictimFaction":"Ngalia Flag" }
+{ "timestamp":"2018-01-17T10:57:16Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Nathan Green;", "From_Localised":"Nathan Green", "Message":"$Pirate_OnDeclarePiracyAttack02;", "Message_Localised":"You choose death then. Very well.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:57:27Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":18180 } ], "Target":"asp_scout", "TotalReward":18180, "VictimFaction":"Ngalia Flag", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T10:57:42Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T10:57:57Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T10:58:29Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Daniel John McLaughlin;", "From_Localised":"Daniel John McLaughlin", "Message":"$Pirate_OnStartScanCargo05;", "Message_Localised":"What treats do you carry?", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:58:39Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Daniel John McLaughlin;", "From_Localised":"Daniel John McLaughlin", "Message":"$Pirate_OnNoCargoFound11;", "Message_Localised":"Another empty cargo hold. My children will go hungry tonight.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:58:39Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-01-17T10:58:43Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":94955 } ], "Target":"python", "TotalReward":94955, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T10:58:50Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Richard Samphire;", "From_Localised":"Richard Samphire", "Message":"$Pirate_OnStartScanCargo03;", "Message_Localised":"What are you hauling?", "Channel":"npc" }
+{ "timestamp":"2018-01-17T10:59:14Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":107075 } ], "Target":"federation_dropship", "TotalReward":107075, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T10:59:30Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T10:59:42Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T11:00:00Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Richard Withers;", "From_Localised":"Richard Withers", "Message":"$BadKarmaCriticalDamage06;", "Message_Localised":"I hadn't expected this.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:00:00Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Richard Withers;", "From_Localised":"Richard Withers", "Message":"$BadKarmaCriticalDamage06;", "Message_Localised":"I hadn't expected this.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:00:13Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":144335 } ], "Target":"anaconda", "TotalReward":144335, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:00:28Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T11:00:48Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T11:00:51Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Daniel John McLaughlin;", "From_Localised":"Daniel John McLaughlin", "Message":"$Pirate_OnDeclarePiracyAttack01;", "Message_Localised":"I'll pick your bones clean, greenhorn.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:01:17Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Daniel John McLaughlin;", "From_Localised":"Daniel John McLaughlin", "Message":"$BadKarmaCriticalDamage04;", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:01:17Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Daniel John McLaughlin;", "From_Localised":"Daniel John McLaughlin", "Message":"$BadKarmaCriticalDamage04;", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:01:35Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=shannon;", "From_Localised":"shannon", "Message":"$MinerCriticalDamage04;", "Message_Localised":"I'm just a simple miner!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:01:35Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=shannon;", "From_Localised":"shannon", "Message":"$MinerCriticalDamage04;", "Message_Localised":"I'm just a simple miner!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:01:39Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":109930 } ], "Target":"federation_dropship", "TotalReward":109930, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:02:00Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":90950 } ], "Target":"empire_trader", "TotalReward":90950, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:02:00Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Daytoday;", "From_Localised":"Daytoday", "Message":"$Pirate_OnDeclarePiracyAttack01;", "Message_Localised":"I'll pick your bones clean, greenhorn.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:02:00Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Peanut Halligan;", "From_Localised":"Peanut Halligan", "Message":"$BadKarmaCriticalDamage10;", "Message_Localised":"You've scratched my paint!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:02:00Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Peanut Halligan;", "From_Localised":"Peanut Halligan", "Message":"$BadKarmaCriticalDamage10;", "Message_Localised":"You've scratched my paint!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:02:04Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":3310 } ], "Target":"sidewinder", "TotalReward":3310, "VictimFaction":"Ngalia Family" }
+{ "timestamp":"2018-01-17T11:02:11Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Docent;", "From_Localised":"Docent", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:02:11Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Docent;", "From_Localised":"Docent", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:02:17Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":4437 } ], "Target":"sidewinder", "TotalReward":4437, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:02:32Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T11:02:58Z", "event":"SendText", "To":"local", "Message":"conda" }
+{ "timestamp":"2018-01-17T11:03:00Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T11:03:40Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=DragonsLLTS;", "From_Localised":"DragonsLLTS", "Message":"$Pirate_OnDeclarePiracyAttack05;", "Message_Localised":"You have no chance now.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:03:42Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=CaptainStu;", "From_Localised":"CaptainStu", "Message":"$Pirate_OnStartScanCargo06;", "Message_Localised":"Let's see what you are carrying.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:03:51Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=CaptainStu;", "From_Localised":"CaptainStu", "Message":"$Pirate_OnNoCargoFound06;", "Message_Localised":"Another dream of riches dashed.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:03:51Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-01-17T11:04:13Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Kevin Steven Atmore;", "From_Localised":"Kevin Steven Atmore", "Message":"$Pirate_OnStartScanCargo03;", "Message_Localised":"What are you hauling?", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:04:23Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Kevin Steven Atmore;", "From_Localised":"Kevin Steven Atmore", "Message":"$Pirate_OnNoCargoFound10;", "Message_Localised":"There's nothing worth my while here.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:04:23Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-01-17T11:04:33Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T11:04:36Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T11:04:41Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Andrew Graham Robinson;", "From_Localised":"Andrew Graham Robinson", "Message":"$Pirate_OnStartScanCargo02;", "Message_Localised":"Carrying anything nice?", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:04:47Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":191775 } ], "Target":"anaconda", "TotalReward":191775, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:04:51Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Andrew Graham Robinson;", "From_Localised":"Andrew Graham Robinson", "Message":"$Pirate_OnNoCargoFound02;", "Message_Localised":"Bah, nothing.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:04:51Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-01-17T11:05:14Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":59315 } ], "Target":"federation_dropship", "TotalReward":59315, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:05:20Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Kiuru;", "From_Localised":"Kiuru", "Message":"$Escort_AttackDutyStart08;", "Message_Localised":"Combat protocols engaged.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:05:38Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Willie Fogg;", "From_Localised":"Willie Fogg", "Message":"$Escort_AttackRun06;", "Message_Localised":"You're mine now.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:05:45Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Kevin Steven Atmore;", "From_Localised":"Kevin Steven Atmore", "Message":"$BadKarmaCriticalDamage05;", "Message_Localised":"No, no!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:05:45Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Kevin Steven Atmore;", "From_Localised":"Kevin Steven Atmore", "Message":"$BadKarmaCriticalDamage05;", "Message_Localised":"No, no!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:05:49Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Willie Fogg;", "From_Localised":"Willie Fogg", "Message":"$Escort_AttackRun03;", "Message_Localised":"Target in my heads up, locking on.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:05:55Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":49280 } ], "Target":"asp", "TotalReward":49280, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:06:07Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Willie Fogg;", "From_Localised":"Willie Fogg", "Message":"$BadKarmaCriticalDamage01;", "Message_Localised":"How is this happening?!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:06:07Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Willie Fogg;", "From_Localised":"Willie Fogg", "Message":"$BadKarmaCriticalDamage01;", "Message_Localised":"How is this happening?!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:06:08Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Andrew Graham Robinson;", "From_Localised":"Andrew Graham Robinson", "Message":"$Pirate_OnDeclarePiracyAttack01;", "Message_Localised":"I'll pick your bones clean, greenhorn.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:06:08Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Bob Likely;", "From_Localised":"Bob Likely", "Message":"$Escort_AttackDutyStart07;", "Message_Localised":"Tracking targets.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:06:08Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=CONRAD FRY;", "From_Localised":"CONRAD FRY", "Message":"$Escort_AttackDutyStart02;", "Message_Localised":"Hostiles detected, protect the lead ship at all costs.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:06:10Z", "event":"CommitCrime", "CrimeType":"assault", "Faction":"Sirius Inc", "Victim":"CONRAD FRY", "Bounty":275 }
+{ "timestamp":"2018-01-17T11:06:19Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":30837 } ], "Target":"diamondback", "TotalReward":30837, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:06:32Z", "event":"HullDamage", "Health":0.597190, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2018-01-17T11:06:34Z", "event":"HullDamage", "Health":0.374611, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2018-01-17T11:06:34Z", "event":"HullDamage", "Health":0.170303, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2018-01-17T11:06:59Z", "event":"SendText", "To":"local", "Message":"run :D" }
+{ "timestamp":"2018-01-17T11:07:12Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Bob Likely;", "From_Localised":"Bob Likely", "Message":"$Escort_NearDeath07;", "Message_Localised":"I've taken too much damage.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:07:13Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Brian Boru;", "From_Localised":"Brian Boru", "Message":"$Pirate_OnStartScanCargo06;", "Message_Localised":"Let's see what you are carrying.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:07:18Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":54275 } ], "Target":"federation_gunship", "TotalReward":54275, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:07:23Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Brian Boru;", "From_Localised":"Brian Boru", "Message":"$Pirate_OnNoCargoFound05;", "Message_Localised":"How do you fools make a living?", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:07:23Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-01-17T11:07:33Z", "event":"HeatWarning" }
+{ "timestamp":"2018-01-17T11:07:39Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Andrew Graham Robinson;", "From_Localised":"Andrew Graham Robinson", "Message":"$BadKarmaCriticalDamage10;", "Message_Localised":"You've scratched my paint!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:07:50Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Kiuru;", "From_Localised":"Kiuru", "Message":"$BadKarmaCriticalDamage06;", "Message_Localised":"I hadn't expected this.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:07:50Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":119290 } ], "Target":"federation_dropship_mkii", "TotalReward":119290, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:07:55Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":23200 } ], "Target":"diamondback", "TotalReward":23200, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:07:57Z", "event":"SendText", "To":"local", "Message":"Sorry, didn't heal u in time" }
+{ "timestamp":"2018-01-17T11:08:23Z", "event":"LaunchFighter", "Loadout":"two", "PlayerControlled":false }
+{ "timestamp":"2018-01-17T11:08:23Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=CONRAD FRY;", "From_Localised":"CONRAD FRY", "Message":"$BadKarmaCriticalDamage10;", "Message_Localised":"You've scratched my paint!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:08:38Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":93780 } ], "Target":"federation_gunship", "TotalReward":93780, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:08:50Z", "event":"HeatWarning" }
+{ "timestamp":"2018-01-17T11:08:56Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Brian Boru;", "From_Localised":"Brian Boru", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:08:56Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Brian Boru;", "From_Localised":"Brian Boru", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:09:02Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":68265 } ], "Target":"federation_dropship", "TotalReward":68265, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:09:16Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Dexs;", "From_Localised":"Dexs", "Message":"$BadKarmaCriticalDamage08;", "Message_Localised":"I've taken too many hits.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:09:16Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Dexs;", "From_Localised":"Dexs", "Message":"$BadKarmaCriticalDamage08;", "Message_Localised":"I've taken too many hits.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:09:19Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":15060 } ], "Target":"eagle", "TotalReward":15060, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:09:34Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T11:09:41Z", "event":"SendText", "To":"local", "Message":"Whenever you are ready, we can cash in HIP 16591 :)" }
+{ "timestamp":"2018-01-17T11:09:53Z", "event":"HeatWarning" }
+{ "timestamp":"2018-01-17T11:09:55Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"Cool, you're wanted by the way", "Channel":"player" }
+{ "timestamp":"2018-01-17T11:10:10Z", "event":"SendText", "To":"local", "Message":"Yeah, I grazed NPC before scan was complete :D" }
+{ "timestamp":"2018-01-17T11:10:24Z", "event":"SendText", "To":"local", "Message":"derp happens" }
+{ "timestamp":"2018-01-17T11:10:48Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ahlers;", "From_Localised":"Ahlers", "Message":"$Pirate_OnDeclarePiracyAttack04;", "Message_Localised":"I'm gonna boil you up!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:10:48Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T11:10:53Z", "event":"HeatWarning" }
+{ "timestamp":"2018-01-17T11:11:13Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":82740 } ], "Target":"empire_trader", "TotalReward":82740, "VictimFaction":"Future of Ngalia", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:11:22Z", "event":"HeatWarning" }
+{ "timestamp":"2018-01-17T11:11:32Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Muishout;", "From_Localised":"Muishout", "Message":"$Pirate_OnStartScanCargo04;", "Message_Localised":"What do you carry, I wonder?", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:11:42Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Muishout;", "From_Localised":"Muishout", "Message":"$Pirate_OnNoCargoFound03;", "Message_Localised":"No cargo? Useless dreg.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:11:42Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-01-17T11:12:24Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Discjirm;", "From_Localised":"Discjirm", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:12:24Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Discjirm;", "From_Localised":"Discjirm", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:12:37Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Mark Janovitz;", "From_Localised":"Mark Janovitz", "Message":"$Pirate_OnStartScanCargo02;", "Message_Localised":"Carrying anything nice?", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:12:40Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":168300 } ], "Target":"python", "TotalReward":168300, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:12:44Z", "event":"SendText", "To":"local", "Message":"hehehe" }
+{ "timestamp":"2018-01-17T11:12:55Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"I need to restock", "Channel":"player" }
+{ "timestamp":"2018-01-17T11:13:00Z", "event":"SendText", "To":"local", "Message":"same" }
+{ "timestamp":"2018-01-17T11:13:07Z", "event":"SendText", "To":"local", "Message":"last ship" }
+{ "timestamp":"2018-01-17T11:14:21Z", "event":"SendText", "To":"local", "Message":"ramming is a valid tactic" }
+{ "timestamp":"2018-01-17T11:14:35Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T11:14:39Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T11:14:39Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":100170 } ], "Target":"federation_dropship", "TotalReward":100170, "VictimFaction":"Ngalia Family", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:14:42Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-01-17T11:14:49Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T11:14:54Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T11:15:00Z", "event":"SendText", "To":"wing", "Message":"ok, going to HIP 16591 now :)" }
+{ "timestamp":"2018-01-17T11:15:02Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Laadir;", "From_Localised":"Laadir", "Message":"$MinerCriticalDamage05;", "Message_Localised":"Damn you!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:15:02Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Laadir;", "From_Localised":"Laadir", "Message":"$MinerCriticalDamage05;", "Message_Localised":"Damn you!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:15:06Z", "event":"StartJump", "JumpType":"Hyperspace", "StarSystem":"HIP 16591", "StarClass":"A" }
+{ "timestamp":"2018-01-17T11:15:12Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-01-17T11:15:25Z", "event":"FSDJump", "StarSystem":"HIP 16591", "StarPos":[-77.844,-39.813,-160.594], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Colony;", "SystemEconomy_Localised":"Colony", "SystemGovernment":"$government_Democracy;", "SystemGovernment_Localised":"Democracy", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Population":1718, "JumpDist":7.881, "FuelUsed":0.387981, "FuelLevel":22.114538, "Factions":[ { "Name":"HIP 16591 Holdings", "FactionState":"Lockdown", "Government":"Corporate", "Influence":0.184815, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 }, { "State":"CivilUnrest", "Trend":0 }, { "State":"Election", "Trend":0 } ] }, { "Name":"Sirius Hyperspace", "FactionState":"Lockdown", "Government":"Corporate", "Influence":0.184815, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 }, { "State":"CivilUnrest", "Trend":0 }, { "State":"Election", "Trend":0 } ] }, { "Name":"Regulatory State of Hareg", "FactionState":"Retreat", "Government":"Dictatorship", "Influence":0.119880, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 }, { "State":"Lockdown", "Trend":0 }, { "State":"Famine", "Trend":0 }, { "State":"Expansion", "Trend":0 } ] }, { "Name":"Pilots Federation Local Branch", "FactionState":"None", "Government":"Democracy", "Influence":0.000000, "Allegiance":"PilotsFederation" }, { "Name":"HIP 16591 Stakeholders", "FactionState":"Boom", "Government":"Cooperative", "Influence":0.277722, "Allegiance":"Independent", "PendingStates":[ { "State":"Bust", "Trend":0 }, { "State":"Lockdown", "Trend":0 } ], "RecoveringStates":[ { "State":"CivilUnrest", "Trend":-1 } ] }, { "Name":"Sirius Inc", "FactionState":"Investment", "Government":"Democracy", "Influence":0.232767, "Allegiance":"Independent", "PendingStates":[ { "State":"Boom", "Trend":1 } ] } ], "SystemFaction":"Sirius Inc", "FactionState":"Investment" }
+{ "timestamp":"2018-01-17T11:15:25Z", "event":"Music", "MusicTrack":"DestinationFromHyperspace" }
+{ "timestamp":"2018-01-17T11:15:30Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-01-17T11:15:32Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T11:15:54Z", "event":"FuelScoop", "Scooped":1.176620, "Total":23.291197 }
+{ "timestamp":"2018-01-17T11:16:18Z", "event":"SendText", "To":"wing", "Message":"If we both cash here in the next 15 minutes, I think that = crisis averted" }
+{ "timestamp":"2018-01-17T11:16:34Z", "event":"SendText", "To":"wing", "Message":"I've got 3.2 million on me" }
+{ "timestamp":"2018-01-17T11:16:49Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"sure, I have 2.5 mil", "Channel":"wing" }
+{ "timestamp":"2018-01-17T11:18:19Z", "event":"SendText", "To":"wing", "Message":"So there's also a res site or 3 here in HIP 16591.  After I cash, I think I'll take a 15 minute break and then hunt here a little more before I log this morning" }
+{ "timestamp":"2018-01-17T11:19:01Z", "event":"SendText", "To":"wing", "Message":"Only hi-res, but very close to Verrazzano point" }
+{ "timestamp":"2018-01-17T11:19:10Z", "event":"ApproachSettlement", "Name":"Verrazzano Point" }
+{ "timestamp":"2018-01-17T11:19:11Z", "event":"ApproachSettlement", "Name":"Rubruck's Folly" }
+{ "timestamp":"2018-01-17T11:19:35Z", "event":"SendText", "To":"wing", "Message":"Our influence is really low here :P" }
+{ "timestamp":"2018-01-17T11:19:59Z", "event":"ApproachSettlement", "Name":"Verrazzano Point" }
+{ "timestamp":"2018-01-17T11:20:02Z", "event":"SupercruiseExit", "StarSystem":"HIP 16591", "Body":"HIP 16591 1 e", "BodyType":"Planet" }
+{ "timestamp":"2018-01-17T11:20:03Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T11:20:09Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-01-17T11:20:10Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T11:20:12Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"That double posting has stopped", "Channel":"player" }
+{ "timestamp":"2018-01-17T11:20:20Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T11:20:24Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T11:20:25Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-01-17T11:20:29Z", "event":"ReceiveText", "From":"Verrazzano Point", "Message":"$STATION_NoFireZone_entered;", "Message_Localised":"No fire zone entered.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:20:29Z", "event":"DockingRequested", "StationName":"Verrazzano Point" }
+{ "timestamp":"2018-01-17T11:20:29Z", "event":"ReceiveText", "From":"Verrazzano Point", "Message":"$DockingChatter_Allied;", "Message_Localised":"An ally like you is always welcome here.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:20:31Z", "event":"ReceiveText", "From":"Verrazzano Point", "Message":"$STATION_docking_granted;", "Message_Localised":"Docking request granted.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:20:31Z", "event":"DockingGranted", "LandingPad":8, "StationName":"Verrazzano Point" }
+{ "timestamp":"2018-01-17T11:20:33Z", "event":"SendText", "To":"wing", "Message":"Yeah, same here" }
+{ "timestamp":"2018-01-17T11:21:09Z", "event":"Docked", "StationName":"Verrazzano Point", "StationType":"SurfaceStation", "StarSystem":"HIP 16591", "StationFaction":"Sirius Inc", "FactionState":"Investment", "StationGovernment":"$government_Democracy;", "StationGovernment_Localised":"Democracy", "StationServices":[ "Dock", "Autodock", "Contacts", "Exploration", "Missions", "Outfitting", "CrewLounge", "Rearm", "Refuel", "Repair", "Shipyard", "Tuning", "MissionsGenerated", "Facilitator", "FlightController", "StationOperations", "Powerplay", "SearchAndRescue" ], "StationEconomy":"$economy_Colony;", "StationEconomy_Localised":"Colony", "DistFromStarLS":2474.711426 }
+{ "timestamp":"2018-01-17T11:21:22Z", "event":"RepairAll", "Cost":135711 }
+{ "timestamp":"2018-01-17T11:21:28Z", "event":"BuyAmmo", "Cost":11856 }
+{ "timestamp":"2018-01-17T11:21:28Z", "event":"RestockVehicle", "Type":"independent_fighter", "Loadout":"one", "Cost":1030, "Count":1 }
+{ "timestamp":"2018-01-17T11:21:28Z", "event":"RestockVehicle", "Type":"independent_fighter", "Loadout":"two", "Cost":1030, "Count":1 }
+{ "timestamp":"2018-01-17T11:21:31Z", "event":"RefuelAll", "Cost":484, "Amount":9.660793 }
+{ "timestamp":"2018-01-17T11:21:39Z", "event":"RedeemVoucher", "Type":"bounty", "Amount":3239771, "Factions":[ { "Faction":"Sirius Inc", "Amount":3239771 } ] }
+{ "timestamp":"2018-01-17T11:22:13Z", "event":"Repair", "Item":"Wear", "Cost":10604 }
+{ "timestamp":"2018-01-17T11:22:50Z", "event":"SendText", "To":"wing", "Message":"Be back in 15 minutes or so.  Sorry for the stop/go; I'd like to get one more good wing sorte in this morning, even if it's gonna happen afte tick" }
+{ "timestamp":"2018-01-17T11:22:54Z", "event":"SendText", "To":"wing", "Message":"*after" }
+{ "timestamp":"2018-01-17T11:23:08Z", "event":"SendText", "To":"wing", "Message":"*sortie" }
+{ "timestamp":"2018-01-17T11:23:16Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T11:23:20Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-01-17T11:23:24Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-01-17T11:23:25Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"No probs, gives me a chance to make coffee", "Channel":"wing" }
+{ "timestamp":"2018-01-17T11:23:40Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T11:23:45Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-01-17T11:23:55Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T11:24:03Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-01-17T11:27:15Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_EndPatrol02;", "Message_Localised":"Requesting docking clearance, Control.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:30:03Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_EndPatrol04;", "Message_Localised":"Negative, Tower, I'm bingo on fuel, RTB.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:30:09Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol03;", "Message_Localised":"Receiving five by five, I'm in the air now, joining patrol.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:30:12Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T11:31:46Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T11:33:23Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol01;", "Message_Localised":"Patrol craft checking in. Pre-flight checks complete, I'm heading out.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:33:52Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol05;", "Message_Localised":"I'm heading out, Control. Hearing that rattle again, I'll see if I can lock it down.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:39:07Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_EndPatrol03;", "Message_Localised":"Tower, this is Patrol. I'm inbound for landing.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:39:53Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_EndPatrol03;", "Message_Localised":"Tower, this is Patrol. I'm inbound for landing.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:40:16Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T11:42:03Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol05;", "Message_Localised":"I'm heading out, Control. Hearing that rattle again, I'll see if I can lock it down.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:42:28Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol01;", "Message_Localised":"Patrol craft checking in. Pre-flight checks complete, I'm heading out.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:45:16Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol03;", "Message_Localised":"Receiving five by five, I'm in the air now, joining patrol.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:45:43Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol04;", "Message_Localised":"I'm away, heading to patrol route alpha now.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:46:10Z", "event":"SendText", "To":"wing", "Message":"back" }
+{ "timestamp":"2018-01-17T11:46:28Z", "event":"SendText", "To":"wing", "Message":"omw" }
+{ "timestamp":"2018-01-17T11:46:32Z", "event":"Undocked", "StationName":"Verrazzano Point", "StationType":"SurfaceStation" }
+{ "timestamp":"2018-01-17T11:46:37Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"s7, I've been ripping it up in the nearby high res", "Channel":"wing" }
+{ "timestamp":"2018-01-17T11:46:41Z", "event":"SendText", "To":"wing", "Message":"s7" }
+{ "timestamp":"2018-01-17T11:46:42Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"or getting ripped", "Channel":"wing" }
+{ "timestamp":"2018-01-17T11:46:49Z", "event":"SendText", "To":"wing", "Message":"I was about to ask :D" }
+{ "timestamp":"2018-01-17T11:46:52Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"depends on the perspective", "Channel":"wing" }
+{ "timestamp":"2018-01-17T11:46:57Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2018-01-17T11:46:57Z", "event":"ApproachSettlement", "Name":"Rubruck's Folly" }
+{ "timestamp":"2018-01-17T11:46:57Z", "event":"ApproachSettlement", "Name":"Verrazzano Point" }
+{ "timestamp":"2018-01-17T11:47:02Z", "event":"SupercruiseEntry", "StarSystem":"HIP 16591" }
+{ "timestamp":"2018-01-17T11:47:03Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-01-17T11:47:09Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T11:48:41Z", "event":"SendText", "To":"wing", "Message":"We have a lot of res sites... I forgot about these" }
+{ "timestamp":"2018-01-17T11:49:09Z", "event":"SupercruiseExit", "StarSystem":"HIP 16591", "Body":"HIP 16591 1", "BodyType":"Planet" }
+{ "timestamp":"2018-01-17T11:49:10Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T11:49:16Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T11:49:25Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2018-01-17T11:49:30Z", "event":"SupercruiseEntry", "StarSystem":"HIP 16591" }
+{ "timestamp":"2018-01-17T11:49:31Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-01-17T11:49:37Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T11:49:46Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"Theres not much happening at the moment", "Channel":"wing" }
+{ "timestamp":"2018-01-17T11:49:54Z", "event":"SupercruiseExit", "StarSystem":"HIP 16591", "Body":"HIP 16591 1 A Ring", "BodyType":"PlanetaryRing" }
+{ "timestamp":"2018-01-17T11:49:54Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T11:49:57Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"And the ring has descended into darkness", "Channel":"wing" }
+{ "timestamp":"2018-01-17T11:50:02Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T11:50:04Z", "event":"SendText", "To":"wing", "Message":"ha" }
+{ "timestamp":"2018-01-17T11:50:29Z", "event":"SendText", "To":"wing", "Message":"combat" }
+{ "timestamp":"2018-01-17T11:50:45Z", "event":"LaunchFighter", "Loadout":"one", "PlayerControlled":false }
+{ "timestamp":"2018-01-17T11:51:01Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Anand Super;", "From_Localised":"Anand Super", "Message":"$Pirate_OnDeclarePiracyAttack03;", "Message_Localised":"Now you die, victim.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:51:02Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T11:51:16Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Sabrestar;", "From_Localised":"Sabrestar", "Message":"$Pirate_OnStartScanCargo02;", "Message_Localised":"Carrying anything nice?", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:51:17Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Anand Super;", "From_Localised":"Anand Super", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:51:17Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Anand Super;", "From_Localised":"Anand Super", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:51:23Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ryan Skevington;", "From_Localised":"Ryan Skevington", "Message":"$Pirate_OnStartScanCargo11;", "Message_Localised":"I hope you have something good in your hold.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:51:26Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":113584 } ], "Target":"federation_dropship", "TotalReward":113584, "VictimFaction":"Sirius Hyperspace", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:51:26Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Sabrestar;", "From_Localised":"Sabrestar", "Message":"$Pirate_OnNoCargoFound01;", "Message_Localised":"No cargo? Waste of time...", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:51:26Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-01-17T11:51:30Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ryan Skevington;", "From_Localised":"Ryan Skevington", "Message":"$Pirate_OnDeclarePiracyAttack03;", "Message_Localised":"Now you die, victim.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:51:45Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ryan Skevington;", "From_Localised":"Ryan Skevington", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:51:45Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Ryan Skevington;", "From_Localised":"Ryan Skevington", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:51:55Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":158550 } ], "Target":"federation_dropship_mkii", "TotalReward":158550, "VictimFaction":"HIP 16591 Stakeholders", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:51:59Z", "event":"SendText", "To":"wing", "Message":"nice instance" }
+{ "timestamp":"2018-01-17T11:52:34Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Sabrestar;", "From_Localised":"Sabrestar", "Message":"$Pirate_NiggledByNewShip02;", "Message_Localised":"You have just made a big mistake.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:52:45Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":203202 } ], "Target":"ferdelance", "TotalReward":203202, "VictimFaction":"HIP 16591 Holdings", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:53:00Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T11:53:16Z", "event":"SendText", "To":"wing", "Message":"already have nearly 500k since I dropped in" }
+{ "timestamp":"2018-01-17T11:53:26Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"pfft", "Channel":"wing" }
+{ "timestamp":"2018-01-17T11:53:29Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T11:53:46Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":64200 } ], "Target":"asp_scout", "TotalReward":64200, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:54:01Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T11:55:00Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T11:55:27Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Silkwood Leat;", "From_Localised":"Silkwood Leat", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:55:27Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Silkwood Leat;", "From_Localised":"Silkwood Leat", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:55:37Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":170370 } ], "Target":"python", "TotalReward":170370, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:56:17Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":80122 } ], "Target":"federation_dropship", "TotalReward":80122, "VictimFaction":"Sirius Hyperspace", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:56:32Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T11:56:40Z", "event":"SendText", "To":"wing", "Message":"My lazy 4000 mj shield hunting method = ram everything" }
+{ "timestamp":"2018-01-17T11:57:26Z", "event":"SendText", "To":"wing", "Message":"(including rocks, apparently)" }
+{ "timestamp":"2018-01-17T11:57:37Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T11:57:41Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"Me too", "Channel":"wing" }
+{ "timestamp":"2018-01-17T11:58:11Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Olaf Lukvart;", "From_Localised":"Olaf Lukvart", "Message":"$Pirate_OnStartScanCargo03;", "Message_Localised":"What are you hauling?", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:58:19Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":84840 } ], "Target":"federation_dropship", "TotalReward":84840, "VictimFaction":"HIP 16591 Holdings", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:58:21Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Olaf Lukvart;", "From_Localised":"Olaf Lukvart", "Message":"$Pirate_OnNoCargoFound06;", "Message_Localised":"Another dream of riches dashed.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:58:21Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-01-17T11:58:33Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Olaf Lukvart;", "From_Localised":"Olaf Lukvart", "Message":"$Pirate_OnDeclarePiracyAttack03;", "Message_Localised":"Now you die, victim.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T11:59:08Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":117162 } ], "Target":"vulture", "TotalReward":117162, "VictimFaction":"Regulatory State of Hareg", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T11:59:23Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T11:59:57Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T12:00:04Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T12:00:42Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Oakley;", "From_Localised":"Oakley", "Message":"$Pirate_OnDeclarePiracyAttack02;", "Message_Localised":"You choose death then. Very well.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:00:42Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T12:00:59Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Joseph Wayne Doherty;", "From_Localised":"Joseph Wayne Doherty", "Message":"$Pirate_OnStartScanCargo10;", "Message_Localised":"Let me see what you have.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:01:00Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Oakley;", "From_Localised":"Oakley", "Message":"$BadKarmaCriticalDamage05;", "Message_Localised":"No, no!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:01:00Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Oakley;", "From_Localised":"Oakley", "Message":"$BadKarmaCriticalDamage05;", "Message_Localised":"No, no!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:01:09Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":24202 } ], "Target":"adder", "TotalReward":24202, "VictimFaction":"HIP 16591 Stakeholders" }
+{ "timestamp":"2018-01-17T12:01:09Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Joseph Wayne Doherty;", "From_Localised":"Joseph Wayne Doherty", "Message":"$Pirate_OnNoCargoFound05;", "Message_Localised":"How do you fools make a living?", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:01:09Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-01-17T12:01:39Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":34807 } ], "Target":"asp_scout", "TotalReward":34807, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2018-01-17T12:01:45Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Matt Boyd;", "From_Localised":"Matt Boyd", "Message":"$Pirate_OnHullLowJumpAway04;", "Message_Localised":"This is not the end!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:01:45Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Matt Boyd;", "From_Localised":"Matt Boyd", "Message":"$Pirate_OnHullLowJumpAway04;", "Message_Localised":"This is not the end!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:01:48Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":36065 } ], "Target":"cobramkiv", "TotalReward":36065, "VictimFaction":"Regulatory State of Hareg", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:02:03Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:02:03Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Joseph Wayne Doherty;", "From_Localised":"Joseph Wayne Doherty", "Message":"$Pirate_OnDeclarePiracyAttack04;", "Message_Localised":"I'm gonna boil you up!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:02:03Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T12:02:22Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":20992 } ], "Target":"empire_eagle", "TotalReward":20992, "VictimFaction":"HIP 16591 Stakeholders", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:02:37Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:02:47Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T12:03:08Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=zynx;", "From_Localised":"zynx", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:03:08Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=zynx;", "From_Localised":"zynx", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:03:12Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Yalson;", "From_Localised":"Yalson", "Message":"$Pirate_OnStartScanCargo10;", "Message_Localised":"Let me see what you have.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:03:22Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Yalson;", "From_Localised":"Yalson", "Message":"$Pirate_OnNoCargoFound04;", "Message_Localised":"Another dud? Damn it all!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:03:22Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-01-17T12:03:24Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":132667 } ], "Target":"python", "TotalReward":132667, "VictimFaction":"HIP 16591 Holdings", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:03:39Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Morgan;", "From_Localised":"Morgan", "Message":"$Pirate_OnDeclarePiracyAttack06;", "Message_Localised":"Prepare for death, fool!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:03:40Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":86220 } ], "Target":"diamondbackxl", "TotalReward":86220, "VictimFaction":"Sirius Hyperspace", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:03:54Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Yalson;", "From_Localised":"Yalson", "Message":"$Pirate_OnDeclarePiracyAttack01;", "Message_Localised":"I'll pick your bones clean, greenhorn.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:04:15Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":70927 } ], "Target":"federation_dropship", "TotalReward":70927, "VictimFaction":"Sirius Hyperspace", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:04:31Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:06:00Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T12:06:43Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=John Forrest Ward;", "From_Localised":"John Forrest Ward", "Message":"$BadKarmaCriticalDamage06;", "Message_Localised":"I hadn't expected this.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:06:43Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=John Forrest Ward;", "From_Localised":"John Forrest Ward", "Message":"$BadKarmaCriticalDamage06;", "Message_Localised":"I hadn't expected this.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:07:03Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":132570 } ], "Target":"python", "TotalReward":132570, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:07:11Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Belisarius;", "From_Localised":"Belisarius", "Message":"$Pirate_OnDeclarePiracyAttack03;", "Message_Localised":"Now you die, victim.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:07:27Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Belisarius;", "From_Localised":"Belisarius", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:07:27Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Belisarius;", "From_Localised":"Belisarius", "Message":"$BadKarmaCriticalDamage02;", "Message_Localised":"Impossible!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:07:29Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Belisarius;", "From_Localised":"Belisarius", "Message":"$Pirate_OnHullLowJumpAway06;", "Message_Localised":"Must... escape!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:07:29Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Belisarius;", "From_Localised":"Belisarius", "Message":"$Pirate_OnHullLowJumpAway06;", "Message_Localised":"Must... escape!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:07:36Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":68512 } ], "Target":"diamondbackxl", "TotalReward":68512, "VictimFaction":"Sirius Inc" }
+{ "timestamp":"2018-01-17T12:07:51Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:07:57Z", "event":"SendText", "To":"wing", "Message":"*crunch*" }
+{ "timestamp":"2018-01-17T12:08:29Z", "event":"SendText", "To":"wing", "Message":"combat" }
+{ "timestamp":"2018-01-17T12:08:42Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"aaah man them rocks are doing more damage than the ships", "Channel":"wing" }
+{ "timestamp":"2018-01-17T12:08:48Z", "event":"SendText", "To":"wing", "Message":"ikr?" }
+{ "timestamp":"2018-01-17T12:08:55Z", "event":"SendText", "To":"wing", "Message":"need IR mode" }
+{ "timestamp":"2018-01-17T12:09:02Z", "event":"SendText", "To":"wing", "Message":"or some kinda image enhancement" }
+{ "timestamp":"2018-01-17T12:09:11Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T12:09:41Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":79040 } ], "Target":"federation_dropship", "TotalReward":79040, "VictimFaction":"HIP 16591 Holdings", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:09:56Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:09:59Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T12:10:07Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T12:10:13Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Edwin Turner;", "From_Localised":"Edwin Turner", "Message":"$Miner_OnJumpCargoFull03;", "Message_Localised":"Maxed out and good to go, heading home.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:10:13Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Edwin Turner;", "From_Localised":"Edwin Turner", "Message":"$Miner_OnJumpCargoFull03;", "Message_Localised":"Maxed out and good to go, heading home.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:13:28Z", "event":"SendText", "To":"wing", "Message":"No cops at all" }
+{ "timestamp":"2018-01-17T12:14:01Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"maybe they are doing a security appliance workshop", "Channel":"wing" }
+{ "timestamp":"2018-01-17T12:14:14Z", "event":"SendText", "To":"wing", "Message":"lol" }
+{ "timestamp":"2018-01-17T12:14:28Z", "event":"SendText", "To":"wing", "Message":"they are security appliances" }
+{ "timestamp":"2018-01-17T12:14:41Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=The Maintainer;", "From_Localised":"The Maintainer", "Message":"$MinerCriticalDamage01;", "Message_Localised":"No, no, nooooooo!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:14:41Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=The Maintainer;", "From_Localised":"The Maintainer", "Message":"$MinerCriticalDamage01;", "Message_Localised":"No, no, nooooooo!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:14:59Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T12:15:17Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:15:40Z", "event":"SendText", "To":"local", "Message":"YO, PIRATES!" }
+{ "timestamp":"2018-01-17T12:15:47Z", "event":"SendText", "To":"local", "Message":"COME OUT AND PLAY" }
+{ "timestamp":"2018-01-17T12:16:17Z", "event":"SendText", "To":"local", "Message":"FDL!" }
+{ "timestamp":"2018-01-17T12:16:23Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T12:16:26Z", "event":"CommitCrime", "CrimeType":"assault", "Faction":"Sirius Inc", "Victim":"Joris Pyl", "Bounty":185 }
+{ "timestamp":"2018-01-17T12:16:44Z", "event":"SendText", "To":"wing", "Message":"damn" }
+{ "timestamp":"2018-01-17T12:16:53Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:17:18Z", "event":"SendText", "To":"wing", "Message":"The one NPC I've seen in 5 minutes runs :P" }
+{ "timestamp":"2018-01-17T12:17:34Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_ArriveInvestigate02;", "Message_Localised":"Incident response units on station.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:17:34Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_ArriveInvestigate02;", "Message_Localised":"Incident response units on station.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:17:35Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_ArriveInvestigate01;", "Message_Localised":"Investigating reports of crime.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:17:45Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"here they come", "Channel":"wing" }
+{ "timestamp":"2018-01-17T12:17:47Z", "event":"SendText", "To":"wing", "Message":"Oh, great" }
+{ "timestamp":"2018-01-17T12:17:52Z", "event":"SendText", "To":"wing", "Message":"weirdos" }
+{ "timestamp":"2018-01-17T12:17:55Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"got it covered fellas", "Channel":"wing" }
+{ "timestamp":"2018-01-17T12:17:59Z", "event":"SendText", "To":"wing", "Message":"combat" }
+{ "timestamp":"2018-01-17T12:18:21Z", "event":"SendText", "To":"wing", "Message":"I am wanted, but *meh*" }
+{ "timestamp":"2018-01-17T12:18:26Z", "event":"SendText", "To":"wing", "Message":"conda" }
+{ "timestamp":"2018-01-17T12:18:34Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Velani;", "From_Localised":"Velani", "Message":"$Escort_EscortStayAndFight02;", "Message_Localised":"This is where I make my stand, fight me!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:18:34Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Velani;", "From_Localised":"Velani", "Message":"$Escort_EscortStayAndFight02;", "Message_Localised":"This is where I make my stand, fight me!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:18:47Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T12:18:57Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Pham Nuwen;", "From_Localised":"Pham Nuwen", "Message":"$Pirate_OnStartScanCargo07;", "Message_Localised":"Do you have anything of value?", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:19:17Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Pham Nuwen;", "From_Localised":"Pham Nuwen", "Message":"$Pirate_OnStartScanCargo06;", "Message_Localised":"Let's see what you are carrying.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:19:27Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Pham Nuwen;", "From_Localised":"Pham Nuwen", "Message":"$Pirate_OnNoCargoFound02;", "Message_Localised":"Bah, nothing.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:19:27Z", "event":"Scanned", "ScanType":"Cargo" }
+{ "timestamp":"2018-01-17T12:19:48Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Rupert A Thorpe;", "From_Localised":"Rupert A Thorpe", "Message":"$BadKarmaCriticalDamage01;", "Message_Localised":"How is this happening?!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:19:48Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Rupert A Thorpe;", "From_Localised":"Rupert A Thorpe", "Message":"$BadKarmaCriticalDamage01;", "Message_Localised":"How is this happening?!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:20:02Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T12:20:06Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Rupert A Thorpe;", "From_Localised":"Rupert A Thorpe", "Message":"$Pirate_OnDeclarePiracyAttack06;", "Message_Localised":"Prepare for death, fool!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:20:09Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T12:20:10Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":164867 } ], "Target":"python", "TotalReward":164867, "VictimFaction":"Sirius Hyperspace", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:20:19Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":57052 } ], "Target":"viper_mkiv", "TotalReward":57052, "VictimFaction":"Sirius Hyperspace", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:20:42Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Pham Nuwen;", "From_Localised":"Pham Nuwen", "Message":"$BadKarmaCriticalDamage08;", "Message_Localised":"I've taken too many hits.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:20:42Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Pham Nuwen;", "From_Localised":"Pham Nuwen", "Message":"$BadKarmaCriticalDamage08;", "Message_Localised":"I've taken too many hits.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:20:58Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":230502 } ], "Target":"anaconda", "TotalReward":230502, "VictimFaction":"HIP 16591 Stakeholders", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:21:02Z", "event":"SendText", "To":"wing", "Message":"nice" }
+{ "timestamp":"2018-01-17T12:21:17Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":46937 } ], "Target":"viper_mkiv", "TotalReward":46937, "VictimFaction":"Sirius Hyperspace", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:21:24Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_ArriveInvestigate03;", "Message_Localised":"Crime response flight deployed.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:21:24Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_ArriveInvestigate03;", "Message_Localised":"Crime response flight deployed.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:21:32Z", "event":"SendText", "To":"local", "Message":"You're welcome, cop" }
+{ "timestamp":"2018-01-17T12:21:32Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:21:38Z", "event":"SendText", "To":"wing", "Message":"combat" }
+{ "timestamp":"2018-01-17T12:21:40Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"Ha", "Channel":"wing" }
+{ "timestamp":"2018-01-17T12:21:54Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_ArrivedAtInvestigationLocation02;", "Message_Localised":"Cease and desist! Submit to authority scans immediately!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:21:54Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_ArrivedAtInvestigationLocation02;", "Message_Localised":"Cease and desist! Submit to authority scans immediately!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:22:25Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_FinishedAtInvestigationLocation04;", "Message_Localised":"Crime response sweep completed. All ships are free to depart.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:22:25Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_FinishedAtInvestigationLocation04;", "Message_Localised":"Crime response sweep completed. All ships are free to depart.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:22:30Z", "event":"SendText", "To":"wing", "Message":"fdl" }
+{ "timestamp":"2018-01-17T12:22:36Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T12:22:39Z", "event":"SendText", "To":"wing", "Message":"300k bounty :D" }
+{ "timestamp":"2018-01-17T12:23:39Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":301610 } ], "Target":"ferdelance", "TotalReward":301610, "VictimFaction":"Regulatory State of Hareg" }
+{ "timestamp":"2018-01-17T12:23:44Z", "event":"SendText", "To":"wing", "Message":"sorry :(" }
+{ "timestamp":"2018-01-17T12:23:54Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:23:56Z", "event":"SendText", "To":"wing", "Message":"I thought you were closer" }
+{ "timestamp":"2018-01-17T12:23:59Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"Ok, hit a boulder on the way here", "Channel":"wing" }
+{ "timestamp":"2018-01-17T12:25:07Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T12:25:36Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":30240 } ], "Target":"diamondback", "TotalReward":30240, "VictimFaction":"Sirius Hyperspace", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:25:51Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:25:59Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Fredrick Chester;", "From_Localised":"Fredrick Chester", "Message":"$Pirate_OnDeclarePiracyAttack04;", "Message_Localised":"I'm gonna boil you up!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:25:59Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T12:26:14Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Fredrick Chester;", "From_Localised":"Fredrick Chester", "Message":"$BadKarmaCriticalDamage04;", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:26:14Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Fredrick Chester;", "From_Localised":"Fredrick Chester", "Message":"$BadKarmaCriticalDamage04;", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:26:20Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":9990 } ], "Target":"adder", "TotalReward":9990, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:26:35Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:26:37Z", "event":"SendText", "To":"wing", "Message":"conda" }
+{ "timestamp":"2018-01-17T12:26:45Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T12:27:40Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":273645 } ], "Target":"anaconda", "TotalReward":273645, "VictimFaction":"HIP 16591 Holdings", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:27:45Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Doolan;", "From_Localised":"Doolan", "Message":"$Escort_EscortJump07;", "Message_Localised":"With nothing to protect, I'm out of here.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:27:45Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Doolan;", "From_Localised":"Doolan", "Message":"$Escort_EscortJump07;", "Message_Localised":"With nothing to protect, I'm out of here.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:27:45Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Jon Deeming;", "From_Localised":"Jon Deeming", "Message":"$Escort_EscortJump05;", "Message_Localised":"That's it then, time to leave.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:27:45Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Jon Deeming;", "From_Localised":"Jon Deeming", "Message":"$Escort_EscortJump05;", "Message_Localised":"That's it then, time to leave.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:27:52Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Jon Deeming;", "From_Localised":"Jon Deeming", "Message":"$Escort_EscortStayAndFight05;", "Message_Localised":"No way! You started this fight, but I will end it.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:27:52Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Jon Deeming;", "From_Localised":"Jon Deeming", "Message":"$Escort_EscortStayAndFight05;", "Message_Localised":"No way! You started this fight, but I will end it.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:28:08Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":48000 } ], "Target":"cobramkiv", "TotalReward":48000, "VictimFaction":"HIP 16591 Holdings", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:28:18Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Darryn;", "From_Localised":"Darryn", "Message":"$Pirate_OnDeclarePiracyAttack03;", "Message_Localised":"Now you die, victim.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:28:28Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Darryn;", "From_Localised":"Darryn", "Message":"$BadKarmaCriticalDamage04;", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:28:28Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Darryn;", "From_Localised":"Darryn", "Message":"$BadKarmaCriticalDamage04;", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:28:35Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":47317 } ], "Target":"viper", "TotalReward":47317, "VictimFaction":"Sirius Inc", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:28:50Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:28:54Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T12:28:57Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=BelloVito;", "From_Localised":"BelloVito", "Message":"$Pirate_OnDeclarePiracyAttack01;", "Message_Localised":"I'll pick your bones clean, greenhorn.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:29:03Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=BelloVito;", "From_Localised":"BelloVito", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:29:03Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=BelloVito;", "From_Localised":"BelloVito", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:29:06Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":36225 } ], "Target":"cobramkiii", "TotalReward":36225, "VictimFaction":"Regulatory State of Hareg", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:29:08Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Kalervo Kummola;", "From_Localised":"Kalervo Kummola", "Message":"$Pirate_OnDeclarePiracyAttack04;", "Message_Localised":"I'm gonna boil you up!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:29:18Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Kalervo Kummola;", "From_Localised":"Kalervo Kummola", "Message":"$Pirate_OnDeclarePiracyAttack05;", "Message_Localised":"You have no chance now.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:29:20Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Kalervo Kummola;", "From_Localised":"Kalervo Kummola", "Message":"$BadKarmaCriticalDamage07;", "Message_Localised":"Too much damage!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:29:20Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Kalervo Kummola;", "From_Localised":"Kalervo Kummola", "Message":"$BadKarmaCriticalDamage07;", "Message_Localised":"Too much damage!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:29:23Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Tony Clark;", "From_Localised":"Tony Clark", "Message":"$Pirate_OnStartScanCargo01;", "Message_Localised":"I see all!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:29:26Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":16385 } ], "Target":"empire_eagle", "TotalReward":16385, "VictimFaction":"Regulatory State of Hareg", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:29:39Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":21245 } ], "Target":"empire_eagle", "TotalReward":21245, "VictimFaction":"Regulatory State of Hareg", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:29:54Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:30:04Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T12:30:08Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Christopher Blair;", "From_Localised":"Christopher Blair", "Message":"$Pirate_OnDeclarePiracyAttack05;", "Message_Localised":"You have no chance now.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:30:08Z", "event":"Music", "MusicTrack":"Combat_Dogfight" }
+{ "timestamp":"2018-01-17T12:30:12Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T12:30:20Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Christopher Blair;", "From_Localised":"Christopher Blair", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:30:20Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Christopher Blair;", "From_Localised":"Christopher Blair", "Message":"$BadKarmaCriticalDamage09;", "Message_Localised":"I can see when I'm outmatched.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:30:24Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":35775 } ], "Target":"viper", "TotalReward":35775, "VictimFaction":"Sirius Hyperspace", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:30:32Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Nicolas Lebra;", "From_Localised":"Nicolas Lebra", "Message":"$BadKarmaCriticalDamage04;", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:30:32Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Nicolas Lebra;", "From_Localised":"Nicolas Lebra", "Message":"$BadKarmaCriticalDamage04;", "Message_Localised":"I don't believe it!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:30:36Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":10350 } ], "Target":"empire_eagle", "TotalReward":10350, "VictimFaction":"Sirius Hyperspace", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:30:52Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=John Skinner;", "From_Localised":"John Skinner", "Message":"$MinerCriticalDamage05;", "Message_Localised":"Damn you!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:30:52Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=John Skinner;", "From_Localised":"John Skinner", "Message":"$MinerCriticalDamage05;", "Message_Localised":"Damn you!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:31:08Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=A.M. Fischer;", "From_Localised":"A.M. Fischer", "Message":"$Pirate_OnDeclarePiracyAttack14;", "Message_Localised":"Your doom approaches.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:31:10Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=A.M. Fischer;", "From_Localised":"A.M. Fischer", "Message":"$Pirate_OnDeclarePiracyAttack04;", "Message_Localised":"I'm gonna boil you up!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:31:12Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Vreynn;", "From_Localised":"Vreynn", "Message":"$Pirate_OnDeclarePiracyAttack04;", "Message_Localised":"I'm gonna boil you up!", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:31:25Z", "event":"HullDamage", "Health":0.746657, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2018-01-17T12:31:25Z", "event":"HullDamage", "Health":0.595186, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2018-01-17T12:31:27Z", "event":"HullDamage", "Health":0.014362, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2018-01-17T12:31:27Z", "event":"HullDamage", "Health":0.014362, "PlayerPilot":false, "Fighter":true }
+{ "timestamp":"2018-01-17T12:31:54Z", "event":"LaunchFighter", "Loadout":"two", "PlayerControlled":false }
+{ "timestamp":"2018-01-17T12:32:27Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=A.M. Fischer;", "From_Localised":"A.M. Fischer", "Message":"$Pirate_OnDeclarePiracyAttack03;", "Message_Localised":"Now you die, victim.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:33:00Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":166560 } ], "Target":"ferdelance", "TotalReward":166560, "VictimFaction":"HIP 16591 Holdings", "SharedWithOthers":1 }
+{ "timestamp":"2018-01-17T12:33:16Z", "event":"Bounty", "Rewards":[ { "Faction":"Sirius Inc", "Reward":104085 } ], "Target":"empire_trader", "TotalReward":104085, "VictimFaction":"Sirius Hyperspace" }
+{ "timestamp":"2018-01-17T12:33:20Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"I'm outta ammo", "Channel":"wing" }
+{ "timestamp":"2018-01-17T12:33:27Z", "event":"SendText", "To":"wing", "Message":"Same" }
+{ "timestamp":"2018-01-17T12:33:28Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"Cashing in", "Channel":"wing" }
+{ "timestamp":"2018-01-17T12:33:31Z", "event":"SendText", "To":"wing", "Message":"Ditto" }
+{ "timestamp":"2018-01-17T12:33:31Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:33:48Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Gemski;", "From_Localised":"Gemski", "Message":"$Miner_OnJumpCargoFull02;", "Message_Localised":"Reporting in. Cargo full, returning to base.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:33:48Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Gemski;", "From_Localised":"Gemski", "Message":"$Miner_OnJumpCargoFull02;", "Message_Localised":"Reporting in. Cargo full, returning to base.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:34:30Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2018-01-17T12:34:35Z", "event":"SupercruiseEntry", "StarSystem":"HIP 16591" }
+{ "timestamp":"2018-01-17T12:34:35Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-01-17T12:34:44Z", "event":"SupercruiseExit", "StarSystem":"HIP 16591", "Body":"HIP 16591 1 A Ring", "BodyType":"PlanetaryRing" }
+{ "timestamp":"2018-01-17T12:34:44Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T12:34:45Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:35:01Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2018-01-17T12:35:06Z", "event":"SupercruiseEntry", "StarSystem":"HIP 16591" }
+{ "timestamp":"2018-01-17T12:35:06Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-01-17T12:35:09Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T12:35:11Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-01-17T12:35:13Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T12:35:13Z", "event":"SupercruiseExit", "StarSystem":"HIP 16591", "Body":"HIP 16591 1 A Ring", "BodyType":"PlanetaryRing" }
+{ "timestamp":"2018-01-17T12:35:14Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:35:21Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T12:35:32Z", "event":"SendText", "To":"wing", "Message":"ugh" }
+{ "timestamp":"2018-01-17T12:35:39Z", "event":"SendText", "To":"wing", "Message":"rings in dark + emergency stop" }
+{ "timestamp":"2018-01-17T12:36:04Z", "event":"StartJump", "JumpType":"Supercruise" }
+{ "timestamp":"2018-01-17T12:36:09Z", "event":"SupercruiseEntry", "StarSystem":"HIP 16591" }
+{ "timestamp":"2018-01-17T12:36:09Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-01-17T12:36:16Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T12:36:35Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T12:36:37Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-01-17T12:36:54Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-01-17T12:37:03Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T12:37:07Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-01-17T12:37:18Z", "event":"SendText", "To":"wing", "Message":"losing electricity in rl" }
+{ "timestamp":"2018-01-17T12:37:27Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"damn", "Channel":"wing" }
+{ "timestamp":"2018-01-17T12:37:35Z", "event":"SendText", "To":"wing", "Message":"apologies if I disappear suddenly" }
+{ "timestamp":"2018-01-17T12:37:45Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"I went and topped mine up earlier", "Channel":"wing" }
+{ "timestamp":"2018-01-17T12:37:51Z", "event":"SendText", "To":"wing", "Message":"But I was close to mandatory logoff anyhow" }
+{ "timestamp":"2018-01-17T12:37:52Z", "event":"SendText", "To":"wing", "Message":"lol" }
+{ "timestamp":"2018-01-17T12:37:58Z", "event":"ApproachSettlement", "Name":"Rubruck's Folly" }
+{ "timestamp":"2018-01-17T12:38:00Z", "event":"ApproachSettlement", "Name":"Verrazzano Point" }
+{ "timestamp":"2018-01-17T12:38:04Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T12:38:06Z", "event":"Music", "MusicTrack":"Supercruise" }
+{ "timestamp":"2018-01-17T12:38:08Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"I've got to take car to garage so it can have it's MOT", "Channel":"wing" }
+{ "timestamp":"2018-01-17T12:38:56Z", "event":"ApproachSettlement", "Name":"Verrazzano Point" }
+{ "timestamp":"2018-01-17T12:38:59Z", "event":"SupercruiseExit", "StarSystem":"HIP 16591", "Body":"HIP 16591 1 e", "BodyType":"Planet" }
+{ "timestamp":"2018-01-17T12:38:59Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:39:06Z", "event":"CommunityGoal", "CurrentGoals":[ { "CGID":453, "Title":"Hunting for Dionysus ", "SystemName":"Ngalia", "MarketName":"Green Enterprise", "Expiry":"2018-01-11T15:00:00Z", "IsComplete":true, "CurrentTotal":76575019765, "PlayerContribution":0, "NumContributors":10142, "TopRankSize":10, "PlayerInTopRank":false, "TierReached":"Tier 7", "PlayerPercentileBand":100, "Bonus":700000 } ] }
+{ "timestamp":"2018-01-17T12:39:27Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-01-17T12:39:28Z", "event":"SendText", "To":"wing", "Message":"I have a gearhead in family.  He has like 6 cars, so I never bothered to learn anything automobile-related" }
+{ "timestamp":"2018-01-17T12:39:30Z", "event":"ReceiveText", "From":"Verrazzano Point", "Message":"$STATION_NoFireZone_entered;", "Message_Localised":"No fire zone entered.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:39:36Z", "event":"DockingRequested", "StationName":"Verrazzano Point" }
+{ "timestamp":"2018-01-17T12:39:36Z", "event":"ReceiveText", "From":"Verrazzano Point", "Message":"$DockingChatter_Allied;", "Message_Localised":"An ally like you is always welcome here.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:39:38Z", "event":"ReceiveText", "From":"Verrazzano Point", "Message":"$STATION_docking_granted;", "Message_Localised":"Docking request granted.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:39:38Z", "event":"DockingGranted", "LandingPad":8, "StationName":"Verrazzano Point" }
+{ "timestamp":"2018-01-17T12:40:01Z", "event":"Docked", "StationName":"Verrazzano Point", "StationType":"SurfaceStation", "StarSystem":"HIP 16591", "StationFaction":"Sirius Inc", "FactionState":"Investment", "StationGovernment":"$government_Democracy;", "StationGovernment_Localised":"Democracy", "StationServices":[ "Dock", "Autodock", "Contacts", "Exploration", "Missions", "Outfitting", "CrewLounge", "Rearm", "Refuel", "Repair", "Shipyard", "Tuning", "MissionsGenerated", "Facilitator", "FlightController", "StationOperations", "Powerplay", "SearchAndRescue" ], "StationEconomy":"$economy_Colony;", "StationEconomy_Localised":"Colony", "DistFromStarLS":2474.815186 }
+{ "timestamp":"2018-01-17T12:40:02Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol01;", "Message_Localised":"Patrol craft checking in. Pre-flight checks complete, I'm heading out.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:40:19Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T12:40:21Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-01-17T12:40:45Z", "event":"SendText", "To":"wing", "Message":"I'm still seeing pre-tick values here, so I'm not sure how much bounties are needed at this point" }
+{ "timestamp":"2018-01-17T12:41:22Z", "event":"SendText", "To":"wing", "Message":"I'm gonna sit on mine until later and see where it's needed most.  You're welcome to sell though." }
+{ "timestamp":"2018-01-17T12:41:31Z", "event":"SendText", "To":"wing", "Message":"Thanks for the wing, we should do that more often :)" }
+{ "timestamp":"2018-01-17T12:41:41Z", "event":"BuyAmmo", "Cost":10382 }
+{ "timestamp":"2018-01-17T12:41:41Z", "event":"RestockVehicle", "Type":"independent_fighter", "Loadout":"one", "Cost":1030, "Count":1 }
+{ "timestamp":"2018-01-17T12:41:41Z", "event":"RestockVehicle", "Type":"independent_fighter", "Loadout":"two", "Cost":1030, "Count":1 }
+{ "timestamp":"2018-01-17T12:41:44Z", "event":"RepairAll", "Cost":27174 }
+{ "timestamp":"2018-01-17T12:41:46Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"No problem", "Channel":"wing" }
+{ "timestamp":"2018-01-17T12:41:50Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-01-17T12:41:54Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T12:42:00Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-01-17T12:42:06Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T12:42:11Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-01-17T12:42:20Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T12:42:25Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-01-17T12:42:36Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T12:42:39Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"Let's hope the timezone gods align like they did today :-P", "Channel":"wing" }
+{ "timestamp":"2018-01-17T12:42:43Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-01-17T12:42:46Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_EndPatrol05;", "Message_Localised":"Patrol completed, Command, I'm heading home.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:43:08Z", "event":"SendText", "To":"wing", "Message":"Hehe.  Yeah, my sleep schedule is always shifting." }
+{ "timestamp":"2018-01-17T12:43:23Z", "event":"SendText", "To":"wing", "Message":"I need to figure out when everyone else can play, and try to work around that more" }
+{ "timestamp":"2018-01-17T12:43:28Z", "event":"ReceiveText", "From":"$ShipName_Police_Independent;", "From_Localised":"System Authority Vessel", "Message":"$Police_StartPatrol03;", "Message_Localised":"Receiving five by five, I'm in the air now, joining patrol.", "Channel":"npc" }
+{ "timestamp":"2018-01-17T12:43:58Z", "event":"SendText", "To":"wing", "Message":"Have a good day, and thanks again for helping us tend the e-garden" }
+{ "timestamp":"2018-01-17T12:44:00Z", "event":"SendText", "To":"wing", "Message":"s7" }
+{ "timestamp":"2018-01-17T12:44:04Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T12:44:09Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-01-17T12:44:17Z", "event":"RefuelAll", "Cost":157, "Amount":3.130337 }
+{ "timestamp":"2018-01-17T12:44:28Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-01-17T12:44:37Z", "event":"ReceiveText", "From":"MyGutFeeling", "Message":"s7 you too", "Channel":"wing" }
+{ "timestamp":"2018-01-17T12:44:39Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T12:44:54Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-01-17T12:45:08Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T12:45:18Z", "event":"Music", "MusicTrack":"GalaxyMap" }
+{ "timestamp":"2018-01-17T12:45:23Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-01-17T12:45:30Z", "event":"Music", "MusicTrack":"SystemMap" }
+{ "timestamp":"2018-01-17T12:45:34Z", "event":"Music", "MusicTrack":"NoTrack" }
+{ "timestamp":"2018-01-17T12:45:40Z", "event":"Music", "MusicTrack":"Exploration" }
+{ "timestamp":"2018-01-17T12:45:41Z", "event":"WingLeave" }

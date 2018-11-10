@@ -18,7 +18,7 @@ var CameraHUD = class {
         );
         this.scene.add(this.screenGroup);
         this.camera.add(this.scene);
-        // this.createHUDPlane();
+        this.createHUDPlane();
         // this.createDot();
     }
 
@@ -30,17 +30,25 @@ var CameraHUD = class {
     }
 
     createHUDPlane() {
+        let gridTexture = new THREE.TextureLoader().load("assets/textures/2D-grid-128.png");
+        gridTexture.wrapS = gridTexture.wrapT = THREE.RepeatWrapping;
         this.hudPlane = new THREE.Mesh(
             new THREE.PlaneGeometry(1),
             new THREE.MeshBasicMaterial({
-                color: "black",
+                color: "white",
                 transparent: true,
-                opacity: 0.5
+                opacity: 0.05,
+                map: gridTexture,
             })
         );
+        this.hudPlane.material.map.repeat.set(
+            window.innerWidth / 64,
+            window.innerHeight / 64
+        );
+        this.hudPlane.material.needsUpdate = this.hudPlane.geometry.uvsNeedUpdate = true;
+        this.hudPlane.position.set(window.innerWidth * 0.5, window.innerHeight * 0.5, 0);
         this.hudPlane.scale.set(window.innerWidth, window.innerHeight, 1);
         this.screenGroup.add(this.hudPlane);
-        this.planeWidth();
     }
 
     createElement(element) {
