@@ -4,8 +4,49 @@
 
 // const server = new ServerConnection.ServerConnection();
 
+// var elem = document.querySelector('.grid');
+// var pckry = new Packery( elem, {
+//   // options
+//   itemSelector: '.grid-item',
+//   gutter: 10
+// });
+
+// // element argument can be a selector string
+// //   for an individual element
+// var pckry = new Packery( '.grid', {
+//   // options
+// });
+
+// var elem = document.querySelector('.draggable');
+// var draggie = new Draggabilly( elem, {
+//   // options...
+// });
+
+// var draggie = new Draggabilly(".draggable", {
+//     // options...
+// });
+
+
+var $grid = $('.grid').packery({
+    itemSelector: '.grid-item',
+    columnWidth: 100
+});
+
+// $('.grid').packery({
+//     percentPosition: true
+// })
+
+// make all grid-items draggable
+$grid.find('.grid-item').each( function( i, gridItem ) {
+var draggie = new Draggabilly( gridItem );
+    // bind drag events to Packery
+    $grid.packery( 'bindDraggabillyEvents', draggie );
+});
+
+
 const clock = new THREE.Clock();
 const stats = new Stats();
+const showStats = false;
 
 const sc  = new SceneController(update);
 const am  = new AudioManager(sc.camera);
@@ -14,11 +55,11 @@ const hud = new CameraHUD(sc.renderer, sc.camera);
 
 let fontLoader = new THREE.FontLoader();
 
-var fontFile = {
+let fontFile = {
     helvetikerRegular: "assets/fonts/helvetiker_regular.typeface.json"
 };
 
-var font;
+let font;
 
 let paused = false;
 
@@ -28,7 +69,7 @@ let grid;
 let galaxySphere;
 
 let starSystems = [];
-var mapObjects = new THREE.Group();
+let mapObjects = new THREE.Group();
 let nebulaPoints;
 let smokePoints;
 
@@ -38,7 +79,7 @@ start();
 
 function start() {
     clock.start();
-    statsContainer.appendChild(stats.dom);
+    if(showStats) statsContainer.appendChild(stats.dom);
     setupEvents();
     setupCamera();
     fontLoader.load(
@@ -65,7 +106,7 @@ function update() {
         sc.renderer.render(sc.scene, sc.camera);
         hud.update(deltaTime);
     }
-    stats.update();
+    if(showStats) stats.update();
 }
 
 function pause() {
@@ -320,8 +361,12 @@ function setupEvents() {
 }
 
 function onWindowResize() {
-    sc.camera.aspect = window.innerWidth / window.innerHeight;
+    let container = document.getElementById("testdiv");
+    sc.renderer.setSize(
+        (container.clientWidth / 5) * 3,
+        container.clientHeight
+    );
+    sc.camera.aspect = container.clientWidth / container.clientHeight;
     sc.camera.updateProjectionMatrix();
-    sc.renderer.setSize(window.innerWidth, window.innerHeight);
     hud.resize();
 }

@@ -1,5 +1,5 @@
 
-var GalaxyDisplay = class {
+let GalaxyDisplay = class {
     constructor(scene) {
         this.scene = scene;
         this.starSystems = [];

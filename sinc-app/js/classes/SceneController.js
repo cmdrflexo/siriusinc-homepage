@@ -1,5 +1,5 @@
 
-var SceneController = class {
+let SceneController = class {
     constructor() {
         this.scene = new THREE.Scene();
         this.renderer = new THREE.WebGLRenderer({antialias: true});
@@ -19,7 +19,14 @@ var SceneController = class {
     setupRenderer(update) {
         this.renderer.setPixelRatio(window.devicePixelRatio);
         this.renderer.setSize(window.innerWidth, window.innerHeight);
-        document.body.appendChild(this.renderer.domElement);
+        let container = document.getElementById("testdiv");
+        container.appendChild(this.renderer.domElement);
+        document.getElementsByClassName("canvas").width = "100%";
+        document.getElementsByClassName("canvas").height = "100%";
+        console.log(container.getBoundingClientRect());
+        this.renderer.setSize(container.clientWidth, container.clientHeight);
+        this.camera.aspect = container.clientWidth / container.clientHeight;
+        this.camera.updateProjectionMatrix();
         this.renderer.setAnimationLoop(update);
     }
 

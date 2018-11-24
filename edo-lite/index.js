@@ -2,7 +2,7 @@
 const { app, BrowserWindow } = require("electron");
 const fs = require("fs");
 const path = require("path");
-const colors = require("colors");
+require("colors");
 
 //#region colors.js
 // text colors
@@ -42,9 +42,11 @@ const colors = require("colors");
 //     random
 //#endregion
 
-var journalDir = "C:" + process.env.HOMEPATH + "\\Saved Games\\Frontier Developments\\Elite Dangerous\\";
-// var journalDir = "test_journals/";
-var journalFiles = [];
+// let journalUtility = new JournalUtility();
+
+let journalDir = "C:" + process.env.HOMEPATH + "\\Saved Games\\Frontier Developments\\Elite Dangerous\\";
+// let journalDir = "test_journals/";
+let journalFiles = [];
 
 function createWindow () {
     win = new BrowserWindow({
@@ -81,7 +83,7 @@ function parseJournalFile(journalFile) {
         (err, journalText) => {
             if(err) throw err;
             journalData = loadJournal(journalText);
-            if(journalData[0].gameversion == "3.3.0.200 EDH (Beta 2)")
+            if(journalData[0].timestamp == "2018-11-10T10:21:27Z")
                 for(let data of journalData) {
                     let timestamp = ("[" + data.timestamp + "] ").yellow;
                     console.log(timestamp + data.event);

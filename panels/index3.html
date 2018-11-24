@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Grid</title>
+    <meta charset="utf-8">
+    <style>
+        html,
+        body {
+            background-color: #000;
+            text-emphasis-color: #ffffff;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+    </style>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            /* grid-auto-rows: auto; */
+            /* grid-auto-rows: minmax(100px, auto); */
+            /* justify-items: stretch; */
+            /* align-items: start; */
+            height: 100vh;
+        }
+
+        .grid>div {
+            background: black;
+        }
+
+        .box {
+            color: white;
+            border: 1px solid #333;
+        }
+
+        /* .menu {
+                grid-column: 1/4;
+                height: 50px;
+            } */
+
+        /* .box1 {} */
+        /* .box2 {} */
+        /* .box3 {} */
+        /* .box4 {} */
+
+        .app {
+            border: 0;
+            display: grid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <!-- <div class = "box menu">Menu</div> -->
+        <div class="box box1">Box 1</div>
+        <!-- <div class = "box box2"><iframe src = "panel.html" width = "50%"></div> -->
+        <!-- <div class="box box2"><iframe class="app" src="https://extent.network/siriusinc-homepage/sinc-app/index.html"></div> -->
+        <div class = "box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+        <!-- <div class = "box box4">Box 4</div> -->
+    </div>
+</body>
+
+</html>

@@ -1,5 +1,5 @@
 
-var AudioManager = class {
+let AudioManager = class {
     constructor(camera) {
         this.camera = camera;
         this.listener = new THREE.AudioListener();

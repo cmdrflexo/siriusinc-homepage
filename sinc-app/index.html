@@ -1,38 +1,86 @@
 <!DOCTYPE html>
-<html lang = "en">
-	<head>
-		<title>Sirius Inc</title>
-        <meta charset="utf-8">
-        <style>
-			html, body {
-				background-color: #000;
-				margin: 0px;
-				padding: 0px;
-				overflow: hidden;
-			}
-		</style>
-	</head>
-	<body>
-        <script>
-            statsContainer = document.createElement("div");
-            document.body.appendChild(statsContainer);
-        </script>
+<html lang="en">
 
-        <!-- SOCKET.IO -->
-        <script src = "https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
-        <!-- THREE -->
-        <script src = "js/third-party/three/three.min.js"></script>
-        <script src = "js/third-party/three/stats.min.js"></script>
-        <script src = "js/third-party/three/OrbitControls.js"></script>
-        <!-- APP -->
-        <script src = "js/classes/AudioManager.js"></script>
-        <script src = "js/classes/GalaxyDisplay.js"></script>
-        <script src = "js/classes/CameraHUD.js"></script>
-        <script src = "js/classes/HUDElement.js"></script>
-        <script src = "js/classes/SceneController.js"></script>
-        <script src = "js/classes/ServerConnection.js"></script>
-        <script src = "js/classes/SystemCatalog.js"></script>
-        <script src = "js/classes/StarSystem.js"></script>
-        <script src = "js/sinc-app.js"></script>
-	</body>
+<head>
+    <title>Sirius Inc</title>
+    <meta charset="utf-8">
+    <script src="https://unpkg.com/packery@2/dist/packery.pkgd.min.js"></script>
+    <script src="https://unpkg.com/draggabilly@2/dist/draggabilly.pkgd.min.js"></script>
+    <style>
+        html,
+        body {
+            background-color: #111;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+
+        .grid-item {
+            background: #000;
+            /* float: left; */
+            border: 1px solid #444;
+            width: 25vw;
+            height: 25vh;
+        }
+
+        .grid-item--width2 {
+            width: 50vw;
+        }
+
+        .grid-item:hover {
+            background: #222;
+            border-color: magenta;
+            cursor: move;
+        }
+
+        .grid-item.is-dragging,
+        .grid-item.is-positioning-post-drag {
+            background: #333;
+            z-index: 2;
+        }
+
+        .packery-drop-placeholder {
+            outline: 3px dashed magenta;
+            outline-offset: -6px;
+            -webkit-transition: -webkit-transform 0.2s;
+            transition: transform 0.2s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="grid-item">01</div>
+        <div class="grid-item grid-item--width2" id="testdiv"></div>
+        <div class="grid-item">03</div>
+    </div>
+    <script>
+        statsContainer = document.createElement("div");
+        document.body.appendChild(statsContainer);
+    </script>
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- SOCKET.IO -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+    <!-- THREE -->
+    <script src="js/third-party/three/three.min.js"></script>
+    <script src="js/third-party/three/stats.min.js"></script>
+    <script src="js/third-party/three/OrbitControls.js"></script>
+    <!-- LAYOUT -->
+    <script src="https://unpkg.com/packery@2/dist/packery.pkgd.min.js"></script>
+    <script src="https://unpkg.com/draggabilly@2/dist/draggabilly.pkgd.min.js"></script>
+    <!-- APP -->
+    <script src="js/classes/AudioManager.js"></script>
+    <script src="js/classes/GalaxyDisplay.js"></script>
+    <script src="js/classes/CameraHUD.js"></script>
+    <script src="js/classes/HUDElement.js"></script>
+    <script src="js/classes/SceneController.js"></script>
+    <script src="js/classes/ServerConnection.js"></script>
+    <script src="js/classes/SystemCatalog.js"></script>
+    <script src="js/classes/StarSystem.js"></script>
+    <script src="js/sinc-app.js"></script>
+</body>
+
 </html>

@@ -1,4 +1,4 @@
-var HUDElement = class {
+let HUDElement = class {
     constructor(camera, target) {
         this.camera = camera;
         this.target = target;
@@ -75,9 +75,9 @@ var HUDElement = class {
     }
 
     targetScreenPosition() {
-        var vector = new THREE.Vector3();
-        var widthHalf = 0.5 * window.innerWidth;
-        var heightHalf = 0.5 * window.innerHeight;
+        let vector = new THREE.Vector3();
+        let widthHalf = 0.5 * window.innerWidth;
+        let heightHalf = 0.5 * window.innerHeight;
         this.target.updateMatrixWorld();
         vector.setFromMatrixPosition(this.target.matrixWorld);
         vector.project(this.camera);
