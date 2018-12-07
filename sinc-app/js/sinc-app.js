@@ -2,77 +2,33 @@
  *  Sirius Inc Three.js App
  */
 
-// const server = new ServerConnection.ServerConnection();
-
-// var elem = document.querySelector('.grid');
-// var pckry = new Packery( elem, {
-//   // options
-//   itemSelector: '.grid-item',
-//   gutter: 10
-// });
-
-// // element argument can be a selector string
-// //   for an individual element
-// var pckry = new Packery( '.grid', {
-//   // options
-// });
-
-// var elem = document.querySelector('.draggable');
-// var draggie = new Draggabilly( elem, {
-//   // options...
-// });
-
-// var draggie = new Draggabilly(".draggable", {
-//     // options...
-// });
-
-
-var $grid = $('.grid').packery({
-    itemSelector: '.grid-item',
-    columnWidth: 100
-});
-
-// $('.grid').packery({
-//     percentPosition: true
-// })
-
-// make all grid-items draggable
-$grid.find('.grid-item').each( function( i, gridItem ) {
-var draggie = new Draggabilly( gridItem );
-    // bind drag events to Packery
-    $grid.packery( 'bindDraggabillyEvents', draggie );
-});
-
-
-const clock = new THREE.Clock();
-const stats = new Stats();
+ // Options
 const showStats = false;
-
-const sc  = new SceneController(update);
-const am  = new AudioManager(sc.camera);
-const gd  = new GalaxyDisplay(sc.scene);
-const hud = new CameraHUD(sc.renderer, sc.camera);
-
-let fontLoader = new THREE.FontLoader();
-
-let fontFile = {
-    helvetikerRegular: "assets/fonts/helvetiker_regular.typeface.json"
-};
-
-let font;
-
+const draggable = false;
+const demoContent = false;
 let paused = false;
 
-let axesHelper;
+// THREE
+const clock = new THREE.Clock();
+const stats = new Stats();
+
+// Classes
+// const server = new ServerConnection.ServerConnection();
+const font = new Font();
+const sc  = new SceneController(update);
+const audio  = new AudioManager(sc.camera);
+const galaxy  = new GalaxyDisplay(sc.scene);
+const hud = new CameraHUD(sc.renderer, sc.camera);
+const controls = new THREE.OrbitControls(sc.camera);
+const cursor = new Cursor(sc.scene, controls.target);
+
+// Scene Objects
 let grid;
-
 let galaxySphere;
-
 let starSystems = [];
 let mapObjects = new THREE.Group();
 let nebulaPoints;
 let smokePoints;
-
 let mcLine = [];
 
 start();
@@ -81,105 +37,35 @@ function start() {
     clock.start();
     if(showStats) statsContainer.appendChild(stats.dom);
     setupEvents();
-    setupCamera();
-    fontLoader.load(
-        fontFile.helvetikerRegular,
-        (loadedFont) => {
-            font = loadedFont;
-            sc.setupScene();
-            sc.setupRenderer(update);
-            sc.setupLighting();
-            setupObjects();
-        }
-    );
-    
+    font.loadFont(font.fontFiles.helvetikerRegular, ready);
+}
+
+function ready() {
+    setupObjects();
 }
 
 function update() {
     if(!paused) {
         let deltaTime = clock.getDelta();
         controls.update();
-        am.update();
-        gd.update();
-        axesHelper.position.set(controls.target.x, controls.target.y, controls.target.z);
-        updateSky();
-        sc.renderer.render(sc.scene, sc.camera);
+        audio.update();
+        galaxy.update();
+        cursor.update();
+        sc.update();
         hud.update(deltaTime);
+        if(showStats) stats.update();
     }
-    if(showStats) stats.update();
 }
 
 function pause() {
-    am.pause();
+    audio.pause();
     paused = !paused;
     console.log("Application " + (paused ? "paused" : "resumed"));
 }
 
-function setupCamera() {
-    sc.camera.position.z = 250;
-    controls = new THREE.OrbitControls(sc.camera);
-}
-
-function setupSky() {
-    let galaxyTexture = new THREE.TextureLoader().load("assets/textures/galaxy_darker_blur.png");
-    galaxySphere = new THREE.Mesh(
-        new THREE.SphereGeometry(5000, 32, 16),
-        new THREE.MeshBasicMaterial({map: galaxyTexture, side: THREE.BackSide})
-    );
-    // galaxySphere.scale.x = -1;
-    galaxySphere.rotation.y = -Math.PI * 0.5;
-    sc.scene.add(galaxySphere);
-    // let origin = new THREE.Mesh(
-    //     new THREE.SphereGeometry(1, 1, 1),
-    //     new THREE.MeshBasicMaterial({color: "blue"})
-    // );
-    // origin.position.set(
-    //     mapObjects.position.x,
-    //     mapObjects.position.y,
-    //     mapObjects.position.z
-    // );
-    // sc.scene.add(origin);
-}
-
-function updateSky() {
-    if(galaxySphere && sc.camera)
-        galaxySphere.position.set(
-            sc.camera.position.x,
-            sc.camera.position.y,
-            sc.camera.position.z
-        );
-}
-
 function setupObjects() {
-    setupCursor();
-    // setupGrid();
-    gd.createStarSystems();
-    // setupMapObjects(loadedFont);
-    // drawChain();
-    setupSky();
+    galaxy.createStarSystems();
     setupNebula();
-}
-
-function setupCursor() {
-    axesHelper = new THREE.AxesHelper(3);
-    // axesHelper.add(new THREE.Mesh(
-    //     new THREE.CylinderGeometry(2.5, 2.5, 0.001, 16),
-    //     new THREE.MeshBasicMaterial({color: 0x888888})
-    // ));
-    sc.scene.add(axesHelper);
-}
-
-function setupGrid() {
-    let plane = new THREE.Mesh(
-        new THREE.PlaneGeometry(100000, 100000),
-        new THREE.MeshBasicMaterial({
-            color: 0x000000, 
-            transparent: true, opacity: 0.25, 
-            side: THREE.DoubleSide
-        })
-    );
-    plane.rotation.x = -Math.PI * 0.5;
-    sc.scene.add(plane);
 }
 
 function setupMapObjects(font) {
@@ -354,7 +240,7 @@ function setupEvents() {
     window.addEventListener("resize", onWindowResize);
     window.addEventListener("keydown", (event) => {
         switch(event.keyCode) {
-            case 77: am.mute(); break; // M
+            case 77: audio.mute(); break; // M
             case 80: pause(); break;    // P
         }
     });
@@ -362,10 +248,7 @@ function setupEvents() {
 
 function onWindowResize() {
     let container = document.getElementById("testdiv");
-    sc.renderer.setSize(
-        (container.clientWidth / 5) * 3,
-        container.clientHeight
-    );
+    sc.renderer.setSize(container.clientWidth, container.clientHeight);
     sc.camera.aspect = container.clientWidth / container.clientHeight;
     sc.camera.updateProjectionMatrix();
     hud.resize();

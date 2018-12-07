@@ -96,20 +96,34 @@ StarSystem = class {
     }
 
     createNametag() {
-        let textSize = 10;
+        let textSize = 15;
         let letterGeo = new THREE.TextGeometry(this.name, {
-            font: font, size: textSize, height: 0, curveSegments: 2
+            font: font.fonts[0], size: textSize, height: 0, curveSegments: 2
         });
         letterGeo.computeBoundingBox();
-        // // let xOffset = -0.5 * (letterGeo.boundingBox.max.x - letterGeo.boundingBox.min.x);
-        // // let yOffset = 20;
         let xOffset = 15;
         let yOffset = -0.5 * letterGeo.boundingBox.max.y;
+        
         let letterMaterial = new THREE.MeshBasicMaterial({color: 0xffffff, transparent: true});
         let nametag = new THREE.Mesh(letterGeo, letterMaterial);
+
         let hudElement = new HUDElement(sc.camera, this.mapObject);
-        hudElement.offset = {x: xOffset, y: yOffset};
+        if(this.name == "San" ||
+           this.name == "Pic Tok" ||
+           this.name == "Ngalia") {
+            let arrow = new THREE.Mesh(
+                new THREE.CylinderGeometry(20, 0, 8, 8),
+                new THREE.MeshBasicMaterial({
+                    color: "magenta", transparent: true
+                })
+            );
+            arrow.position.set(-xOffset, 50, 0);
+            arrow.scale.y = 5;
+            nametag.add(arrow);
+        }
         hudElement.object = nametag;
+        hudElement.offset = {x: xOffset, y: yOffset};
+        
         hudElement.overlapElements = hud.elements;
         hud.createElement(hudElement);
     }

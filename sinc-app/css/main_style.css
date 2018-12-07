@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: EuroCaps;
+    src: url("../assets/fonts/EUROCAPS.ttf") format("truetype");
+    /* src: url("https://extent.network/siriusinc-homepage/sinc-app/assets/fonts/EUROCAPS.ttf") format("truetype"); */
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
+    font-family: EuroCaps;
+    font-size: 0.9em;
+}
+
+.grid {
+    background: black;
+    background-image: url("../assets/textures/edex_grid-01.png");
+    /* background-image: url("https://extent.network/siriusinc-homepage/sinc-app/assets/textures/edex_grid-01.png"); */
+}
+
+.grid-sizer,
+.grid-item {
+    width: 0vh;
+}
+
+.grid-item {
+    background: rgba(0, 0, 0, 0);
+    /* border: 1px solid #444; */
+    height: 65vh;
+}
+
+.grid:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.grid-item--header {
+    /* background: #000; */
+    /* border: 1px solid mediumseagreen; */
+    width: 99vw;
+    height: 3vh;
+}
+
+.grid-item--width15 {
+    width: 17vw;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+.grid-item--width60 {
+    width: 65vw;
+}
+
+.textboxcell {
+    padding: 10px;
+}
+
+.grid-item:hover {
+    /* background: #222; */
+    background: rgb(255, 255, 255, 0.01);
+    border-color: magenta;
+    cursor: move;
+}
+
+.grid-item.is-dragging,
+.grid-item.is-positioning-post-drag {
+    background: #333;
+    z-index: 2;
+}
+
+.packery-drop-placeholder {
+    outline: 2px dashed magenta;
+    outline-offset: -6px;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+}
+
+.textbox-title {
+    text-align: center;
+}
+
+.textbox-content {}

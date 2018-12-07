@@ -4,11 +4,10 @@ let GalaxyDisplay = class {
         this.scene = scene;
         this.starSystems = [];
         this.starSystemObjects = new THREE.Group();
-        // this.focusedSystem = "San";
-        this.focusedSystem = "42 n Persei";
-        // this.focusedSystem = "HIP 17044";
-        this.focusOrigin = new THREE.Vector3();
+        this.focusOrigin = new THREE.Vector3(-96.0625, -24.6875, -175.28125); // San
         this.setup();
+        // DEBUG
+        this.scene.add(new THREE.AxesHelper(100));
     }
 
     setup() {
@@ -26,13 +25,6 @@ let GalaxyDisplay = class {
     createStarSystems() {
         for(let sincSystem of sincSystems) {
             let starSystem = new StarSystem(sincSystem);
-            if(sincSystem.name == this.focusedSystem) {
-                this.focusOrigin = new THREE.Vector3(
-                    starSystem.coordinates.x,
-                    starSystem.coordinates.y,
-                    starSystem.coordinates.z
-                );
-            }
             starSystem.mapObject.name = sincSystem.name;
             this.starSystems.push(starSystem);
             this.starSystemObjects.add(starSystem.mapObject);
@@ -67,17 +59,13 @@ let GalaxyDisplay = class {
                 (starSystem.coordinates.z - this.focusOrigin.z) * scale
             );
 
-            // /// Move lines into StarSystem
-            
+            //#region Move to StarSystem
+            // Lines
             geometry.vertices.push(new THREE.Vector3());
             geometry.vertices.push(new THREE.Vector3(
                 starSystem.mapObject.position.x, 0, starSystem.mapObject.position.z
             ));
-
-            // ///
-
-            // /// Move these rings into StarSystem
-            // /// Add regular/log distance rings to display
+            // Rings
             let ringGeometry = new THREE.Geometry();
             let step = 360 / 128;
             for(let i = 0; i < 129; i++) {
@@ -90,24 +78,24 @@ let GalaxyDisplay = class {
                 //     dist * Math.cos(p), 0, dist * Math.sin(p)
                 // ));
             }
+
             // ringGeometry.vertices.push(new THREE.Vector3(
             //     scale * dist * Math.cos(p), 0, 
             //     scale * dist * Math.sin(p)
             // ));
+
             let ring = new THREE.Line(
                 ringGeometry,
                 new THREE.LineBasicMaterial({color: 0x223344})
             );
             ring.name = "ring";
             this.scene.add(ring);
-
-            // ///
+            
+            //#endregion
         }
 
-        // /// Move lines into StarSystem
-
+        //#region Move to StarSystem
         this.scene.add(new THREE.Line(geometry, material));
-
-        // ///
+        //#endregion
     }
 }
