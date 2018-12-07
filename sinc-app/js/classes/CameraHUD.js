@@ -1,5 +1,5 @@
 
-var CameraHUD = class {
+const CameraHUD = class {
     constructor(renderer, camera) {
         this.renderer = renderer;
         this.scene = new THREE.Scene();

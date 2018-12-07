@@ -14,10 +14,12 @@ const stats = new Stats();
 
 // Classes
 // const server = new ServerConnection.ServerConnection();
+const db = new Databases();
 const font = new Font();
 const sc  = new SceneController(update);
 const audio  = new AudioManager(sc.camera);
 const galaxy  = new GalaxyDisplay(sc.scene);
+const nebEng = new NebulaEngine();
 const hud = new CameraHUD(sc.renderer, sc.camera);
 const controls = new THREE.OrbitControls(sc.camera);
 const cursor = new Cursor(sc.scene, controls.target);
@@ -65,7 +67,6 @@ function pause() {
 
 function setupObjects() {
     galaxy.createStarSystems();
-    setupNebula();
 }
 
 function setupMapObjects(font) {
@@ -173,68 +174,7 @@ function drawChain() {
     sc.scene.add(new THREE.Line(geometry, material));
 }
 
-function setupNebula() {
 
-    let smokeParticles = new THREE.Geometry();
-    let smokeTexture = new THREE.TextureLoader().load("assets/textures/smoke.png"); 
-    let smokeMaterial = new THREE.PointsMaterial({
-        size: 60, 
-        transparent: true, 
-        opacity: 0.015,
-        blending: THREE.AdditiveBlending,
-        depthTest: THREE.NeverDepth,
-        map: smokeTexture,
-        color: 0x816EFF
-    });
-    smokePoints = new THREE.Points(smokeParticles, smokeMaterial);
-    let smokeGeometry = new THREE.BufferGeometry();
-    let smokePositions = [];
-
-    let particles = new THREE.Geometry();
-    let starTexture = new THREE.TextureLoader().load("assets/textures/TEST-blue_star-01.png");
-    let particleMaterial = new THREE.PointsMaterial({
-        size: 20, 
-        transparent: true, 
-        blending: THREE.AdditiveBlending,
-        depthTest: THREE.NeverDepth,
-        map: starTexture
-    });
-    nebulaPoints = new THREE.Points(particles, particleMaterial);
-    let particleGeometry = new THREE.BufferGeometry();
-    let positions = [];
-
-    for(let pleiadesSystem of pleiadesSystems) {
-        let coords = pleiadesSystem.coordinates.split(" / ");
-        positions.push(
-            Number(coords[0]) + mapObjects.position.x,
-            Number(coords[1]) + mapObjects.position.y,
-            Number(coords[2]) + mapObjects.position.z
-        );
-        for(let i = 0; i < 20; i++)
-            smokePositions.push(
-                Number(coords[0]) + mapObjects.position.x + (-10 + (Math.random() * 20)),
-                Number(coords[1]) + mapObjects.position.y + (-10 + (Math.random() * 20)),
-                Number(coords[2]) + mapObjects.position.z + (-10 + (Math.random() * 20))
-            );
-
-    }
-
-    particleGeometry.addAttribute("position", new THREE.Float32BufferAttribute(positions, 3));
-    // particleGeometry.addAttribute("color", new THREE.Float32BufferAttribute(imageColors, 3));
-    particleGeometry.computeBoundingSphere();
-
-    nebulaPoints.geometry = particleGeometry;
-    nebulaPoints.geometry.verticesNeedUpdate = true;
-
-    smokeGeometry.addAttribute("position", new THREE.Float32BufferAttribute(smokePositions, 3));
-    // particleGeometry.addAttribute('color', new THREE.Float32BufferAttribute(imageColors, 3));
-    smokeGeometry.computeBoundingSphere();
-
-    smokePoints.geometry = smokeGeometry;
-    smokePoints.geometry.verticesNeedUpdate = true;
-
-    sc.scene.add(nebulaPoints, smokePoints);
-}
 
 function setupEvents() {
     window.addEventListener("resize", onWindowResize);

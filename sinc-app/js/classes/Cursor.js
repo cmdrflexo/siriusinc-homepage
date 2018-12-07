@@ -1,5 +1,5 @@
 
-let Cursor = class {
+const Cursor = class {
     constructor(scene, targetPosition) {
         this.cursor = new THREE.AxesHelper(3);
         this.scene = scene;

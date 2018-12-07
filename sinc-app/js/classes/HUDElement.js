@@ -1,4 +1,4 @@
-let HUDElement = class {
+const HUDElement = class {
     constructor(camera, target) {
         this.camera = camera;
         this.target = target;

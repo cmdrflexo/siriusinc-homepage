@@ -1,5 +1,5 @@
 
-let SceneController = class {
+const SceneController = class {
     constructor(animationLoop) {
         this.animationLoop = animationLoop;
         this.scene = new THREE.Scene();

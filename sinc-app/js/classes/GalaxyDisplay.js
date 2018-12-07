@@ -1,5 +1,5 @@
 
-let GalaxyDisplay = class {
+const GalaxyDisplay = class {
     constructor(scene) {
         this.scene = scene;
         this.starSystems = [];
@@ -23,7 +23,7 @@ let GalaxyDisplay = class {
     }
 
     createStarSystems() {
-        for(let sincSystem of sincSystems) {
+        for(let sincSystem of db.sincSystems) {
             let starSystem = new StarSystem(sincSystem);
             starSystem.mapObject.name = sincSystem.name;
             this.starSystems.push(starSystem);

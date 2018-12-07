@@ -2,7 +2,7 @@
  * Star System
  */
 
-StarSystem = class {
+const StarSystem = class {
     constructor(systemInfo) {
         this.allegiance;
         this.bodies;

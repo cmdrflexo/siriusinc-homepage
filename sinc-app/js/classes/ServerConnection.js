@@ -2,7 +2,7 @@
  * Server Connection
  */
 
-var ServerConnection = {
+const ServerConnection = {
     ServerConnection: class {
         constructor(pcChannel) {
             this.socket = io.connect("/");

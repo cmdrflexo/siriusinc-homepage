@@ -1,5 +1,5 @@
 
-let Font = class {
+const Font = class {
     constructor() {
         this.loader = new THREE.FontLoader();
         this.fontFiles = {
