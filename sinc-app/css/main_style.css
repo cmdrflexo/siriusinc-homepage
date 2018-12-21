@@ -83,7 +83,7 @@ body {
 
 .grid-item:hover {
     /* background: #222; */
-    background: rgb(255, 255, 255, 0.01);
+    /* background: rgb(255, 255, 255, 0.01); */
     border-color: magenta;
     cursor: move;
 }

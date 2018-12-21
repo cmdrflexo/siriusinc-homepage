@@ -254,4 +254,13 @@ const Databases = class {
             }
         ];
     }
+
+    getStarSystems(galaxy, starSystemNames) {
+        let starSystems = [];
+        for(let name of starSystemNames) {
+            let starSystem = new StarSystem(galaxy, server.getStarSystemInfo(name));
+            if(starSystem) starSystems.push(starSystem);
+        }
+        return starSystems;
+    }
 }

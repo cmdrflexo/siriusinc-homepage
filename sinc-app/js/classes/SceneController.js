@@ -3,7 +3,7 @@ const SceneController = class {
     constructor(animationLoop) {
         this.animationLoop = animationLoop;
         this.scene = new THREE.Scene();
-        this.renderer = new THREE.WebGLRenderer({antialias: true});
+        this.renderer = new THREE.WebGLRenderer({antialias: true, alpha: true});
         this.camera = new THREE.PerspectiveCamera(
             45, window.innerWidth / window.innerHeight, 1, 100000
         );
@@ -17,12 +17,12 @@ const SceneController = class {
         this.setupRenderer();
         this.setupCamera();
         this.setupLighting();
-        this.setupBackground();
+        // this.setupBackground();
     }
 
     update() {
         this.renderer.render(this.scene, this.camera);
-        // if(this.background)
+        if(this.background)
             this.background.position.set(
                 this.camera.position.x, this.camera.position.y, this.camera.position.z
             );
@@ -30,7 +30,6 @@ const SceneController = class {
 
     setupScene() {
         this.renderer.autoClear = false;
-        // this.scene.fog = new THREE.Fog(0x00, 100, 10000);
         this.scene.add(this.camera, this.lighting);
     }
 
@@ -48,7 +47,7 @@ const SceneController = class {
     }
 
     setupCamera() {
-        this.camera.position.set(110, 30, 0);
+        this.camera.position.set(50, 15, 10);
     }
 
     setupLighting() {
