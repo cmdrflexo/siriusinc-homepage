@@ -68,7 +68,13 @@ const StarSystem = class {
             -this.mapObject.position.x, -this.mapObject.position.y, -this.mapObject.position.z
         );
         this.line.geometry.verticesNeedUpdate = true;
-        this.dot.position.y = this.line.geometry.vertices[1];
+        this.dot.position.y = this.line.geometry.vertices[1].y;
+
+        let opacity = 10 / this.galaxy.focusOrigin.distanceTo(new THREE.Vector3(
+            this.coordinates.x, this.galaxy.focusOrigin.y, this.coordinates.z
+        ));
+
+        this.line.material.opacity = this.dot.material.opacity = Math.max(0, Math.min(opacity, 1));
     }
 
     createMapObject() {
@@ -90,17 +96,15 @@ const StarSystem = class {
         // this.lineEnd = lineGeometry.vertices[1];
         this.line = new THREE.Line(
             lineGeometry,
-            new THREE.LineBasicMaterial({color: 0x304454})
+            new THREE.LineBasicMaterial({color: 0x304454, transparent: true})
         );
         this.dot = new THREE.Mesh(
             new THREE.CylinderGeometry(0.25, 0.25, 0.001, 16),
-            new THREE.MeshBasicMaterial({color: 0x334455})
+            new THREE.MeshBasicMaterial({color: 0x334455, transparent: true})
         );
         this.mapObject.add(this.line, this.dot);
         // this.createRing();
-        setTimeout(() => {
-            this.createNametag();
-        }, 2000);
+        this.createNametag();
     }
 
     createRing() {
@@ -142,19 +146,7 @@ const StarSystem = class {
         let nametag = new THREE.Mesh(letterGeo, letterMaterial);
 
         let hudElement = new HUDElement(sc.camera, this.mapObject);
-        // if(this.name == "San" ||
-        //    this.name == "Pic Tok" ||
-        //    this.name == "Ngalia") {
-        //     let arrow = new THREE.Mesh(
-        //         new THREE.CylinderGeometry(20, 0, 8, 8),
-        //         new THREE.MeshBasicMaterial({
-        //             color: "magenta", transparent: true
-        //         })
-        //     );
-        //     arrow.position.set(-xOffset, 50, 0);
-        //     arrow.scale.y = 5;
-        //     nametag.add(arrow);
-        // }
+
         hudElement.object = nametag;
         hudElement.offset = {x: xOffset, y: yOffset};
         
@@ -168,22 +160,6 @@ const StarSystem = class {
         let spriteSize = 20;
         sprite.scale.set(spriteSize, spriteSize, spriteSize);
         hudElement.object.add(sprite);
-
-        // OLD Nametags
-        // let textSize = 10;
-        // let letterGeo = new THREE.TextGeometry(sincSystem.name, {
-        //     font: font.fonts[0], size: textSize, height: 0, curveSegments: 2
-        // });
-        // letterGeo.computeBoundingBox();
-        // let xOffset = 15;
-        // let yOffset = -0.5 * letterGeo.boundingBox.max.y;
-        // let letterMaterial = new THREE.MeshBasicMaterial({color: 0xffffff, transparent: true});
-        // let nametag = new THREE.Mesh(letterGeo, letterMaterial);
-        // let hudElement = new HUDElement(sc.camera, starSystem.mapObject);
-        // hudElement.offset = {x: xOffset, y: yOffset};
-        // hudElement.object = nametag;
-        // hudElement.overlapElements = hud.elements;
-        // hud.createElement(hudElement);
     }
 
     getRelativePosition() {

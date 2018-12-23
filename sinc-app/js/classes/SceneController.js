@@ -35,7 +35,7 @@ const SceneController = class {
 
     setupRenderer() {
         this.renderer.setPixelRatio(window.devicePixelRatio);
-        this.renderer.setSize(window.innerWidth, window.innerHeight);
+        // this.renderer.setSize(window.innerWidth, window.innerHeight);
         let container = document.getElementById("testdiv");
         container.appendChild(this.renderer.domElement);
         document.getElementsByClassName("canvas").width = "100%";

@@ -41,13 +41,13 @@ function ready() {
 function update() {
     if(!paused) {
         let deltaTime = clock.getDelta();
-        TWEEN.update();
         controls.update();
         // audio.update();
         galaxy.update();
         cursor.update();
         sc.update();
         hud.update(deltaTime);
+        TWEEN.update();
         // loadingScreen.update(deltaTime);
         if(showStats) stats.update();
     }

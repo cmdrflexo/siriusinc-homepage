@@ -30,13 +30,13 @@ body {
 
 .grid-sizer,
 .grid-item {
-    width: 0vh;
+    width: 0vw;
 }
 
 .grid-item {
     background: rgba(0, 0, 0, 0);
     /* border: 1px solid #444; */
-    height: 65vh;
+    height: 48vh;
 }
 
 .grid:after {
@@ -54,7 +54,10 @@ body {
 
 .grid-item--width15 {
     width: 17vw;
-    overflow-y: auto;
+    /* overflow-y: auto; */
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
 }
 
 ::-webkit-scrollbar {

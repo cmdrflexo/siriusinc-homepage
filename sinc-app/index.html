@@ -15,8 +15,8 @@
         <div class="grid-item grid-item--header">
             <center>Sirius Inc Network</center>
         </div>
-        <div class="grid-item grid-item--width15">
-            <center>BLOCK M-01</center>
+        <div class="grid-item grid-item--width15" id="block-m01">
+            <!-- <center>BLOCK M-01</center> -->
         </div>
         <div class="grid-item grid-item--width60" id="testdiv"></div>
         <div class="grid-item grid-item--width15 textboxcell" id="textbox">
@@ -26,8 +26,8 @@
         <div class="grid-item grid-item--width15">
             <center>BLOCK M-03</center>
         </div>
-        <div class="grid-item grid-item--width60">
-            <center>BLOCK L-02</center>
+        <div class="grid-item grid-item--width60" id="chartContainer">
+                <canvas id="myChart"></canvas>
         </div>
         <div class="grid-item grid-item--width15">
             <center>BLOCK M-04</center>
@@ -43,17 +43,20 @@
     <!-- SOCKET.IO -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
     <!-- THREE -->
-    <script src="js/third-party/three/three.min.js"></script>
-    <script src="js/third-party/three/stats.min.js"></script>
-    <script src="js/third-party/three/OrbitControls.js"></script>
+    <script src="js/third-party/threejs/three.min.js"></script>
+    <script src="js/third-party/threejs/stats.min.js"></script>
+    <script src="js/third-party/threejs/OrbitControls.js"></script>
+    <script src="js/third-party/threejs/AsciiEffect.js"></script>
     <!-- TWEEN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/16.3.5/Tween.min.js"></script>
     <!-- LAYOUT -->
     <script src="https://unpkg.com/packery@2/dist/packery.pkgd.min.js"></script>
     <script src="https://unpkg.com/draggabilly@2/dist/draggabilly.pkgd.min.js"></script>
+    <!-- CHARTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
 
     <!-- SANDBOX PRE -->
-    <script src="js/SANDBOX/SANDBOx-FakeServer.js"></script>
+    <script src="js/SANDBOX/SANDBOX-FakeServer.js"></script>
 
     <!-- APP -->
     <script src="js/classes/KeyCodes.js"></script>
@@ -70,11 +73,13 @@
     <script src="js/classes/NebulaEngine.js"></script>
     <script src="js/classes/PathDraw.js"></script>
     <script src="js/classes/LoadingScreen.js"></script>
+    <script src="js/classes/Charts.js"></script>
     <script src="js/sinc-app.js"></script>
 
     <!-- SANDBOX POST -->
     <script src="js/SANDBOX/SANDBOX-page-content.js"></script>
     <!-- <script src="js/SANDBOX/SANDBOX-SystemCatalog.js"></script> -->
+    <script src="js/SANDBOX/SANDBOX-ascii_effects.js"></script>
 </body>
 
 </html>
